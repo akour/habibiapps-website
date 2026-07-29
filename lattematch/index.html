@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="3 Match Latte — a cosy coffee-shop match-3 puzzle. Serve three orders a shift. No timers, no lives, plays offline.">
+  <meta name="theme-color" content="#0b0e10">
+  <title>3 Match Latte — Habibi Apps</title>
+  <link rel="stylesheet" href="/assets/style.css">
+  <style>
+    .page{width:var(--shell);margin-inline:auto;padding-block:clamp(40px,6vw,80px)}
+    .lede{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(40px,6vw,80px);align-items:center}
+    .lede h1{font-size:clamp(3rem,6.5vw,6rem);margin-bottom:24px}
+    .lede>div>p:not(.eyebrow){max-width:560px;color:var(--muted);font-size:clamp(1.02rem,1.5vw,1.22rem);line-height:1.7}
+    .shot{border:1px solid #e7c99e57;border-radius:24px;overflow:hidden;box-shadow:0 30px 80px #0005;background:var(--panel)}
+    .feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:clamp(60px,8vw,110px)}
+    .feature{padding:clamp(24px,2.6vw,34px);border:1px solid #e7c99e3d;border-radius:22px;background:var(--panel)}
+    .feature h3{margin-bottom:12px;font-size:1.24rem;font-weight:850;letter-spacing:-.02em}
+    .feature p{margin:0;color:var(--muted);line-height:1.65}
+    .specials{margin-top:clamp(60px,8vw,110px)}
+    .specials table{width:100%;border-collapse:collapse;margin-top:26px}
+    .specials th,.specials td{padding:16px 12px;text-align:left;border-bottom:1px solid #e7c99e26;color:var(--muted);line-height:1.6}
+    .specials th{color:var(--teal);font-size:.72rem;font-weight:850;letter-spacing:.15em;text-transform:uppercase}
+    .specials td:first-child{color:var(--cream);font-weight:800;white-space:nowrap}
+    .cta{display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin-top:34px}
+    .ghost{display:inline-flex;align-items:center;gap:14px;min-height:62px;padding:0 26px;border:1px solid #e7c99e73;border-radius:16px;font-weight:800}
+    .ghost:hover{border-color:var(--teal);color:var(--teal)}
+    .shots{margin-top:clamp(60px,8vw,110px)}
+    .shot-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+    .shot-row figure{margin:0}
+    .shot-row img{border:1px solid #e7c99e47;border-radius:18px;background:var(--panel);box-shadow:0 20px 50px #0006;height:auto}
+    .shot-row figcaption{margin-top:14px;color:var(--muted);font-size:.88rem;line-height:1.5}
+    @media(max-width:1080px){.shot-row{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}}
+    @media(max-width:840px){.lede{grid-template-columns:1fr}.feature-grid{grid-template-columns:1fr}}
+    @media(max-width:520px){.shot-row{grid-template-columns:1fr;max-width:330px;margin-inline:auto}}
+  </style>
+</head>
+<body>
+  <header class="header shell">
+    <a class="brand" href="/">Habibi Apps<span>.com</span></a>
+    <nav aria-label="Main navigation">
+      <a href="/#games">Games</a><a href="/about/">About</a><a href="/#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="lede">
+      <div>
+        <p class="eyebrow">Cosy match-3 puzzle</p>
+        <h1>3 Match<br>Latte</h1>
+        <p>
+          Pull the shots, steam the milk, and keep the queue happy. Every shift brings
+          three customer orders — a Qahwa Sada, a Karak, a Cold Brew — and each one
+          asks for a set number of ingredients within a set number of moves.
+        </p>
+        <p style="margin-top:18px">
+          No timers. No lives to wait for. No pop-ups asking you to come back tomorrow.
+        </p>
+        <div class="cta">
+          <span class="ghost">Android release coming soon</span>
+          <a class="ghost" href="/lattematch/privacy/">Privacy policy <span>→</span></a>
+        </div>
+      </div>
+      <div class="shot">
+        <img src="/assets/lattematch.png" alt="3 Match Latte — a coffee cup beside three matching board tiles">
+      </div>
+    </section>
+
+    <section class="feature-grid">
+      <article class="feature">
+        <h3>Serve the counter</h3>
+        <p>Three orders a shift, each with its own ingredients and move limit. Finish early and the moves you saved become bonus points.</p>
+      </article>
+      <article class="feature">
+        <h3>Earn your beans</h3>
+        <p>Every shift pays out beans. Spend them on more moves, a re-grind of the counter, or a free pour that clears any piece you tap.</p>
+      </article>
+      <article class="feature">
+        <h3>Quiet by design</h3>
+        <p>A warm palette instead of neon. Generative music that never loops the same way. No account, no sign-in, and it plays perfectly offline.</p>
+      </article>
+    </section>
+
+
+    <section class="shots">
+      <p class="eyebrow">From the counter</p>
+      <h2 style="margin:0 0 34px;font-size:clamp(2.2rem,4.5vw,4rem);font-weight:900;letter-spacing:-.05em">A look at the game</h2>
+      <div class="shot-row">
+        <figure><img src="/assets/lattematch/01-gameplay.png" alt="The board mid-shift, with an order for cinnamon and beans in progress" loading="lazy" width="360" height="780"><figcaption>Three orders a shift, each with its own move limit</figcaption></figure>
+        <figure><img src="/assets/lattematch/02-specials.png" alt="Special pieces on the board: striped Pours, a ringed Grinder and a golden bean" loading="lazy" width="360" height="780"><figcaption>Pours, Grinders and a Golden Bean</figcaption></figure>
+        <figure><img src="/assets/lattematch/03-order-served.png" alt="An order completed, both ingredient bars full" loading="lazy" width="360" height="780"><figcaption>Fill the order before the moves run out</figcaption></figure>
+        <figure><img src="/assets/lattematch/05-end-screen.png" alt="End of shift summary showing score and orders served" loading="lazy" width="360" height="780"><figcaption>End of shift, and the beans you earned</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="specials">
+      <p class="eyebrow">Make the big drinks</p>
+      <h2 style="margin:0;font-size:clamp(2.2rem,4.5vw,4rem);font-weight:900;letter-spacing:-.05em">Special pieces</h2>
+      <table>
+        <thead><tr><th>Match</th><th>You get</th><th>What it does</th></tr></thead>
+        <tbody>
+          <tr><td>4 in a line</td><td>Pour</td><td>Clears the whole row or column</td></tr>
+          <tr><td>L or T shape</td><td>Grinder</td><td>Blows out the 3×3 around it</td></tr>
+          <tr><td>5 in a line</td><td>Golden Bean</td><td>Swap it onto any piece to clear every one of that ingredient</td></tr>
+        </tbody>
+      </table>
+      <p style="margin-top:24px;color:var(--muted);line-height:1.7;max-width:640px">
+        Set one special off inside another and the chain does the rest.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <a class="brand" href="/">Habibi Apps<span>.com</span></a>
+    <p>© 2026 Habibi Apps. Independent mobile games.</p>
+    <div class="footer-links"><a href="/lattematch/privacy/">Privacy</a><a href="/about/">About</a><a href="mailto:akour@habibiapps.com">Get in touch</a></div>
+  </footer>
+</body>
+</html>
