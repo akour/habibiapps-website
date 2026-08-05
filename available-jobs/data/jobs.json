@@ -1,0 +1,75 @@
+{
+  "checkedAt": "2026-08-05T00:00:00.000Z",
+  "jobs": [
+    {
+      "company": "Roblox",
+      "title": "Product Marketing Manager, Discovery",
+      "fit": "Strong",
+      "mode": "hybrid",
+      "location": "San Mateo, California",
+      "why": "Best skills match: ranking-driven discovery, search, positioning, messaging, launches and product adoption.",
+      "url": "https://careers.roblox.com/jobs/7950883",
+      "active": true
+    },
+    {
+      "company": "Roblox",
+      "title": "Product Marketing Manager, Creator Monetization",
+      "fit": "Strong",
+      "mode": "hybrid",
+      "location": "San Mateo, California",
+      "why": "Strong overlap with monetization, creator economics, go-to-market strategy and cross-functional mobile product marketing.",
+      "url": "https://careers.roblox.com/jobs/7951971",
+      "active": true
+    },
+    {
+      "company": "Roblox",
+      "title": "Senior Growth Marketing Manager",
+      "fit": "Good",
+      "mode": "hybrid",
+      "location": "San Mateo, California",
+      "why": "Relevant growth, app-store advertising, retention and monetization scope; deeper SQL and large paid-media budgets raise the bar.",
+      "url": "https://careers.roblox.com/jobs/7977893",
+      "active": true
+    },
+    {
+      "company": "Roblox",
+      "title": "Marketing Manager, Europe",
+      "fit": "Good",
+      "mode": "hybrid",
+      "location": "Netherlands",
+      "why": "Regional go-to-market and localization fit well. Netherlands presence and European market ownership are the constraints.",
+      "url": "https://careers.roblox.com/jobs/7965517",
+      "active": true
+    },
+    {
+      "company": "Voodoo",
+      "title": "Creative Team Open Application",
+      "fit": "Stretch",
+      "mode": "remote",
+      "location": "Remote or on-site",
+      "why": "A route into a top mobile publisher, but it targets marketing artists, marketing developers and playable-ad developers.",
+      "url": "https://voodoo.io/join-our-creative-team",
+      "active": true
+    },
+    {
+      "company": "Playrix",
+      "title": "Junior Project Manager",
+      "fit": "Stretch",
+      "mode": "remote",
+      "location": "Remote · eligible countries vary",
+      "why": "Remote and inside a major mobile publisher, but below your seniority and closer to production than marketing.",
+      "url": "https://playrix.com/job/open/management/junior-project-manager",
+      "active": true
+    },
+    {
+      "company": "Game District",
+      "title": "Marketing Executive",
+      "fit": "Stretch",
+      "mode": "onsite",
+      "location": "Lahore, Pakistan",
+      "why": "Relevant mobile-game company, but the role appears junior and location-bound.",
+      "url": "https://gamedistrict.applytojob.com/apply",
+      "active": true
+    }
+  ]
+}
