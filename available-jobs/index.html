@@ -1,100 +1,90 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="A regularly updated radar of mobile-game companies and relevant product marketing, ASO, growth and LiveOps jobs.">
-<meta name="theme-color" content="#d9ff43">
-<title>Available Jobs — Habibi Apps Career Radar</title>
-<style>
-:root{--ink:#14231b;--paper:#fffdf5;--lime:#d9ff43;--coral:#ff725e;--sky:#76ddf4;--violet:#ac91ff;--line:rgba(20,35,27,.16)}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif}button,input{font:inherit}a{color:inherit}.shell{width:min(1360px,calc(100% - 40px));margin:auto}
-.hero{background:var(--lime);padding:24px 0 68px;overflow:hidden}.nav{display:flex;justify-content:space-between;align-items:center}.brand{font-size:20px;font-weight:900;text-decoration:none;letter-spacing:-.04em}.brand span{opacity:.5}.nav nav{display:flex;gap:22px}.nav nav a{font-size:13px;font-weight:800;text-decoration:none}.heroGrid{display:grid;grid-template-columns:1.15fr .6fr;gap:64px;align-items:center;margin-top:70px}.eyebrow{font-size:11px;font-weight:900;letter-spacing:.17em;text-transform:uppercase}.hero h1{font-size:clamp(58px,8vw,112px);line-height:.83;letter-spacing:-.075em;margin:20px 0 28px}.hero p{font-size:18px;line-height:1.6;max-width:690px}.radar{aspect-ratio:1;border-radius:50%;background:var(--ink);position:relative;display:grid;place-items:center;color:white;box-shadow:18px 18px 0 var(--coral)}.orbit{position:absolute;border:1px solid #ffffff40;border-radius:50%}.o1{inset:12%}.o2{inset:29%}.o3{inset:43%}.radar strong{font-size:66px;color:var(--lime);letter-spacing:-.08em;z-index:2}.radar small{position:absolute;top:25%;letter-spacing:.14em;color:var(--sky);font-weight:800}.stats{display:grid;grid-template-columns:repeat(4,1fr);background:white;border:2px solid var(--ink);box-shadow:8px 8px 0 var(--ink);margin-top:-28px;position:relative}.stats div{padding:23px;border-right:1px solid var(--line)}.stats div:last-child{border:0}.stats strong{display:block;font-size:36px;letter-spacing:-.06em}.stats span{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#68746d}
-.board{padding:92px 0}.intro{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:end}.intro h2{font-size:clamp(44px,6vw,76px);line-height:.95;letter-spacing:-.06em;margin:10px 0}.intro p{line-height:1.65;color:#5d6862}.controls{margin-top:35px;border-bottom:2px solid var(--ink);padding-bottom:15px;display:flex;gap:14px;justify-content:space-between}.tabs,.filters{display:flex;gap:6px}.tabs button,.filters button{border:0;border-radius:8px;padding:11px 14px;font-weight:900;cursor:pointer;background:#eceee9}.tabs button.active{background:var(--ink);color:white}.filters{padding:17px 0;align-items:center}.filters button.active{background:var(--violet)}.filters span{margin-left:auto;font-size:12px;color:#78817c}.search{display:flex;gap:7px;align-items:center;background:white;border:1px solid var(--line);border-radius:9px;padding:10px 13px;width:min(360px,100%)}.search input{border:0;outline:0;background:transparent;width:100%}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:white;border:1px solid var(--line);border-top:8px solid var(--sky);border-radius:16px;padding:21px;min-height:335px;display:flex;flex-direction:column}.card.strong{border-top-color:var(--lime)}.card.stretch{border-top-color:var(--coral)}.cardTop,.cardBottom{display:flex;justify-content:space-between;align-items:center}.pill,.mode{font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.07em;border-radius:20px;padding:6px 9px}.pill{background:var(--lime)}.card.good .pill{background:var(--sky)}.card.stretch .pill{background:#ffd0c9}.mode.remote{background:#dff7df}.mode.hybrid{background:#e7e1ff}.mode.onsite{background:#ffe1db}.company{margin-top:27px;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.13em}.card h3{font-size:27px;line-height:1.08;letter-spacing:-.035em;margin:10px 0}.meta{font-size:12px;color:#65716a}.card p{font-size:14px;line-height:1.55;color:#56635b}.cardBottom{margin-top:auto;border-top:1px solid var(--line);padding-top:16px}.cardBottom small{color:#7b857f}.cardBottom a{font-size:13px;font-weight:900;text-decoration:none}.empty{grid-column:1/-1;padding:44px;text-align:center;border:1px dashed var(--line);border-radius:14px;background:white}
-.tableWrap{display:none;overflow:auto;border:1px solid var(--line);border-radius:14px;background:white}.tableWrap table{width:100%;border-collapse:collapse;min-width:820px}.tableWrap th{text-align:left;background:var(--ink);color:white;padding:14px 16px;font-size:10px;letter-spacing:.12em;text-transform:uppercase}.tableWrap td{padding:15px 16px;border-bottom:1px solid var(--line);font-size:14px}.tableWrap td small{display:block;color:#78827c;margin-top:4px}.rank{font-size:18px!important;font-weight:900}.tag{display:inline-block;border-radius:20px;padding:6px 9px;background:#eceee9;font-size:10px;font-weight:900}.career{background:var(--lime);font-size:10px;font-weight:900;border-radius:20px;padding:6px 9px;text-decoration:none}.quiet{color:#8b948f}.verdict{background:var(--violet);padding:75px 0}.verdict .shell{display:grid;grid-template-columns:1fr 1fr;gap:60px}.verdict h2{font-size:clamp(43px,6vw,72px);line-height:.95;letter-spacing:-.06em;margin:10px 0}.verdict p{font-size:17px;line-height:1.7}.footer{background:var(--ink);color:white;padding:32px 0}.footer .shell{display:flex;justify-content:space-between;align-items:center}.footer p{font-size:12px;color:#a9b6ae}.footer a{color:var(--lime);font-size:12px}
-@media(max-width:900px){.heroGrid,.intro,.verdict .shell{grid-template-columns:1fr}.radar{max-width:340px}.cards{grid-template-columns:1fr 1fr}.controls{flex-direction:column}.search{width:100%}.stats{grid-template-columns:1fr 1fr}.stats div:nth-child(2){border-right:0}.stats div:nth-child(-n+2){border-bottom:1px solid var(--line)}}@media(max-width:620px){.shell{width:min(100% - 26px,1360px)}.nav nav a:not(:last-child){display:none}.hero h1{font-size:56px}.radar{max-width:270px}.stats strong{font-size:28px}.stats div{padding:17px}.cards{grid-template-columns:1fr}.tabs,.filters{overflow:auto}.tabs button,.filters button{white-space:nowrap}.filters span{display:none}.footer .shell{align-items:flex-start;gap:14px;flex-direction:column}}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A daily-updated radar of mobile-game companies and product marketing, ASO, growth and LiveOps roles.">
+  <meta name="theme-color" content="#dfff48">
+  <title>Available Jobs — Habibi Apps</title>
+  <style>
+    :root{--ink:#10271d;--paper:#fffaf0;--lime:#dfff48;--coral:#ff765f;--sky:#69d9f3;--violet:#a990ff;--white:#fff;--muted:#637168;--line:#183b2b25;--shadow:7px 7px 0 var(--ink)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit}button,input{font:inherit}.shell{width:min(1240px,calc(100% - 32px));margin:auto}
+    .hero{background:var(--lime);border-bottom:2px solid var(--ink);padding:22px 0 62px;overflow:hidden}.nav{display:flex;align-items:center;justify-content:space-between}.brand{font-size:20px;font-weight:950;text-decoration:none;letter-spacing:-.04em}.brand span{opacity:.48}.navlinks{display:flex;gap:22px}.navlinks a{font-size:13px;font-weight:850;text-decoration:none}.hero-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:60px;align-items:center;padding-top:74px}.eyebrow{font-size:11px;font-weight:900;letter-spacing:.16em;text-transform:uppercase}.hero h1{font-size:clamp(56px,8vw,108px);line-height:.85;letter-spacing:-.075em;margin:18px 0 25px}.lead{max-width:690px;font-size:18px;line-height:1.65}.radar{aspect-ratio:1;border-radius:50%;background:var(--ink);color:var(--white);display:grid;place-items:center;position:relative;box-shadow:16px 16px 0 var(--coral)}.ring{position:absolute;border:1px solid #ffffff43;border-radius:50%}.r1{inset:12%}.r2{inset:29%}.r3{inset:43%}.radar strong{font-size:72px;color:var(--lime);letter-spacing:-.08em;z-index:2}.radar small{position:absolute;top:24%;font-weight:900;letter-spacing:.13em;color:var(--sky)}
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);background:var(--white);border:2px solid var(--ink);box-shadow:var(--shadow);transform:translateY(-26px)}.stat{padding:22px;border-right:1px solid var(--line)}.stat:last-child{border:0}.stat strong{display:block;font-size:35px;letter-spacing:-.06em}.stat span{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+    main{padding:60px 0 92px}.section-head{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:end}.section-head h2{font-size:clamp(42px,6vw,72px);line-height:.95;letter-spacing:-.06em;margin:10px 0}.section-head p{line-height:1.7;color:var(--muted)}.update-box{margin:34px 0 24px;padding:15px 16px;border:1px solid var(--line);border-radius:14px;background:#fff;display:flex;gap:12px;justify-content:space-between;align-items:center}.freshness{display:flex;align-items:center;gap:10px;font-size:13px}.dot{width:10px;height:10px;border-radius:50%;background:#21b960;box-shadow:0 0 0 5px #21b9601d}.actions{display:flex;gap:8px}.btn{border:1px solid var(--ink);border-radius:10px;padding:10px 14px;background:var(--white);font-size:12px;font-weight:900;cursor:pointer;text-decoration:none}.btn:hover{transform:translateY(-1px)}.btn.primary{background:var(--ink);color:var(--white)}
+    .controls{display:flex;gap:14px;justify-content:space-between;align-items:center;padding-bottom:16px;border-bottom:2px solid var(--ink)}.tabs,.filters{display:flex;gap:6px}.chip{border:0;border-radius:9px;padding:10px 13px;background:#e9ece7;font-size:12px;font-weight:900;cursor:pointer;white-space:nowrap}.tabs .chip.active{background:var(--ink);color:#fff}.filters{padding:16px 0}.filters .chip.active{background:var(--violet)}.search{display:flex;align-items:center;gap:8px;border:1px solid var(--line);background:#fff;border-radius:10px;padding:10px 13px;width:min(360px,100%)}.search input{border:0;outline:0;width:100%;background:transparent}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:#fff;border:1px solid var(--line);border-top:8px solid var(--sky);border-radius:16px;padding:21px;min-height:340px;display:flex;flex-direction:column;transition:.18s transform,.18s box-shadow}.card:hover{transform:translateY(-3px);box-shadow:0 10px 28px #163b2920}.card.strong{border-top-color:var(--lime)}.card.stretch{border-top-color:var(--coral)}.card.closed{opacity:.55;filter:grayscale(.5)}.card-top,.card-bottom{display:flex;align-items:center;justify-content:space-between;gap:8px}.pill,.mode{border-radius:30px;padding:6px 9px;font-size:10px;font-weight:900;letter-spacing:.07em;text-transform:uppercase}.pill{background:var(--lime)}.good .pill{background:var(--sky)}.stretch .pill{background:#ffd4cd}.mode.remote{background:#d9f6df}.mode.hybrid{background:#e8e1ff}.mode.onsite{background:#ffe0d9}.company{margin-top:26px;font-size:11px;font-weight:900;letter-spacing:.13em;text-transform:uppercase}.card h3{font-size:26px;line-height:1.08;letter-spacing:-.035em;margin:9px 0}.meta{font-size:12px;color:var(--muted)}.card p{font-size:14px;line-height:1.58;color:#526159}.card-bottom{margin-top:auto;border-top:1px solid var(--line);padding-top:16px}.card-bottom small{color:#79847d}.card-bottom a{font-size:13px;font-weight:900;text-decoration:none}.empty{grid-column:1/-1;padding:50px;text-align:center;border:1px dashed var(--line);border-radius:14px;background:#fff}
+    .table-wrap{display:none;overflow:auto;border:1px solid var(--line);border-radius:14px;background:#fff}.table-wrap table{width:100%;min-width:820px;border-collapse:collapse}.table-wrap th{text-align:left;background:var(--ink);color:#fff;padding:14px 16px;font-size:10px;letter-spacing:.12em;text-transform:uppercase}.table-wrap td{padding:15px 16px;border-bottom:1px solid var(--line);font-size:14px}.rank{font-size:19px!important;font-weight:950}.tag,.career{display:inline-block;border-radius:30px;padding:6px 9px;font-size:10px;font-weight:900}.tag{background:#eceeea}.career{background:var(--lime);text-decoration:none}.quiet{color:#8a948e}
+    .note{background:var(--violet);padding:70px 0}.note .shell{display:grid;grid-template-columns:1fr 1fr;gap:56px}.note h2{font-size:clamp(42px,6vw,70px);line-height:.95;letter-spacing:-.06em;margin:10px 0}.note p{font-size:17px;line-height:1.7}.footer{background:var(--ink);color:#fff;padding:30px 0}.footer .shell{display:flex;justify-content:space-between;align-items:center}.footer p{font-size:12px;color:#aebbb3}.footer a{font-size:12px;color:var(--lime)}
+    @media(max-width:900px){.hero-grid,.section-head,.note .shell{grid-template-columns:1fr}.radar{max-width:330px}.stats{grid-template-columns:1fr 1fr}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}.cards{grid-template-columns:1fr 1fr}.controls,.update-box{align-items:stretch;flex-direction:column}.search{width:100%}}
+    @media(max-width:620px){.navlinks a:not(:last-child){display:none}.hero h1{font-size:56px}.hero-grid{padding-top:56px}.radar{max-width:255px}.stats strong{font-size:28px}.stat{padding:16px}.cards{grid-template-columns:1fr}.tabs,.filters,.actions{overflow:auto}.footer .shell{flex-direction:column;align-items:flex-start;gap:12px}}
+  </style>
 </head>
 <body>
-<header class="hero">
-  <div class="shell nav"><a class="brand" href="/">Habibi Apps<span>.com</span></a><nav><a href="/#games">Games</a><a href="/about/">About</a><a href="/testimonials/">Testimonials</a><a href="/available-jobs/">Jobs</a></nav></div>
-  <div class="shell heroGrid">
-    <div><div class="eyebrow">Mobile games · career radar · checked 4 Aug 2026</div><h1>Find the job<br>behind the hit.</h1><p>We started with 100 chart positions across Google Play and the App Store, found the companies behind them, then checked for roles matching product marketing, ASO, growth and LiveOps.</p></div>
-    <div class="radar"><div class="orbit o1"></div><div class="orbit o2"></div><div class="orbit o3"></div><small>LIVE SIGNAL</small><strong id="liveCount">7</strong></div>
-  </div>
-</header>
-<section class="shell stats"><div><strong>100</strong><span>chart positions</span></div><div><strong>64</strong><span>unique games</span></div><div><strong>58</strong><span>publishers</span></div><div><strong id="remoteCount">2</strong><span>remote-friendly leads</span></div></section>
+  <header class="hero">
+    <div class="shell nav"><a class="brand" href="/">Habibi Apps<span>.com</span></a><nav class="navlinks"><a href="/#games">Games</a><a href="/about/">About</a><a href="/testimonials/">Testimonials</a><a href="/available-jobs/">Jobs</a></nav></div>
+    <div class="shell hero-grid">
+      <div><div class="eyebrow">Mobile games · career radar · updated daily</div><h1>Find the job<br>behind the hit.</h1><p class="lead">A colourful, practical watchlist built from 100 chart positions across Google Play and the App Store—then narrowed to companies and roles worth your time.</p></div>
+      <div class="radar"><div class="ring r1"></div><div class="ring r2"></div><div class="ring r3"></div><small>LIVE SIGNAL</small><strong id="liveCount">—</strong></div>
+    </div>
+  </header>
 
-<main class="board shell">
-  <div class="intro"><div><span class="eyebrow">The working board</span><h2>From chart<br>to application.</h2></div><p>These are leads, not promises. “Remote” still carries country restrictions, and hybrid roles usually require local work authorization. Closed roles are removed rather than left as dead links.</p></div>
-  <div class="controls">
-    <div class="tabs"><button class="active" data-view="jobs">Available jobs</button><button data-view="companies">Company watchlist</button></div>
-    <label class="search">⌕ <input id="search" placeholder="Search company, role or game…" aria-label="Search jobs and companies"></label>
-  </div>
-  <div id="jobFilters" class="filters"><button class="active" data-mode="all">All</button><button data-mode="remote">Remote</button><button data-mode="hybrid">Hybrid</button><button data-mode="onsite">On-site</button><span>Work model is based on the job listing, not the company policy.</span></div>
-  <div id="cards" class="cards"></div>
-  <div id="companies" class="tableWrap"><table><thead><tr><th>Company</th><th>Chart games</th><th>Best rank</th><th>Careers</th><th>Current fit</th></tr></thead><tbody id="companyRows"></tbody></table></div>
-</main>
+  <section class="shell stats">
+    <div class="stat"><strong>100</strong><span>chart positions reviewed</span></div>
+    <div class="stat"><strong>64</strong><span>unique games</span></div>
+    <div class="stat"><strong>58</strong><span>publishers identified</span></div>
+    <div class="stat"><strong id="remoteCount">—</strong><span>remote-friendly leads</span></div>
+  </section>
 
-<section class="verdict"><div class="shell"><div><span class="eyebrow">Reality check</span><h2>Remote first.<br>Then fit.</h2></div><div><p><strong>The strongest experience matches are currently hybrid.</strong> Roblox’s Discovery role is unusually relevant to ranking, search, positioning and product adoption—but it is based in San Mateo.</p><p>The remote leads are weaker fits. They remain visible because location makes them actionable, but they should not outrank a genuinely suitable role where relocation or authorization is possible.</p></div></div></section>
-<footer class="footer"><div class="shell"><div><a class="brand" href="/">Habibi Apps<span>.com</span></a><p>Independent mobile games—and the companies shaping the charts.</p></div><a href="https://www.appbrain.com/stats/google-play-rankings/top_free/game/us" target="_blank" rel="noopener">Chart source ↗</a></div></footer>
+  <main class="shell">
+    <div class="section-head"><div><span class="eyebrow">The working board</span><h2>Fresh leads.<br>Clear filters.</h2></div><p>Choose remote, hybrid or on-site. The daily checker revisits every saved role and marks closed pages automatically. Country restrictions still apply to many “remote” roles.</p></div>
 
-<script>
-const jobs=[
-{company:"Roblox",title:"Product Marketing Manager, Discovery",fit:"Strong",mode:"hybrid",location:"San Mateo, California",why:"Best skills match: ranking-driven discovery, search, positioning, messaging, launches and product adoption.",url:"https://careers.roblox.com/jobs/7950883"},
-{company:"Roblox",title:"Product Marketing Manager, Creator Monetization",fit:"Strong",mode:"hybrid",location:"San Mateo, California",why:"Strong overlap with monetization, creator economics, GTM and cross-functional mobile product marketing.",url:"https://careers.roblox.com/jobs/7951971"},
-{company:"Roblox",title:"Senior Growth Marketing Manager",fit:"Good",mode:"hybrid",location:"San Mateo, California",why:"Relevant growth, ASA, retention and monetization scope; deeper SQL and large paid-media budgets raise the bar.",url:"https://careers.roblox.com/jobs/7977893"},
-{company:"Roblox",title:"Marketing Manager, Europe",fit:"Good",mode:"hybrid",location:"Netherlands",why:"Regional GTM and localization fit well. Netherlands presence and European market ownership are the constraints.",url:"https://careers.roblox.com/jobs/7965517"},
-{company:"Voodoo",title:"Creative Team Open Application",fit:"Stretch",mode:"remote",location:"Remote or on-site",why:"A route into a top mobile publisher, but it targets marketing artists, marketing developers and playable-ad developers.",url:"https://voodoo.io/join-our-creative-team"},
-{company:"Playrix",title:"Junior Project Manager",fit:"Stretch",mode:"remote",location:"Remote · eligible countries vary",why:"Remote and inside a major mobile publisher, but below your seniority and closer to production than marketing.",url:"https://playrix.com/job/open/management/junior-project-manager"},
-{company:"Game District",title:"Marketing Executive",fit:"Stretch",mode:"onsite",location:"Lahore, Pakistan",why:"Relevant mobile-game company, but the role appears junior and location-bound.",url:"https://gamedistrict.applytojob.com/apply"}
-];
-const companies=[
-["Roblox","Roblox","1","https://careers.roblox.com/jobs","4 live matches"],
-["Grand Games","Magic Sort! · Block Out!","1","","No public page found"],
-["Oakever Games","Meowdoku! · Amaze GO!","2","","No public page found"],
-["GOODROID","Bus Traffic Fever! · CubeAway","3","","No current fit found"],
-["Vita Studio","Vita Mahjong","5","","No public page found"],
-["Century Games","Whiteout Survival · Kingshot · Tasty Travels","6","https://www.centurygames.com/careers/","No current fit found"],
-["Hungry Studio","Block Blast!","7","","No public page found"],
-["Lessmore","Arrows – Puzzle Escape","7","","No public page found"],
-["Epic Games","Fortnite","9","https://www.epicgames.com/site/en-US/careers/jobs","No current fit found"],
-["Playrix","Township · Gardenscapes","15","https://playrix.com/job/open","1 remote stretch"],
-["Dream Games","Royal Match · Royal Kingdom","16","https://www.dreamgames.com/careers","No current fit found"],
-["Scopely","MONOPOLY GO! · Pokémon GO","20","https://careers.scopely.com/","Previous matches closed"],
-["SYBO","Subway Surfers","21","https://sybogames.com/careers/","Marketing Artist only"],
-["Microfun","Gossip Harbor","11","","No public page found"],
-["Voodoo","Mob Control · Paper.io 2 · Hole.io","29","https://voodoo.io/careers","1 remote stretch"],
-["Electronic Arts","EA SPORTS FC Mobile","38","https://careers.ea.com/","No current fit found"],
-["King","Candy Crush Saga","37","https://careers.king.com/","PMM opening recently filled"],
-["Amanotes","Magic Tiles 3","28","https://amanotes.com/careers","No current fit found"],
-["Tripledot Studios","Stack Smash · Woodoku Blast","32","https://tripledotstudios.com/careers/","No current fit found"],
-["CrazyLabs","Sled Surfers · Lamar","33","https://www.crazylabs.com/careers/","No current fit found"],
-["Toca Boca","Toca Boca World","31","https://tocaboca.com/careers","No current fit found"],
-["Miniclip","8 Ball Pool","50","https://www.miniclip.com/careers","No current fit found"],
-["Peak Games","Match Factory!","48","https://peak.com/careers","No current fit found"],
-["Innersloth","Among Us","31","https://www.innersloth.com/jobs/","No current fit found"],
-["Supercent","Snake Clash!","49","https://www.supercent.io/career","No current fit found"],
-["Activision","Call of Duty: Mobile","40","https://careers.activision.com/","No current fit found"]
-];
-let mode="all",view="jobs",query="";
-const cards=document.getElementById("cards"), table=document.getElementById("companies");
-function render(){
- const q=query.toLowerCase();
- if(view==="jobs"){
-  document.getElementById("jobFilters").style.display="flex";cards.style.display="grid";table.style.display="none";
-  const visible=jobs.filter(j=>(mode==="all"||j.mode===mode)&&(`${j.company} ${j.title} ${j.location}`.toLowerCase().includes(q)));
-  cards.innerHTML=visible.map(j=>`<article class="card ${j.fit.toLowerCase()}"><div class="cardTop"><span class="pill">${j.fit} fit</span><span class="mode ${j.mode}">${j.mode==="onsite"?"On-site":j.mode}</span></div><div class="company">${j.company}</div><h3>${j.title}</h3><div class="meta">◎ ${j.location}</div><p>${j.why}</p><div class="cardBottom"><small>Checked 4 Aug 2026</small><a href="${j.url}" target="_blank" rel="noopener">Open role ↗</a></div></article>`).join("")||'<div class="empty"><strong>No matching jobs.</strong><p>That is useful information—not a reason to weaken the filter.</p></div>';
- }else{
-  document.getElementById("jobFilters").style.display="none";cards.style.display="none";table.style.display="block";
-  document.getElementById("companyRows").innerHTML=companies.filter(c=>c.join(" ").toLowerCase().includes(q)).map(c=>`<tr><td><strong>${c[0]}</strong></td><td>${c[1]}</td><td class="rank">#${c[2]}</td><td>${c[3]?`<a class="career" href="${c[3]}" target="_blank" rel="noopener">Verified ↗</a>`:'<span class="quiet">Not found</span>'}</td><td><span class="tag">${c[4]}</span></td></tr>`).join("");
- }
-}
-document.querySelectorAll("[data-mode]").forEach(b=>b.onclick=()=>{mode=b.dataset.mode;document.querySelectorAll("[data-mode]").forEach(x=>x.classList.toggle("active",x===b));render()});
-document.querySelectorAll("[data-view]").forEach(b=>b.onclick=()=>{view=b.dataset.view;document.querySelectorAll("[data-view]").forEach(x=>x.classList.toggle("active",x===b));render()});
-document.getElementById("search").oninput=e=>{query=e.target.value;render()};
-render();
-</script>
+    <div class="update-box">
+      <div class="freshness"><span class="dot"></span><span id="freshness">Loading the latest check…</span></div>
+      <div class="actions"><button class="btn" id="refreshButton">↻ Refresh displayed data</button><a class="btn primary" href="https://github.com/akour/habibiapps-website/actions/workflows/update-available-jobs.yml" target="_blank" rel="noopener">Run full update ↗</a></div>
+    </div>
+
+    <div class="controls">
+      <div class="tabs"><button class="chip active" data-view="jobs">Available jobs</button><button class="chip" data-view="companies">Company watchlist</button></div>
+      <label class="search">⌕ <input id="search" type="search" placeholder="Search company, role or game…" aria-label="Search"></label>
+    </div>
+    <div id="jobFilters" class="filters"><button class="chip active" data-mode="all">All</button><button class="chip" data-mode="remote">Remote</button><button class="chip" data-mode="hybrid">Hybrid</button><button class="chip" data-mode="onsite">On-site</button><button class="chip" data-mode="closed">Recently closed</button></div>
+    <div id="cards" class="cards" aria-live="polite"></div>
+    <div id="companies" class="table-wrap"><table><thead><tr><th>Company</th><th>Chart games</th><th>Best rank</th><th>Careers</th><th>Current signal</th></tr></thead><tbody id="companyRows"></tbody></table></div>
+  </main>
+
+  <section class="note"><div class="shell"><div><span class="eyebrow">How updates work</span><h2>Daily by robot.<br>Anytime by you.</h2></div><div><p><strong>Every day at 08:17 UTC</strong>, GitHub checks the saved role pages and publishes a fresh status file. “Run full update” opens the same action so the repository owner can run it immediately.</p><p>The refresh button reloads the newest published data without making you reload the whole page.</p></div></div></section>
+  <footer class="footer"><div class="shell"><div><a class="brand" href="/">Habibi Apps<span>.com</span></a><p>Independent mobile games—and the companies shaping the charts.</p></div><a href="https://github.com/akour/habibiapps-website/tree/main/available-jobs" target="_blank" rel="noopener">View the data on GitHub ↗</a></div></footer>
+
+  <script>
+    const companies = [
+      ["Roblox","Roblox",1,"https://careers.roblox.com/jobs","4 strong leads"],["Grand Games","Magic Sort! · Block Out!",1,"","No public page found"],["Oakever Games","Meowdoku! · Amaze GO!",2,"","No public page found"],["GOODROID","Bus Traffic Fever! · CubeAway",3,"","No current fit"],["Vita Studio","Vita Mahjong",5,"","No public page found"],["Century Games","Whiteout Survival · Kingshot · Tasty Travels",6,"https://www.centurygames.com/careers/","Watching"],["Hungry Studio","Block Blast!",7,"","No public page found"],["Lessmore","Arrows – Puzzle Escape",7,"","No public page found"],["Epic Games","Fortnite",9,"https://www.epicgames.com/site/en-US/careers/jobs","Watching"],["Playrix","Township · Gardenscapes",15,"https://playrix.com/job/open","1 remote lead"],["Dream Games","Royal Match · Royal Kingdom",16,"https://www.dreamgames.com/careers","Watching"],["Scopely","MONOPOLY GO! · Pokémon GO",20,"https://careers.scopely.com/","Watching"],["SYBO","Subway Surfers",21,"https://sybogames.com/careers/","Watching"],["Microfun","Gossip Harbor",11,"","No public page found"],["Voodoo","Mob Control · Paper.io 2 · Hole.io",29,"https://voodoo.io/careers","1 remote lead"],["Electronic Arts","EA SPORTS FC Mobile",38,"https://careers.ea.com/","Watching"],["King","Candy Crush Saga",37,"https://careers.king.com/","Watching"],["Amanotes","Magic Tiles 3",28,"https://amanotes.com/careers","Watching"],["Tripledot Studios","Stack Smash · Woodoku Blast",32,"https://tripledotstudios.com/careers/","Watching"],["CrazyLabs","Sled Surfers · Lamar",33,"https://www.crazylabs.com/careers/","Watching"],["Toca Boca","Toca Boca World",31,"https://tocaboca.com/careers","Watching"],["Miniclip","8 Ball Pool",50,"https://www.miniclip.com/careers","Watching"],["Peak Games","Match Factory!",48,"https://peak.com/careers","Watching"],["Innersloth","Among Us",31,"https://www.innersloth.com/jobs/","Watching"],["Supercent","Snake Clash!",49,"https://www.supercent.io/career","Watching"],["Activision","Call of Duty: Mobile",40,"https://careers.activision.com/","Watching"]
+    ];
+    let jobs=[], checkedAt=null, mode="all", view="jobs", query="";
+    const cards=document.querySelector("#cards"), table=document.querySelector("#companies"), freshness=document.querySelector("#freshness");
+    const escapeHtml=value=>String(value??"").replace(/[&<>'"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));
+    function formatDate(value){return value?new Intl.DateTimeFormat(undefined,{dateStyle:"medium",timeStyle:"short"}).format(new Date(value)):"not checked yet"}
+    async function loadJobs(){
+      freshness.textContent="Checking the published data…";
+      try{const response=await fetch(`./data/jobs.json?v=${Date.now()}`,{cache:"no-store"});if(!response.ok)throw new Error(`HTTP ${response.status}`);const data=await response.json();jobs=data.jobs||[];checkedAt=data.checkedAt;freshness.textContent=`Last full check: ${formatDate(checkedAt)}`;render()}
+      catch(error){freshness.textContent="Could not load job data. Try again shortly.";cards.innerHTML='<div class="empty"><strong>The radar could not load.</strong><p>The company watchlist is still available.</p></div>'}
+    }
+    function render(){
+      const q=query.toLowerCase();const activeJobs=jobs.filter(j=>j.active!==false);document.querySelector("#liveCount").textContent=activeJobs.length;document.querySelector("#remoteCount").textContent=activeJobs.filter(j=>j.mode==="remote").length;
+      if(view==="jobs"){
+        document.querySelector("#jobFilters").style.display="flex";cards.style.display="grid";table.style.display="none";
+        const visible=jobs.filter(j=>(mode==="all"?j.active!==false:mode==="closed"?j.active===false:j.active!==false&&j.mode===mode)&&`${j.company} ${j.title} ${j.location}`.toLowerCase().includes(q));
+        cards.innerHTML=visible.map(j=>`<article class="card ${escapeHtml(j.fit.toLowerCase())} ${j.active===false?"closed":""}"><div class="card-top"><span class="pill">${j.active===false?"Closed":`${escapeHtml(j.fit)} fit`}</span><span class="mode ${escapeHtml(j.mode)}">${j.mode==="onsite"?"On-site":escapeHtml(j.mode)}</span></div><div class="company">${escapeHtml(j.company)}</div><h3>${escapeHtml(j.title)}</h3><div class="meta">◎ ${escapeHtml(j.location)}</div><p>${escapeHtml(j.why)}</p><div class="card-bottom"><small>Checked ${escapeHtml(formatDate(j.lastChecked||checkedAt))}</small><a href="${escapeHtml(j.url)}" target="_blank" rel="noopener">Open role ↗</a></div></article>`).join("")||'<div class="empty"><strong>No matching jobs right now.</strong><p>Try another location filter or check the company watchlist.</p></div>';
+      }else{
+        document.querySelector("#jobFilters").style.display="none";cards.style.display="none";table.style.display="block";
+        document.querySelector("#companyRows").innerHTML=companies.filter(c=>c.join(" ").toLowerCase().includes(q)).map(c=>`<tr><td><strong>${escapeHtml(c[0])}</strong></td><td>${escapeHtml(c[1])}</td><td class="rank">#${c[2]}</td><td>${c[3]?`<a class="career" href="${escapeHtml(c[3])}" target="_blank" rel="noopener">Careers ↗</a>`:'<span class="quiet">Not found</span>'}</td><td><span class="tag">${escapeHtml(c[4])}</span></td></tr>`).join("");
+      }
+    }
+    document.querySelectorAll("[data-mode]").forEach(button=>button.addEventListener("click",()=>{mode=button.dataset.mode;document.querySelectorAll("[data-mode]").forEach(item=>item.classList.toggle("active",item===button));render()}));
+    document.querySelectorAll("[data-view]").forEach(button=>button.addEventListener("click",()=>{view=button.dataset.view;document.querySelectorAll("[data-view]").forEach(item=>item.classList.toggle("active",item===button));render()}));
+    document.querySelector("#search").addEventListener("input",event=>{query=event.target.value;render()});
+    document.querySelector("#refreshButton").addEventListener("click",loadJobs);
+    loadJobs();
+  </script>
 </body>
 </html>
