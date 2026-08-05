@@ -23,11 +23,15 @@ async function inspect(job) {
     });
     const body = (await response.text()).toLowerCase().replace(/\s+/g, " ");
     const closed = response.status === 404 || response.status === 410 || closedSignals.some(signal => body.includes(signal));
+    const conclusive = response.ok || response.status === 404 || response.status === 410;
     return {
       ...job,
-      active: !closed && response.ok,
+      // Rate limits and bot blocks (for example 403/429) are inconclusive,
+      // so preserve the previous state instead of hiding a valid lead.
+      active: conclusive ? !closed : job.active,
       lastStatus: response.status,
-      lastChecked: new Date().toISOString()
+      lastChecked: new Date().toISOString(),
+      ...(conclusive ? { checkNote: undefined } : { checkNote: `inconclusive-${response.status}` })
     };
   } catch (error) {
     // A blocked or timed-out careers site is not proof that a role closed.
