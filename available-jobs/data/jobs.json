@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-05T00:00:00.000Z",
+  "checkedAt": "2026-08-06T00:00:00.000Z",
   "jobs": [
     {
       "company": "Roblox",
@@ -9,7 +9,10 @@
       "location": "San Mateo, California",
       "why": "Best skills match: ranking-driven discovery, search, positioning, messaging, launches and product adoption.",
       "url": "https://careers.roblox.com/jobs/7950883",
-      "active": true
+      "active": true,
+      "source": "Company careers",
+      "category": "general",
+      "priority": "High"
     },
     {
       "company": "Roblox",
@@ -19,7 +22,10 @@
       "location": "San Mateo, California",
       "why": "Strong overlap with monetization, creator economics, go-to-market strategy and cross-functional mobile product marketing.",
       "url": "https://careers.roblox.com/jobs/7951971",
-      "active": true
+      "active": true,
+      "source": "Company careers",
+      "category": "general",
+      "priority": "High"
     },
     {
       "company": "Roblox",
@@ -29,7 +35,10 @@
       "location": "San Mateo, California",
       "why": "Relevant growth, app-store advertising, retention and monetization scope; deeper SQL and large paid-media budgets raise the bar.",
       "url": "https://careers.roblox.com/jobs/7977893",
-      "active": true
+      "active": true,
+      "source": "Company careers",
+      "category": "general",
+      "priority": "Medium"
     },
     {
       "company": "Roblox",
@@ -39,7 +48,10 @@
       "location": "Netherlands",
       "why": "Regional go-to-market and localization fit well. Netherlands presence and European market ownership are the constraints.",
       "url": "https://careers.roblox.com/jobs/7965517",
-      "active": true
+      "active": true,
+      "source": "Company careers",
+      "category": "general",
+      "priority": "Medium"
     },
     {
       "company": "Voodoo",
@@ -49,7 +61,10 @@
       "location": "Remote or on-site",
       "why": "A route into a top mobile publisher, but it targets marketing artists, marketing developers and playable-ad developers.",
       "url": "https://voodoo.io/join-our-creative-team",
-      "active": true
+      "active": true,
+      "source": "Company careers",
+      "category": "general",
+      "priority": "Low"
     },
     {
       "company": "Playrix",
@@ -59,7 +74,10 @@
       "location": "Remote · eligible countries vary",
       "why": "Remote and inside a major mobile publisher, but below your seniority and closer to production than marketing.",
       "url": "https://playrix.com/job/open/management/junior-project-manager",
-      "active": true
+      "active": true,
+      "source": "Company careers",
+      "category": "general",
+      "priority": "Low"
     },
     {
       "company": "Game District",
@@ -69,6 +87,126 @@
       "location": "Lahore, Pakistan",
       "why": "Relevant mobile-game company, but the role appears junior and location-bound.",
       "url": "https://gamedistrict.applytojob.com/apply",
+      "active": true,
+      "source": "Company careers",
+      "category": "general",
+      "priority": "Low"
+    },
+    {
+      "company": "Admiral Media",
+      "title": "Senior App Store Optimisation (ASO) Consultant",
+      "fit": "Strong",
+      "priority": "Top choice",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "remote",
+      "location": "Remote · European Union",
+      "why": "Excellent match for 10+ years of ASO, app growth, creative testing, localization and portfolio-level strategy.",
+      "url": "https://www.linkedin.com/jobs/view/4444002969",
+      "active": true
+    },
+    {
+      "company": "Yahoo",
+      "title": "Director, Organic Marketing (ASO)",
+      "fit": "Strong",
+      "priority": "High",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "remote",
+      "location": "United States · authorization likely required",
+      "why": "Owns ASO across Yahoo's app portfolio: keywords, metadata experiments, competitive intelligence and organic growth.",
+      "url": "https://www.linkedin.com/jobs/view/4441393833",
+      "active": true
+    },
+    {
+      "company": "Cella",
+      "title": "App Store Optimization Specialist",
+      "fit": "Strong",
+      "priority": "High",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "remote",
+      "location": "Remote · United States",
+      "why": "Direct ASO role covering organic growth, conversion funnels, experimentation and enterprise ASO tools.",
+      "url": "https://www.linkedin.com/jobs/view/4446954282",
+      "active": true
+    },
+    {
+      "company": "Inkitt",
+      "title": "ASO Manager",
+      "fit": "Strong",
+      "priority": "High",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "San Francisco, California",
+      "why": "Direct ASO ownership at a consumer storytelling app; highly relevant work, but location is the constraint.",
+      "url": "https://www.linkedin.com/jobs/view/4443518415",
+      "active": true
+    },
+    {
+      "company": "Electronic Arts",
+      "title": "ASO Manager",
+      "fit": "Strong",
+      "priority": "High",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Redwood City, California · temporary",
+      "why": "Excellent games-industry and ASO match, including experience across large mobile game portfolios.",
+      "url": "https://www.linkedin.com/jobs/view/4427880022",
+      "active": true
+    },
+    {
+      "company": "Ares Interactive",
+      "title": "Senior App Store Optimization Manager",
+      "fit": "Strong",
+      "priority": "High",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "remote",
+      "location": "United States · authorization likely required",
+      "why": "Seniority and end-to-end store optimization match well; verify the employer and US work eligibility before investing time.",
+      "url": "https://www.linkedin.com/jobs/view/4436487694",
+      "active": true
+    },
+    {
+      "company": "TinyPal",
+      "title": "App Store Optimization Rating Consultant",
+      "fit": "Good",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "remote",
+      "location": "United States · contract",
+      "why": "Focused ASO consulting work covering visibility, rankings, metadata, reviews and conversion.",
+      "url": "https://www.linkedin.com/jobs/view/4444556363",
+      "active": true
+    },
+    {
+      "company": "Gate",
+      "title": "App Store Optimization (ASO) Expert",
+      "fit": "Strong",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Singapore",
+      "why": "A direct ASO expert opening with strong skill overlap; Singapore location may require relocation and authorization.",
+      "url": "https://www.linkedin.com/jobs/view/4400380193",
+      "active": true
+    },
+    {
+      "company": "Air Apps",
+      "title": "ASO Specialist",
+      "fit": "Strong",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "San Francisco, California",
+      "why": "Hands-on ASO strategy, keyword research, creative testing and organic acquisition for consumer mobile apps.",
+      "url": "https://www.linkedin.com/jobs/view/4443551660",
       "active": true
     }
   ]
