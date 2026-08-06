@@ -30,6 +30,8 @@ const decode = value => value
 const clean = value => decode((value || "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim());
 const field = (block, className) => clean(block.match(new RegExp(`<[^>]+class="[^"]*${className}[^"]*"[^>]*>([\\s\\S]*?)<\\/[^>]+>`))?.[1]);
 const jobId = url => url.match(/\/jobs\/view\/(?:[^/?]+-)?(\d+)/)?.[1];
+const jobKey = job => jobId(job.url) || job.url;
+const previousJobs = new Map(data.jobs.map(job => [jobKey(job), { ...job }]));
 
 async function discoverLinkedInAso() {
   const known = new Set(data.jobs.map(job => jobId(job.url)).filter(Boolean));
@@ -127,6 +129,23 @@ const output = {
   )
 };
 
-await writeFile(dataUrl, `${JSON.stringify(output, null, 2)}\n`);
 const active = checked.filter(job => job.active).length;
+const newJobs = checked.filter(job => !previousJobs.has(jobKey(job)) && job.active !== false);
+const closedJobs = checked.filter(job => previousJobs.get(jobKey(job))?.active !== false && job.active === false);
+const digest = {
+  checkedAt: output.checkedAt,
+  newJobs,
+  closedJobs,
+  totals: {
+    active,
+    aso: checked.filter(job => job.active !== false && job.category === "aso").length,
+    remote: checked.filter(job => job.active !== false && job.mode === "remote").length,
+    linkedIn: checked.filter(job => job.active !== false && job.source === "LinkedIn").length
+  }
+};
+
+await Promise.all([
+  writeFile(dataUrl, `${JSON.stringify(output, null, 2)}\n`),
+  writeFile(new URL("../data/latest-update.json", import.meta.url), `${JSON.stringify(digest, null, 2)}\n`)
+]);
 console.log(`Checked ${checked.length} roles; ${active} remain active.`);
