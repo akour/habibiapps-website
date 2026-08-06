@@ -15,7 +15,11 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 12
+    env:
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+      JOBS_EMAIL_TO: ${{ secrets.JOBS_EMAIL_TO }}
+      JOBS_EMAIL_FROM: ${{ secrets.JOBS_EMAIL_FROM }}
     steps:
       - name: Check out the website
         uses: actions/checkout@v4
@@ -25,17 +29,20 @@ jobs:
         with:
           node-version: 22
 
-      - name: Check job links
+      - name: Search and check jobs
         run: node available-jobs/scripts/refresh-jobs.mjs
+
+      - name: Send daily email digest
+        run: node available-jobs/scripts/send-email-digest.mjs
 
       - name: Commit updated availability
         run: |
-          if git diff --quiet -- available-jobs/data/jobs.json; then
+          if git diff --quiet -- available-jobs/data; then
             echo "No job data changed."
             exit 0
           fi
           git config user.name "habibiapps-jobs-bot"
           git config user.email "habibiapps-jobs-bot@users.noreply.github.com"
-          git add available-jobs/data/jobs.json
+          git add available-jobs/data
           git commit -m "Refresh available jobs"
           git push
