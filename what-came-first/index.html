@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="What Came First? — a discovery quiz from Habibi Apps. Two things, one question: pick which came first and climb through centuries of trivia. Plays fully offline.">
+  <meta name="theme-color" content="#0b0e10">
+  <title>What Came First? — Discovery Quiz | Habibi Apps</title>
+  <link rel="stylesheet" href="/assets/style.css">
+  <style>
+    .page{width:var(--shell);margin-inline:auto;padding-block:clamp(40px,6vw,80px)}
+    .lede{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(40px,6vw,80px);align-items:center}
+    .lede h1{font-size:clamp(3rem,6.5vw,6rem);margin-bottom:24px;letter-spacing:-.06em}
+    .lede>div>p:not(.eyebrow){max-width:560px;color:var(--muted);font-size:clamp(1.02rem,1.5vw,1.22rem);line-height:1.7}
+    .hero-tile{aspect-ratio:1;border-radius:22px;border:1px solid #e7c99e38;background:var(--panel);display:grid;place-items:center;overflow:hidden;box-shadow:0 24px 60px #0005;position:relative}
+    .hero-tile img{width:72%;height:72%;object-fit:contain;transition:.3s}
+    .hero-tile:hover img{transform:scale(1.07)}
+    .hero-tile.big{grid-column:1/-1;aspect-ratio:auto;padding:26px;display:block}
+    .hero-tile.big .vs{width:100%;display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:center}
+    .hero-tile.big .vs .ic{aspect-ratio:1;border-radius:16px;background:#0d1a2c;display:grid;place-items:center}
+    .hero-tile.big .vs img{width:70%;height:70%}
+    .hero-tile.big .vs .sp{display:grid;place-items:center;font-weight:900;color:var(--sand)}
+    .hero-tile.big .cap{margin-top:14px;text-align:center;color:var(--muted)}
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:clamp(40px,6vw,70px)}
+    .stat{padding:20px 12px;text-align:center;border:1px solid #e7c99e2e;border-radius:18px;background:var(--panel)}
+    .stat b{display:block;font-size:clamp(1.9rem,3.6vw,2.8rem);font-weight:950;letter-spacing:-.03em;color:var(--cream)}
+    .stat span{margin-top:6px;display:inline-block;color:var(--muted);font-size:.78rem;font-weight:750;letter-spacing:.1em;text-transform:uppercase}
+    .play{display:grid;grid-template-columns:1fr auto 1fr;gap:clamp(14px,2vw,26px);align-items:stretch;margin-top:clamp(40px,6vw,70px)}
+    .choice{position:relative;border:2px solid #e7c99e3a;background:var(--panel);border-radius:22px;cursor:pointer;transition:.2s;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:clamp(22px,3vw,32px);min-height:clamp(230px,34vw,300px);overflow:hidden}
+    .choice:hover{transform:translateY(-4px);border-color:var(--teal)}
+    .choice .tag{position:absolute;inset:10px 10px auto auto;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-weight:900;font-size:.85rem;color:#0b0e10;background:var(--sand)}
+    .choice .qimg{height:clamp(84px,14vw,120px)}
+    .choice .qimg img{height:100%;width:auto;border-radius:14px}
+    .choice:not(.hasimg) .qimg{display:grid;place-items:center;font-size:clamp(3rem,6vw,4.5rem);line-height:1}
+    .choice .nm{font-size:clamp(1.1rem,2vw,1.6rem);font-weight:850;letter-spacing:-.02em;text-align:center;line-height:1.15}
+    .choice .dt{margin:0;color:var(--muted);font-size:.95rem;font-weight:600}
+    .mid{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:var(--sand);line-height:1.2}
+    .mid .bubble{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;font-weight:950;letter-spacing:.04em;border:1px solid #e7c99e66;color:var(--sand)}
+    .mid small{font-size:.85rem;text-align:center}
+    .choice.ok{border-color:var(--teal)!important}
+    .choice.no{border-color:#f06b5c;opacity:.5}
+    .choice.off{cursor:default;pointer-events:none}
+    .choice.dim .qimg{filter:grayscale(.7)}
+    .roundline{display:flex;justify-content:center;gap:26px;margin-bottom:20px;color:var(--muted);font-size:1rem}
+    .roundline b{color:var(--cream)}
+    .fact{margin:26px auto 0;padding:20px 24px;border-radius:16px;background:var(--panel);border:1px solid #43c8c54d;color:#f4f1e8;line-height:1.65}
+    .fact b{color:var(--teal)}
+    .play-actions{display:flex;justify-content:center;margin-top:30px}
+    .feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:clamp(40px,6vw,70px)}
+    .feature{padding:clamp(24px,2.6vw,34px);border:1px solid #e7c99e3d;border-radius:22px;background:var(--panel)}
+    .feature .fe{font-size:2rem;margin-bottom:14px}
+    .feature h3{margin-bottom:12px;font-size:1.22rem;font-weight:850;letter-spacing:-.02em}
+    .feature p{margin:0;color:var(--muted);line-height:1.65}
+    .wall-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:14px;margin-top:clamp(40px,6vw,70px)}
+    .tile{aspect-ratio:1;border-radius:16px;background:var(--panel);border:1px solid #e7c99e24;display:grid;place-items:center;transition:.2s}
+    .tile img{width:76%;height:76%;object-fit:contain;transition:.25s}
+    .tile:hover{transform:translateY(-3px);border-color:var(--teal)}
+    .tile:hover img{transform:scale(1.1)}
+    .block{margin-top:clamp(60px,8vw,110px)}
+    .block:first-child{margin-top:0}
+    .privacy-note{margin-top:clamp(50px,7vw,90px);text-align:center;color:var(--muted)}
+    .privacy-note a{color:var(--teal);font-weight:700}
+    @media(max-width:1080px){.feature-grid{grid-template-columns:1fr 1fr}.stats{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:840px){.lede{grid-template-columns:1fr}.feature-grid{grid-template-columns:1fr}.play{grid-template-columns:1fr auto 1fr;gap:12px}.choice{min-height:200px;padding:14px 10px}.choice .qimg{height:70px}.mid .bubble{width:44px;height:44px}}
+    @media(max-width:520px){.stats{grid-template-columns:repeat(2,1fr)}.wall-grid{grid-template-columns:repeat(4,1fr)}.play{gap:8px}.mid small{display:none}}
+  </style>
+</head>
+<body>
+  <header class="header shell">
+    <a class="brand" href="/">Habibi Apps<span>.com</span></a>
+    <nav aria-label="Main navigation">
+      <a href="/#games">Games</a><a href="/about/">About</a><a href="/testimonials/">Testimonials</a><a href="/#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="lede block">
+      <div>
+        <p class="eyebrow">Discovery quiz</p>
+        <h1>What Came<br>First?</h1>
+        <p>Two things, one question: pick which came first. Every round is a little history lesson you never asked for — from ancient inventions to the games and apps of today.</p>
+        <div class="cta">
+          <a class="button" href="#demo">Play a round <span>↓</span></a>
+          <a class="ghost" href="/what-came-first/privacy/">Privacy policy <span>→</span></a>
+        </div>
+      </div>
+      <aside aria-label="Example question">
+        <div class="hero-tile big">
+          <div class="vs">
+            <span class="ic"><img src="assets/icons/light_bulb.webp" alt="Light bulb"></span>
+            <span class="sp">VS</span>
+            <span class="ic"><img src="assets/icons/typewriter.webp" alt="Typewriter"></span>
+          </div>
+          <div class="cap">Which came first: the light bulb or the typewriter?</div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="stats block" aria-label="Game facts">
+      <div class="stat"><b>260+</b><span>Questions</span></div>
+      <div class="stat"><b>5</b><span>Difficulty tiers</span></div>
+      <div class="stat"><b>500+</b><span>Hand-drawn icons</span></div>
+      <div class="stat"><b>0</b><span>Ads · accounts · internet</span></div>
+    </section>
+
+    <section class="block" id="demo" aria-labelledby="demo-title">
+      <div class="section-head">
+        <div><p class="eyebrow">Live demo</p><h2 id="demo-title">Play it right here.</h2></div>
+        <p>A taste of the real game, in your browser. Which of these two came first?</p>
+      </div>
+      <div class="roundline"><span>Round <b class="round-i">1</b>/<span class="round-n">18</span></span><span>·</span><span>Streak <b class="score">0</b></span></div>
+      <div class="play">
+        <button class="choice" id="choiceA" aria-label="Choose the first option">
+          <span class="tag">A</span>
+          <span class="qimg" id="imgA"></span>
+          <span class="nm" id="nmA"></span>
+          <span class="dt" id="dtA"></span>
+        </button>
+        <div class="mid"><div class="bubble">VS</div><small>Which came<br>first?</small></div>
+        <button class="choice" id="choiceB" aria-label="Choose the second option">
+          <span class="tag">B</span>
+          <span class="qimg" id="imgB"></span>
+          <span class="nm" id="nmB"></span>
+          <span class="dt" id="dtB"></span>
+        </button>
+      </div>
+      <div class="fact" id="fact" hidden></div>
+      <div class="play-actions">
+        <button class="button" id="nextBtn" hidden>Next round <span>→</span></button>
+      </div>
+    </section>
+
+    <section class="block" aria-labelledby="features-title">
+      <div class="section-head">
+        <div><p class="eyebrow">Why you'll like it</p><h2 id="features-title">Curiosity, one<br>question at a time.</h2></div>
+        <p>History is full of surprises — the things you use every day were invented later (or earlier) than everyone thinks.</p>
+      </div>
+      <div class="feature-grid">
+        <div class="feature"><div class="fe">🔀</div><h3>Surprising order</h3><p>Pizza before tomatoes in Europe? Café culture after writing? Every round is a tiny fact you never asked for and never forget.</p></div>
+        <div class="feature"><div class="fe">🧩</div><h3>260+ rounds</h3><p>Inventions, history, games, the internet, space, companies and more — spread across five difficulty tiers that climb as you improve.</p></div>
+        <div class="feature"><div class="fe">🎨</div><h3>Hand-drawn icons</h3><p>Over 500 illustrated tokens instead of stock photos, kept consistent in a warm cream-and-sand palette.</p></div>
+        <div class="feature"><div class="fe">📴</div><h3>Truly offline</h3><p>No account, no ads, no internet permission. The game asks nothing of you and sends nothing anywhere.</p></div>
+        <div class="feature"><div class="fe">🏆</div><h3>XP, levels & streaks</h3><p>Earn XP, level up, chase streaks and unlock achievements. Your progress lives on your own device.</p></div>
+        <div class="feature"><div class="fe">🛠️</div><h3>Built to move</h3><p>Built with the Godot engine and tuned for phones — a quick round in a queue, or a long climb down the timeline at home.</p></div>
+      </div>
+    </section>
+
+    <section class="block" aria-labelledby="wall-title">
+      <div class="section-head">
+        <div><p class="eyebrow">A corner of the collection</p><h2 id="wall-title">Meet a few of the things.</h2></div>
+        <p>A sample of the hand-drawn icons waiting to learn their place in the timeline.</p>
+      </div>
+      <div class="wall-grid" id="wall"></div>
+    </section>
+
+    <section class="privacy-note block" aria-label="More information">
+      <p>What Came First? is a product of <a href="/">Habibi Apps</a>.</p>
+      <p><a href="/what-came-first/privacy/">Read the privacy policy</a></p>
+    </section>
+  </main>
+
+  <footer class="footer shell"><a class="brand" href="/">Habibi Apps<span>.com</span></a><p>© 2026 Habibi Apps. Independent mobile games.</p><div class="footer-links"><a href="/what-came-first/privacy/">What Came First?</a><a href="/about/">About</a><a href="/testimonials/">Testimonials</a><a href="mailto:akour@habibiapps.com">Get in touch</a></div></footer>
+
+<script type="application/json" id="questions-data">{"questions":[{"id":"pizza_tomato","correct":"item_a","fact":"Pizza-like flatbreads were eaten in Italy centuries before tomatoes arrived from the Americas.","item_a":{"name":"Pizza","subtitle":"flatbread ancestor","display_date":"997 CE","emoji":"🍕","color":"#b94d3b","icon":"assets/q/0_item_a.webp"},"item_b":{"name":"Tomato in Europe","subtitle":"introduced to Europe","display_date":"early 1500s","emoji":"🍅","color":"#b73344","icon":"assets/q/0_item_b.webp"}},{"id":"coffee_camels","correct":"item_b","fact":"People relied on domesticated camels thousands of years before coffee became a famous drink.","item_a":{"name":"Coffee","subtitle":"drink popularized","display_date":"1400s","emoji":"☕","color":"#6b3d2a","icon":"assets/q/1_item_a.webp"},"item_b":{"name":"Camel Domestication","subtitle":"widely domesticated","display_date":"about 3000 BCE","emoji":"🐪","color":"#b77a43","icon":"assets/q/1_item_b.webp"}},{"id":"moon_concorde","correct":"item_b","fact":"Concorde first flew in March 1969, a few months before Apollo 11 landed on the Moon in July.","item_a":{"name":"Moon Landing","subtitle":"Apollo 11","display_date":"July 1969","emoji":"🌕","color":"#777b8c","icon":"assets/q/2_item_a.webp"},"item_b":{"name":"Concorde","subtitle":"first flight","display_date":"March 1969","emoji":"✈️","color":"#2f6e96","icon":"assets/q/2_item_b.webp"}},{"id":"fax_telephone","correct":"item_a","fact":"A practical fax concept was patented decades before Bell’s telephone patent.","item_a":{"name":"Fax Machine","subtitle":"early patent","display_date":"1843","emoji":"📠","color":"#586f7c","icon":"assets/q/3_item_a.webp"},"item_b":{"name":"Telephone","subtitle":"Bell patent","display_date":"1876","emoji":"☎️","color":"#5b5f74","icon":"assets/q/3_item_b.webp"}},{"id":"barbie_disneyland","correct":"item_b","fact":"Disneyland opened four years before Barbie debuted.","item_a":{"name":"Barbie","subtitle":"debuted","display_date":"1959","emoji":"👗","color":"#c14391","icon":"assets/q/4_item_a.webp"},"item_b":{"name":"Disneyland","subtitle":"opened","display_date":"1955","emoji":"🏰","color":"#4873a6","icon":"assets/q/4_item_b.webp"}},{"id":"iphone_android","correct":"item_a","fact":"The first iPhone reached buyers before the first commercial Android phone.","item_a":{"name":"iPhone","subtitle":"released","display_date":"2007","emoji":"📱","color":"#58708b","icon":"assets/q/5_item_a.webp"},"item_b":{"name":"Android Phone","subtitle":"HTC Dream released","display_date":"2008","emoji":"🤖","color":"#5b9b45","icon":"assets/q/5_item_b.webp"}},{"id":"camera_typewriter","correct":"item_a","fact":"Public photography arrived before the first commercially influential typewriter designs.","item_a":{"name":"Camera","subtitle":"daguerreotype announced","display_date":"1839","emoji":"📷","color":"#3f5062","icon":"assets/q/6_item_a.webp"},"item_b":{"name":"Typewriter","subtitle":"Sholes patent","display_date":"1868","emoji":"⌨️","color":"#68605a","icon":"assets/q/6_item_b.webp"}},{"id":"compass_gunpowder_europe","correct":"item_a","fact":"Magnetic compasses were used for navigation before gunpowder became established in Europe.","item_a":{"name":"Compass","subtitle":"Chinese navigation use","display_date":"around 1100","emoji":"🧭","color":"#7e603c","icon":"assets/q/7_item_a.webp"},"item_b":{"name":"Gunpowder in Europe","subtitle":"recorded use","display_date":"1200s/1300s","emoji":"💥","color":"#9f4538","icon":"assets/q/7_item_b.webp"}},{"id":"viking_age_islam","correct":"item_b","fact":"Islam began before the traditional start of the Viking Age.","item_a":{"name":"Viking Age","subtitle":"traditional start","display_date":"793","emoji":"🛡️","color":"#6b6f79","icon":"assets/q/8_item_a.webp"},"item_b":{"name":"Islam","subtitle":"early community begins","display_date":"610s","emoji":"🌙","color":"#4b7d70","icon":"assets/q/8_item_b.webp"}},{"id":"premier_league_world_baseball_classic","correct":"item_a","fact":"Premier League came first: 1992, before World Baseball Classic in 2006. This comparison is part of the expanded discovery set and should get final editorial review.","item_a":{"name":"Premier League","subtitle":"began","display_date":"1992","emoji":"⚽","color":"#3f6faf","icon":"assets/q/9_item_a.webp"},"item_b":{"name":"World Baseball Classic","subtitle":"first tournament","display_date":"2006","emoji":"⚾","color":"#8a5640","icon":"assets/q/9_item_b.webp"}},{"id":"league_of_legends_terraria","correct":"item_a","fact":"League of Legends came first: 2009, before Terraria in 2011. This comparison is part of the expanded discovery set and should get final editorial review.","item_a":{"name":"League of Legends","subtitle":"released","display_date":"2009","emoji":"⚔️","color":"#2f8c7c","icon":"assets/q/10_item_a.webp"},"item_b":{"name":"Terraria","subtitle":"released","display_date":"2011","emoji":"⛏️","color":"#b94d3b","icon":"assets/q/10_item_b.webp"}},{"id":"arc_lamp_tin_can","correct":"item_a","fact":"Arc Lamp came first: 1809, before Tin Can in 1810. This comparison is part of the expanded discovery set and should get final editorial review.","item_a":{"name":"Arc Lamp","subtitle":"demonstrated","display_date":"1809","emoji":"💡","color":"#2f8c7c","icon":"assets/q/11_item_a.webp"},"item_b":{"name":"Tin Can","subtitle":"patented","display_date":"1810","emoji":"🥫","color":"#b94d3b","icon":"assets/q/11_item_b.webp"}},{"id":"dynamite_barbed_wire","correct":"item_a","fact":"Dynamite came first: 1867, before Barbed Wire in 1874. This comparison is part of the expanded discovery set and should get final editorial review.","item_a":{"name":"Dynamite","subtitle":"patented","display_date":"1867","emoji":"💥","color":"#684a9c","icon":"assets/q/12_item_a.webp"},"item_b":{"name":"Barbed Wire","subtitle":"patented","display_date":"1874","emoji":"🧵","color":"#497d7a","icon":"assets/q/12_item_b.webp"}},{"id":"youtube_reddit","correct":"item_a","fact":"YouTube launched a few months before Reddit in 2005.","item_a":{"name":"YouTube","subtitle":"launched","display_date":"February 2005","emoji":"▶️","color":"#bb3030","icon":"assets/q/13_item_a.webp"},"item_b":{"name":"Reddit","subtitle":"launched","display_date":"June 2005","emoji":"💬","color":"#d95b35","icon":"assets/q/13_item_b.webp"}},{"id":"oxford_aztec","correct":"item_a","fact":"Oxford was teaching students before the Aztec Empire existed.","item_a":{"name":"Oxford University","subtitle":"teaching existed","display_date":"by 1096","emoji":"🏛️","color":"#394b79","icon":"assets/q/14_item_a.webp"},"item_b":{"name":"Aztec Empire","subtitle":"founded","display_date":"1428","emoji":"🦅","color":"#8d3d2f","icon":"assets/q/14_item_b.webp"}},{"id":"helldivers_2_the_jazz_singer","correct":"item_b","fact":"The Jazz Singer came first: 1927, before Helldivers 2 in 2024. This comparison is part of the expanded discovery set and should get final editorial review.","item_a":{"name":"Helldivers 2","subtitle":"released","display_date":"2024","emoji":"🪖","color":"#2f8c7c","icon":"assets/q/15_item_a.webp"},"item_b":{"name":"The Jazz Singer","subtitle":"released","display_date":"1927","emoji":"🎬","color":"#b94d3b","icon":"assets/q/15_item_b.webp"}},{"id":"gemini_ai_silk_road_trade_route","correct":"item_b","fact":"Silk Road Trade Route came first: ancient era, before Gemini AI in 2023. This comparison is part of the expanded discovery set and should get final editorial review.","item_a":{"name":"Gemini AI","subtitle":"announced","display_date":"2023","emoji":"🤖","color":"#684a9c","icon":"assets/q/16_item_a.webp"},"item_b":{"name":"Silk Road Trade Route","subtitle":"ancient network","display_date":"ancient era","emoji":"🐫","color":"#497d7a","icon":"assets/q/16_item_b.webp"}},{"id":"florida_statehood_texas_statehood","correct":"item_a","fact":"Florida Statehood came first: 1845, before Texas Statehood in 1845. This comparison is part of the expanded discovery set and should get final editorial review.","item_a":{"name":"Florida Statehood","subtitle":"became a U.S. state","display_date":"1845","emoji":"🗽","color":"#2f8c7c","icon":"assets/q/17_item_a.webp"},"item_b":{"name":"Texas Statehood","subtitle":"became a U.S. state","display_date":"1845","emoji":"🗽","color":"#b94d3b","icon":"assets/q/17_item_b.webp"}}]}</script>
+<script>
+(function(){
+  var data = JSON.parse(document.getElementById('questions-data').textContent);
+  var qs = data.questions || [];
+  var order = [];
+  for (var i = 0; i < qs.length; i++) order.push(i);
+  // shuffle once so each visit plays a different order
+  for (var j = order.length - 1; j > 0; j--) {
+    var k = Math.floor(Math.random() * (j + 1));
+    var t = order[j]; order[j] = order[k]; order[k] = t;
+  }
+  var pos = 0, streak = 0, locked = false;
+  var elA = document.getElementById('choiceA'), elB = document.getElementById('choiceB');
+  var factEl = document.getElementById('fact'), nextEl = document.getElementById('nextBtn');
+  var imgA = document.getElementById('imgA'), imgB = document.getElementById('imgB');
+  var nmA = document.getElementById('nmA'), nmB = document.getElementById('nmB');
+  var dtA = document.getElementById('dtA'), dtB = document.getElementById('dtB');
+  var roundI = document.querySelector('.round-i'), roundN = document.querySelector('.round-n');
+  var scoreEl = document.querySelector('.score');
+
+  function current(){ return qs[order[pos % order.length]]; }
+
+  function setTile(host, q, role, name, hasImg, opts) {
+    host.innerHTML = q[role].icon
+      ? '<img src="' + q[role].icon + '" alt="' + name + '">'
+      : q[role].emoji;
+    if (hasImg) opts.classList.add('hasimg');
+    else opts.classList.remove('hasimg');
+  }
+
+  function render() {
+    var q = current();
+    setTile(imgA, q, 'item_a', q.item_a.name, !!q.item_a.icon, elA);
+    setTile(imgB, q, 'item_b', q.item_b.name, !!q.item_b.icon, elB);
+    nmA.textContent = q.item_a.name;
+    nmB.textContent = q.item_b.name;
+    dtA.textContent = q.item_a.display_date;
+    dtB.textContent = q.item_b.display_date;
+    roundI.textContent = (pos % order.length) + 1;
+    roundN.textContent = order.length;
+    scoreEl.textContent = streak;
+    factEl.hidden = true;
+    nextEl.hidden = true;
+    [elA, elB].forEach(function (el) {
+      el.classList.remove('ok', 'no', 'off', 'dim');
+    });
+  }
+
+  function pick(role) {
+    if (locked) return;
+    locked = true;
+    var q = current();
+    var correct = q.correct;
+    var won = role === correct;
+    var okEl = correct === 'item_a' ? elA : elB;
+    var noEl = correct === 'item_a' ? elB : elA;
+    okEl.classList.add('ok');
+    noEl.classList.add('no', 'dim');
+    elA.classList.add('off'); elB.classList.add('off');
+    if (won) streak++;
+    else streak = 0;
+    scoreEl.textContent = streak;
+    var winName = q[correct].name;
+    var guessDate = q[role].display_date;
+    var correctDate = q[correct].display_date;
+    factEl.innerHTML = '<b>' + winName + '</b> came first (' + correctDate + ').' +
+      (won ? ' Well played!' : ' You guessed ' + guessDate + ' — nice try.') +
+      ' ' + q.fact;
+    factEl.hidden = false;
+    nextEl.hidden = false;
+  }
+
+  elA.addEventListener('click', function () { pick('item_a'); });
+  elB.addEventListener('click', function () { pick('item_b'); });
+  nextEl.addEventListener('click', function () { pos++; locked = false; render(); });
+
+  render();
+})();
+</script>
+
+<script>
+(function(){
+  var names = var names = ['airplane','amazon','android_phone','apple','arc_lamp','barbie','bicycle','bluetooth','braille','camel_domestication','camera','coca_cola','coffee','concorde','credit_card','disneyland','dna_structure','eiffel_tower','facebook','ford_model_t','google','gunpowder_in_europe','instagram','iphone','laser','lego','light_bulb','minecraft','moon_landing','netflix','nintendo','pizza','playstation','pokemon_red_and_green','reddit','sputnik_1','star_wars','telephone','television','tesla_motors','typewriter','wikipedia','world_wide_web','youtube'];;
+  var wall = document.getElementById('wall');
+  if (wall) {
+    names.forEach(function(n){
+      var d = document.createElement('div');
+      d.className = 'tile';
+      var im = document.createElement('img');
+      im.src = 'assets/icons/' + n + '.webp';
+      im.alt = '';
+      im.loading = 'lazy';
+      d.appendChild(im);
+      wall.appendChild(d);
+    });
+  }
+})();
+</script>
+
+</body>
+</html>
