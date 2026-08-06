@@ -58,6 +58,7 @@ async function discoverLinkedInAso() {
         const company = field(block, "base-search-card__subtitle") || "LinkedIn listing";
         const location = field(block, "job-search-card__location") || "Location not stated";
         if (!/\bASO\b|app store optimi/i.test(title)) continue;
+        if (/draftkings|sportsbook|casino|gambling|betting/i.test(`${company} ${title}`)) continue;
         const remote = /remote|worldwide|anywhere/i.test(`${title} ${location}`);
         discovered.push({
           company,
