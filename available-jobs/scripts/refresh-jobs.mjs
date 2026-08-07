@@ -17,7 +17,14 @@ const closedSignals = [
 const linkedInQueries = [
   "App Store Optimization",
   "ASO Manager mobile app",
-  "Senior ASO Consultant"
+  "Senior ASO Consultant",
+  "Mobile Product Marketing Manager",
+  "Promo events LiveOps Manager",
+  "LiveOps Mobile Marketing Manager",
+  "Mobile Gaming Marketing Manager",
+  "ASO Expert",
+  "ASO Consultant",
+  "Mobile App Marketing Manager"
 ];
 
 const decode = value => value
