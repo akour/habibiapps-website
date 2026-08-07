@@ -1,23 +1,6 @@
 {
-  "checkedAt": "2026-08-07T02:35:04.996Z",
-  "newJobs": [
-    {
-      "company": "Proton",
-      "title": "ASO Manager",
-      "fit": "Strong",
-      "priority": "High",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "London, England, United Kingdom",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4449684281",
-      "active": true,
-      "discoveredAt": "2026-08-07T02:33:33.618Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-08-07T02:35:04.996Z"
-    }
-  ],
+  "checkedAt": "2026-08-07T03:47:37.230Z",
+  "newJobs": [],
   "closedJobs": [],
   "totals": {
     "active": 26,
