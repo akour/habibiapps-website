@@ -1,11 +1,60 @@
 {
-  "checkedAt": "2026-08-07T13:22:48.655Z",
-  "newJobs": [],
+  "checkedAt": "2026-08-07T13:48:51.732Z",
+  "newJobs": [
+    {
+      "company": "Confidential",
+      "title": "App Store Optimization (ASO) Expert",
+      "fit": "Strong",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Taipei, Taipei City, Taiwan",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4400371652",
+      "active": true,
+      "discoveredAt": "2026-08-07T13:47:15.367Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-07T13:48:50.559Z"
+    },
+    {
+      "company": "Confidential",
+      "title": "ASO",
+      "fit": "Good",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Beijing, China",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4447346956",
+      "active": true,
+      "discoveredAt": "2026-08-07T13:47:15.946Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-07T13:48:51.732Z"
+    },
+    {
+      "company": "Inception Technologies Global",
+      "title": "App Store Optimization (ASO)",
+      "fit": "Good",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Alandur, Tamil Nadu, India",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4449374745",
+      "active": true,
+      "discoveredAt": "2026-08-07T13:47:15.368Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-07T13:48:51.143Z"
+    }
+  ],
   "closedJobs": [],
   "totals": {
-    "active": 27,
-    "aso": 20,
+    "active": 30,
+    "aso": 23,
     "remote": 7,
-    "linkedIn": 20
+    "linkedIn": 23
   }
 }
