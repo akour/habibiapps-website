@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -22,7 +22,7 @@
 </head>
 <body>
   <header class="hero">
-    <div class="shell nav"><a class="brand" href="/">Habibi Apps<span>.com</span></a><nav class="navlinks"><a href="/#games">Games</a><a href="/about/">About</a><a href="/testimonials/">Testimonials</a><a href="/available-jobs/">Jobs</a></nav></div>
+    <div class="shell nav"><a class="brand" href="/">Habibi Apps<span>.com</span></a><nav class="navlinks"><a href="/#games">Apps &amp; Games</a><a href="/services/">Services</a><a href="/about/">About</a><a href="/available-jobs/">Jobs</a></nav></div>
     <div class="shell hero-grid">
       <div><div class="eyebrow">Mobile games · career radar · updated daily</div><h1>Find the job<br>behind the hit.</h1><p class="lead">A daily career radar for ASO, app growth and mobile-game marketing—now searching LinkedIn as well as the companies behind the top charts.</p></div>
       <div class="radar"><div class="ring r1"></div><div class="ring r2"></div><div class="ring r3"></div><small>LIVE SIGNAL</small><strong id="liveCount">—</strong></div>
@@ -41,20 +41,20 @@
 
     <div class="update-box">
       <div class="freshness"><span class="dot"></span><span id="freshness">Loading the latest check…</span></div>
-      <div class="actions"><button class="btn" id="refreshButton">↻ Refresh displayed data</button><a class="btn primary" href="https://github.com/akour/habibiapps-website/actions/workflows/update-available-jobs.yml" target="_blank" rel="noopener">Run full update ↗</a></div>
+      <div class="actions"><button type="button" class="btn" id="refreshButton">↻ Refresh displayed data</button><a class="btn primary" href="https://github.com/akour/habibiapps-website/actions/workflows/update-available-jobs.yml" target="_blank" rel="noopener">Run full update ↗</a></div>
     </div>
 
     <div class="controls">
-      <div class="tabs"><button class="chip active" data-view="jobs">Available jobs</button><button class="chip" data-view="companies">Company watchlist</button></div>
+      <div class="tabs"><button type="button" class="chip active" data-view="jobs">Available jobs</button><button type="button" class="chip" data-view="companies">Company watchlist</button></div>
       <label class="search">⌕ <input id="search" type="search" placeholder="Search company, role or game…" aria-label="Search"></label>
     </div>
-    <div id="focusFilters" class="filters"><button class="chip active" data-focus="all">All roles</button><button class="chip" data-focus="aso">ASO only</button><button class="chip" data-focus="linkedin">LinkedIn only</button></div><div id="jobFilters" class="filters"><button class="chip active" data-mode="all">All locations</button><button class="chip" data-mode="remote">Remote</button><button class="chip" data-mode="hybrid">Hybrid</button><button class="chip" data-mode="onsite">On-site</button><button class="chip" data-mode="closed">Recently closed</button></div>
+    <div id="focusFilters" class="filters"><button type="button" class="chip active" data-focus="all">All roles</button><button type="button" class="chip" data-focus="aso">ASO only</button><button type="button" class="chip" data-focus="linkedin">LinkedIn only</button></div><div id="jobFilters" class="filters"><button type="button" class="chip active" data-mode="all">All locations</button><button type="button" class="chip" data-mode="remote">Remote</button><button type="button" class="chip" data-mode="hybrid">Hybrid</button><button type="button" class="chip" data-mode="onsite">On-site</button><button type="button" class="chip" data-mode="closed">Recently closed</button></div>
     <div id="cards" class="cards" aria-live="polite"></div>
     <div id="companies" class="table-wrap"><table><thead><tr><th>Company</th><th>Chart games</th><th>Best rank</th><th>Careers</th><th>Current signal</th></tr></thead><tbody id="companyRows"></tbody></table></div>
   </main>
 
   <section class="note"><div class="shell"><div><span class="eyebrow">How updates work</span><h2>Daily by robot.<br>Anytime by you.</h2></div><div><p><strong>Every day at 08:00 Da Nang time (01:00 UTC)</strong>, GitHub searches LinkedIn for fresh ASO roles, checks every saved listing and publishes the result. “Run full update” opens the same action so the repository owner can run it immediately.</p><p>The refresh button reloads the newest published data without making you reload the whole page.</p></div></div></section>
-  <footer class="footer"><div class="shell"><div><a class="brand" href="/">Habibi Apps<span>.com</span></a><p>Independent mobile games—and the companies shaping the charts.</p></div><a href="https://github.com/akour/habibiapps-website/tree/main/available-jobs" target="_blank" rel="noopener">View the data on GitHub ↗</a></div></footer>
+  <footer class="footer"><div class="shell"><div><a class="brand" href="/">Habibi Apps<span>.com</span></a><p>Mobile growth intelligence for the teams shaping the charts.</p></div><a href="https://github.com/akour/habibiapps-website/tree/main/available-jobs" target="_blank" rel="noopener">View the data on GitHub ↗</a></div></footer>
 
   <script>
     const companies = [

@@ -1,44 +1,11 @@
 {
-  "checkedAt": "2026-08-10T03:10:33.080Z",
-  "newJobs": [
-    {
-      "company": "SplitMetrics",
-      "title": "ASO Manager",
-      "fit": "Strong",
-      "priority": "High",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Kyiv, Ukraine",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4449460185",
-      "active": true,
-      "discoveredAt": "2026-08-10T03:08:50.758Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-08-10T03:10:33.080Z"
-    },
-    {
-      "company": "Alliance for Recruitment",
-      "title": "Mobile ASO & Paid UA Specialist",
-      "fit": "Good",
-      "priority": "Medium",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Vilniaus, Lithuania",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4448172611",
-      "active": true,
-      "discoveredAt": "2026-08-10T03:08:50.758Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-08-10T03:10:32.536Z"
-    }
-  ],
+  "checkedAt": "2026-08-09T03:01:15.624Z",
+  "newJobs": [],
   "closedJobs": [],
   "totals": {
-    "active": 32,
-    "aso": 25,
+    "active": 30,
+    "aso": 23,
     "remote": 7,
-    "linkedIn": 25
+    "linkedIn": 23
   }
 }
