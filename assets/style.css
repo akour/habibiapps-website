@@ -7,3 +7,4 @@
 .footer-links{display:flex;justify-self:end;gap:26px;color:var(--cream);font-weight:750}.about-link{display:inline-flex;gap:12px;margin-top:30px;color:var(--cream);font-weight:800}.about-link:hover{color:var(--teal)}
 .mosaic:hover{border-color:#43c8c5b8}.mosaic .type,.mosaic .art span{color:var(--teal)}.mosaic .game-link:hover{color:var(--coral)}
 .balance:hover{border-color:#e8ad4fb8}.balance .type,.balance .art span{color:#e8ad4f}.balance .game-link:hover{color:#e8ad4f}
+.brand{display:inline-flex;align-items:center;gap:10px}.brand:before{content:"";display:block;width:30px;height:30px;flex:0 0 30px;background:url("habibi-mark.svg") center/contain no-repeat}
