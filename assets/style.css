@@ -5,3 +5,4 @@
 @media(max-width:560px){.header{min-height:auto;flex-wrap:wrap;gap:7px;padding-block:15px}.brand{font-size:.78rem}.header nav{width:100%;gap:18px;overflow-x:auto}.header nav a{font-size:.72rem;white-space:nowrap}.hero-copy{min-height:702px}h1{font-size:clamp(3.5rem,19vw,5rem)}.button{width:100%;justify-content:space-between}.card-copy{min-height:290px}.contact-box>a{font-size:.84rem}.footer .brand{font-size:.68rem}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
 .footer-links{display:flex;justify-self:end;gap:26px;color:var(--cream);font-weight:750}.about-link{display:inline-flex;gap:12px;margin-top:30px;color:var(--cream);font-weight:800}.about-link:hover{color:var(--teal)}
+.mosaic:hover{border-color:#43c8c5b8}.mosaic .type,.mosaic .art span{color:var(--teal)}.mosaic .game-link:hover{color:var(--coral)}
