@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title desc">
+  <title id="title">Habibi Apps mark</title>
+  <desc id="desc">Four rounded tiles arranged as a playful mobile app grid.</desc>
+  <rect x="5" y="5" width="17" height="17" rx="5" fill="#f06b5c" transform="rotate(-6 13.5 13.5)"/>
+  <rect x="26" y="5" width="17" height="17" rx="5" fill="#e7c99e" transform="rotate(5 34.5 13.5)"/>
+  <rect x="5" y="26" width="17" height="17" rx="5" fill="#43c8c5" transform="rotate(4 13.5 34.5)"/>
+  <rect x="26" y="26" width="17" height="17" rx="5" fill="#f4f1e8" transform="rotate(-7 34.5 34.5)"/>
+  <circle cx="24" cy="24" r="3" fill="#0b0e10"/>
+</svg>
