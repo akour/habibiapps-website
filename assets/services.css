@@ -42,9 +42,10 @@
 .experiment-section{padding-block:clamp(85px,9vw,125px);border-block:1px solid #e7c99e2e;background:radial-gradient(circle at 50% 50%,#43c8c516,transparent 45%),#111315}
 .experiment-section h2{margin:0;font-size:clamp(2.8rem,5.5vw,5.7rem);font-weight:900;letter-spacing:-.055em;line-height:.94}
 .experiment-loop{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px;margin:48px 0 0;padding:0;list-style:none;counter-reset:item}
-.experiment-loop li{position:relative;display:flex;min-height:130px;flex-direction:column;justify-content:space-between;padding:19px;border:1px solid #e7c99e3b;border-radius:18px;background:#0b0e1099;font-size:clamp(.92rem,1.3vw,1.08rem);font-weight:850}
+.experiment-loop li{position:relative;display:flex;min-height:155px;flex-direction:column;justify-content:space-between;padding:19px;border:1px solid #e7c99e3b;border-radius:18px;background:#0b0e1099;font-size:clamp(.92rem,1.3vw,1.08rem);font-weight:850}
 .experiment-loop li:not(:last-child):after{content:"→";position:absolute;z-index:2;right:-11px;top:50%;display:grid;width:22px;height:22px;place-items:center;border-radius:50%;background:var(--coral);color:#fff;font-size:.65rem;transform:translateY(-50%)}
 .experiment-loop span{color:var(--teal);font-size:.64rem;letter-spacing:.12em}
+.experiment-loop svg{width:34px;height:34px;fill:none;stroke:var(--coral);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .laboratory{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(60px,9vw,140px);align-items:start;padding-block:clamp(100px,12vw,175px)}
 .laboratory h2,.experience-heading h2,.engagements h2,.who-section h2,.services-founder h2,.services-cta h2{margin:0;font-size:clamp(2.7rem,5.5vw,5.7rem);font-weight:900;letter-spacing:-.055em;line-height:.94}
 .laboratory-body p{color:#f4f1e8b0;font-size:clamp(1.08rem,1.65vw,1.3rem);line-height:1.7}
