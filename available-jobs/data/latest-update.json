@@ -1,11 +1,44 @@
 {
-  "checkedAt": "2026-08-09T03:01:15.624Z",
-  "newJobs": [],
+  "checkedAt": "2026-08-11T03:03:25.033Z",
+  "newJobs": [
+    {
+      "company": "Kayzin Recruitment",
+      "title": "App Growth Lead – ASO & Conversion",
+      "fit": "Strong",
+      "priority": "High",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Dubai, United Arab Emirates",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4449537434",
+      "active": true,
+      "discoveredAt": "2026-08-11T03:01:45.125Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-11T03:03:24.488Z"
+    },
+    {
+      "company": "SplitMetrics",
+      "title": "ASO Manager",
+      "fit": "Strong",
+      "priority": "High",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Kyiv, Ukraine",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4449460185",
+      "active": true,
+      "discoveredAt": "2026-08-11T03:01:45.577Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-11T03:03:25.033Z"
+    }
+  ],
   "closedJobs": [],
   "totals": {
-    "active": 30,
-    "aso": 23,
+    "active": 32,
+    "aso": 25,
     "remote": 7,
-    "linkedIn": 23
+    "linkedIn": 25
   }
 }
