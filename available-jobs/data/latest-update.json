@@ -1,44 +1,60 @@
 {
-  "checkedAt": "2026-08-11T03:03:25.033Z",
+  "checkedAt": "2026-08-12T03:23:05.460Z",
   "newJobs": [
     {
-      "company": "Kayzin Recruitment",
-      "title": "App Growth Lead – ASO & Conversion",
+      "company": "Emerald Zebra Recruitment & Executive Search",
+      "title": "ASO Manager, Limassol, Cyprus",
       "fit": "Strong",
       "priority": "High",
       "category": "aso",
       "source": "LinkedIn",
       "mode": "onsite",
-      "location": "Dubai, United Arab Emirates",
+      "location": "Limassol, Cyprus",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4449537434",
+      "url": "https://www.linkedin.com/jobs/view/4452191982",
       "active": true,
-      "discoveredAt": "2026-08-11T03:01:45.125Z",
+      "discoveredAt": "2026-08-12T03:21:21.163Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-11T03:03:24.488Z"
+      "lastChecked": "2026-08-12T03:23:04.694Z"
     },
     {
-      "company": "SplitMetrics",
-      "title": "ASO Manager",
-      "fit": "Strong",
-      "priority": "High",
+      "company": "Air Apps",
+      "title": "ASO Specialist San Francisco",
+      "fit": "Good",
+      "priority": "Medium",
       "category": "aso",
       "source": "LinkedIn",
       "mode": "onsite",
-      "location": "Kyiv, Ukraine",
+      "location": "San Francisco, CA",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4449460185",
+      "url": "https://www.linkedin.com/jobs/view/4452428790",
       "active": true,
-      "discoveredAt": "2026-08-11T03:01:45.577Z",
+      "discoveredAt": "2026-08-12T03:21:21.163Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-11T03:03:25.033Z"
+      "lastChecked": "2026-08-12T03:23:03.898Z"
+    },
+    {
+      "company": "Air Apps",
+      "title": "ASO Specialist",
+      "fit": "Good",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Lisbon, Lisbon, Portugal",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4452441513",
+      "active": true,
+      "discoveredAt": "2026-08-12T03:21:21.615Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-12T03:23:05.460Z"
     }
   ],
   "closedJobs": [],
   "totals": {
-    "active": 32,
-    "aso": 25,
+    "active": 35,
+    "aso": 28,
     "remote": 7,
-    "linkedIn": 25
+    "linkedIn": 28
   }
 }
