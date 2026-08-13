@@ -1,22 +1,40 @@
 {
-  "checkedAt": "2026-08-12T03:23:05.460Z",
+  "checkedAt": "2026-08-13T03:26:15.835Z",
   "newJobs": [
     {
-      "company": "Emerald Zebra Recruitment & Executive Search",
-      "title": "ASO Manager, Limassol, Cyprus",
-      "fit": "Strong",
-      "priority": "High",
+      "company": "Connect Technologies",
+      "title": "Sr. ASO Specialist",
+      "fit": "Good",
+      "priority": "Medium",
       "category": "aso",
       "source": "LinkedIn",
       "mode": "onsite",
-      "location": "Limassol, Cyprus",
+      "location": "Lahore, Punjab, Pakistan",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4452191982",
+      "url": "https://www.linkedin.com/jobs/view/4452429736",
       "active": true,
-      "discoveredAt": "2026-08-12T03:21:21.163Z",
+      "discoveredAt": "2026-08-13T03:24:33.228Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-12T03:23:04.694Z"
+      "lastChecked": "2026-08-13T03:26:15.314Z"
     },
+    {
+      "company": "Enzipe",
+      "title": "ASO Specialist- (On-site Faisalabad)",
+      "fit": "Good",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Faisalabad, Punjab, Pakistan",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4452411121",
+      "active": true,
+      "discoveredAt": "2026-08-13T03:24:35.894Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-13T03:26:15.835Z"
+    }
+  ],
+  "closedJobs": [
     {
       "company": "Air Apps",
       "title": "ASO Specialist San Francisco",
@@ -28,10 +46,10 @@
       "location": "San Francisco, CA",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
       "url": "https://www.linkedin.com/jobs/view/4452428790",
-      "active": true,
+      "active": false,
       "discoveredAt": "2026-08-12T03:21:21.163Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-12T03:23:03.898Z"
+      "lastChecked": "2026-08-13T03:25:26.818Z"
     },
     {
       "company": "Air Apps",
@@ -44,13 +62,12 @@
       "location": "Lisbon, Lisbon, Portugal",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
       "url": "https://www.linkedin.com/jobs/view/4452441513",
-      "active": true,
+      "active": false,
       "discoveredAt": "2026-08-12T03:21:21.615Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-12T03:23:05.460Z"
+      "lastChecked": "2026-08-13T03:25:27.410Z"
     }
   ],
-  "closedJobs": [],
   "totals": {
     "active": 35,
     "aso": 28,
