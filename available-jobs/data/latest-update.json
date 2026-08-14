@@ -1,21 +1,54 @@
 {
-  "checkedAt": "2026-08-13T03:26:15.835Z",
+  "checkedAt": "2026-08-14T03:23:45.721Z",
   "newJobs": [
     {
-      "company": "Connect Technologies",
-      "title": "Sr. ASO Specialist",
-      "fit": "Good",
+      "company": "Viva Money",
+      "title": "Senior ASO/SEO Specialist",
+      "fit": "Strong",
+      "priority": "High",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Bengaluru, Karnataka, India",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4444130692",
+      "active": true,
+      "discoveredAt": "2026-08-14T03:22:04.328Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-14T03:23:45.721Z"
+    },
+    {
+      "company": "Apps Guru Technologies (Pvt.) Ltd.",
+      "title": "App Store Optimization Expert",
+      "fit": "Strong",
       "priority": "Medium",
       "category": "aso",
       "source": "LinkedIn",
       "mode": "onsite",
-      "location": "Lahore, Punjab, Pakistan",
+      "location": "Faisalabad, Punjab, Pakistan",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4452429736",
+      "url": "https://www.linkedin.com/jobs/view/4450468227",
       "active": true,
-      "discoveredAt": "2026-08-13T03:24:33.228Z",
+      "discoveredAt": "2026-08-14T03:22:01.319Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-13T03:26:15.314Z"
+      "lastChecked": "2026-08-14T03:23:45.094Z"
+    }
+  ],
+  "closedJobs": [
+    {
+      "company": "Air Apps",
+      "title": "ASO Specialist",
+      "fit": "Strong",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "San Francisco, California",
+      "why": "Hands-on ASO strategy, keyword research, creative testing and organic acquisition for consumer mobile apps.",
+      "url": "https://www.linkedin.com/jobs/view/4443551660",
+      "active": false,
+      "lastStatus": 200,
+      "lastChecked": "2026-08-14T03:22:55.285Z"
     },
     {
       "company": "Enzipe",
@@ -28,50 +61,31 @@
       "location": "Faisalabad, Punjab, Pakistan",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
       "url": "https://www.linkedin.com/jobs/view/4452411121",
-      "active": true,
+      "active": false,
       "discoveredAt": "2026-08-13T03:24:35.894Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-13T03:26:15.835Z"
-    }
-  ],
-  "closedJobs": [
-    {
-      "company": "Air Apps",
-      "title": "ASO Specialist San Francisco",
-      "fit": "Good",
-      "priority": "Medium",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "San Francisco, CA",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4452428790",
-      "active": false,
-      "discoveredAt": "2026-08-12T03:21:21.163Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-08-13T03:25:26.818Z"
+      "lastChecked": "2026-08-14T03:22:59.532Z"
     },
     {
-      "company": "Air Apps",
-      "title": "ASO Specialist",
+      "company": "TinyPal",
+      "title": "App Store Optimization Rating Consultant",
       "fit": "Good",
       "priority": "Medium",
       "category": "aso",
       "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Lisbon, Lisbon, Portugal",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4452441513",
+      "mode": "remote",
+      "location": "United States · contract",
+      "why": "Focused ASO consulting work covering visibility, rankings, metadata, reviews and conversion.",
+      "url": "https://www.linkedin.com/jobs/view/4444556363",
       "active": false,
-      "discoveredAt": "2026-08-12T03:21:21.615Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-13T03:25:27.410Z"
+      "lastChecked": "2026-08-14T03:23:42.419Z"
     }
   ],
   "totals": {
-    "active": 35,
-    "aso": 28,
-    "remote": 7,
-    "linkedIn": 28
+    "active": 34,
+    "aso": 27,
+    "remote": 6,
+    "linkedIn": 27
   }
 }
