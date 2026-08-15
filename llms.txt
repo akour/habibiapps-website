@@ -1,0 +1,37 @@
+# Habibi Apps
+
+> Habibi Apps is an independent mobile publisher and growth studio that builds and publishes mobile apps and games and helps mobile teams grow through ASO, LiveOps, store conversion, and practical experimentation.
+
+Official website: https://habibiapps.com/
+Contact: mailto:akour@habibiapps.com
+About: https://habibiapps.com/about/
+Sitemap: https://habibiapps.com/sitemap.xml
+
+## Identity
+
+- [About Habibi Apps](https://habibiapps.com/about/): Company information, founder Ahmed Akour, and the public identity links used by Habibi Apps.
+- [LinkedIn](https://www.linkedin.com/in/akour/): Professional profile.
+- [GitHub](https://github.com/akour): Projects and code.
+- [Google Play publisher](https://play.google.com/store/apps/developer?id=HabibiApps): Habibi Apps apps and games.
+
+## Primary pages
+
+- [Home](https://habibiapps.com/): Habibi Apps mobile products, games, publishing, growth work, and contact section.
+- [Services](https://habibiapps.com/services/): ASO, mobile growth, launch strategy, LiveOps, and store optimization for apps and games.
+- [Available Jobs](https://habibiapps.com/available-jobs/): A daily-updated radar of mobile-game companies and product marketing, ASO, growth, and LiveOps roles.
+- [Testimonials](https://habibiapps.com/testimonials/): Client testimonials for Ahmed Akour's app store optimization and mobile growth work.
+- [Contact](https://habibiapps.com/#contact): Business contact section for Habibi Apps.
+
+## Products
+
+- [Balance Blast](https://habibiapps.com/balanceblast/): Physics-driven block puzzle from Habibi Apps focused on clearing lines, managing weight and torque, and keeping the scale balanced.
+- [3 Match Latte](https://habibiapps.com/lattematch/): Cosy coffee-shop match-3 puzzle with three orders per shift, no timers, no lives, and offline play.
+- [Mosaic Drop](https://habibiapps.com/mosaicdrop/): Relaxing 8×8 block puzzle with rows and columns to clear, combos, daily challenges, and missions.
+- [What Came First?](https://habibiapps.com/what-came-first/): Discovery quiz where players choose which of two things came first; designed to play fully offline.
+- [Void Stack on Google Play](https://play.google.com/store/apps/details?id=com.oneapps.voidstack): Published Habibi Apps product.
+- [Juha's Bad Day: Habibi, Run! on Google Play](https://play.google.com/store/apps/details?id=com.oneapps.habibirun): Published Habibi Apps product.
+
+## Policies
+
+- [3 Match Latte privacy policy](https://habibiapps.com/lattematch/privacy/): Privacy policy for 3 Match Latte.
+- [What Came First? privacy policy](https://habibiapps.com/what-came-first/privacy/): Privacy policy for What Came First?.
