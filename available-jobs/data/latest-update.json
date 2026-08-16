@@ -1,11 +1,28 @@
 {
-  "checkedAt": "2026-08-15T02:13:11.591Z",
-  "newJobs": [],
+  "checkedAt": "2026-08-16T02:21:00.721Z",
+  "newJobs": [
+    {
+      "company": "Creative Spartans",
+      "title": "ASO Expert",
+      "fit": "Strong",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Lahore, Punjab, Pakistan",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4451734089",
+      "active": true,
+      "discoveredAt": "2026-08-16T02:19:20.909Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-16T02:21:00.721Z"
+    }
+  ],
   "closedJobs": [],
   "totals": {
-    "active": 34,
-    "aso": 27,
+    "active": 35,
+    "aso": 28,
     "remote": 6,
-    "linkedIn": 27
+    "linkedIn": 28
   }
 }
