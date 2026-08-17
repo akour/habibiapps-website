@@ -1,28 +1,28 @@
 {
-  "checkedAt": "2026-08-16T02:21:00.721Z",
-  "newJobs": [
+  "checkedAt": "2026-08-17T02:18:56.354Z",
+  "newJobs": [],
+  "closedJobs": [
     {
-      "company": "Creative Spartans",
-      "title": "ASO Expert",
+      "company": "Viva Money",
+      "title": "Senior ASO/SEO Specialist",
       "fit": "Strong",
-      "priority": "Medium",
+      "priority": "High",
       "category": "aso",
       "source": "LinkedIn",
       "mode": "onsite",
-      "location": "Lahore, Punjab, Pakistan",
+      "location": "Bengaluru, Karnataka, India",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4451734089",
-      "active": true,
-      "discoveredAt": "2026-08-16T02:19:20.909Z",
+      "url": "https://www.linkedin.com/jobs/view/4444130692",
+      "active": false,
+      "discoveredAt": "2026-08-14T03:22:04.328Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-16T02:21:00.721Z"
+      "lastChecked": "2026-08-17T02:18:03.635Z"
     }
   ],
-  "closedJobs": [],
   "totals": {
-    "active": 35,
-    "aso": 28,
+    "active": 34,
+    "aso": 27,
     "remote": 6,
-    "linkedIn": 28
+    "linkedIn": 27
   }
 }
