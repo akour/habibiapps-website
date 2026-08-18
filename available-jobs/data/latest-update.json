@@ -1,28 +1,76 @@
 {
-  "checkedAt": "2026-08-17T02:18:56.354Z",
-  "newJobs": [],
-  "closedJobs": [
+  "checkedAt": "2026-08-18T02:15:20.363Z",
+  "newJobs": [
     {
-      "company": "Viva Money",
-      "title": "Senior ASO/SEO Specialist",
+      "company": "Creative Spartans",
+      "title": "ASO Expert & Publishing Manager",
       "fit": "Strong",
       "priority": "High",
       "category": "aso",
       "source": "LinkedIn",
       "mode": "onsite",
-      "location": "Bengaluru, Karnataka, India",
+      "location": "Lahore, Punjab, Pakistan",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4444130692",
-      "active": false,
-      "discoveredAt": "2026-08-14T03:22:04.328Z",
+      "url": "https://www.linkedin.com/jobs/view/4410153031",
+      "active": true,
+      "discoveredAt": "2026-08-18T02:13:34.590Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-17T02:18:03.635Z"
+      "lastChecked": "2026-08-18T02:15:20.362Z"
+    },
+    {
+      "company": "#ARM Worldwide",
+      "title": "SEO (ASO) Specialist",
+      "fit": "Good",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Gurugram, Haryana, India",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4454241382",
+      "active": true,
+      "discoveredAt": "2026-08-18T02:13:34.590Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-18T02:15:19.764Z"
+    },
+    {
+      "company": "The Games Forest",
+      "title": "(App Store Optimization) ASO",
+      "fit": "Good",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Lahore, Punjab, Pakistan",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4452249070",
+      "active": true,
+      "discoveredAt": "2026-08-18T02:13:34.590Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-18T02:15:19.210Z"
+    }
+  ],
+  "closedJobs": [
+    {
+      "company": "Electronic Arts",
+      "title": "ASO Manager",
+      "fit": "Strong",
+      "priority": "High",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Redwood City, California · temporary",
+      "why": "Excellent games-industry and ASO match, including experience across large mobile game portfolios.",
+      "url": "https://www.linkedin.com/jobs/view/4427880022",
+      "active": false,
+      "lastStatus": 200,
+      "lastChecked": "2026-08-18T02:13:41.080Z"
     }
   ],
   "totals": {
-    "active": 34,
-    "aso": 27,
+    "active": 36,
+    "aso": 29,
     "remote": 6,
-    "linkedIn": 27
+    "linkedIn": 29
   }
 }
