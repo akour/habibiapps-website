@@ -1,22 +1,104 @@
 {
-  "checkedAt": "2026-08-18T02:15:20.363Z",
+  "checkedAt": "2026-08-19T02:18:11.389Z",
   "newJobs": [
     {
-      "company": "Creative Spartans",
-      "title": "ASO Expert & Publishing Manager",
+      "company": "Viva Money",
+      "title": "Senior ASO/SEO Specialist",
       "fit": "Strong",
       "priority": "High",
       "category": "aso",
       "source": "LinkedIn",
       "mode": "onsite",
+      "location": "Bengaluru, Karnataka, India",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4452581425",
+      "active": true,
+      "discoveredAt": "2026-08-19T02:16:23.167Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-19T02:18:10.087Z"
+    },
+    {
+      "company": "BVGroup",
+      "title": "Head of ASO | UK | Remote",
+      "fit": "Good",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "remote",
+      "location": "Greater London, England, United Kingdom",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4443259896",
+      "active": true,
+      "discoveredAt": "2026-08-19T02:16:22.258Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-19T02:18:08.564Z"
+    },
+    {
+      "company": "BVGroup",
+      "title": "Head of ASO",
+      "fit": "Good",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Gibraltar, Gibraltar",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4445150806",
+      "active": true,
+      "discoveredAt": "2026-08-19T02:16:22.747Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-19T02:18:09.607Z"
+    },
+    {
+      "company": "Enzipe",
+      "title": "ASO Specialist- (Inhouse Faisalabad)",
+      "fit": "Good",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Faisalabad, Punjab, Pakistan",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4452814104",
+      "active": true,
+      "discoveredAt": "2026-08-19T02:16:25.418Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-19T02:18:11.389Z"
+    },
+    {
+      "company": "Game District",
+      "title": "ASO Expert",
+      "fit": "Strong",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
       "location": "Lahore, Punjab, Pakistan",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4410153031",
+      "url": "https://www.linkedin.com/jobs/view/4455725906",
       "active": true,
-      "discoveredAt": "2026-08-18T02:13:34.590Z",
+      "discoveredAt": "2026-08-19T02:16:22.258Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-18T02:15:20.362Z"
+      "lastChecked": "2026-08-19T02:18:09.086Z"
     },
+    {
+      "company": "WEEWOO",
+      "title": "ASO Marketing Specialist",
+      "fit": "Good",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Las Palmas de Gran Canaria, Canary Islands, Spain",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4454745467",
+      "active": true,
+      "discoveredAt": "2026-08-19T02:16:25.418Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-19T02:18:10.905Z"
+    }
+  ],
+  "closedJobs": [
     {
       "company": "#ARM Worldwide",
       "title": "SEO (ASO) Specialist",
@@ -28,49 +110,16 @@
       "location": "Gurugram, Haryana, India",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
       "url": "https://www.linkedin.com/jobs/view/4454241382",
-      "active": true,
-      "discoveredAt": "2026-08-18T02:13:34.590Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-08-18T02:15:19.764Z"
-    },
-    {
-      "company": "The Games Forest",
-      "title": "(App Store Optimization) ASO",
-      "fit": "Good",
-      "priority": "Medium",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Lahore, Punjab, Pakistan",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4452249070",
-      "active": true,
-      "discoveredAt": "2026-08-18T02:13:34.590Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-08-18T02:15:19.210Z"
-    }
-  ],
-  "closedJobs": [
-    {
-      "company": "Electronic Arts",
-      "title": "ASO Manager",
-      "fit": "Strong",
-      "priority": "High",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Redwood City, California · temporary",
-      "why": "Excellent games-industry and ASO match, including experience across large mobile game portfolios.",
-      "url": "https://www.linkedin.com/jobs/view/4427880022",
       "active": false,
+      "discoveredAt": "2026-08-18T02:13:34.590Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-18T02:13:41.080Z"
+      "lastChecked": "2026-08-19T02:17:14.027Z"
     }
   ],
   "totals": {
-    "active": 36,
-    "aso": 29,
-    "remote": 6,
-    "linkedIn": 29
+    "active": 41,
+    "aso": 34,
+    "remote": 7,
+    "linkedIn": 34
   }
 }
