@@ -1,44 +1,28 @@
 {
-  "checkedAt": "2026-08-20T02:16:44.069Z",
-  "newJobs": [
+  "checkedAt": "2026-08-21T02:23:03.838Z",
+  "newJobs": [],
+  "closedJobs": [
     {
-      "company": "AppNation",
-      "title": "Marketing Manager (with ASO&ASA Expertise)",
-      "fit": "Strong",
-      "priority": "High",
+      "company": "Enzipe",
+      "title": "ASO Specialist- (Inhouse Faisalabad)",
+      "fit": "Good",
+      "priority": "Medium",
       "category": "aso",
       "source": "LinkedIn",
       "mode": "onsite",
-      "location": "Istanbul, Türkiye",
+      "location": "Faisalabad, Punjab, Pakistan",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4455597508",
-      "active": true,
-      "discoveredAt": "2026-08-20T02:14:57.879Z",
+      "url": "https://www.linkedin.com/jobs/view/4452814104",
+      "active": false,
+      "discoveredAt": "2026-08-19T02:16:25.418Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-20T02:16:44.069Z"
-    },
-    {
-      "company": "New Age",
-      "title": "Marketing Manager [UA + ASO] Android & iOS - Remote",
-      "fit": "Strong",
-      "priority": "High",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "remote",
-      "location": "India",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4454259776",
-      "active": true,
-      "discoveredAt": "2026-08-20T02:14:54.511Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-08-20T02:16:43.568Z"
+      "lastChecked": "2026-08-21T02:22:15.260Z"
     }
   ],
-  "closedJobs": [],
   "totals": {
-    "active": 44,
-    "aso": 37,
+    "active": 43,
+    "aso": 36,
     "remote": 8,
-    "linkedIn": 37
+    "linkedIn": 36
   }
 }
