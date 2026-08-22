@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-21T02:23:03.838Z",
+  "checkedAt": "2026-08-22T02:15:29.775Z",
   "jobs": [
     {
       "company": "Admiral Media",
@@ -14,7 +14,7 @@
       "url": "https://www.linkedin.com/jobs/view/4444002969",
       "active": true,
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:21:20.399Z"
+      "lastChecked": "2026-08-22T02:13:38.057Z"
     },
     {
       "company": "AppNation",
@@ -30,7 +30,7 @@
       "active": true,
       "discoveredAt": "2026-08-20T02:14:57.879Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:21:21.051Z"
+      "lastChecked": "2026-08-22T02:13:38.729Z"
     },
     {
       "company": "Appstane Technologies",
@@ -46,7 +46,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.940Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:21:21.479Z"
+      "lastChecked": "2026-08-22T02:13:39.213Z"
     },
     {
       "company": "Ares Interactive",
@@ -61,7 +61,7 @@
       "url": "https://www.linkedin.com/jobs/view/4436487694",
       "active": true,
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:21:22.084Z"
+      "lastChecked": "2026-08-22T02:13:39.817Z"
     },
     {
       "company": "Cella",
@@ -76,7 +76,7 @@
       "url": "https://www.linkedin.com/jobs/view/4446954282",
       "active": true,
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:21:22.573Z"
+      "lastChecked": "2026-08-22T02:13:40.352Z"
     },
     {
       "company": "Creative Spartans",
@@ -92,7 +92,7 @@
       "active": true,
       "discoveredAt": "2026-08-18T02:13:34.590Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:21:23.078Z"
+      "lastChecked": "2026-08-22T02:13:40.879Z"
     },
     {
       "company": "Emerald Zebra Recruitment & Executive Search",
@@ -108,7 +108,7 @@
       "active": true,
       "discoveredAt": "2026-08-12T03:21:21.163Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:21:23.557Z"
+      "lastChecked": "2026-08-22T02:13:42.722Z"
     },
     {
       "company": "Gram Games",
@@ -123,9 +123,8 @@
       "url": "https://www.linkedin.com/jobs/view/4448049972",
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.940Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-08-21T02:21:23.579Z",
-      "checkNote": "inconclusive-429"
+      "lastStatus": 200,
+      "lastChecked": "2026-08-22T02:13:43.432Z"
     },
     {
       "company": "Inkitt",
@@ -140,23 +139,7 @@
       "url": "https://www.linkedin.com/jobs/view/4443518415",
       "active": true,
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:21:24.213Z"
-    },
-    {
-      "company": "Kayzin Recruitment",
-      "title": "App Growth Lead – ASO & Conversion",
-      "fit": "Strong",
-      "priority": "High",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Dubai, United Arab Emirates",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4449537434",
-      "active": true,
-      "discoveredAt": "2026-08-11T03:01:45.125Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:21:24.780Z"
+      "lastChecked": "2026-08-22T02:13:44.046Z"
     },
     {
       "company": "New Age",
@@ -172,7 +155,7 @@
       "active": true,
       "discoveredAt": "2026-08-20T02:14:54.511Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:21:25.262Z"
+      "lastChecked": "2026-08-22T02:13:45.148Z"
     },
     {
       "company": "Proton",
@@ -187,9 +170,8 @@
       "url": "https://www.linkedin.com/jobs/view/4449684281",
       "active": true,
       "discoveredAt": "2026-08-07T02:33:33.618Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-08-21T02:21:25.282Z",
-      "checkNote": "inconclusive-429"
+      "lastStatus": 200,
+      "lastChecked": "2026-08-22T02:13:45.707Z"
     },
     {
       "company": "Roblox",
@@ -203,7 +185,7 @@
       "source": "Company careers",
       "category": "general",
       "priority": "High",
-      "lastChecked": "2026-08-21T02:21:45.283Z",
+      "lastChecked": "2026-08-22T02:14:05.708Z",
       "checkNote": "timeout"
     },
     {
@@ -218,7 +200,7 @@
       "source": "Company careers",
       "category": "general",
       "priority": "High",
-      "lastChecked": "2026-08-21T02:22:05.283Z",
+      "lastChecked": "2026-08-22T02:14:25.708Z",
       "checkNote": "timeout"
     },
     {
@@ -235,7 +217,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.940Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:05.841Z"
+      "lastChecked": "2026-08-22T02:14:26.279Z"
     },
     {
       "company": "SplitMetrics",
@@ -251,7 +233,7 @@
       "active": true,
       "discoveredAt": "2026-08-11T03:01:45.577Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:06.355Z"
+      "lastChecked": "2026-08-22T02:14:26.770Z"
     },
     {
       "company": "Viva Money",
@@ -267,7 +249,7 @@
       "active": true,
       "discoveredAt": "2026-08-19T02:16:23.167Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:06.869Z"
+      "lastChecked": "2026-08-22T02:14:27.380Z"
     },
     {
       "company": "Yahoo",
@@ -282,7 +264,7 @@
       "url": "https://www.linkedin.com/jobs/view/4441393833",
       "active": true,
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:07.390Z"
+      "lastChecked": "2026-08-22T02:14:27.951Z"
     },
     {
       "company": "ZEDGE",
@@ -298,7 +280,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.426Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:07.852Z"
+      "lastChecked": "2026-08-22T02:14:28.651Z"
     },
     {
       "company": "Zynga",
@@ -314,7 +296,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.940Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:08.466Z"
+      "lastChecked": "2026-08-22T02:14:29.202Z"
     },
     {
       "company": "Air Apps",
@@ -330,7 +312,7 @@
       "active": true,
       "discoveredAt": "2026-08-12T03:21:21.615Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:09.844Z"
+      "lastChecked": "2026-08-22T02:14:30.627Z"
     },
     {
       "company": "Apps Guru Technologies (Pvt.) Ltd.",
@@ -346,7 +328,7 @@
       "active": true,
       "discoveredAt": "2026-08-14T03:22:01.319Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:10.284Z"
+      "lastChecked": "2026-08-22T02:14:31.304Z"
     },
     {
       "company": "BVGroup",
@@ -362,7 +344,7 @@
       "active": true,
       "discoveredAt": "2026-08-19T02:16:22.258Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:10.861Z"
+      "lastChecked": "2026-08-22T02:14:32.072Z"
     },
     {
       "company": "BVGroup",
@@ -378,55 +360,7 @@
       "active": true,
       "discoveredAt": "2026-08-19T02:16:22.747Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:11.376Z"
-    },
-    {
-      "company": "Confidential",
-      "title": "App Store Optimization (ASO) Expert",
-      "fit": "Strong",
-      "priority": "Medium",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Dubai, United Arab Emirates",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4400363928",
-      "active": true,
-      "discoveredAt": "2026-08-06T04:36:32.425Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:11.891Z"
-    },
-    {
-      "company": "Confidential",
-      "title": "App Store Optimization (ASO) Expert",
-      "fit": "Strong",
-      "priority": "Medium",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Federal Territory of Kuala Lumpur, Malaysia",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4400382085",
-      "active": true,
-      "discoveredAt": "2026-08-06T04:36:32.426Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:12.405Z"
-    },
-    {
-      "company": "Confidential",
-      "title": "App Store Optimization (ASO) Expert",
-      "fit": "Strong",
-      "priority": "Medium",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Taipei, Taipei City, Taiwan",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4400371652",
-      "active": true,
-      "discoveredAt": "2026-08-07T13:47:15.367Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:12.940Z"
+      "lastChecked": "2026-08-22T02:14:32.628Z"
     },
     {
       "company": "Confidential",
@@ -442,23 +376,7 @@
       "active": true,
       "discoveredAt": "2026-08-07T13:47:15.946Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:13.424Z"
-    },
-    {
-      "company": "Connect Technologies",
-      "title": "Sr. ASO Specialist",
-      "fit": "Good",
-      "priority": "Medium",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Lahore, Punjab, Pakistan",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4452429736",
-      "active": true,
-      "discoveredAt": "2026-08-13T03:24:33.228Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:13.871Z"
+      "lastChecked": "2026-08-22T02:14:34.836Z"
     },
     {
       "company": "Creative Spartans",
@@ -474,7 +392,7 @@
       "active": true,
       "discoveredAt": "2026-08-16T02:19:20.909Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:14.352Z"
+      "lastChecked": "2026-08-22T02:14:35.951Z"
     },
     {
       "company": "DigitAlchemy",
@@ -490,7 +408,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.426Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:14.859Z"
+      "lastChecked": "2026-08-22T02:14:36.528Z"
     },
     {
       "company": "Game District",
@@ -506,39 +424,7 @@
       "active": true,
       "discoveredAt": "2026-08-19T02:16:22.258Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:15.726Z"
-    },
-    {
-      "company": "Gate",
-      "title": "App Store Optimization (ASO) Expert",
-      "fit": "Strong",
-      "priority": "Medium",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Singapore",
-      "why": "A direct ASO expert opening with strong skill overlap; Singapore location may require relocation and authorization.",
-      "url": "https://www.linkedin.com/jobs/view/4400380193",
-      "active": true,
-      "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:16.196Z"
-    },
-    {
-      "company": "Gate",
-      "title": "App Store Optimization (ASO) Expert",
-      "fit": "Strong",
-      "priority": "Medium",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Hong Kong, Hong Kong SAR",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4400375446",
-      "active": true,
-      "discoveredAt": "2026-08-06T04:36:32.426Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-08-21T02:22:16.250Z",
-      "checkNote": "inconclusive-429"
+      "lastChecked": "2026-08-22T02:14:37.049Z"
     },
     {
       "company": "Inception Technologies Global",
@@ -554,7 +440,7 @@
       "active": true,
       "discoveredAt": "2026-08-07T13:47:15.368Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:16.750Z"
+      "lastChecked": "2026-08-22T02:14:39.598Z"
     },
     {
       "company": "Kwalee",
@@ -570,7 +456,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.426Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:17.235Z"
+      "lastChecked": "2026-08-22T02:14:40.581Z"
     },
     {
       "company": "Roblox",
@@ -584,7 +470,7 @@
       "source": "Company careers",
       "category": "general",
       "priority": "Medium",
-      "lastChecked": "2026-08-21T02:22:37.235Z",
+      "lastChecked": "2026-08-22T02:15:00.581Z",
       "checkNote": "timeout"
     },
     {
@@ -599,7 +485,7 @@
       "source": "Company careers",
       "category": "general",
       "priority": "Medium",
-      "lastChecked": "2026-08-21T02:22:57.235Z",
+      "lastChecked": "2026-08-22T02:15:20.582Z",
       "checkNote": "timeout"
     },
     {
@@ -616,7 +502,7 @@
       "active": true,
       "discoveredAt": "2026-08-18T02:13:34.590Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:57.748Z"
+      "lastChecked": "2026-08-22T02:15:21.107Z"
     },
     {
       "company": "WEEWOO",
@@ -632,7 +518,7 @@
       "active": true,
       "discoveredAt": "2026-08-19T02:16:25.418Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:58.248Z"
+      "lastChecked": "2026-08-22T02:15:21.701Z"
     },
     {
       "company": "Game District",
@@ -647,7 +533,7 @@
       "category": "general",
       "priority": "Low",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:58.362Z"
+      "lastChecked": "2026-08-22T02:15:22.118Z"
     },
     {
       "company": "Playrix",
@@ -662,7 +548,7 @@
       "category": "general",
       "priority": "Low",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:58.630Z"
+      "lastChecked": "2026-08-22T02:15:22.674Z"
     },
     {
       "company": "Voodoo",
@@ -677,7 +563,7 @@
       "category": "general",
       "priority": "Low",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:58.809Z"
+      "lastChecked": "2026-08-22T02:15:23.124Z"
     },
     {
       "company": "Electronic Arts",
@@ -692,7 +578,23 @@
       "url": "https://www.linkedin.com/jobs/view/4427880022",
       "active": false,
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:59.371Z"
+      "lastChecked": "2026-08-22T02:15:23.768Z"
+    },
+    {
+      "company": "Kayzin Recruitment",
+      "title": "App Growth Lead – ASO & Conversion",
+      "fit": "Strong",
+      "priority": "High",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Dubai, United Arab Emirates",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4449537434",
+      "active": false,
+      "discoveredAt": "2026-08-11T03:01:45.125Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-22T02:13:44.574Z"
     },
     {
       "company": "Viva Money",
@@ -708,7 +610,7 @@
       "active": false,
       "discoveredAt": "2026-08-14T03:22:04.328Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:59.863Z"
+      "lastChecked": "2026-08-22T02:15:24.340Z"
     },
     {
       "company": "#ARM Worldwide",
@@ -724,7 +626,7 @@
       "active": false,
       "discoveredAt": "2026-08-18T02:13:34.590Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:23:00.351Z"
+      "lastChecked": "2026-08-22T02:15:25.053Z"
     },
     {
       "company": "Air Apps",
@@ -739,7 +641,7 @@
       "url": "https://www.linkedin.com/jobs/view/4443551660",
       "active": false,
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:23:01.382Z"
+      "lastChecked": "2026-08-22T02:15:26.084Z"
     },
     {
       "company": "Air Apps",
@@ -755,7 +657,71 @@
       "active": false,
       "discoveredAt": "2026-08-12T03:21:21.163Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:23:02.305Z"
+      "lastChecked": "2026-08-22T02:15:27.350Z"
+    },
+    {
+      "company": "Confidential",
+      "title": "App Store Optimization (ASO) Expert",
+      "fit": "Strong",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Dubai, United Arab Emirates",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4400363928",
+      "active": false,
+      "discoveredAt": "2026-08-06T04:36:32.425Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-22T02:14:33.197Z"
+    },
+    {
+      "company": "Confidential",
+      "title": "App Store Optimization (ASO) Expert",
+      "fit": "Strong",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Federal Territory of Kuala Lumpur, Malaysia",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4400382085",
+      "active": false,
+      "discoveredAt": "2026-08-06T04:36:32.426Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-22T02:14:33.729Z"
+    },
+    {
+      "company": "Confidential",
+      "title": "App Store Optimization (ASO) Expert",
+      "fit": "Strong",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Taipei, Taipei City, Taiwan",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4400371652",
+      "active": false,
+      "discoveredAt": "2026-08-07T13:47:15.367Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-22T02:14:34.295Z"
+    },
+    {
+      "company": "Connect Technologies",
+      "title": "Sr. ASO Specialist",
+      "fit": "Good",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Lahore, Punjab, Pakistan",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4452429736",
+      "active": false,
+      "discoveredAt": "2026-08-13T03:24:33.228Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-22T02:14:35.457Z"
     },
     {
       "company": "Enzipe",
@@ -771,7 +737,7 @@
       "active": false,
       "discoveredAt": "2026-08-19T02:16:25.418Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:22:15.260Z"
+      "lastChecked": "2026-08-22T02:15:28.244Z"
     },
     {
       "company": "Enzipe",
@@ -787,7 +753,38 @@
       "active": false,
       "discoveredAt": "2026-08-13T03:24:35.894Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:23:02.726Z"
+      "lastChecked": "2026-08-22T02:15:28.692Z"
+    },
+    {
+      "company": "Gate",
+      "title": "App Store Optimization (ASO) Expert",
+      "fit": "Strong",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Singapore",
+      "why": "A direct ASO expert opening with strong skill overlap; Singapore location may require relocation and authorization.",
+      "url": "https://www.linkedin.com/jobs/view/4400380193",
+      "active": false,
+      "lastStatus": 200,
+      "lastChecked": "2026-08-22T02:14:38.415Z"
+    },
+    {
+      "company": "Gate",
+      "title": "App Store Optimization (ASO) Expert",
+      "fit": "Strong",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Hong Kong, Hong Kong SAR",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4400375446",
+      "active": false,
+      "discoveredAt": "2026-08-06T04:36:32.426Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-22T02:14:39.043Z"
     },
     {
       "company": "TinyPal",
@@ -802,7 +799,7 @@
       "url": "https://www.linkedin.com/jobs/view/4444556363",
       "active": false,
       "lastStatus": 200,
-      "lastChecked": "2026-08-21T02:23:03.838Z"
+      "lastChecked": "2026-08-22T02:15:29.775Z"
     }
   ]
 }
