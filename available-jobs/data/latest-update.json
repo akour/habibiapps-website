@@ -1,23 +1,7 @@
 {
-  "checkedAt": "2026-08-23T02:23:12.780Z",
+  "checkedAt": "2026-08-24T02:22:05.358Z",
   "newJobs": [],
-  "closedJobs": [
-    {
-      "company": "Admiral Media",
-      "title": "Senior App Store Optimisation (ASO) Consultant",
-      "fit": "Strong",
-      "priority": "Top choice",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "remote",
-      "location": "Remote · European Union",
-      "why": "Excellent match for 10+ years of ASO, app growth, creative testing, localization and portfolio-level strategy.",
-      "url": "https://www.linkedin.com/jobs/view/4444002969",
-      "active": false,
-      "lastStatus": 200,
-      "lastChecked": "2026-08-23T02:21:26.473Z"
-    }
-  ],
+  "closedJobs": [],
   "totals": {
     "active": 35,
     "aso": 28,
