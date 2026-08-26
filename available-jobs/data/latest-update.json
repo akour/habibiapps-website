@@ -1,61 +1,28 @@
 {
-  "checkedAt": "2026-08-25T02:17:39.747Z",
-  "newJobs": [
-    {
-      "company": "Luni",
-      "title": "ASO Manager",
-      "fit": "Strong",
-      "priority": "High",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Bordeaux, Nouvelle-Aquitaine, France",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4429347579",
-      "active": true,
-      "discoveredAt": "2026-08-25T02:15:45.490Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-08-25T02:17:39.204Z"
-    },
-    {
-      "company": "bhargav2",
-      "title": "ASO",
-      "fit": "Good",
-      "priority": "Medium",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Navi Mumbai, Maharashtra, India",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4458154861",
-      "active": true,
-      "discoveredAt": "2026-08-25T02:15:48.125Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-08-25T02:17:39.747Z"
-    }
-  ],
+  "checkedAt": "2026-08-26T02:24:15.818Z",
+  "newJobs": [],
   "closedJobs": [
     {
-      "company": "New Age",
-      "title": "Marketing Manager [UA + ASO] Android & iOS - Remote",
+      "company": "Viva Money",
+      "title": "Senior ASO/SEO Specialist",
       "fit": "Strong",
       "priority": "High",
       "category": "aso",
       "source": "LinkedIn",
-      "mode": "remote",
-      "location": "India",
+      "mode": "onsite",
+      "location": "Bengaluru, Karnataka, India",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4454259776",
+      "url": "https://www.linkedin.com/jobs/view/4452581425",
       "active": false,
-      "discoveredAt": "2026-08-20T02:14:54.511Z",
+      "discoveredAt": "2026-08-19T02:16:23.167Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-25T02:15:54.141Z"
+      "lastChecked": "2026-08-26T02:23:14.566Z"
     }
   ],
   "totals": {
-    "active": 36,
-    "aso": 29,
+    "active": 35,
+    "aso": 28,
     "remote": 6,
-    "linkedIn": 29
+    "linkedIn": 28
   }
 }
