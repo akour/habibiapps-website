@@ -1,22 +1,71 @@
 {
-  "checkedAt": "2026-08-26T02:24:15.818Z",
-  "newJobs": [],
-  "closedJobs": [
+  "checkedAt": "2026-08-27T10:52:50.287Z",
+  "newJobs": [
     {
-      "company": "Viva Money",
-      "title": "Senior ASO/SEO Specialist",
+      "company": "Huuuge Games",
+      "title": "App Store Optimization Manager",
       "fit": "Strong",
       "priority": "High",
       "category": "aso",
       "source": "LinkedIn",
       "mode": "onsite",
-      "location": "Bengaluru, Karnataka, India",
+      "location": "Warsaw, Mazowieckie, Poland",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4452581425",
-      "active": false,
-      "discoveredAt": "2026-08-19T02:16:23.167Z",
+      "url": "https://www.linkedin.com/jobs/view/4459682016",
+      "active": true,
+      "discoveredAt": "2026-08-27T10:50:56.920Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-26T02:23:14.566Z"
+      "lastChecked": "2026-08-27T10:52:49.766Z"
+    },
+    {
+      "company": "Luni",
+      "title": "ASO Manager",
+      "fit": "Strong",
+      "priority": "High",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Bordeaux, Nouvelle-Aquitaine, France",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4457227843",
+      "active": true,
+      "discoveredAt": "2026-08-27T10:50:59.712Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-27T10:52:50.287Z"
+    }
+  ],
+  "closedJobs": [
+    {
+      "company": "Creative Spartans",
+      "title": "ASO Expert & Publishing Manager",
+      "fit": "Strong",
+      "priority": "High",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Lahore, Punjab, Pakistan",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4410153031",
+      "active": false,
+      "discoveredAt": "2026-08-18T02:13:34.590Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-27T10:51:03.244Z"
+    },
+    {
+      "company": "Luni",
+      "title": "ASO Manager",
+      "fit": "Strong",
+      "priority": "High",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Bordeaux, Nouvelle-Aquitaine, France",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4429347579",
+      "active": false,
+      "discoveredAt": "2026-08-25T02:15:45.490Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-08-27T10:51:05.311Z"
     }
   ],
   "totals": {
