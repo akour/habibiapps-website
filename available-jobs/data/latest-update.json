@@ -1,76 +1,27 @@
 {
-  "checkedAt": "2026-08-29T07:38:07.278Z",
-  "newJobs": [
+  "checkedAt": "2026-08-30T06:11:43.463Z",
+  "newJobs": [],
+  "closedJobs": [
     {
-      "company": "Joint Hashworks.",
-      "title": "Performance Marketing & ASO Manager – Mobile Applications",
+      "company": "Cella",
+      "title": "App Store Optimization Specialist",
       "fit": "Strong",
       "priority": "High",
       "category": "aso",
       "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Islāmābād, Pakistan",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4458424540",
-      "active": true,
-      "discoveredAt": "2026-08-29T07:36:15.040Z",
+      "mode": "remote",
+      "location": "Remote · United States",
+      "why": "Direct ASO role covering organic growth, conversion funnels, experimentation and enterprise ASO tools.",
+      "url": "https://www.linkedin.com/jobs/view/4446954282",
+      "active": false,
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:38:07.278Z"
-    },
-    {
-      "company": "Eneba",
-      "title": "ASO Specialist, Android",
-      "fit": "Good",
-      "priority": "Medium",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Vilnius, Vilniaus, Lithuania",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4460368644",
-      "active": true,
-      "discoveredAt": "2026-08-29T07:36:13.051Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:38:05.926Z"
-    },
-    {
-      "company": "Eneba",
-      "title": "ASO Specialist, Android",
-      "fit": "Good",
-      "priority": "Medium",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Kaunas, Kaunas, Lithuania",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4460363710",
-      "active": true,
-      "discoveredAt": "2026-08-29T07:36:13.052Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:38:06.410Z"
-    },
-    {
-      "company": "Eneba",
-      "title": "ASO Specialist, Android",
-      "fit": "Good",
-      "priority": "Medium",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Kaunas, Kaunas, Lithuania",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4460357766",
-      "active": true,
-      "discoveredAt": "2026-08-29T07:36:13.431Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:38:06.873Z"
+      "lastChecked": "2026-08-30T06:09:53.501Z"
     }
   ],
-  "closedJobs": [],
   "totals": {
-    "active": 38,
-    "aso": 31,
-    "remote": 5,
-    "linkedIn": 31
+    "active": 37,
+    "aso": 30,
+    "remote": 4,
+    "linkedIn": 30
   }
 }

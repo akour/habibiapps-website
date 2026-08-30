@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-29T07:38:07.278Z",
+  "checkedAt": "2026-08-30T06:11:43.463Z",
   "jobs": [
     {
       "company": "AppNation",
@@ -15,7 +15,7 @@
       "active": true,
       "discoveredAt": "2026-08-20T02:14:57.879Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:36:17.229Z"
+      "lastChecked": "2026-08-30T06:09:52.189Z"
     },
     {
       "company": "Appstane Technologies",
@@ -31,22 +31,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.940Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:36:17.692Z"
-    },
-    {
-      "company": "Cella",
-      "title": "App Store Optimization Specialist",
-      "fit": "Strong",
-      "priority": "High",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "remote",
-      "location": "Remote · United States",
-      "why": "Direct ASO role covering organic growth, conversion funnels, experimentation and enterprise ASO tools.",
-      "url": "https://www.linkedin.com/jobs/view/4446954282",
-      "active": true,
-      "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:36:18.227Z"
+      "lastChecked": "2026-08-30T06:09:53.021Z"
     },
     {
       "company": "Emerald Zebra Recruitment & Executive Search",
@@ -62,7 +47,7 @@
       "active": true,
       "discoveredAt": "2026-08-12T03:21:21.163Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:36:18.660Z"
+      "lastChecked": "2026-08-30T06:09:54.012Z"
     },
     {
       "company": "Gram Games",
@@ -78,7 +63,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.940Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:36:19.221Z"
+      "lastChecked": "2026-08-30T06:09:54.503Z"
     },
     {
       "company": "Huuuge Games",
@@ -94,7 +79,7 @@
       "active": true,
       "discoveredAt": "2026-08-27T10:50:56.920Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:36:19.715Z"
+      "lastChecked": "2026-08-30T06:09:55.225Z"
     },
     {
       "company": "Inkitt",
@@ -109,7 +94,7 @@
       "url": "https://www.linkedin.com/jobs/view/4443518415",
       "active": true,
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:36:20.265Z"
+      "lastChecked": "2026-08-30T06:09:55.887Z"
     },
     {
       "company": "Joint Hashworks.",
@@ -125,7 +110,7 @@
       "active": true,
       "discoveredAt": "2026-08-29T07:36:15.040Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:38:07.278Z"
+      "lastChecked": "2026-08-30T06:09:56.326Z"
     },
     {
       "company": "Luni",
@@ -141,7 +126,7 @@
       "active": true,
       "discoveredAt": "2026-08-27T10:50:59.712Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:36:20.764Z"
+      "lastChecked": "2026-08-30T06:09:56.836Z"
     },
     {
       "company": "Proton",
@@ -157,7 +142,7 @@
       "active": true,
       "discoveredAt": "2026-08-07T02:33:33.618Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:36:21.271Z"
+      "lastChecked": "2026-08-30T06:09:57.315Z"
     },
     {
       "company": "Roblox",
@@ -171,7 +156,7 @@
       "source": "Company careers",
       "category": "general",
       "priority": "High",
-      "lastChecked": "2026-08-29T07:36:41.273Z",
+      "lastChecked": "2026-08-30T06:10:17.315Z",
       "checkNote": "timeout"
     },
     {
@@ -186,7 +171,7 @@
       "source": "Company careers",
       "category": "general",
       "priority": "High",
-      "lastChecked": "2026-08-29T07:37:01.274Z",
+      "lastChecked": "2026-08-30T06:10:37.315Z",
       "checkNote": "timeout"
     },
     {
@@ -203,7 +188,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.940Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:01.777Z"
+      "lastChecked": "2026-08-30T06:10:37.881Z"
     },
     {
       "company": "SplitMetrics",
@@ -219,7 +204,7 @@
       "active": true,
       "discoveredAt": "2026-08-11T03:01:45.577Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:02.269Z"
+      "lastChecked": "2026-08-30T06:10:38.312Z"
     },
     {
       "company": "Yahoo",
@@ -234,7 +219,7 @@
       "url": "https://www.linkedin.com/jobs/view/4441393833",
       "active": true,
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:02.794Z"
+      "lastChecked": "2026-08-30T06:10:38.839Z"
     },
     {
       "company": "ZEDGE",
@@ -250,7 +235,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.426Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:03.315Z"
+      "lastChecked": "2026-08-30T06:10:39.447Z"
     },
     {
       "company": "Zynga",
@@ -266,7 +251,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.940Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:03.857Z"
+      "lastChecked": "2026-08-30T06:10:39.949Z"
     },
     {
       "company": "Air Apps",
@@ -282,7 +267,7 @@
       "active": true,
       "discoveredAt": "2026-08-12T03:21:21.615Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:04.881Z"
+      "lastChecked": "2026-08-30T06:10:40.967Z"
     },
     {
       "company": "Apps Guru Technologies (Pvt.) Ltd.",
@@ -298,7 +283,7 @@
       "active": true,
       "discoveredAt": "2026-08-14T03:22:01.319Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:05.368Z"
+      "lastChecked": "2026-08-30T06:10:41.415Z"
     },
     {
       "company": "bhargav2",
@@ -314,7 +299,7 @@
       "active": true,
       "discoveredAt": "2026-08-25T02:15:48.125Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:05.918Z"
+      "lastChecked": "2026-08-30T06:10:41.880Z"
     },
     {
       "company": "BVGroup",
@@ -330,7 +315,7 @@
       "active": true,
       "discoveredAt": "2026-08-19T02:16:22.258Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:06.425Z"
+      "lastChecked": "2026-08-30T06:10:42.390Z"
     },
     {
       "company": "BVGroup",
@@ -346,7 +331,7 @@
       "active": true,
       "discoveredAt": "2026-08-19T02:16:22.747Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:06.969Z"
+      "lastChecked": "2026-08-30T06:10:42.887Z"
     },
     {
       "company": "Confidential",
@@ -362,7 +347,7 @@
       "active": true,
       "discoveredAt": "2026-08-07T13:47:15.946Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:07.463Z"
+      "lastChecked": "2026-08-30T06:10:43.363Z"
     },
     {
       "company": "Creative Spartans",
@@ -378,7 +363,7 @@
       "active": true,
       "discoveredAt": "2026-08-16T02:19:20.909Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:07.889Z"
+      "lastChecked": "2026-08-30T06:10:43.829Z"
     },
     {
       "company": "DigitAlchemy",
@@ -394,7 +379,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.426Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:08.390Z"
+      "lastChecked": "2026-08-30T06:10:44.329Z"
     },
     {
       "company": "Eneba",
@@ -410,7 +395,7 @@
       "active": true,
       "discoveredAt": "2026-08-29T07:36:13.051Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:38:05.926Z"
+      "lastChecked": "2026-08-30T06:10:44.848Z"
     },
     {
       "company": "Eneba",
@@ -426,7 +411,7 @@
       "active": true,
       "discoveredAt": "2026-08-29T07:36:13.052Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:38:06.410Z"
+      "lastChecked": "2026-08-30T06:10:45.349Z"
     },
     {
       "company": "Eneba",
@@ -442,7 +427,7 @@
       "active": true,
       "discoveredAt": "2026-08-29T07:36:13.431Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:38:06.873Z"
+      "lastChecked": "2026-08-30T06:10:45.879Z"
     },
     {
       "company": "Game District",
@@ -458,7 +443,7 @@
       "active": true,
       "discoveredAt": "2026-08-19T02:16:22.258Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:08.912Z"
+      "lastChecked": "2026-08-30T06:10:46.398Z"
     },
     {
       "company": "Inception Technologies Global",
@@ -474,7 +459,7 @@
       "active": true,
       "discoveredAt": "2026-08-07T13:47:15.368Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:09.433Z"
+      "lastChecked": "2026-08-30T06:10:46.886Z"
     },
     {
       "company": "Kwalee",
@@ -490,7 +475,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.426Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:09.987Z"
+      "lastChecked": "2026-08-30T06:10:47.382Z"
     },
     {
       "company": "Roblox",
@@ -504,7 +489,7 @@
       "source": "Company careers",
       "category": "general",
       "priority": "Medium",
-      "lastChecked": "2026-08-29T07:37:29.987Z",
+      "lastChecked": "2026-08-30T06:11:07.383Z",
       "checkNote": "timeout"
     },
     {
@@ -519,7 +504,7 @@
       "source": "Company careers",
       "category": "general",
       "priority": "Medium",
-      "lastChecked": "2026-08-29T07:37:49.987Z",
+      "lastChecked": "2026-08-30T06:11:27.383Z",
       "checkNote": "timeout"
     },
     {
@@ -536,7 +521,7 @@
       "active": true,
       "discoveredAt": "2026-08-18T02:13:34.590Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:50.498Z"
+      "lastChecked": "2026-08-30T06:11:27.899Z"
     },
     {
       "company": "WEEWOO",
@@ -552,7 +537,7 @@
       "active": true,
       "discoveredAt": "2026-08-19T02:16:25.418Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:51.184Z"
+      "lastChecked": "2026-08-30T06:11:28.454Z"
     },
     {
       "company": "Game District",
@@ -567,7 +552,7 @@
       "category": "general",
       "priority": "Low",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:51.357Z"
+      "lastChecked": "2026-08-30T06:11:28.853Z"
     },
     {
       "company": "Playrix",
@@ -582,7 +567,7 @@
       "category": "general",
       "priority": "Low",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:51.680Z"
+      "lastChecked": "2026-08-30T06:11:29.357Z"
     },
     {
       "company": "Voodoo",
@@ -597,7 +582,7 @@
       "category": "general",
       "priority": "Low",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:51.727Z"
+      "lastChecked": "2026-08-30T06:11:29.644Z"
     },
     {
       "company": "Admiral Media",
@@ -612,7 +597,7 @@
       "url": "https://www.linkedin.com/jobs/view/4444002969",
       "active": false,
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:52.228Z"
+      "lastChecked": "2026-08-30T06:11:30.119Z"
     },
     {
       "company": "Ares Interactive",
@@ -627,7 +612,22 @@
       "url": "https://www.linkedin.com/jobs/view/4436487694",
       "active": false,
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:52.748Z"
+      "lastChecked": "2026-08-30T06:11:30.642Z"
+    },
+    {
+      "company": "Cella",
+      "title": "App Store Optimization Specialist",
+      "fit": "Strong",
+      "priority": "High",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "remote",
+      "location": "Remote · United States",
+      "why": "Direct ASO role covering organic growth, conversion funnels, experimentation and enterprise ASO tools.",
+      "url": "https://www.linkedin.com/jobs/view/4446954282",
+      "active": false,
+      "lastStatus": 200,
+      "lastChecked": "2026-08-30T06:09:53.501Z"
     },
     {
       "company": "Creative Spartans",
@@ -643,7 +643,7 @@
       "active": false,
       "discoveredAt": "2026-08-18T02:13:34.590Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:53.319Z"
+      "lastChecked": "2026-08-30T06:11:31.091Z"
     },
     {
       "company": "Electronic Arts",
@@ -658,7 +658,7 @@
       "url": "https://www.linkedin.com/jobs/view/4427880022",
       "active": false,
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:54.309Z"
+      "lastChecked": "2026-08-30T06:11:32.281Z"
     },
     {
       "company": "Kayzin Recruitment",
@@ -674,7 +674,7 @@
       "active": false,
       "discoveredAt": "2026-08-11T03:01:45.125Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:54.881Z"
+      "lastChecked": "2026-08-30T06:11:32.879Z"
     },
     {
       "company": "Luni",
@@ -690,7 +690,7 @@
       "active": false,
       "discoveredAt": "2026-08-25T02:15:45.490Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:55.341Z"
+      "lastChecked": "2026-08-30T06:11:33.346Z"
     },
     {
       "company": "New Age",
@@ -706,7 +706,7 @@
       "active": false,
       "discoveredAt": "2026-08-20T02:14:54.511Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:55.893Z"
+      "lastChecked": "2026-08-30T06:11:33.874Z"
     },
     {
       "company": "Viva Money",
@@ -722,7 +722,7 @@
       "active": false,
       "discoveredAt": "2026-08-19T02:16:23.167Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:56.431Z"
+      "lastChecked": "2026-08-30T06:11:34.454Z"
     },
     {
       "company": "Viva Money",
@@ -738,7 +738,7 @@
       "active": false,
       "discoveredAt": "2026-08-14T03:22:04.328Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:57.400Z"
+      "lastChecked": "2026-08-30T06:11:35.504Z"
     },
     {
       "company": "#ARM Worldwide",
@@ -754,7 +754,7 @@
       "active": false,
       "discoveredAt": "2026-08-18T02:13:34.590Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:58.456Z"
+      "lastChecked": "2026-08-30T06:11:36.436Z"
     },
     {
       "company": "Air Apps",
@@ -769,7 +769,7 @@
       "url": "https://www.linkedin.com/jobs/view/4443551660",
       "active": false,
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:37:59.364Z"
+      "lastChecked": "2026-08-30T06:11:37.311Z"
     },
     {
       "company": "Air Apps",
@@ -785,7 +785,7 @@
       "active": false,
       "discoveredAt": "2026-08-12T03:21:21.163Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:38:00.265Z"
+      "lastChecked": "2026-08-30T06:11:38.266Z"
     },
     {
       "company": "Confidential",
@@ -801,7 +801,7 @@
       "active": false,
       "discoveredAt": "2026-08-06T04:36:32.425Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:38:00.834Z"
+      "lastChecked": "2026-08-30T06:11:38.881Z"
     },
     {
       "company": "Confidential",
@@ -817,7 +817,7 @@
       "active": false,
       "discoveredAt": "2026-08-06T04:36:32.426Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:38:01.384Z"
+      "lastChecked": "2026-08-30T06:11:39.359Z"
     },
     {
       "company": "Confidential",
@@ -833,7 +833,7 @@
       "active": false,
       "discoveredAt": "2026-08-07T13:47:15.367Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:38:01.911Z"
+      "lastChecked": "2026-08-30T06:11:39.880Z"
     },
     {
       "company": "Connect Technologies",
@@ -849,7 +849,7 @@
       "active": false,
       "discoveredAt": "2026-08-13T03:24:33.228Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:38:02.433Z"
+      "lastChecked": "2026-08-30T06:11:40.339Z"
     },
     {
       "company": "Enzipe",
@@ -865,7 +865,7 @@
       "active": false,
       "discoveredAt": "2026-08-19T02:16:25.418Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:38:02.893Z"
+      "lastChecked": "2026-08-30T06:11:40.915Z"
     },
     {
       "company": "Enzipe",
@@ -881,7 +881,7 @@
       "active": false,
       "discoveredAt": "2026-08-13T03:24:35.894Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:38:03.345Z"
+      "lastChecked": "2026-08-30T06:11:41.448Z"
     },
     {
       "company": "Gate",
@@ -896,7 +896,7 @@
       "url": "https://www.linkedin.com/jobs/view/4400380193",
       "active": false,
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:38:03.899Z"
+      "lastChecked": "2026-08-30T06:11:41.965Z"
     },
     {
       "company": "Gate",
@@ -912,7 +912,7 @@
       "active": false,
       "discoveredAt": "2026-08-06T04:36:32.426Z",
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:38:04.445Z"
+      "lastChecked": "2026-08-30T06:11:42.471Z"
     },
     {
       "company": "TinyPal",
@@ -927,7 +927,7 @@
       "url": "https://www.linkedin.com/jobs/view/4444556363",
       "active": false,
       "lastStatus": 200,
-      "lastChecked": "2026-08-29T07:38:05.465Z"
+      "lastChecked": "2026-08-30T06:11:43.463Z"
     }
   ]
 }
