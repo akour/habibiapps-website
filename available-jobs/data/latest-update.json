@@ -1,24 +1,7 @@
 {
-  "checkedAt": "2026-09-01T06:00:21.436Z",
+  "checkedAt": "2026-09-02T05:24:09.466Z",
   "newJobs": [],
-  "closedJobs": [
-    {
-      "company": "bhargav2",
-      "title": "ASO",
-      "fit": "Good",
-      "priority": "Medium",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Navi Mumbai, Maharashtra, India",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4458154861",
-      "active": false,
-      "discoveredAt": "2026-08-25T02:15:48.125Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-01T05:59:17.732Z"
-    }
-  ],
+  "closedJobs": [],
   "totals": {
     "active": 36,
     "aso": 29,
