@@ -1,11 +1,45 @@
 {
-  "checkedAt": "2026-09-02T05:24:09.466Z",
-  "newJobs": [],
-  "closedJobs": [],
+  "checkedAt": "2026-09-03T05:27:22.729Z",
+  "newJobs": [
+    {
+      "company": "Air Apps",
+      "title": "ASO Specialist San Francisco",
+      "fit": "Good",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "San Francisco, CA",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4462409613",
+      "active": true,
+      "discoveredAt": "2026-09-03T05:25:24.142Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-03T05:27:22.729Z"
+    }
+  ],
+  "closedJobs": [
+    {
+      "company": "Emerald Zebra Recruitment & Executive Search",
+      "title": "ASO Manager, Limassol, Cyprus",
+      "fit": "Strong",
+      "priority": "High",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Limassol, Cyprus",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4452191982",
+      "active": false,
+      "discoveredAt": "2026-08-12T03:21:21.163Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-03T05:25:29.560Z"
+    }
+  ],
   "totals": {
-    "active": 36,
-    "aso": 29,
+    "active": 37,
+    "aso": 30,
     "remote": 4,
-    "linkedIn": 29
+    "linkedIn": 30
   }
 }
