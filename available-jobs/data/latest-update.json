@@ -1,6 +1,7 @@
 {
-  "checkedAt": "2026-09-03T05:27:22.729Z",
-  "newJobs": [
+  "checkedAt": "2026-09-04T05:24:32.189Z",
+  "newJobs": [],
+  "closedJobs": [
     {
       "company": "Air Apps",
       "title": "ASO Specialist San Francisco",
@@ -12,34 +13,48 @@
       "location": "San Francisco, CA",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
       "url": "https://www.linkedin.com/jobs/view/4462409613",
-      "active": true,
+      "active": false,
       "discoveredAt": "2026-09-03T05:25:24.142Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:22.729Z"
-    }
-  ],
-  "closedJobs": [
+      "lastChecked": "2026-09-04T05:23:31.545Z"
+    },
     {
-      "company": "Emerald Zebra Recruitment & Executive Search",
-      "title": "ASO Manager, Limassol, Cyprus",
-      "fit": "Strong",
-      "priority": "High",
+      "company": "Confidential",
+      "title": "ASO",
+      "fit": "Good",
+      "priority": "Medium",
       "category": "aso",
       "source": "LinkedIn",
       "mode": "onsite",
-      "location": "Limassol, Cyprus",
+      "location": "Beijing, China",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4452191982",
+      "url": "https://www.linkedin.com/jobs/view/4447346956",
       "active": false,
-      "discoveredAt": "2026-08-12T03:21:21.163Z",
+      "discoveredAt": "2026-08-07T13:47:15.946Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:25:29.560Z"
+      "lastChecked": "2026-09-04T05:23:33.627Z"
+    },
+    {
+      "company": "DigitAlchemy",
+      "title": "ASO",
+      "fit": "Good",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Belarus",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4446628093",
+      "active": false,
+      "discoveredAt": "2026-08-06T04:36:32.426Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-04T05:23:34.721Z"
     }
   ],
   "totals": {
-    "active": 37,
-    "aso": 30,
+    "active": 34,
+    "aso": 27,
     "remote": 4,
-    "linkedIn": 30
+    "linkedIn": 27
   }
 }

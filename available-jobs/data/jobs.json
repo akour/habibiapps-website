@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-03T05:27:22.729Z",
+  "checkedAt": "2026-09-04T05:24:32.189Z",
   "jobs": [
     {
       "company": "AppNation",
@@ -15,7 +15,7 @@
       "active": true,
       "discoveredAt": "2026-08-20T02:14:57.879Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:25:28.622Z"
+      "lastChecked": "2026-09-04T05:22:42.465Z"
     },
     {
       "company": "Appstane Technologies",
@@ -31,7 +31,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.940Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:25:29.125Z"
+      "lastChecked": "2026-09-04T05:22:42.934Z"
     },
     {
       "company": "Gram Games",
@@ -47,7 +47,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.940Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:25:30.066Z"
+      "lastChecked": "2026-09-04T05:22:43.487Z"
     },
     {
       "company": "Huuuge Games",
@@ -63,7 +63,7 @@
       "active": true,
       "discoveredAt": "2026-08-27T10:50:56.920Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:25:30.578Z"
+      "lastChecked": "2026-09-04T05:22:44.016Z"
     },
     {
       "company": "Inkitt",
@@ -79,7 +79,7 @@
       "active": true,
       "discoveredAt": "2026-08-31T06:34:20.029Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:25:31.097Z"
+      "lastChecked": "2026-09-04T05:22:44.566Z"
     },
     {
       "company": "Joint Hashworks.",
@@ -95,7 +95,7 @@
       "active": true,
       "discoveredAt": "2026-08-29T07:36:15.040Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:25:31.557Z"
+      "lastChecked": "2026-09-04T05:22:45.051Z"
     },
     {
       "company": "Luni",
@@ -111,7 +111,7 @@
       "active": true,
       "discoveredAt": "2026-08-27T10:50:59.712Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:25:32.103Z"
+      "lastChecked": "2026-09-04T05:22:45.604Z"
     },
     {
       "company": "Luni",
@@ -127,7 +127,7 @@
       "active": true,
       "discoveredAt": "2026-08-25T02:15:45.490Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:10.963Z"
+      "lastChecked": "2026-09-04T05:22:46.626Z"
     },
     {
       "company": "Proton",
@@ -143,7 +143,7 @@
       "active": true,
       "discoveredAt": "2026-08-07T02:33:33.618Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:25:32.686Z"
+      "lastChecked": "2026-09-04T05:22:47.175Z"
     },
     {
       "company": "Roblox",
@@ -157,7 +157,7 @@
       "source": "Company careers",
       "category": "general",
       "priority": "High",
-      "lastChecked": "2026-09-03T05:25:52.687Z",
+      "lastChecked": "2026-09-04T05:23:07.176Z",
       "checkNote": "timeout"
     },
     {
@@ -172,7 +172,7 @@
       "source": "Company careers",
       "category": "general",
       "priority": "High",
-      "lastChecked": "2026-09-03T05:26:12.687Z",
+      "lastChecked": "2026-09-04T05:23:27.177Z",
       "checkNote": "timeout"
     },
     {
@@ -189,7 +189,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.940Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:26:13.259Z"
+      "lastChecked": "2026-09-04T05:23:27.741Z"
     },
     {
       "company": "SplitMetrics",
@@ -205,7 +205,7 @@
       "active": true,
       "discoveredAt": "2026-08-11T03:01:45.577Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:26:13.758Z"
+      "lastChecked": "2026-09-04T05:23:28.275Z"
     },
     {
       "company": "Yahoo",
@@ -220,7 +220,7 @@
       "url": "https://www.linkedin.com/jobs/view/4441393833",
       "active": true,
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:26:14.385Z"
+      "lastChecked": "2026-09-04T05:23:28.817Z"
     },
     {
       "company": "ZEDGE",
@@ -236,7 +236,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.426Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:26:14.922Z"
+      "lastChecked": "2026-09-04T05:23:29.313Z"
     },
     {
       "company": "Zynga",
@@ -252,7 +252,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.940Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:26:15.494Z"
+      "lastChecked": "2026-09-04T05:23:29.843Z"
     },
     {
       "company": "Air Apps",
@@ -268,24 +268,7 @@
       "active": true,
       "discoveredAt": "2026-08-12T03:21:21.615Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:26:16.183Z",
-      "checkNote": "unreachable"
-    },
-    {
-      "company": "Air Apps",
-      "title": "ASO Specialist San Francisco",
-      "fit": "Good",
-      "priority": "Medium",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "San Francisco, CA",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4462409613",
-      "active": true,
-      "discoveredAt": "2026-09-03T05:25:24.142Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:22.729Z"
+      "lastChecked": "2026-09-04T05:23:30.970Z"
     },
     {
       "company": "Apps Guru Technologies (Pvt.) Ltd.",
@@ -301,7 +284,7 @@
       "active": true,
       "discoveredAt": "2026-08-14T03:22:01.319Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:26:16.671Z"
+      "lastChecked": "2026-09-04T05:23:32.049Z"
     },
     {
       "company": "BVGroup",
@@ -317,7 +300,7 @@
       "active": true,
       "discoveredAt": "2026-08-19T02:16:22.258Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:26:17.282Z"
+      "lastChecked": "2026-09-04T05:23:32.593Z"
     },
     {
       "company": "BVGroup",
@@ -333,23 +316,7 @@
       "active": true,
       "discoveredAt": "2026-08-19T02:16:22.747Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:26:17.880Z"
-    },
-    {
-      "company": "Confidential",
-      "title": "ASO",
-      "fit": "Good",
-      "priority": "Medium",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Beijing, China",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4447346956",
-      "active": true,
-      "discoveredAt": "2026-08-07T13:47:15.946Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:26:18.382Z"
+      "lastChecked": "2026-09-04T05:23:33.143Z"
     },
     {
       "company": "Creative Spartans",
@@ -365,23 +332,7 @@
       "active": true,
       "discoveredAt": "2026-08-16T02:19:20.909Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:26:18.929Z"
-    },
-    {
-      "company": "DigitAlchemy",
-      "title": "ASO",
-      "fit": "Good",
-      "priority": "Medium",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Belarus",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4446628093",
-      "active": true,
-      "discoveredAt": "2026-08-06T04:36:32.426Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:26:19.380Z"
+      "lastChecked": "2026-09-04T05:23:34.180Z"
     },
     {
       "company": "Eneba",
@@ -397,7 +348,7 @@
       "active": true,
       "discoveredAt": "2026-08-29T07:36:13.051Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:26:19.845Z"
+      "lastChecked": "2026-09-04T05:23:35.192Z"
     },
     {
       "company": "Eneba",
@@ -413,7 +364,7 @@
       "active": true,
       "discoveredAt": "2026-08-29T07:36:13.052Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:26:20.361Z"
+      "lastChecked": "2026-09-04T05:23:35.670Z"
     },
     {
       "company": "Eneba",
@@ -429,7 +380,7 @@
       "active": true,
       "discoveredAt": "2026-08-29T07:36:13.431Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:26:20.853Z"
+      "lastChecked": "2026-09-04T05:23:36.242Z"
     },
     {
       "company": "Game District",
@@ -445,7 +396,7 @@
       "active": true,
       "discoveredAt": "2026-08-19T02:16:22.258Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:26:21.293Z"
+      "lastChecked": "2026-09-04T05:23:36.704Z"
     },
     {
       "company": "Inception Technologies Global",
@@ -460,8 +411,9 @@
       "url": "https://www.linkedin.com/jobs/view/4449374745",
       "active": true,
       "discoveredAt": "2026-08-07T13:47:15.368Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:26:21.830Z"
+      "lastStatus": 429,
+      "lastChecked": "2026-09-04T05:23:36.753Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "Kwalee",
@@ -477,7 +429,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.426Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:26:22.474Z"
+      "lastChecked": "2026-09-04T05:23:37.278Z"
     },
     {
       "company": "Roblox",
@@ -491,7 +443,7 @@
       "source": "Company careers",
       "category": "general",
       "priority": "Medium",
-      "lastChecked": "2026-09-03T05:26:42.474Z",
+      "lastChecked": "2026-09-04T05:23:57.278Z",
       "checkNote": "timeout"
     },
     {
@@ -506,7 +458,7 @@
       "source": "Company careers",
       "category": "general",
       "priority": "Medium",
-      "lastChecked": "2026-09-03T05:27:02.474Z",
+      "lastChecked": "2026-09-04T05:24:17.279Z",
       "checkNote": "timeout"
     },
     {
@@ -523,7 +475,7 @@
       "active": true,
       "discoveredAt": "2026-08-18T02:13:34.590Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:03.049Z"
+      "lastChecked": "2026-09-04T05:24:17.843Z"
     },
     {
       "company": "WEEWOO",
@@ -539,7 +491,7 @@
       "active": true,
       "discoveredAt": "2026-08-19T02:16:25.418Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:03.649Z"
+      "lastChecked": "2026-09-04T05:24:18.598Z"
     },
     {
       "company": "Game District",
@@ -554,7 +506,7 @@
       "category": "general",
       "priority": "Low",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:03.997Z"
+      "lastChecked": "2026-09-04T05:24:18.863Z"
     },
     {
       "company": "Playrix",
@@ -569,7 +521,7 @@
       "category": "general",
       "priority": "Low",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:04.514Z"
+      "lastChecked": "2026-09-04T05:24:19.446Z"
     },
     {
       "company": "Voodoo",
@@ -584,7 +536,7 @@
       "category": "general",
       "priority": "Low",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:04.955Z"
+      "lastChecked": "2026-09-04T05:24:19.873Z"
     },
     {
       "company": "Admiral Media",
@@ -599,7 +551,7 @@
       "url": "https://www.linkedin.com/jobs/view/4444002969",
       "active": false,
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:05.463Z"
+      "lastChecked": "2026-09-04T05:24:20.426Z"
     },
     {
       "company": "Ares Interactive",
@@ -614,7 +566,7 @@
       "url": "https://www.linkedin.com/jobs/view/4436487694",
       "active": false,
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:06.090Z"
+      "lastChecked": "2026-09-04T05:24:21.540Z"
     },
     {
       "company": "Cella",
@@ -629,7 +581,7 @@
       "url": "https://www.linkedin.com/jobs/view/4446954282",
       "active": false,
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:06.673Z"
+      "lastChecked": "2026-09-04T05:24:22.087Z"
     },
     {
       "company": "Creative Spartans",
@@ -645,7 +597,7 @@
       "active": false,
       "discoveredAt": "2026-08-18T02:13:34.590Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:07.222Z"
+      "lastChecked": "2026-09-04T05:24:22.665Z"
     },
     {
       "company": "Electronic Arts",
@@ -660,7 +612,7 @@
       "url": "https://www.linkedin.com/jobs/view/4427880022",
       "active": false,
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:08.795Z"
+      "lastChecked": "2026-09-04T05:24:23.850Z"
     },
     {
       "company": "Emerald Zebra Recruitment & Executive Search",
@@ -676,7 +628,7 @@
       "active": false,
       "discoveredAt": "2026-08-12T03:21:21.163Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:25:29.560Z"
+      "lastChecked": "2026-09-04T05:24:24.327Z"
     },
     {
       "company": "Inkitt",
@@ -691,7 +643,7 @@
       "url": "https://www.linkedin.com/jobs/view/4443518415",
       "active": false,
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:09.350Z"
+      "lastChecked": "2026-09-04T05:24:24.921Z"
     },
     {
       "company": "Kayzin Recruitment",
@@ -707,7 +659,7 @@
       "active": false,
       "discoveredAt": "2026-08-11T03:01:45.125Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:09.926Z"
+      "lastChecked": "2026-09-04T05:24:25.508Z"
     },
     {
       "company": "New Age",
@@ -722,8 +674,9 @@
       "url": "https://www.linkedin.com/jobs/view/4454259776",
       "active": false,
       "discoveredAt": "2026-08-20T02:14:54.511Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:12.129Z"
+      "lastStatus": 429,
+      "lastChecked": "2026-09-04T05:24:26.011Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "Viva Money",
@@ -739,7 +692,7 @@
       "active": false,
       "discoveredAt": "2026-08-19T02:16:23.167Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:13.183Z"
+      "lastChecked": "2026-09-04T05:24:27.055Z"
     },
     {
       "company": "Viva Money",
@@ -755,7 +708,7 @@
       "active": false,
       "discoveredAt": "2026-08-14T03:22:04.328Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-03T05:27:13.271Z",
+      "lastChecked": "2026-09-04T05:24:27.562Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -771,8 +724,25 @@
       "url": "https://www.linkedin.com/jobs/view/4454241382",
       "active": false,
       "discoveredAt": "2026-08-18T02:13:34.590Z",
+      "lastStatus": 429,
+      "lastChecked": "2026-09-04T05:24:27.609Z",
+      "checkNote": "inconclusive-429"
+    },
+    {
+      "company": "Air Apps",
+      "title": "ASO Specialist San Francisco",
+      "fit": "Good",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "San Francisco, CA",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4462409613",
+      "active": false,
+      "discoveredAt": "2026-09-03T05:25:24.142Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:14.165Z"
+      "lastChecked": "2026-09-04T05:23:31.545Z"
     },
     {
       "company": "Air Apps",
@@ -786,8 +756,9 @@
       "why": "Hands-on ASO strategy, keyword research, creative testing and organic acquisition for consumer mobile apps.",
       "url": "https://www.linkedin.com/jobs/view/4443551660",
       "active": false,
-      "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:15.152Z"
+      "lastStatus": 429,
+      "lastChecked": "2026-09-04T05:24:27.658Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "Air Apps",
@@ -802,8 +773,9 @@
       "url": "https://www.linkedin.com/jobs/view/4452428790",
       "active": false,
       "discoveredAt": "2026-08-12T03:21:21.163Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:16.162Z"
+      "lastStatus": 429,
+      "lastChecked": "2026-09-04T05:24:27.699Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "bhargav2",
@@ -818,8 +790,25 @@
       "url": "https://www.linkedin.com/jobs/view/4458154861",
       "active": false,
       "discoveredAt": "2026-08-25T02:15:48.125Z",
+      "lastStatus": 429,
+      "lastChecked": "2026-09-04T05:24:27.751Z",
+      "checkNote": "inconclusive-429"
+    },
+    {
+      "company": "Confidential",
+      "title": "ASO",
+      "fit": "Good",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Beijing, China",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4447346956",
+      "active": false,
+      "discoveredAt": "2026-08-07T13:47:15.946Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:16.708Z"
+      "lastChecked": "2026-09-04T05:23:33.627Z"
     },
     {
       "company": "Confidential",
@@ -834,8 +823,9 @@
       "url": "https://www.linkedin.com/jobs/view/4400363928",
       "active": false,
       "discoveredAt": "2026-08-06T04:36:32.425Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:17.368Z"
+      "lastStatus": 429,
+      "lastChecked": "2026-09-04T05:24:27.791Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "Confidential",
@@ -850,8 +840,9 @@
       "url": "https://www.linkedin.com/jobs/view/4400382085",
       "active": false,
       "discoveredAt": "2026-08-06T04:36:32.426Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:17.974Z"
+      "lastStatus": 429,
+      "lastChecked": "2026-09-04T05:24:27.839Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "Confidential",
@@ -867,7 +858,7 @@
       "active": false,
       "discoveredAt": "2026-08-07T13:47:15.367Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:18.622Z"
+      "lastChecked": "2026-09-04T05:24:28.430Z"
     },
     {
       "company": "Connect Technologies",
@@ -883,7 +874,23 @@
       "active": false,
       "discoveredAt": "2026-08-13T03:24:33.228Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:19.101Z"
+      "lastChecked": "2026-09-04T05:24:28.974Z"
+    },
+    {
+      "company": "DigitAlchemy",
+      "title": "ASO",
+      "fit": "Good",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Belarus",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4446628093",
+      "active": false,
+      "discoveredAt": "2026-08-06T04:36:32.426Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-04T05:23:34.721Z"
     },
     {
       "company": "Enzipe",
@@ -899,7 +906,7 @@
       "active": false,
       "discoveredAt": "2026-08-19T02:16:25.418Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:19.552Z"
+      "lastChecked": "2026-09-04T05:24:29.468Z"
     },
     {
       "company": "Enzipe",
@@ -915,7 +922,7 @@
       "active": false,
       "discoveredAt": "2026-08-13T03:24:35.894Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:20.071Z"
+      "lastChecked": "2026-09-04T05:24:30.042Z"
     },
     {
       "company": "Gate",
@@ -930,7 +937,7 @@
       "url": "https://www.linkedin.com/jobs/view/4400380193",
       "active": false,
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:20.640Z"
+      "lastChecked": "2026-09-04T05:24:30.609Z"
     },
     {
       "company": "Gate",
@@ -946,7 +953,7 @@
       "active": false,
       "discoveredAt": "2026-08-06T04:36:32.426Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:21.166Z"
+      "lastChecked": "2026-09-04T05:24:31.191Z"
     },
     {
       "company": "TinyPal",
@@ -961,7 +968,7 @@
       "url": "https://www.linkedin.com/jobs/view/4444556363",
       "active": false,
       "lastStatus": 200,
-      "lastChecked": "2026-09-03T05:27:22.242Z"
+      "lastChecked": "2026-09-04T05:24:32.189Z"
     }
   ]
 }
