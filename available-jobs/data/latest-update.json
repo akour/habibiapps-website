@@ -1,60 +1,44 @@
 {
-  "checkedAt": "2026-09-04T05:24:32.189Z",
-  "newJobs": [],
-  "closedJobs": [
+  "checkedAt": "2026-09-05T05:14:06.057Z",
+  "newJobs": [
     {
-      "company": "Air Apps",
-      "title": "ASO Specialist San Francisco",
-      "fit": "Good",
+      "company": "Creative Spartans",
+      "title": "ASO Expert",
+      "fit": "Strong",
       "priority": "Medium",
       "category": "aso",
       "source": "LinkedIn",
       "mode": "onsite",
-      "location": "San Francisco, CA",
+      "location": "Lahore, Punjab, Pakistan",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4462409613",
-      "active": false,
-      "discoveredAt": "2026-09-03T05:25:24.142Z",
+      "url": "https://www.linkedin.com/jobs/view/4461629097",
+      "active": true,
+      "discoveredAt": "2026-09-05T05:12:09.412Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-04T05:23:31.545Z"
+      "lastChecked": "2026-09-05T05:14:05.519Z"
     },
     {
-      "company": "Confidential",
-      "title": "ASO",
+      "company": "StoneX Group Inc.",
+      "title": "ASO Specialist",
       "fit": "Good",
       "priority": "Medium",
       "category": "aso",
       "source": "LinkedIn",
       "mode": "onsite",
-      "location": "Beijing, China",
+      "location": "Cape Town, Western Cape, South Africa",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4447346956",
-      "active": false,
-      "discoveredAt": "2026-08-07T13:47:15.946Z",
+      "url": "https://www.linkedin.com/jobs/view/4461167822",
+      "active": true,
+      "discoveredAt": "2026-09-05T05:12:09.804Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-04T05:23:33.627Z"
-    },
-    {
-      "company": "DigitAlchemy",
-      "title": "ASO",
-      "fit": "Good",
-      "priority": "Medium",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Belarus",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4446628093",
-      "active": false,
-      "discoveredAt": "2026-08-06T04:36:32.426Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-04T05:23:34.721Z"
+      "lastChecked": "2026-09-05T05:14:06.057Z"
     }
   ],
+  "closedJobs": [],
   "totals": {
-    "active": 34,
-    "aso": 27,
+    "active": 36,
+    "aso": 29,
     "remote": 4,
-    "linkedIn": 27
+    "linkedIn": 29
   }
 }
