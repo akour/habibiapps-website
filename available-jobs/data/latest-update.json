@@ -1,39 +1,6 @@
 {
-  "checkedAt": "2026-09-05T05:14:06.057Z",
-  "newJobs": [
-    {
-      "company": "Creative Spartans",
-      "title": "ASO Expert",
-      "fit": "Strong",
-      "priority": "Medium",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Lahore, Punjab, Pakistan",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4461629097",
-      "active": true,
-      "discoveredAt": "2026-09-05T05:12:09.412Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-05T05:14:05.519Z"
-    },
-    {
-      "company": "StoneX Group Inc.",
-      "title": "ASO Specialist",
-      "fit": "Good",
-      "priority": "Medium",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Cape Town, Western Cape, South Africa",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4461167822",
-      "active": true,
-      "discoveredAt": "2026-09-05T05:12:09.804Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-05T05:14:06.057Z"
-    }
-  ],
+  "checkedAt": "2026-09-06T05:28:24.768Z",
+  "newJobs": [],
   "closedJobs": [],
   "totals": {
     "active": 36,
