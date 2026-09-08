@@ -1,11 +1,62 @@
 {
-  "checkedAt": "2026-09-07T05:39:00.366Z",
-  "newJobs": [],
-  "closedJobs": [],
+  "checkedAt": "2026-09-08T05:35:00.394Z",
+  "newJobs": [
+    {
+      "company": "FinTop Consulting",
+      "title": "ASO Manager",
+      "fit": "Strong",
+      "priority": "High",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Limassol, Cyprus",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4462227607",
+      "active": true,
+      "discoveredAt": "2026-09-08T05:32:58.951Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-08T05:35:00.369Z"
+    },
+    {
+      "company": "Geeks Tech",
+      "title": "App Marketing Specialist (ASO & App Growth), Majoon Studio",
+      "fit": "Good",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Cairo, Egypt",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4462258154",
+      "active": true,
+      "discoveredAt": "2026-09-08T05:32:58.952Z",
+      "lastStatus": 429,
+      "lastChecked": "2026-09-08T05:35:00.394Z",
+      "checkNote": "inconclusive-429"
+    }
+  ],
+  "closedJobs": [
+    {
+      "company": "Creative Spartans",
+      "title": "ASO Expert",
+      "fit": "Strong",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Lahore, Punjab, Pakistan",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4461629097",
+      "active": false,
+      "discoveredAt": "2026-09-05T05:12:09.412Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-08T05:33:54.679Z"
+    }
+  ],
   "totals": {
-    "active": 36,
-    "aso": 29,
+    "active": 37,
+    "aso": 30,
     "remote": 4,
-    "linkedIn": 29
+    "linkedIn": 30
   }
 }
