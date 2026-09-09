@@ -1,62 +1,60 @@
 {
-  "checkedAt": "2026-09-08T05:35:00.394Z",
+  "checkedAt": "2026-09-09T05:41:56.714Z",
   "newJobs": [
     {
-      "company": "FinTop Consulting",
-      "title": "ASO Manager",
+      "company": "Bondspe",
+      "title": "App Marketing & ASO manager",
       "fit": "Strong",
       "priority": "High",
       "category": "aso",
       "source": "LinkedIn",
       "mode": "onsite",
-      "location": "Limassol, Cyprus",
+      "location": "Mayur Vihar, Delhi, India",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4462227607",
+      "url": "https://www.linkedin.com/jobs/view/4462262974",
       "active": true,
-      "discoveredAt": "2026-09-08T05:32:58.951Z",
+      "discoveredAt": "2026-09-09T05:39:50.833Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-08T05:35:00.369Z"
+      "lastChecked": "2026-09-09T05:41:56.174Z"
     },
     {
-      "company": "Geeks Tech",
-      "title": "App Marketing Specialist (ASO & App Growth), Majoon Studio",
+      "company": "#ARM Worldwide",
+      "title": "SEO (ASO Specialist)",
       "fit": "Good",
       "priority": "Medium",
       "category": "aso",
       "source": "LinkedIn",
       "mode": "onsite",
-      "location": "Cairo, Egypt",
+      "location": "Gurugram, Haryana, India",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4462258154",
+      "url": "https://www.linkedin.com/jobs/view/4463243889",
       "active": true,
-      "discoveredAt": "2026-09-08T05:32:58.952Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-08T05:35:00.394Z",
-      "checkNote": "inconclusive-429"
-    }
-  ],
-  "closedJobs": [
+      "discoveredAt": "2026-09-09T05:39:50.833Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-09T05:41:56.714Z"
+    },
     {
-      "company": "Creative Spartans",
-      "title": "ASO Expert",
-      "fit": "Strong",
+      "company": "Air Apps",
+      "title": "ASO Specialist",
+      "fit": "Good",
       "priority": "Medium",
       "category": "aso",
       "source": "LinkedIn",
       "mode": "onsite",
-      "location": "Lahore, Punjab, Pakistan",
+      "location": "Barcelona, Catalonia, Spain",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4461629097",
-      "active": false,
-      "discoveredAt": "2026-09-05T05:12:09.412Z",
+      "url": "https://www.linkedin.com/jobs/view/4462521124",
+      "active": true,
+      "discoveredAt": "2026-09-09T05:39:50.440Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-08T05:33:54.679Z"
+      "lastChecked": "2026-09-09T05:41:55.665Z"
     }
   ],
+  "closedJobs": [],
   "totals": {
-    "active": 37,
-    "aso": 30,
+    "active": 40,
+    "aso": 33,
     "remote": 4,
-    "linkedIn": 30
+    "linkedIn": 33
   }
 }
