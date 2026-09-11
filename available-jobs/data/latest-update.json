@@ -1,6 +1,40 @@
 {
-  "checkedAt": "2026-09-10T05:32:06.903Z",
+  "checkedAt": "2026-09-11T05:35:27.848Z",
   "newJobs": [
+    {
+      "company": "Luni",
+      "title": "ASO Manager",
+      "fit": "Strong",
+      "priority": "High",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Paris, Île-de-France, France",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4463471934",
+      "active": true,
+      "discoveredAt": "2026-09-11T05:33:21.210Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-11T05:35:27.848Z"
+    },
+    {
+      "company": "Bondspe",
+      "title": "App Marketing & ASO Specialist",
+      "fit": "Good",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Mayur Vihar, Delhi, India",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4463433397",
+      "active": true,
+      "discoveredAt": "2026-09-11T05:33:21.210Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-11T05:35:27.245Z"
+    }
+  ],
+  "closedJobs": [
     {
       "company": "Emerald Zebra Recruitment & Executive Search",
       "title": "App Store Optimization Manager (ASO), Limassol, Cyprus",
@@ -12,66 +46,47 @@
       "location": "Limassol, Cyprus",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
       "url": "https://www.linkedin.com/jobs/view/4464985671",
-      "active": true,
+      "active": false,
       "discoveredAt": "2026-09-10T05:30:03.564Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-10T05:32:06.903Z"
-    }
-  ],
-  "closedJobs": [
+      "lastChecked": "2026-09-11T05:33:26.722Z"
+    },
     {
-      "company": "Bondspe",
-      "title": "App Marketing & ASO manager",
+      "company": "Luni",
+      "title": "ASO Manager",
       "fit": "Strong",
       "priority": "High",
       "category": "aso",
       "source": "LinkedIn",
       "mode": "onsite",
-      "location": "Mayur Vihar, Delhi, India",
+      "location": "Bordeaux, Nouvelle-Aquitaine, France",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4462262974",
+      "url": "https://www.linkedin.com/jobs/view/4457227843",
       "active": false,
-      "discoveredAt": "2026-09-09T05:39:50.833Z",
+      "discoveredAt": "2026-08-27T10:50:59.712Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-10T05:30:09.005Z"
+      "lastChecked": "2026-09-11T05:33:29.841Z"
     },
     {
-      "company": "#ARM Worldwide",
-      "title": "SEO (ASO Specialist)",
-      "fit": "Good",
-      "priority": "Medium",
+      "company": "Yahoo",
+      "title": "Director, Organic Marketing (ASO)",
+      "fit": "Strong",
+      "priority": "High",
       "category": "aso",
       "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Gurugram, Haryana, India",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4463243889",
+      "mode": "remote",
+      "location": "United States · authorization likely required",
+      "why": "Owns ASO across Yahoo's app portfolio: keywords, metadata experiments, competitive intelligence and organic growth.",
+      "url": "https://www.linkedin.com/jobs/view/4441393833",
       "active": false,
-      "discoveredAt": "2026-09-09T05:39:50.833Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-10T05:30:56.770Z"
-    },
-    {
-      "company": "Geeks Tech",
-      "title": "App Marketing Specialist (ASO & App Growth), Majoon Studio",
-      "fit": "Good",
-      "priority": "Medium",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Cairo, Egypt",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4462258154",
-      "active": false,
-      "discoveredAt": "2026-09-08T05:32:58.952Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-10T05:31:02.847Z"
+      "lastChecked": "2026-09-11T05:34:13.215Z"
     }
   ],
   "totals": {
-    "active": 38,
-    "aso": 31,
-    "remote": 4,
-    "linkedIn": 31
+    "active": 37,
+    "aso": 30,
+    "remote": 3,
+    "linkedIn": 30
   }
 }
