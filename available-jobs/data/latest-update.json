@@ -1,92 +1,44 @@
 {
-  "checkedAt": "2026-09-11T05:35:27.848Z",
+  "checkedAt": "2026-09-12T05:21:25.391Z",
   "newJobs": [
     {
-      "company": "Luni",
-      "title": "ASO Manager",
+      "company": "ShyftUp | App Store Optimization & Mobile App Marketing Agency",
+      "title": "User Acquisition Manager (App Store Optimization - ASO)",
       "fit": "Strong",
       "priority": "High",
       "category": "aso",
       "source": "LinkedIn",
       "mode": "onsite",
-      "location": "Paris, Île-de-France, France",
+      "location": "Türkiye",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4463471934",
+      "url": "https://www.linkedin.com/jobs/view/4463490253",
       "active": true,
-      "discoveredAt": "2026-09-11T05:33:21.210Z",
+      "discoveredAt": "2026-09-12T05:19:23.817Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-11T05:35:27.848Z"
+      "lastChecked": "2026-09-12T05:21:25.391Z"
     },
     {
-      "company": "Bondspe",
-      "title": "App Marketing & ASO Specialist",
+      "company": "Air Apps",
+      "title": "ASO Specialist San Francisco",
       "fit": "Good",
       "priority": "Medium",
       "category": "aso",
       "source": "LinkedIn",
       "mode": "onsite",
-      "location": "Mayur Vihar, Delhi, India",
+      "location": "San Francisco, CA",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4463433397",
+      "url": "https://www.linkedin.com/jobs/view/4463988183",
       "active": true,
-      "discoveredAt": "2026-09-11T05:33:21.210Z",
+      "discoveredAt": "2026-09-12T05:19:19.850Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-11T05:35:27.245Z"
+      "lastChecked": "2026-09-12T05:21:24.918Z"
     }
   ],
-  "closedJobs": [
-    {
-      "company": "Emerald Zebra Recruitment & Executive Search",
-      "title": "App Store Optimization Manager (ASO), Limassol, Cyprus",
-      "fit": "Strong",
-      "priority": "High",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Limassol, Cyprus",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4464985671",
-      "active": false,
-      "discoveredAt": "2026-09-10T05:30:03.564Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-11T05:33:26.722Z"
-    },
-    {
-      "company": "Luni",
-      "title": "ASO Manager",
-      "fit": "Strong",
-      "priority": "High",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Bordeaux, Nouvelle-Aquitaine, France",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4457227843",
-      "active": false,
-      "discoveredAt": "2026-08-27T10:50:59.712Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-11T05:33:29.841Z"
-    },
-    {
-      "company": "Yahoo",
-      "title": "Director, Organic Marketing (ASO)",
-      "fit": "Strong",
-      "priority": "High",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "remote",
-      "location": "United States · authorization likely required",
-      "why": "Owns ASO across Yahoo's app portfolio: keywords, metadata experiments, competitive intelligence and organic growth.",
-      "url": "https://www.linkedin.com/jobs/view/4441393833",
-      "active": false,
-      "lastStatus": 200,
-      "lastChecked": "2026-09-11T05:34:13.215Z"
-    }
-  ],
+  "closedJobs": [],
   "totals": {
-    "active": 37,
-    "aso": 30,
+    "active": 39,
+    "aso": 32,
     "remote": 3,
-    "linkedIn": 30
+    "linkedIn": 32
   }
 }
