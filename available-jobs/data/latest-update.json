@@ -1,44 +1,28 @@
 {
-  "checkedAt": "2026-09-12T05:21:25.391Z",
-  "newJobs": [
+  "checkedAt": "2026-09-13T05:37:36.422Z",
+  "newJobs": [],
+  "closedJobs": [
     {
-      "company": "ShyftUp | App Store Optimization & Mobile App Marketing Agency",
-      "title": "User Acquisition Manager (App Store Optimization - ASO)",
+      "company": "Apps Guru Technologies (Pvt.) Ltd.",
+      "title": "App Store Optimization Expert",
       "fit": "Strong",
-      "priority": "High",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Türkiye",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4463490253",
-      "active": true,
-      "discoveredAt": "2026-09-12T05:19:23.817Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-12T05:21:25.391Z"
-    },
-    {
-      "company": "Air Apps",
-      "title": "ASO Specialist San Francisco",
-      "fit": "Good",
       "priority": "Medium",
       "category": "aso",
       "source": "LinkedIn",
       "mode": "onsite",
-      "location": "San Francisco, CA",
+      "location": "Faisalabad, Punjab, Pakistan",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4463988183",
-      "active": true,
-      "discoveredAt": "2026-09-12T05:19:19.850Z",
+      "url": "https://www.linkedin.com/jobs/view/4450468227",
+      "active": false,
+      "discoveredAt": "2026-08-14T03:22:01.319Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-12T05:21:24.918Z"
+      "lastChecked": "2026-09-13T05:36:35.773Z"
     }
   ],
-  "closedJobs": [],
   "totals": {
-    "active": 39,
-    "aso": 32,
+    "active": 38,
+    "aso": 31,
     "remote": 3,
-    "linkedIn": 32
+    "linkedIn": 31
   }
 }
