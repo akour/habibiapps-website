@@ -1,24 +1,7 @@
 {
-  "checkedAt": "2026-09-13T05:37:36.422Z",
+  "checkedAt": "2026-09-14T05:42:31.043Z",
   "newJobs": [],
-  "closedJobs": [
-    {
-      "company": "Apps Guru Technologies (Pvt.) Ltd.",
-      "title": "App Store Optimization Expert",
-      "fit": "Strong",
-      "priority": "Medium",
-      "category": "aso",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Faisalabad, Punjab, Pakistan",
-      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4450468227",
-      "active": false,
-      "discoveredAt": "2026-08-14T03:22:01.319Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-13T05:36:35.773Z"
-    }
-  ],
+  "closedJobs": [],
   "totals": {
     "active": 38,
     "aso": 31,
