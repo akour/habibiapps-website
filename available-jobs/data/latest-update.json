@@ -1,11 +1,60 @@
 {
-  "checkedAt": "2026-09-14T05:42:31.043Z",
+  "checkedAt": "2026-09-15T05:44:31.834Z",
   "newJobs": [],
-  "closedJobs": [],
+  "closedJobs": [
+    {
+      "company": "SplitMetrics",
+      "title": "ASO Manager",
+      "fit": "Strong",
+      "priority": "High",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Warsaw, Mazowieckie, Poland",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4449467040",
+      "active": false,
+      "discoveredAt": "2026-08-06T04:36:32.940Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-15T05:43:14.843Z"
+    },
+    {
+      "company": "SplitMetrics",
+      "title": "ASO Manager",
+      "fit": "Strong",
+      "priority": "High",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Kyiv, Ukraine",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4449460185",
+      "active": false,
+      "discoveredAt": "2026-08-11T03:01:45.577Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-15T05:43:15.398Z"
+    },
+    {
+      "company": "Creative Spartans",
+      "title": "ASO Expert",
+      "fit": "Strong",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Lahore, Punjab, Pakistan",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4451734089",
+      "active": false,
+      "discoveredAt": "2026-08-16T02:19:20.909Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-15T05:43:21.010Z"
+    }
+  ],
   "totals": {
-    "active": 38,
-    "aso": 31,
+    "active": 35,
+    "aso": 28,
     "remote": 3,
-    "linkedIn": 31
+    "linkedIn": 28
   }
 }
