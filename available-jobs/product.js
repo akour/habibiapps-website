@@ -31,11 +31,12 @@ if(signupForm){
         signupForm.querySelectorAll(".form-step,.progress").forEach(item=>item.style.display="none");
         const success=document.querySelector("#signupSuccess");success.classList.add("show");
         success.querySelector("h2").textContent="Check your email to continue.";
-        success.querySelector("p").textContent="Confirm your email, then sign in to finish activating your trial.";
+        success.querySelector("p").textContent="Confirm your email, then sign in to finish activating your account.";
         success.querySelector("a").href="./login.html";success.querySelector("a").textContent="Go to sign in →";return;
       }
       await window.HabibiAuth.saveProfile(profile);
-      await window.HabibiAuth.checkout();
+      const settings=await window.HabibiAuth.config();
+      if(settings.billingConfigured)await window.HabibiAuth.checkout();else window.location.href="./dashboard.html?welcome=1";
     }catch(reason){showError(error,reason.message)}finally{submit.disabled=false;submit.textContent="Create account & continue →"}
   });
 }
