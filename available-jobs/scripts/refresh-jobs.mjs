@@ -1,9 +1,11 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { matchesSeniority, matchesTargetRole, scoreJob } from "./profile-scoring.mjs";
+import { discoverCompanyJobs } from "./company-sources.mjs";
 
 const dataUrl = new URL("../data/jobs.json", import.meta.url);
 const data = JSON.parse(await readFile(dataUrl, "utf8"));
 const profile = JSON.parse(await readFile(new URL("../data/search-profile.json", import.meta.url), "utf8"));
+const companySources = JSON.parse(await readFile(new URL("../data/company-sources.json", import.meta.url), "utf8"));
 const closedSignals = [
   "position has been filled",
   "job has been filled",
@@ -29,7 +31,75 @@ const clean = value => decode((value || "").replace(/<[^>]*>/g, " ").replace(/\s
 const field = (block, className) => clean(block.match(new RegExp(`<[^>]+class="[^"]*${className}[^"]*"[^>]*>([\\s\\S]*?)<\\/[^>]+>`))?.[1]);
 const jobId = url => url.match(/\/jobs\/view\/(?:[^/?]+-)?(\d+)/)?.[1];
 const jobKey = job => jobId(job.url) || job.url;
+const semanticKey = job => `${job.company || ""}:${job.title || ""}`.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 const previousJobs = new Map(data.jobs.map(job => [jobKey(job), { ...job }]));
+
+function modeFrom(job) {
+  const value = `${job.title || ""} ${job.location || ""}`;
+  if (/remote|worldwide|anywhere/i.test(value)) return "remote";
+  if (/hybrid/i.test(value)) return "hybrid";
+  return "onsite";
+}
+
+async function discoverDirectCompanyJobs() {
+  const discovery = await discoverCompanyJobs(companySources);
+  const scannedAt = new Date().toISOString();
+  const relevant = discovery.jobs.filter(job => matchesTargetRole(job.title, profile));
+  const discoveredKeys = new Set(relevant.map(semanticKey));
+  const successfulCompanies = new Set(discovery.metrics.results.filter(result => result.ok).map(result => result.company));
+
+  for (const existing of data.jobs) {
+    if (existing.discoverySource !== "company-scanner" || !successfulCompanies.has(existing.company)) continue;
+    if (!discoveredKeys.has(semanticKey(existing))) {
+      existing.active = false;
+      existing.lastChecked = scannedAt;
+      existing.checkNote = "missing-from-company-source";
+    }
+  }
+
+  const bySemanticKey = new Map(data.jobs.map((job, index) => [semanticKey(job), index]));
+  let added = 0;
+  let refreshed = 0;
+  for (const raw of relevant) {
+    const candidate = {
+      company: raw.company,
+      title: raw.title,
+      priority: matchesSeniority(raw.title, profile) ? "High" : "Medium",
+      category: /\bASO\b|app store optimi/i.test(raw.title) ? "aso" : "general",
+      source: "Company careers",
+      sourceType: raw.sourceType,
+      sourceUrl: raw.sourceUrl,
+      discoverySource: "company-scanner",
+      mode: modeFrom(raw),
+      location: raw.location,
+      url: raw.url,
+      active: true,
+      discoveredAt: scannedAt,
+      lastChecked: scannedAt
+    };
+    const match = scoreJob(candidate, profile);
+    if (match.excludedKeyword) continue;
+    candidate.matchScore = match.score;
+    candidate.fit = match.fit;
+    candidate.why = match.reasons.length
+      ? `Found on ${raw.company}'s careers source: ${match.reasons.join("; ")}.`
+      : `Found directly on ${raw.company}'s careers source.`;
+
+    const existingIndex = bySemanticKey.get(semanticKey(candidate));
+    if (existingIndex === undefined) {
+      data.jobs.push(candidate);
+      bySemanticKey.set(semanticKey(candidate), data.jobs.length - 1);
+      added += 1;
+    } else {
+      const existing = data.jobs[existingIndex];
+      data.jobs[existingIndex] = { ...existing, ...candidate, discoveredAt: existing.discoveredAt || candidate.discoveredAt };
+      refreshed += 1;
+    }
+  }
+
+  console.log(`Company sources: ${discovery.metrics.sourcesSucceeded}/${companySources.length} succeeded; ${discovery.jobs.length} jobs found; ${added} relevant jobs added; ${refreshed} refreshed.`);
+  return { ...discovery.metrics, relevantJobs: relevant.length, added, refreshed };
+}
 async function discoverLinkedInAso() {
   const known = new Set(data.jobs.map(job => jobId(job.url)).filter(Boolean));
   const discovered = [];
@@ -116,10 +186,23 @@ async function inspect(job) {
   }
 }
 
+async function mapWithConcurrency(items, limit, mapper) {
+  const results = new Array(items.length);
+  let nextIndex = 0;
+  const worker = async () => {
+    while (nextIndex < items.length) {
+      const index = nextIndex++;
+      results[index] = await mapper(items[index]);
+    }
+  };
+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, worker));
+  return results;
+}
+
+const companySourceMetrics = await discoverDirectCompanyJobs();
 await discoverLinkedInAso();
 
-const checked = [];
-for (const job of data.jobs) checked.push(await inspect(job));
+const checked = await mapWithConcurrency(data.jobs, 6, inspect);
 
 const priorityRank = { "Top choice": 0, High: 1, Medium: 2, Low: 3 };
 const rescored = checked.map(job => {
@@ -134,6 +217,7 @@ const rescored = checked.map(job => {
 const output = {
   checkedAt: new Date().toISOString(),
   profileId: profile.id,
+  sourceMetrics: companySourceMetrics,
   jobs: rescored.sort((a, b) =>
     Number(b.active) - Number(a.active) ||
     (b.matchScore ?? 0) - (a.matchScore ?? 0) ||
@@ -153,7 +237,8 @@ const digest = {
     active,
     aso: rescored.filter(job => job.active !== false && !job.excludedByProfile && job.category === "aso").length,
     remote: rescored.filter(job => job.active !== false && !job.excludedByProfile && job.mode === "remote").length,
-    linkedIn: rescored.filter(job => job.active !== false && !job.excludedByProfile && job.source === "LinkedIn").length
+    linkedIn: rescored.filter(job => job.active !== false && !job.excludedByProfile && job.source === "LinkedIn").length,
+    companySources: rescored.filter(job => job.active !== false && !job.excludedByProfile && job.source === "Company careers").length
   }
 };
 
