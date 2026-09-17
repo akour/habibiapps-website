@@ -5,7 +5,8 @@ export function scoreJob(job, searchProfile) {
   const haystack = `${job.company || ""} ${job.title || ""} ${job.location || ""} ${job.why || ""}`.toLowerCase();
   const matchedKeywords = searchProfile.matchKeywords.filter(keyword => title.includes(keyword.toLowerCase()));
   const seniorityMatch = includesAny(title, searchProfile.seniorityKeywords);
-  const excludedKeyword = searchProfile.excludedKeywords.find(keyword => haystack.includes(keyword.toLowerCase()));
+  const excludedCompany = (searchProfile.excludedCompanies || []).find(company => String(job.company || "").toLowerCase() === company.toLowerCase());
+  const excludedKeyword = searchProfile.excludedKeywords.find(keyword => haystack.includes(keyword.toLowerCase())) || (excludedCompany ? `company:${excludedCompany}` : undefined);
   const remote = job.mode === "remote" || /remote|worldwide|anywhere/.test(`${title} ${String(job.location || "").toLowerCase()}`);
   const preferredMode = searchProfile.preferredModes.includes(remote ? "remote" : job.mode);
   let score = Math.min(matchedKeywords.length, 2) * 28 + (seniorityMatch ? 18 : 0) + (preferredMode ? 24 : 0);
