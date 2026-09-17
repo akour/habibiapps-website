@@ -34,7 +34,7 @@ const html = `<!doctype html><html><body style="margin:0;background:#fffaf0;font
     <div style="background:#dfff48;border-radius:16px;padding:24px">
       <div style="font-size:12px;font-weight:900;letter-spacing:.12em;text-transform:uppercase">Daily career radar</div>
       <h1 style="margin:8px 0 5px;font-size:34px">${newCount ? `${newCount} new role${newCount === 1 ? "" : "s"}` : "No new roles today"}</h1>
-      <p style="margin:0">${digest.totals.active} active · ${digest.totals.aso} ASO · ${digest.totals.remote} remote · ${digest.totals.linkedIn} from LinkedIn</p>
+      <p style="margin:0">${digest.totals.active} active · ${digest.totals.aso} ASO · ${digest.totals.remote} remote · ${digest.totals.companySources || 0} direct · ${digest.totals.linkedIn} LinkedIn</p>
     </div>
     ${newCount ? `<h2 style="margin-top:28px">New opportunities</h2>${digest.newJobs.map(jobCard).join("")}` : '<p style="padding:22px 0">The search completed successfully. Nothing new passed the filters today.</p>'}
     ${closedCount ? `<h2 style="margin-top:28px">Recently closed</h2><ul>${digest.closedJobs.map(job => `<li>${escapeHtml(job.company)} — ${escapeHtml(job.title)}</li>`).join("")}</ul>` : ""}
