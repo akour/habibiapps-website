@@ -1,0 +1,63 @@
+{
+  "id": "jordan",
+  "displayName": "Jordan",
+  "headline": "Senior mobile growth and product marketing",
+  "desiredRoles": [
+    "App Store Optimization",
+    "ASO Manager",
+    "ASO Consultant",
+    "Mobile Product Marketing Manager",
+    "Mobile Growth Manager",
+    "LiveOps Manager",
+    "Mobile Gaming Marketing Manager"
+  ],
+  "searchQueries": [
+    "App Store Optimization",
+    "ASO Manager mobile app",
+    "Senior ASO Consultant",
+    "Mobile Product Marketing Manager",
+    "Promo events LiveOps Manager",
+    "LiveOps Mobile Marketing Manager",
+    "Mobile Gaming Marketing Manager",
+    "ASO Expert",
+    "ASO Consultant",
+    "Mobile App Marketing Manager"
+  ],
+  "matchKeywords": [
+    "app store optimization",
+    "aso",
+    "mobile product marketing",
+    "mobile growth",
+    "liveops",
+    "live ops",
+    "mobile app marketing",
+    "mobile game marketing"
+  ],
+  "seniorityKeywords": [
+    "senior",
+    "manager",
+    "head",
+    "lead",
+    "director",
+    "consultant",
+    "expert"
+  ],
+  "preferredIndustries": [
+    "mobile apps",
+    "mobile games",
+    "consumer apps"
+  ],
+  "preferredModes": [
+    "remote"
+  ],
+  "excludedKeywords": [
+    "casino",
+    "gambling",
+    "sportsbook",
+    "betting"
+  ],
+  "email": {
+    "enabled": true,
+    "cadence": "daily"
+  }
+}
