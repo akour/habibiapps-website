@@ -1,7 +1,9 @@
 import { readFile, writeFile } from "node:fs/promises";
+import { matchesSeniority, matchesTargetRole, scoreJob } from "./profile-scoring.mjs";
 
 const dataUrl = new URL("../data/jobs.json", import.meta.url);
 const data = JSON.parse(await readFile(dataUrl, "utf8"));
+const profile = JSON.parse(await readFile(new URL("../data/search-profile.json", import.meta.url), "utf8"));
 const closedSignals = [
   "position has been filled",
   "job has been filled",
@@ -14,18 +16,7 @@ const closedSignals = [
   "404 not found"
 ];
 
-const linkedInQueries = [
-  "App Store Optimization",
-  "ASO Manager mobile app",
-  "Senior ASO Consultant",
-  "Mobile Product Marketing Manager",
-  "Promo events LiveOps Manager",
-  "LiveOps Mobile Marketing Manager",
-  "Mobile Gaming Marketing Manager",
-  "ASO Expert",
-  "ASO Consultant",
-  "Mobile App Marketing Manager"
-];
+const linkedInQueries = profile.searchQueries;
 
 const decode = value => value
   .replace(/&amp;/g, "&")
@@ -39,7 +30,6 @@ const field = (block, className) => clean(block.match(new RegExp(`<[^>]+class="[
 const jobId = url => url.match(/\/jobs\/view\/(?:[^/?]+-)?(\d+)/)?.[1];
 const jobKey = job => jobId(job.url) || job.url;
 const previousJobs = new Map(data.jobs.map(job => [jobKey(job), { ...job }]));
-
 async function discoverLinkedInAso() {
   const known = new Set(data.jobs.map(job => jobId(job.url)).filter(Boolean));
   const discovered = [];
@@ -66,23 +56,28 @@ async function discoverLinkedInAso() {
         const title = field(block, "base-search-card__title");
         const company = field(block, "base-search-card__subtitle") || "LinkedIn listing";
         const location = field(block, "job-search-card__location") || "Location not stated";
-        if (!/\bASO\b|app store optimi/i.test(title)) continue;
-        if (/draftkings|sportsbook|casino|gambling|betting/i.test(`${company} ${title}`)) continue;
+        if (!matchesTargetRole(title, profile)) continue;
         const remote = /remote|worldwide|anywhere/i.test(`${title} ${location}`);
-        discovered.push({
+        const candidate = {
           company,
           title,
-          fit: /senior|manager|lead|director|consultant|expert/i.test(title) ? "Strong" : "Good",
-          priority: /senior|manager|lead|director/i.test(title) ? "High" : "Medium",
-          category: "aso",
+          priority: matchesSeniority(title, profile) ? "High" : "Medium",
+          category: /\bASO\b|app store optimi/i.test(title) ? "aso" : "general",
           source: "LinkedIn",
           mode: remote ? "remote" : "onsite",
           location,
-          why: "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
           url: `https://www.linkedin.com/jobs/view/${id}`,
           active: true,
           discoveredAt: new Date().toISOString()
-        });
+        };
+        const match = scoreJob(candidate, profile);
+        if (match.excludedKeyword) continue;
+        candidate.matchScore = match.score;
+        candidate.fit = match.fit;
+        candidate.why = match.reasons.length
+          ? `Profile match: ${match.reasons.join("; ")}.`
+          : "Potential mobile-growth role. Review the full requirements before applying.";
+        discovered.push(candidate);
         known.add(id);
         if (discovered.length >= 24) break;
       }
@@ -127,27 +122,38 @@ const checked = [];
 for (const job of data.jobs) checked.push(await inspect(job));
 
 const priorityRank = { "Top choice": 0, High: 1, Medium: 2, Low: 3 };
+const rescored = checked.map(job => {
+  const match = scoreJob(job, profile);
+  return {
+    ...job,
+    matchScore: match.score,
+    fit: match.fit,
+    ...(match.excludedKeyword ? { excludedByProfile: match.excludedKeyword } : {})
+  };
+});
 const output = {
   checkedAt: new Date().toISOString(),
-  jobs: checked.sort((a, b) =>
+  profileId: profile.id,
+  jobs: rescored.sort((a, b) =>
     Number(b.active) - Number(a.active) ||
+    (b.matchScore ?? 0) - (a.matchScore ?? 0) ||
     (priorityRank[a.priority] ?? 9) - (priorityRank[b.priority] ?? 9) ||
     a.company.localeCompare(b.company)
   )
 };
 
-const active = checked.filter(job => job.active).length;
-const newJobs = checked.filter(job => !previousJobs.has(jobKey(job)) && job.active !== false);
-const closedJobs = checked.filter(job => previousJobs.get(jobKey(job))?.active !== false && job.active === false);
+const active = rescored.filter(job => job.active && !job.excludedByProfile).length;
+const newJobs = rescored.filter(job => !previousJobs.has(jobKey(job)) && job.active !== false && !job.excludedByProfile);
+const closedJobs = rescored.filter(job => previousJobs.get(jobKey(job))?.active !== false && job.active === false);
 const digest = {
   checkedAt: output.checkedAt,
   newJobs,
   closedJobs,
   totals: {
     active,
-    aso: checked.filter(job => job.active !== false && job.category === "aso").length,
-    remote: checked.filter(job => job.active !== false && job.mode === "remote").length,
-    linkedIn: checked.filter(job => job.active !== false && job.source === "LinkedIn").length
+    aso: rescored.filter(job => job.active !== false && !job.excludedByProfile && job.category === "aso").length,
+    remote: rescored.filter(job => job.active !== false && !job.excludedByProfile && job.mode === "remote").length,
+    linkedIn: rescored.filter(job => job.active !== false && !job.excludedByProfile && job.source === "LinkedIn").length
   }
 };
 
