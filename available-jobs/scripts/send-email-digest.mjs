@@ -16,7 +16,7 @@ const escapeHtml = value => String(value ?? "").replace(/[&<>'"]/g, character =>
 
 const jobCard = job => `
   <div style="border:1px solid #dfe6df;border-left:6px solid #dfff48;border-radius:12px;padding:16px;margin:12px 0;background:#fff">
-    <div style="font-size:12px;font-weight:800;color:#657168;text-transform:uppercase">${escapeHtml(job.company)} · ${escapeHtml(job.source || "Direct")}</div>
+    <div style="font-size:12px;font-weight:800;color:#657168;text-transform:uppercase">${escapeHtml(job.company)} · ${escapeHtml(job.source || "Direct")}${Number.isFinite(job.matchScore) ? ` · ${escapeHtml(job.matchScore)}% match` : ""}</div>
     <h3 style="margin:7px 0;color:#10271d">${escapeHtml(job.title)}</h3>
     <div style="font-size:13px;color:#526159">${escapeHtml(job.mode)} · ${escapeHtml(job.location)}</div>
     <p style="font-size:14px;line-height:1.5;color:#526159">${escapeHtml(job.why)}</p>
