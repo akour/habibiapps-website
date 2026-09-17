@@ -1,14 +1,13 @@
-const accountKey="habibiJobsAccountV1";
-const getAccount=()=>{try{return JSON.parse(localStorage.getItem(accountKey)||"null")}catch{return null}};
-const saveAccount=value=>localStorage.setItem(accountKey,JSON.stringify(value));
-
 document.querySelectorAll("[data-current-year]").forEach(node=>node.textContent=new Date().getFullYear());
+const showError=(node,message)=>{node.textContent=message;node.style.display="block"};
 
 const signupForm=document.querySelector("#signupForm");
 if(signupForm){
   let step=1;
   const steps=[...signupForm.querySelectorAll(".form-step")];
   const progress=[...document.querySelectorAll(".progress span")];
+  const submit=signupForm.querySelector('[type="submit"]');
+  const error=document.querySelector("#signupError");
   const showStep=next=>{step=next;steps.forEach(item=>item.hidden=Number(item.dataset.step)!==step);progress.forEach((item,index)=>item.classList.toggle("active",index<step));window.scrollTo({top:0,behavior:"smooth"})};
   signupForm.addEventListener("click",event=>{
     const next=event.target.closest("[data-next]");
@@ -21,26 +20,33 @@ if(signupForm){
       showStep(step+1);
     }
   });
-  signupForm.addEventListener("submit",event=>{
+  signupForm.addEventListener("submit",async event=>{
     event.preventDefault();
+    error.style.display="none";submit.disabled=true;submit.textContent="Creating account…";
     const data=new FormData(signupForm);
-    const account={name:data.get("name"),email:data.get("email"),roles:data.getAll("roles"),location:data.get("location"),workModes:data.getAll("workModes"),dealbreakers:data.get("dealbreakers"),plan:"founding",status:"trial-requested",createdAt:new Date().toISOString()};
-    saveAccount(account);
-    signupForm.querySelectorAll(".form-step,.progress").forEach(item=>item.style.display="none");
-    const success=document.querySelector("#signupSuccess");success.classList.add("show");
-    document.querySelector("#successName").textContent=account.name.split(" ")[0]||"there";
+    const profile={name:data.get("name"),roles:data.getAll("roles"),location:data.get("location"),work_modes:data.getAll("workModes"),dealbreakers:data.get("dealbreakers")};
+    try{
+      const result=await window.HabibiAuth.signUp({email:data.get("email"),password:data.get("password"),profile});
+      if(!result.access_token){
+        signupForm.querySelectorAll(".form-step,.progress").forEach(item=>item.style.display="none");
+        const success=document.querySelector("#signupSuccess");success.classList.add("show");
+        success.querySelector("h2").textContent="Check your email to continue.";
+        success.querySelector("p").textContent="Confirm your email, then sign in to finish activating your trial.";
+        success.querySelector("a").href="./login.html";success.querySelector("a").textContent="Go to sign in →";return;
+      }
+      await window.HabibiAuth.saveProfile(profile);
+      await window.HabibiAuth.checkout();
+    }catch(reason){showError(error,reason.message)}finally{submit.disabled=false;submit.textContent="Create account & continue →"}
   });
 }
 
 const loginForm=document.querySelector("#loginForm");
 if(loginForm){
-  const account=getAccount();
-  if(account?.email)loginForm.elements.email.value=account.email;
-  loginForm.addEventListener("submit",event=>{
+  const error=document.querySelector("#loginError"),button=loginForm.querySelector('[type="submit"]');
+  loginForm.addEventListener("submit",async event=>{
     event.preventDefault();
-    const saved=getAccount();
-    const error=document.querySelector("#loginError");
-    if(saved&&saved.email.toLowerCase()===loginForm.elements.email.value.toLowerCase()){window.location.href="./dashboard.html"}
-    else{error.textContent="No local early-access account was found for this email. Create an account first."}
+    error.style.display="none";button.disabled=true;button.textContent="Signing in…";
+    try{await window.HabibiAuth.signIn(loginForm.elements.email.value,loginForm.elements.password.value);window.location.href="./dashboard.html"}
+    catch(reason){showError(error,reason.message)}finally{button.disabled=false;button.textContent="Sign in →"}
   });
 }
