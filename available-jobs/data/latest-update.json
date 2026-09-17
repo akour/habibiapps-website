@@ -1,6 +1,24 @@
 {
-  "checkedAt": "2026-09-16T05:36:52.182Z",
+  "checkedAt": "2026-09-17T05:42:18.218Z",
   "newJobs": [
+    {
+      "company": "Air Apps",
+      "title": "ASO Specialist",
+      "fit": "Good",
+      "priority": "Medium",
+      "category": "aso",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Lisboa, Lisbon, Portugal",
+      "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
+      "url": "https://www.linkedin.com/jobs/view/4465978445",
+      "active": true,
+      "discoveredAt": "2026-09-17T05:40:16.314Z",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-17T05:42:18.218Z"
+    }
+  ],
+  "closedJobs": [
     {
       "company": "Bondspe",
       "title": "App Growth & Marketing (ASO Specialist)",
@@ -12,34 +30,32 @@
       "location": "Mayur Vihar, Delhi, India",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
       "url": "https://www.linkedin.com/jobs/view/4466503281",
-      "active": true,
+      "active": false,
       "discoveredAt": "2026-09-16T05:34:46.623Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-16T05:36:52.182Z"
-    }
-  ],
-  "closedJobs": [
+      "lastChecked": "2026-09-17T05:41:07.286Z"
+    },
     {
-      "company": "Bondspe",
-      "title": "App Marketing & ASO Specialist",
+      "company": "The Games Forest",
+      "title": "(App Store Optimization) ASO",
       "fit": "Good",
       "priority": "Medium",
       "category": "aso",
       "source": "LinkedIn",
       "mode": "onsite",
-      "location": "Mayur Vihar, Delhi, India",
+      "location": "Lahore, Punjab, Pakistan",
       "why": "New ASO role discovered automatically from LinkedIn's public job search. Review location and work-authorization requirements before applying.",
-      "url": "https://www.linkedin.com/jobs/view/4463433397",
+      "url": "https://www.linkedin.com/jobs/view/4452249070",
       "active": false,
-      "discoveredAt": "2026-09-11T05:33:21.210Z",
+      "discoveredAt": "2026-08-18T02:13:34.590Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-16T05:35:38.441Z"
+      "lastChecked": "2026-09-17T05:41:52.540Z"
     }
   ],
   "totals": {
-    "active": 35,
-    "aso": 28,
+    "active": 34,
+    "aso": 27,
     "remote": 3,
-    "linkedIn": 28
+    "linkedIn": 27
   }
 }
