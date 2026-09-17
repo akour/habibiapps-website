@@ -15,3 +15,18 @@ The site showcases released and upcoming products, hosts product pages and priva
 ## Deployment
 
 Deployed through Cloudflare Pages.
+
+## Habibi Jobs SaaS shell
+
+The `available-jobs/` product now includes:
+
+- Public landing page and founding-plan pricing
+- Three-step early-access onboarding
+- Local prototype sign-in
+- Live job-radar demo
+- Draft privacy policy and terms
+
+The current signup stores a profile in the visitor's browser only. Do not accept
+payments until production authentication, a user database, subscription billing,
+per-user scheduled searches, transactional email, account deletion, and provider-
+specific legal disclosures are connected.
