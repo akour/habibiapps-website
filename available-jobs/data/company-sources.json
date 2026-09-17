@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Superscale",
+    "website": "https://superscale.com",
+    "careersUrl": "https://superscale.com/careers/",
+    "sourceType": "custom",
+    "sourceUrl": "https://superscale.com/careers"
+  },
+  {
+    "name": "AppAgent",
+    "website": "https://appagent.com",
+    "careersUrl": "https://careers.appagent.com/",
+    "sourceType": "custom",
+    "sourceUrl": "https://careers.appagent.com"
+  },
+  {
+    "name": "Product Madness",
+    "website": "https://www.productmadness.com",
+    "careersUrl": "https://www.productmadness.com/careers/",
+    "sourceType": "workday",
+    "sourceUrl": "https://aristocrat.wd3.myworkdayjobs.com/AristocratExternalCareersSite?hiringCompany=410fe4438ac610086a9d308831790002"
+  },
+  {
+    "name": "Miniclip",
+    "website": "https://www.miniclip.com",
+    "careersUrl": "https://www.miniclip.com/careers/",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.miniclip.com/careers/vacancies"
+  },
+  {
+    "name": "Playtika",
+    "website": "https://www.playtika.com",
+    "careersUrl": "https://www.playtika.com/careers/",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.playtika.com/careers"
+  },
+  {
+    "name": "Tilting Point",
+    "website": "https://www.tiltingpoint.com",
+    "careersUrl": "https://www.tiltingpoint.com/careers/",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.tiltingpoint.com/vacancy"
+  },
+  {
+    "name": "Scopely",
+    "website": "https://www.scopely.com",
+    "careersUrl": "https://www.scopely.com/en/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://careers.scopely.com/us/en/search-results"
+  },
+  {
+    "name": "AppLovin",
+    "website": "https://www.applovin.com",
+    "careersUrl": "https://www.applovin.com/careers/",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.applovin.com/careers"
+  },
+  {
+    "name": "Stillfront",
+    "website": "https://www.stillfront.com",
+    "careersUrl": "https://www.stillfront.com/en/career/",
+    "sourceType": "custom",
+    "sourceUrl": "https://stillfrontgroup.teamtailor.com/jobs"
+  },
+  {
+    "name": "Homa Games",
+    "website": "https://www.homagames.com",
+    "careersUrl": "https://www.homagames.com/careers",
+    "sourceType": "workable",
+    "sourceUrl": "https://apply.workable.com/homa-games"
+  }
+]
