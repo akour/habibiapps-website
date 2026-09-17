@@ -26,7 +26,7 @@ The `available-jobs/` product now includes:
 - Live job-radar demo
 - Draft privacy policy and terms
 
-The current signup stores a profile in the visitor's browser only. Do not accept
-payments until production authentication, a user database, subscription billing,
-per-user scheduled searches, transactional email, account deletion, and provider-
-specific legal disclosures are connected.
+The production backend uses Cloudflare Pages Functions, Supabase Auth/Postgres,
+Stripe Checkout and Resend. See `BACKEND_SETUP.md` for the required database
+migration, environment variables, webhook and deployment setup. The public signup
+fails safely until those services are configured.
