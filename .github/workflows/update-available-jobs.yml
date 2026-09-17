@@ -3,6 +3,11 @@ name: Update available jobs
 on:
   schedule:
     - cron: "0 1 * * *"
+  push:
+    paths:
+      - "available-jobs/scripts/**"
+      - "available-jobs/data/company-sources.json"
+      - "available-jobs/data/search-profile.json"
   workflow_dispatch:
 
 permissions:
