@@ -25,6 +25,8 @@ jobs:
       RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
       JOBS_EMAIL_TO: ${{ secrets.JOBS_EMAIL_TO }}
       JOBS_EMAIL_FROM: ${{ secrets.JOBS_EMAIL_FROM }}
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
     steps:
       - name: Check out the website
         uses: actions/checkout@v4
@@ -39,6 +41,9 @@ jobs:
 
       - name: Send daily email digest
         run: node available-jobs/scripts/send-email-digest.mjs
+
+      - name: Send subscriber digests
+        run: node available-jobs/scripts/send-subscriber-digests.mjs
 
       - name: Commit updated availability
         run: |
