@@ -17,6 +17,12 @@ test("blocks excluded industries", () => {
   assert.equal(result.excludedKeyword, "casino");
 });
 
+test("blocks known excluded companies when the role title is neutral", () => {
+  const result = scoreJob({ title: "Senior Product Manager", company: "Product Madness", location: "Remote", mode: "remote" }, profile);
+  assert.equal(result.score, 0);
+  assert.equal(result.excludedKeyword, "company:Product Madness");
+});
+
 test("recognizes non-ASO target roles from the profile", () => {
   assert.equal(matchesTargetRole("Mobile Product Marketing Manager", profile), true);
   assert.equal(matchesTargetRole("Backend Engineer", profile), false);
