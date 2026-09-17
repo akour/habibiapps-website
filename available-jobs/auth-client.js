@@ -1,10 +1,7 @@
 (()=>{
   const sessionKey="habibiJobsSessionV1";
-  let configPromise;
-  const config=()=>configPromise||=(fetch("/api/config",{cache:"no-store"}).then(async response=>{
-    if(!response.ok)throw new Error("The account service is unavailable.");
-    return response.json();
-  }));
+  const settings={configured:true,supabaseUrl:"https://mjmwfocpswpvqtmuxiqv.supabase.co",supabaseAnonKey:"sb_publishable_cUZXQpFpkd_fPW1Pq26XNA_4gonU8XR",apiBase:"https://mjmwfocpswpvqtmuxiqv.supabase.co/functions/v1/jobs-api",billingConfigured:false,plan:{name:"Founding plan",price:"$9/month",trialDays:14}};
+  const config=async()=>settings;
   const readSession=()=>{try{return JSON.parse(localStorage.getItem(sessionKey)||"null")}catch{return null}};
   const writeSession=session=>session?localStorage.setItem(sessionKey,JSON.stringify(session)):localStorage.removeItem(sessionKey);
   const hash=new URLSearchParams(location.hash.replace(/^#/,""));
@@ -29,7 +26,7 @@
   };
   const api=async(path,options={})=>{
     const session=await getSession();if(!session)throw new Error("Please sign in first.");
-    const response=await fetch(path,{...options,headers:{authorization:`Bearer ${session.access_token}`,"content-type":"application/json",...(options.headers||{})}});
+    const response=await fetch(`${settings.apiBase}${path}`,{...options,headers:{authorization:`Bearer ${session.access_token}`,"content-type":"application/json",...(options.headers||{})}});
     const result=await response.json().catch(()=>({}));if(!response.ok)throw new Error(result.error||"The request failed.");return result;
   };
   window.HabibiAuth={
@@ -39,9 +36,9 @@
     async requestPasswordReset(email){const redirect=`${location.origin}/available-jobs/reset-password.html`;return authRequest(`recover?redirect_to=${encodeURIComponent(redirect)}`,{email})},
     async updatePassword(password){const session=await getSession();if(!session)throw new Error("The reset link is invalid or expired.");const settings=await config();const response=await fetch(`${settings.supabaseUrl}/auth/v1/user`,{method:"PUT",headers:{apikey:settings.supabaseAnonKey,authorization:`Bearer ${session.access_token}`,"content-type":"application/json"},body:JSON.stringify({password})});const result=await response.json();if(!response.ok)throw new Error(result.message||"Password update failed.");return result},
     signOut(){writeSession(null);window.location.href="./login.html"},
-    getProfile:()=>api("/api/profile"),saveProfile:profile=>api("/api/profile",{method:"PUT",body:JSON.stringify(profile)}),
-    getFeedback:()=>api("/api/feedback"),saveFeedback:feedback=>api("/api/feedback",{method:"PUT",body:JSON.stringify(feedback)}),
-    async checkout(){const result=await api("/api/create-checkout-session",{method:"POST"});window.location.href=result.url},
-    async portal(){const result=await api("/api/create-portal-session",{method:"POST"});window.location.href=result.url}
+    getProfile:()=>api("/profile"),saveProfile:profile=>api("/profile",{method:"PUT",body:JSON.stringify(profile)}),
+    getFeedback:()=>api("/feedback"),saveFeedback:feedback=>api("/feedback",{method:"PUT",body:JSON.stringify(feedback)}),
+    async checkout(){const result=await api("/create-checkout-session",{method:"POST"});window.location.href=result.url},
+    async portal(){const result=await api("/create-portal-session",{method:"POST"});window.location.href=result.url}
   };
 })();
