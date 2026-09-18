@@ -18,7 +18,7 @@ Never expose the service-role key in browser code.
 
 1. Create and activate a Lemon Squeezy store for Habibi Jobs.
 2. Create a subscription product named `Habibi Jobs — Founding plan`.
-3. Add a USD $9 monthly variant with a 14-day free trial.
+3. Add a JOD 7.100 monthly variant with a 3-day free trial.
 4. Copy the store ID and variant ID.
 5. Create an API key under Settings → API.
 6. Add a webhook endpoint:
