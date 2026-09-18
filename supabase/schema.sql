@@ -14,11 +14,15 @@ create table if not exists public.profiles (
 
 create table if not exists public.subscriptions (
   user_id uuid primary key references auth.users(id) on delete cascade,
+  billing_provider text not null default 'lemon_squeezy' check (billing_provider in ('lemon_squeezy', 'stripe')),
+  lemon_squeezy_customer_id text unique,
+  lemon_squeezy_subscription_id text unique,
   stripe_customer_id text unique,
   stripe_subscription_id text unique,
   status text not null default 'incomplete',
   current_period_end timestamptz,
   trial_ends_at timestamptz,
+  billing_test_mode boolean not null default false,
   updated_at timestamptz not null default now()
 );
 
