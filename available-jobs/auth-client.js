@@ -26,7 +26,9 @@
   };
   const api=async(path,options={})=>{
     const session=await getSession();if(!session)throw new Error("Please sign in first.");
-    const response=await fetch(`${settings.apiBase}${path}`,{...options,headers:{authorization:`Bearer ${session.access_token}`,"content-type":"application/json",...(options.headers||{})}});
+    const headers={authorization:`Bearer ${session.access_token}`,...(options.headers||{})};
+    if(!(options.body instanceof FormData))headers["content-type"]="application/json";
+    const response=await fetch(`${settings.apiBase}${path}`,{...options,headers});
     const result=await response.json().catch(()=>({}));if(!response.ok)throw new Error(result.error||"The request failed.");return result;
   };
   window.HabibiAuth={
@@ -37,6 +39,8 @@
     async updatePassword(password){const session=await getSession();if(!session)throw new Error("The reset link is invalid or expired.");const settings=await config();const response=await fetch(`${settings.supabaseUrl}/auth/v1/user`,{method:"PUT",headers:{apikey:settings.supabaseAnonKey,authorization:`Bearer ${session.access_token}`,"content-type":"application/json"},body:JSON.stringify({password})});const result=await response.json();if(!response.ok)throw new Error(result.message||"Password update failed.");return result},
     signOut(){writeSession(null);window.location.href="./login.html"},
     getProfile:()=>api("/profile"),saveProfile:profile=>api("/profile",{method:"PUT",body:JSON.stringify(profile)}),
+    uploadResume:file=>{const body=new FormData();body.append("resume",file);return api("/resume",{method:"POST",body})},
+    deleteResume:()=>api("/resume",{method:"DELETE"}),
     getFeedback:()=>api("/feedback"),saveFeedback:feedback=>api("/feedback",{method:"PUT",body:JSON.stringify(feedback)}),
     async checkout(){const result=await api("/create-checkout-session",{method:"POST"});window.location.href=result.url},
     async portal(){const result=await api("/create-portal-session",{method:"POST"});window.location.href=result.url}
