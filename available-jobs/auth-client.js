@@ -1,6 +1,6 @@
 (()=>{
   const sessionKey="habibiJobsSessionV1";
-  const settings={configured:true,supabaseUrl:"https://mjmwfocpswpvqtmuxiqv.supabase.co",supabaseAnonKey:"sb_publishable_cUZXQpFpkd_fPW1Pq26XNA_4gonU8XR",apiBase:"https://mjmwfocpswpvqtmuxiqv.supabase.co/functions/v1/jobs-api",billingProvider:"lemon_squeezy",billingConfigured:false,plan:{name:"Founding plan",price:"$9/month",trialDays:14}};
+  const settings={configured:true,supabaseUrl:"https://mjmwfocpswpvqtmuxiqv.supabase.co",supabaseAnonKey:"sb_publishable_cUZXQpFpkd_fPW1Pq26XNA_4gonU8XR",apiBase:"https://mjmwfocpswpvqtmuxiqv.supabase.co/functions/v1/jobs-api",billingProvider:"lemon_squeezy",billingConfigured:false,plan:{name:"Founding plan",price:"JOD 7.100/month",trialDays:3}};
   const config=async()=>settings;
   const readSession=()=>{try{return JSON.parse(localStorage.getItem(sessionKey)||"null")}catch{return null}};
   const writeSession=session=>session?localStorage.setItem(sessionKey,JSON.stringify(session)):localStorage.removeItem(sessionKey);
