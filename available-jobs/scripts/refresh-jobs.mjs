@@ -1,5 +1,5 @@
 import { readFile, writeFile } from "node:fs/promises";
-import { matchesSeniority, matchesTargetRole, scoreJob } from "./profile-scoring.mjs";
+import { matchesSeniority, scoreJob } from "./profile-scoring.mjs";
 import { discoverCompanyJobs } from "./company-sources.mjs";
 
 const dataUrl = new URL("../data/jobs.json", import.meta.url);
@@ -18,7 +18,41 @@ const closedSignals = [
   "404 not found"
 ];
 
-const linkedInQueries = profile.searchQueries;
+const normalizeQuery = value => String(value || "").replace(/\s+/g, " ").trim();
+
+async function loadLinkedInQueries() {
+  const fallback = (profile.searchQueries || []).map(keywords => ({ keywords, location: "Worldwide" }));
+  const { SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY } = process.env;
+  if (!SUPABASE_URL || !SUPABASE_SERVICE_ROLE_KEY) return fallback;
+  try {
+    const headers = { apikey: SUPABASE_SERVICE_ROLE_KEY };
+    if (!SUPABASE_SERVICE_ROLE_KEY.startsWith("sb_secret_")) headers.authorization = `Bearer ${SUPABASE_SERVICE_ROLE_KEY}`;
+    const subscriptionsResponse = await fetch(`${SUPABASE_URL}/rest/v1/subscriptions?status=in.(on_trial,active)&select=user_id`, { headers });
+    if (!subscriptionsResponse.ok) throw new Error(`subscriptions HTTP ${subscriptionsResponse.status}`);
+    const subscriptions = await subscriptionsResponse.json();
+    const userIds = subscriptions.map(item => item.user_id).filter(Boolean);
+    if (!userIds.length) return fallback;
+    const ids = userIds.join(",");
+    const profilesResponse = await fetch(`${SUPABASE_URL}/rest/v1/profiles?user_id=in.(${ids})&select=roles,location`, { headers });
+    if (!profilesResponse.ok) throw new Error(`profiles HTTP ${profilesResponse.status}`);
+    const profiles = await profilesResponse.json();
+    const unique = new Map();
+    for (const subscriber of profiles) {
+      const location = normalizeQuery(subscriber.location) || "Worldwide";
+      for (const role of (subscriber.roles || []).slice(0, 6)) {
+        const keywords = normalizeQuery(role);
+        if (keywords.length < 2) continue;
+        unique.set(`${keywords.toLowerCase()}|${location.toLowerCase()}`, { keywords, location });
+      }
+    }
+    return unique.size ? [...unique.values()].slice(0, 50) : fallback;
+  } catch (error) {
+    console.warn(`Subscriber search profiles unavailable: ${error.message}`);
+    return fallback;
+  }
+}
+
+const linkedInQueries = await loadLinkedInQueries();
 
 const decode = value => value
   .replace(/&amp;/g, "&")
@@ -44,7 +78,7 @@ function modeFrom(job) {
 async function discoverDirectCompanyJobs() {
   const discovery = await discoverCompanyJobs(companySources);
   const scannedAt = new Date().toISOString();
-  const relevant = discovery.jobs.filter(job => matchesTargetRole(job.title, profile));
+  const relevant = discovery.jobs;
   const discoveredKeys = new Set(relevant.map(semanticKey));
   const successfulCompanies = new Set(discovery.metrics.results.filter(result => result.ok).map(result => result.company));
 
@@ -100,15 +134,18 @@ async function discoverDirectCompanyJobs() {
   console.log(`Company sources: ${discovery.metrics.sourcesSucceeded}/${companySources.length} succeeded; ${discovery.jobs.length} jobs found; ${added} relevant jobs added; ${refreshed} refreshed.`);
   return { ...discovery.metrics, relevantJobs: relevant.length, added, refreshed };
 }
-async function discoverLinkedInAso() {
+async function discoverLinkedInJobs() {
   const known = new Set(data.jobs.map(job => jobId(job.url)).filter(Boolean));
   const discovered = [];
 
-  for (const keywords of linkedInQueries) {
+  for (const search of linkedInQueries) {
+    if (discovered.length >= 120) break;
+    const { keywords, location } = search;
+    let foundForQuery = 0;
     try {
       const url = new URL("https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search");
       url.searchParams.set("keywords", keywords);
-      url.searchParams.set("location", "Worldwide");
+      url.searchParams.set("location", location || "Worldwide");
       url.searchParams.set("f_TPR", "r604800");
       url.searchParams.set("start", "0");
       const response = await fetch(url, {
@@ -126,7 +163,6 @@ async function discoverLinkedInAso() {
         const title = field(block, "base-search-card__title");
         const company = field(block, "base-search-card__subtitle") || "LinkedIn listing";
         const location = field(block, "job-search-card__location") || "Location not stated";
-        if (!matchesTargetRole(title, profile)) continue;
         const remote = /remote|worldwide|anywhere/i.test(`${title} ${location}`);
         const candidate = {
           company,
@@ -149,7 +185,8 @@ async function discoverLinkedInAso() {
           : "Potential mobile-growth role. Review the full requirements before applying.";
         discovered.push(candidate);
         known.add(id);
-        if (discovered.length >= 24) break;
+        foundForQuery += 1;
+        if (foundForQuery >= 12 || discovered.length >= 120) break;
       }
     } catch (error) {
       console.warn(`LinkedIn discovery failed for ${keywords}: ${error.message}`);
@@ -157,7 +194,7 @@ async function discoverLinkedInAso() {
   }
 
   if (discovered.length) data.jobs.push(...discovered);
-  console.log(`Discovered ${discovered.length} new LinkedIn ASO roles.`);
+  console.log(`Discovered ${discovered.length} new LinkedIn roles across ${linkedInQueries.length} subscriber searches.`);
 }
 
 async function inspect(job) {
@@ -200,7 +237,7 @@ async function mapWithConcurrency(items, limit, mapper) {
 }
 
 const companySourceMetrics = await discoverDirectCompanyJobs();
-await discoverLinkedInAso();
+await discoverLinkedInJobs();
 
 const checked = await mapWithConcurrency(data.jobs, 6, inspect);
 
