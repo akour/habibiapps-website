@@ -1,5 +1,5 @@
 import { readFile } from "node:fs/promises";
-import { scoreJob } from "./profile-scoring.mjs";
+import { scoreJob, toSearchProfile } from "./profile-scoring.mjs";
 
 const { SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, RESEND_API_KEY } = process.env;
 const sender = process.env.JOBS_EMAIL_FROM || "Habibi Jobs <jobs@habibiapps.com>";
@@ -16,25 +16,7 @@ async function db(path, init = {}) {
   const text = await response.text(); return text ? JSON.parse(text) : null;
 }
 const escapeHtml = value => String(value ?? "").replace(/[&<>'"]/g, character => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" })[character]);
-const roleTerms = { ASO: ["aso", "app store optimization"], "Product Marketing": ["product marketing"], Growth: ["growth", "acquisition"], LiveOps: ["liveops", "live ops"], Product: ["product manager", "product owner"] };
 const normalizeMode = value => String(value || "").toLowerCase().replace(/[^a-z]/g, "");
-const seniorityTerms = levels => (levels || []).flatMap(level =>
-  level === "Entry" ? ["junior", "entry", "graduate"] :
-  level === "Mid-level" ? ["mid", "intermediate"] :
-  level === "Senior" ? ["senior", "sr."] :
-  level === "Lead / Manager" ? ["lead", "manager", "head"] :
-  ["director", "vp", "chief", "executive"]
-);
-const toSearchProfile = profile => ({
-  matchKeywords: [
-    ...(profile.roles || []).flatMap(role => roleTerms[role] || [role.toLowerCase()]),
-    ...(profile.skills || []).map(skill => skill.toLowerCase())
-  ],
-  seniorityKeywords: seniorityTerms(profile.seniority),
-  preferredModes: (profile.work_modes || []).map(normalizeMode).map(mode => mode === "onsite" ? "onsite" : mode),
-  excludedKeywords: String(profile.dealbreakers || "").split(/[,\n]/).map(value => value.trim()).filter(Boolean),
-  excludedCompanies: profile.excluded_companies || []
-});
 const card = job => `<div style="border:1px solid #dfe6df;border-left:6px solid #dfff48;border-radius:12px;padding:16px;margin:12px 0;background:#fff"><div style="font-size:12px;font-weight:800;color:#657168;text-transform:uppercase">${escapeHtml(job.company)} · ${escapeHtml(job.source || "Direct")} · ${job.matchScore}% match</div><h3 style="margin:7px 0;color:#10271d">${escapeHtml(job.title)}</h3><div style="font-size:13px;color:#526159">${escapeHtml(job.mode)} · ${escapeHtml(job.location)}</div><p style="font-size:14px;line-height:1.5;color:#526159">${escapeHtml(job.why)}</p><a href="${escapeHtml(job.url)}" style="display:inline-block;background:#10271d;color:#fff;text-decoration:none;border-radius:8px;padding:9px 13px;font-weight:800">Open role →</a></div>`;
 
 const catalog = JSON.parse(await readFile(new URL("../data/jobs.json", import.meta.url), "utf8")).jobs || [];
@@ -55,8 +37,9 @@ for (const profile of (profiles || []).filter(item => activeIds.has(item.user_id
     return job.active !== false && !seen.has(job.url) && modeAllowed && locationAllowed;
   }).map(job => {
     const match = scoreJob({ ...job, mode: normalizeMode(job.mode) }, searchProfile);
-    return { ...job, matchScore: match.score, fit: match.fit, excludedKeyword: match.excludedKeyword };
-  }).filter(job => !job.excludedKeyword && job.matchScore >= 42).sort((a, b) => b.matchScore - a.matchScore).slice(0, 8);
+    const explanation = match.reasons.length ? `Profile match: ${match.reasons.join("; ")}.` : "Potential role match; review the full requirements.";
+    return { ...job, matchScore: match.score, fit: match.fit, why: explanation, excludedKeyword: match.excludedKeyword, roleMatch: match.roleMatch, warnings: match.warnings };
+  }).filter(job => !job.excludedKeyword && job.roleMatch && job.matchScore >= 55).sort((a, b) => b.matchScore - a.matchScore).slice(0, 8);
   const firstName = profile.name?.split(" ")[0] || "there";
   const html = `<!doctype html><html><body style="margin:0;background:#fffaf0;font-family:Arial,sans-serif;color:#10271d"><div style="max-width:680px;margin:auto;padding:28px 18px"><div style="background:#dfff48;border-radius:16px;padding:24px"><div style="font-size:12px;font-weight:900;letter-spacing:.12em;text-transform:uppercase">Your daily career radar</div><h1 style="margin:8px 0 5px">${matches.length ? `${matches.length} new match${matches.length === 1 ? "" : "es"}, ${escapeHtml(firstName)}` : `Nothing new today, ${escapeHtml(firstName)}`}</h1><p style="margin:0">Checked company sources and LinkedIn against your profile.</p></div>${matches.map(card).join("") || '<p style="padding:24px 0">The radar ran successfully. No new roles passed your filters today.</p>'}<p><a href="https://habibiapps.com/available-jobs/dashboard.html" style="color:#10271d;font-weight:800">Open your dashboard →</a></p></div></body></html>`;
   const response = await fetch("https://api.resend.com/emails", { method: "POST", headers: { authorization: `Bearer ${RESEND_API_KEY}`, "content-type": "application/json" }, body: JSON.stringify({ from: sender, to: [profile.email], subject: matches.length ? `${matches.length} new Habibi Jobs match${matches.length === 1 ? "" : "es"}` : "Your Habibi Jobs radar checked in", html }) });
