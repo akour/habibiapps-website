@@ -53,6 +53,22 @@ async function database(path: string, init: RequestInit = {}) {
   return text ? JSON.parse(text) : null;
 }
 
+async function storage(path: string, init: RequestInit = {}) {
+  const headers: Record<string, string> = {
+    apikey: secretKey,
+    ...((init.headers as Record<string, string>) ?? {}),
+  };
+  if (!secretKey.startsWith("sb_secret_")) headers.authorization = `Bearer ${secretKey}`;
+  const response = await fetch(`${supabaseUrl}/storage/v1/${path}`, { ...init, headers });
+  if (!response.ok) throw new Error(`Storage ${response.status}: ${await response.text()}`);
+  const text = await response.text();
+  return text ? JSON.parse(text) : null;
+}
+
+function storageObjectPath(path: string) {
+  return path.split("/").map(encodeURIComponent).join("/");
+}
+
 async function lemonSqueezy(path: string, init: RequestInit = {}) {
   const key = Deno.env.get("LEMON_SQUEEZY_API_KEY");
   if (!key) throw new Response("Billing is not active yet", { status: 503 });
@@ -92,15 +108,85 @@ Deno.serve(async (request: Request) => {
 
     if (route === "/profile" && request.method === "PUT") {
       const input = await request.json();
-      const allowed = ["name", "roles", "location", "work_modes", "dealbreakers", "excluded_companies", "email_frequency"];
       const profile: Record<string, unknown> = { user_id: user.id, email: user.email, updated_at: new Date().toISOString() };
-      for (const key of allowed) if (input[key] !== undefined) profile[key] = input[key];
+      const cleanList = (value: unknown, limit: number) => Array.isArray(value)
+        ? value.map(item => String(item).trim().slice(0, 100)).filter(Boolean).slice(0, limit)
+        : [];
+      if (input.name !== undefined) profile.name = String(input.name).trim().slice(0, 120);
+      if (input.roles !== undefined) profile.roles = cleanList(input.roles, 12);
+      if (input.skills !== undefined) profile.skills = cleanList(input.skills, 30);
+      if (input.industries !== undefined) profile.industries = cleanList(input.industries, 12);
+      if (input.excluded_companies !== undefined) profile.excluded_companies = cleanList(input.excluded_companies, 30);
+      if (input.seniority !== undefined) profile.seniority = cleanList(input.seniority, 5).filter(value =>
+        ["Entry", "Mid-level", "Senior", "Lead / Manager", "Director / Executive"].includes(value)
+      );
+      if (input.work_modes !== undefined) profile.work_modes = cleanList(input.work_modes, 3).filter(value =>
+        ["Remote", "Hybrid", "On-site"].includes(value)
+      );
+      if (input.location !== undefined) profile.location = String(input.location).trim().slice(0, 160) || "Worldwide";
+      if (input.dealbreakers !== undefined) profile.dealbreakers = String(input.dealbreakers).trim().slice(0, 2000);
+      if (input.email_frequency !== undefined && ["daily", "weekly", "off"].includes(input.email_frequency)) {
+        profile.email_frequency = input.email_frequency;
+      }
+      if (Array.isArray(profile.roles) && !profile.roles.length) return json({ error: "Add at least one target job title." }, 400, origin);
       const saved = await database("profiles?on_conflict=user_id", {
         method: "POST",
         headers: { prefer: "resolution=merge-duplicates,return=representation" },
         body: JSON.stringify(profile),
       });
       return json({ profile: saved?.[0] ?? profile }, 200, origin);
+    }
+
+    if (route === "/resume" && request.method === "POST") {
+      const form = await request.formData();
+      const file = form.get("resume");
+      const allowedTypes = new Set([
+        "application/pdf",
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "text/plain",
+      ]);
+      if (!(file instanceof File)) return json({ error: "Choose a resume file first." }, 400, origin);
+      if (!allowedTypes.has(file.type)) return json({ error: "Upload a PDF, DOCX or TXT file." }, 400, origin);
+      if (file.size > 5 * 1024 * 1024) return json({ error: "The resume must be 5 MB or smaller." }, 400, origin);
+
+      const existing = await database(`profiles?user_id=eq.${encodeURIComponent(user.id)}&select=resume_path`);
+      const previousPath = existing?.[0]?.resume_path;
+      const safeName = file.name.replace(/[^a-zA-Z0-9._-]+/g, "-").replace(/^-+|-+$/g, "") || "resume";
+      const resumePath = `${user.id}/${crypto.randomUUID()}-${safeName}`;
+      await storage(`object/resumes/${storageObjectPath(resumePath)}`, {
+        method: "POST",
+        headers: { "content-type": file.type, "x-upsert": "false" },
+        body: file,
+      });
+
+      const saved = await database(`profiles?user_id=eq.${encodeURIComponent(user.id)}`, {
+        method: "PATCH",
+        headers: { prefer: "return=representation" },
+        body: JSON.stringify({
+          resume_path: resumePath,
+          resume_name: file.name,
+          resume_uploaded_at: new Date().toISOString(),
+          updated_at: new Date().toISOString(),
+        }),
+      });
+      if (previousPath && previousPath.startsWith(`${user.id}/`)) {
+        await storage(`object/resumes/${storageObjectPath(previousPath)}`, { method: "DELETE" }).catch(error => console.warn(error));
+      }
+      return json({ profile: saved?.[0] ?? null }, 200, origin);
+    }
+
+    if (route === "/resume" && request.method === "DELETE") {
+      const existing = await database(`profiles?user_id=eq.${encodeURIComponent(user.id)}&select=resume_path`);
+      const resumePath = existing?.[0]?.resume_path;
+      if (resumePath && resumePath.startsWith(`${user.id}/`)) {
+        await storage(`object/resumes/${storageObjectPath(resumePath)}`, { method: "DELETE" });
+      }
+      const saved = await database(`profiles?user_id=eq.${encodeURIComponent(user.id)}`, {
+        method: "PATCH",
+        headers: { prefer: "return=representation" },
+        body: JSON.stringify({ resume_path: null, resume_name: null, resume_uploaded_at: null, updated_at: new Date().toISOString() }),
+      });
+      return json({ profile: saved?.[0] ?? null }, 200, origin);
     }
 
     if (route === "/feedback" && request.method === "GET") {
