@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-09-17T10:43:31.261Z",
+  "checkedAt": "2026-09-18T05:29:38.524Z",
   "profileId": "jordan",
   "sourceMetrics": {
     "companiesScanned": 10,
     "sourcesSucceeded": 10,
     "companiesWithJobs": 4,
-    "jobsDiscovered": 68,
+    "jobsDiscovered": 69,
     "results": [
       {
         "company": "Superscale",
@@ -28,7 +28,7 @@
       {
         "company": "Miniclip",
         "ok": true,
-        "jobs": 33,
+        "jobs": 34,
         "sourceType": "custom"
       },
       {
@@ -69,8 +69,8 @@
       }
     ],
     "relevantJobs": 5,
-    "added": 4,
-    "refreshed": 0
+    "added": 0,
+    "refreshed": 4
   },
   "jobs": [
     {
@@ -85,7 +85,7 @@
       "source": "Company careers",
       "category": "general",
       "priority": "High",
-      "lastChecked": "2026-09-17T10:43:29.326Z",
+      "lastChecked": "2026-09-18T05:29:32.954Z",
       "checkNote": "timeout",
       "matchScore": 74
     },
@@ -103,7 +103,7 @@
       "url": "https://newmoonproduction.teamtailor.com/jobs/8136961-product-owner-expert-product-manager",
       "active": true,
       "discoveredAt": "2026-09-17T10:43:05.606Z",
-      "lastChecked": "2026-09-17T10:43:16.163Z",
+      "lastChecked": "2026-09-18T05:29:13.881Z",
       "matchScore": 70,
       "fit": "Strong",
       "why": "Found on Stillfront's careers source: matches product manager; matches the target seniority; remote matches the work preference.",
@@ -123,7 +123,7 @@
       "active": true,
       "discoveredAt": "2026-09-12T05:19:23.817Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:10.264Z",
+      "lastChecked": "2026-09-18T05:29:13.541Z",
       "matchScore": 62
     },
     {
@@ -138,7 +138,7 @@
       "source": "Company careers",
       "category": "general",
       "priority": "High",
-      "lastChecked": "2026-09-17T10:43:29.310Z",
+      "lastChecked": "2026-09-18T05:29:32.956Z",
       "checkNote": "timeout",
       "matchScore": 46
     },
@@ -154,7 +154,7 @@
       "source": "Company careers",
       "category": "general",
       "priority": "Medium",
-      "lastChecked": "2026-09-17T10:43:31.205Z",
+      "lastChecked": "2026-09-18T05:29:32.957Z",
       "checkNote": "timeout",
       "matchScore": 46
     },
@@ -171,9 +171,8 @@
       "url": "https://www.linkedin.com/jobs/view/4449374745",
       "active": true,
       "discoveredAt": "2026-08-07T13:47:15.368Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:11.205Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:13.708Z",
       "matchScore": 44
     },
     {
@@ -189,7 +188,7 @@
       "category": "general",
       "priority": "Low",
       "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:11.984Z",
+      "lastChecked": "2026-09-18T05:29:13.974Z",
       "matchScore": 42
     },
     {
@@ -206,9 +205,8 @@
       "matchScore": 34,
       "fit": "Stretch",
       "why": "Profile match: matches aso; matches the target seniority; on-site location needs review.",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:16.847Z",
-      "checkNote": "inconclusive-429"
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:14.425Z"
     },
     {
       "company": "Appstane Technologies",
@@ -224,7 +222,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.940Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:09.270Z",
+      "lastChecked": "2026-09-18T05:29:14.434Z",
       "matchScore": 34
     },
     {
@@ -241,7 +239,7 @@
       "active": true,
       "discoveredAt": "2026-09-08T05:32:58.951Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:09.232Z",
+      "lastChecked": "2026-09-18T05:29:14.667Z",
       "matchScore": 34
     },
     {
@@ -258,7 +256,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.940Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:09.282Z",
+      "lastChecked": "2026-09-18T05:29:15.009Z",
       "matchScore": 34
     },
     {
@@ -275,7 +273,7 @@
       "active": true,
       "discoveredAt": "2026-08-27T10:50:56.920Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:09.308Z",
+      "lastChecked": "2026-09-18T05:29:15.072Z",
       "matchScore": 34
     },
     {
@@ -292,7 +290,7 @@
       "active": true,
       "discoveredAt": "2026-08-31T06:34:20.029Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:09.326Z",
+      "lastChecked": "2026-09-18T05:29:15.394Z",
       "matchScore": 34
     },
     {
@@ -308,9 +306,10 @@
       "url": "https://www.linkedin.com/jobs/view/4458424540",
       "active": true,
       "discoveredAt": "2026-08-29T07:36:15.040Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:09.729Z",
-      "matchScore": 34
+      "lastStatus": 429,
+      "lastChecked": "2026-09-18T05:29:15.094Z",
+      "matchScore": 34,
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "Luni",
@@ -325,9 +324,10 @@
       "url": "https://www.linkedin.com/jobs/view/4429347579",
       "active": true,
       "discoveredAt": "2026-08-25T02:15:45.490Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:10.513Z",
-      "matchScore": 34
+      "lastStatus": 429,
+      "lastChecked": "2026-09-18T05:29:15.169Z",
+      "matchScore": 34,
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "Luni",
@@ -343,7 +343,7 @@
       "active": true,
       "discoveredAt": "2026-09-11T05:33:21.210Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:09.810Z",
+      "lastChecked": "2026-09-18T05:29:15.687Z",
       "matchScore": 34
     },
     {
@@ -360,7 +360,7 @@
       "active": true,
       "discoveredAt": "2026-08-07T02:33:33.618Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:09.863Z",
+      "lastChecked": "2026-09-18T05:29:16.041Z",
       "matchScore": 34
     },
     {
@@ -377,7 +377,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.426Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:10.315Z",
+      "lastChecked": "2026-09-18T05:29:15.982Z",
       "matchScore": 34
     },
     {
@@ -394,7 +394,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.940Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:10.496Z",
+      "lastChecked": "2026-09-18T05:29:16.517Z",
       "matchScore": 34
     },
     {
@@ -411,7 +411,7 @@
       "active": true,
       "discoveredAt": "2026-08-19T02:16:22.258Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:11.200Z",
+      "lastChecked": "2026-09-18T05:29:16.074Z",
       "checkNote": "inconclusive-429",
       "matchScore": 34
     },
@@ -429,7 +429,7 @@
       "url": "https://nanobit.teamtailor.com/jobs/8086617-growth-marketing-specialist-web-to-app-funnels",
       "active": true,
       "discoveredAt": "2026-09-17T10:43:05.606Z",
-      "lastChecked": "2026-09-17T10:43:16.177Z",
+      "lastChecked": "2026-09-18T05:29:16.995Z",
       "matchScore": 28,
       "fit": "Stretch",
       "why": "Found on Stillfront's careers source: matches growth marketing.",
@@ -448,7 +448,7 @@
       "category": "general",
       "priority": "Low",
       "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:12.140Z",
+      "lastChecked": "2026-09-18T05:29:16.510Z",
       "matchScore": 24
     },
     {
@@ -465,9 +465,25 @@
       "matchScore": 22,
       "fit": "Stretch",
       "why": "Profile match: matches product manager; matches the target seniority; on-site location needs review.",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:16.234Z",
-      "checkNote": "inconclusive-429"
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:17.129Z"
+    },
+    {
+      "company": "Bitrise",
+      "title": "Growth Product Marketing Manager",
+      "priority": "High",
+      "category": "general",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "United Kingdom",
+      "url": "https://www.linkedin.com/jobs/view/4465103625",
+      "active": true,
+      "discoveredAt": "2026-09-18T05:29:10.207Z",
+      "matchScore": 22,
+      "fit": "Stretch",
+      "why": "Profile match: matches product marketing; matches the target seniority; on-site location needs review.",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:33.485Z"
     },
     {
       "company": "Google",
@@ -484,7 +500,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority; on-site location needs review.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:16.345Z",
+      "lastChecked": "2026-09-18T05:29:16.593Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -502,7 +518,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority; on-site location needs review.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:16.429Z",
+      "lastChecked": "2026-09-18T05:29:16.656Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -519,8 +535,9 @@
       "matchScore": 22,
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority; on-site location needs review.",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:16.914Z"
+      "lastStatus": 429,
+      "lastChecked": "2026-09-18T05:29:16.753Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "itsme®",
@@ -537,7 +554,61 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority; on-site location needs review.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:16.612Z",
+      "lastChecked": "2026-09-18T05:29:16.849Z",
+      "checkNote": "inconclusive-429"
+    },
+    {
+      "company": "LABHOUSE",
+      "title": "Growth Marketing Manager",
+      "priority": "High",
+      "category": "general",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Barcelona, Catalonia, Spain",
+      "url": "https://www.linkedin.com/jobs/view/4465509224",
+      "active": true,
+      "discoveredAt": "2026-09-18T05:29:12.954Z",
+      "matchScore": 22,
+      "fit": "Stretch",
+      "why": "Profile match: matches growth marketing; matches the target seniority; on-site location needs review.",
+      "lastStatus": 429,
+      "lastChecked": "2026-09-18T05:29:33.188Z",
+      "checkNote": "inconclusive-429"
+    },
+    {
+      "company": "LINE MAN Wongnai",
+      "title": "Growth Marketing Manager (In-App & Platform)",
+      "priority": "High",
+      "category": "general",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Bangkok, Bangkok City, Thailand",
+      "url": "https://www.linkedin.com/jobs/view/4461645620",
+      "active": true,
+      "discoveredAt": "2026-09-18T05:29:12.954Z",
+      "matchScore": 22,
+      "fit": "Stretch",
+      "why": "Profile match: matches growth marketing; matches the target seniority; on-site location needs review.",
+      "lastStatus": 429,
+      "lastChecked": "2026-09-18T05:29:33.134Z",
+      "checkNote": "inconclusive-429"
+    },
+    {
+      "company": "Luable - MejorCDT (YC S21)",
+      "title": "Growth Marketing Manager",
+      "priority": "High",
+      "category": "general",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Bogota, D.C., Capital District, Colombia",
+      "url": "https://www.linkedin.com/jobs/view/4465569866",
+      "active": true,
+      "discoveredAt": "2026-09-18T05:29:12.953Z",
+      "matchScore": 22,
+      "fit": "Stretch",
+      "why": "Profile match: matches growth marketing; matches the target seniority; on-site location needs review.",
+      "lastStatus": 429,
+      "lastChecked": "2026-09-18T05:29:33.099Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -554,7 +625,7 @@
       "url": "https://careers.miniclip.com/job-invite/1818/",
       "active": true,
       "discoveredAt": "2026-09-17T10:43:05.606Z",
-      "lastChecked": "2026-09-17T10:43:15.032Z",
+      "lastChecked": "2026-09-18T05:29:18.679Z",
       "matchScore": 22,
       "fit": "Stretch",
       "why": "Found on Miniclip's careers source: matches monetisation; matches the target seniority; on-site location needs review.",
@@ -574,7 +645,7 @@
       "url": "https://careers.miniclip.com/job-invite/1660/",
       "active": true,
       "discoveredAt": "2026-09-17T10:43:05.606Z",
-      "lastChecked": "2026-09-17T10:43:15.368Z",
+      "lastChecked": "2026-09-18T05:29:18.361Z",
       "matchScore": 22,
       "fit": "Stretch",
       "why": "Found on Miniclip's careers source: matches product manager; matches the target seniority; on-site location needs review.",
@@ -595,7 +666,25 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority; on-site location needs review.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:16.303Z",
+      "lastChecked": "2026-09-18T05:29:17.220Z",
+      "checkNote": "inconclusive-429"
+    },
+    {
+      "company": "Osmos",
+      "title": "Product Marketing Manager",
+      "priority": "High",
+      "category": "general",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Pune District, Maharashtra, India",
+      "url": "https://www.linkedin.com/jobs/view/4467705915",
+      "active": true,
+      "discoveredAt": "2026-09-18T05:29:10.207Z",
+      "matchScore": 22,
+      "fit": "Stretch",
+      "why": "Profile match: matches product marketing; matches the target seniority; on-site location needs review.",
+      "lastStatus": 429,
+      "lastChecked": "2026-09-18T05:29:33.079Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -613,7 +702,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches growth marketing; matches the target seniority; on-site location needs review.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:16.796Z",
+      "lastChecked": "2026-09-18T05:29:17.295Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -631,7 +720,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches growth marketing; matches the target seniority; on-site location needs review.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:16.692Z",
+      "lastChecked": "2026-09-18T05:29:17.360Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -648,8 +737,43 @@
       "matchScore": 22,
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority; on-site location needs review.",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:18.210Z"
+    },
+    {
+      "company": "Shine",
+      "title": "Product Marketing Manager - Dutch market",
+      "priority": "High",
+      "category": "general",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "url": "https://www.linkedin.com/jobs/view/4465994886",
+      "active": true,
+      "discoveredAt": "2026-09-18T05:29:10.207Z",
+      "matchScore": 22,
+      "fit": "Stretch",
+      "why": "Profile match: matches product marketing; matches the target seniority; on-site location needs review.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:16.544Z",
+      "lastChecked": "2026-09-18T05:29:33.293Z",
+      "checkNote": "inconclusive-429"
+    },
+    {
+      "company": "Smart Communications, Inc.",
+      "title": "Product Marketing Manager, Postpaid CX & Assignee Management",
+      "priority": "High",
+      "category": "general",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Makati, National Capital Region, Philippines",
+      "url": "https://www.linkedin.com/jobs/view/4467731128",
+      "active": true,
+      "discoveredAt": "2026-09-18T05:29:10.207Z",
+      "matchScore": 22,
+      "fit": "Stretch",
+      "why": "Profile match: matches product marketing; matches the target seniority; on-site location needs review.",
+      "lastStatus": 429,
+      "lastChecked": "2026-09-18T05:29:33.035Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -667,7 +791,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority; on-site location needs review.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:16.225Z",
+      "lastChecked": "2026-09-18T05:29:18.316Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -685,7 +809,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority; on-site location needs review.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:16.287Z",
+      "lastChecked": "2026-09-18T05:29:18.387Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -703,25 +827,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority; on-site location needs review.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:16.352Z",
-      "checkNote": "inconclusive-429"
-    },
-    {
-      "company": "Voxa",
-      "title": "Growth Marketing Manager @ Voxa (Romania & Beyond)",
-      "priority": "High",
-      "category": "general",
-      "source": "LinkedIn",
-      "mode": "onsite",
-      "location": "Bucharest, Romania",
-      "url": "https://www.linkedin.com/jobs/view/4462226068",
-      "active": true,
-      "discoveredAt": "2026-09-17T10:43:07.467Z",
-      "matchScore": 22,
-      "fit": "Stretch",
-      "why": "Profile match: matches growth marketing; matches the target seniority; on-site location needs review.",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:16.745Z",
+      "lastChecked": "2026-09-18T05:29:18.460Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -739,7 +845,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority; on-site location needs review.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:16.491Z",
+      "lastChecked": "2026-09-18T05:29:18.523Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -754,7 +860,7 @@
       "source": "Company careers",
       "category": "general",
       "priority": "Medium",
-      "lastChecked": "2026-09-17T10:43:31.260Z",
+      "lastChecked": "2026-09-18T05:29:38.523Z",
       "checkNote": "timeout",
       "matchScore": 18
     },
@@ -772,7 +878,7 @@
       "active": true,
       "discoveredAt": "2026-08-12T03:21:21.615Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:10.853Z",
+      "lastChecked": "2026-09-18T05:29:18.743Z",
       "checkNote": "inconclusive-429",
       "matchScore": 16
     },
@@ -789,9 +895,10 @@
       "url": "https://www.linkedin.com/jobs/view/4462521124",
       "active": true,
       "discoveredAt": "2026-09-09T05:39:50.440Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:10.898Z",
-      "matchScore": 16
+      "lastStatus": 429,
+      "lastChecked": "2026-09-18T05:29:18.861Z",
+      "matchScore": 16,
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "Air Apps",
@@ -807,7 +914,7 @@
       "active": true,
       "discoveredAt": "2026-09-12T05:19:19.850Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:11.051Z",
+      "lastChecked": "2026-09-18T05:29:19.703Z",
       "matchScore": 16
     },
     {
@@ -823,9 +930,10 @@
       "url": "https://www.linkedin.com/jobs/view/4465978445",
       "active": true,
       "discoveredAt": "2026-09-17T05:40:16.314Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:11.081Z",
-      "matchScore": 16
+      "lastStatus": 429,
+      "lastChecked": "2026-09-18T05:29:19.292Z",
+      "matchScore": 16,
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "Eneba",
@@ -841,7 +949,7 @@
       "active": true,
       "discoveredAt": "2026-08-29T07:36:13.051Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:11.431Z",
+      "lastChecked": "2026-09-18T05:29:20.093Z",
       "matchScore": 16
     },
     {
@@ -857,9 +965,8 @@
       "url": "https://www.linkedin.com/jobs/view/4460363710",
       "active": true,
       "discoveredAt": "2026-08-29T07:36:13.052Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:11.152Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:20.256Z",
       "matchScore": 16
     },
     {
@@ -875,9 +982,8 @@
       "url": "https://www.linkedin.com/jobs/view/4460357766",
       "active": true,
       "discoveredAt": "2026-08-29T07:36:13.431Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:11.143Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:20.868Z",
       "matchScore": 16
     },
     {
@@ -893,9 +999,8 @@
       "url": "https://www.linkedin.com/jobs/view/4418586629",
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.426Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:11.260Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:21.084Z",
       "matchScore": 16
     },
     {
@@ -911,9 +1016,8 @@
       "url": "https://www.linkedin.com/jobs/view/4461167822",
       "active": true,
       "discoveredAt": "2026-09-05T05:12:09.804Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:11.465Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:21.541Z",
       "matchScore": 16
     },
     {
@@ -929,9 +1033,8 @@
       "url": "https://www.linkedin.com/jobs/view/4454745467",
       "active": true,
       "discoveredAt": "2026-08-19T02:16:25.418Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:11.511Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:21.704Z",
       "matchScore": 16
     },
     {
@@ -947,9 +1050,8 @@
       "url": "https://www.linkedin.com/jobs/view/4443259896",
       "active": true,
       "discoveredAt": "2026-08-19T02:16:22.258Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:10.928Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:22.208Z",
       "matchScore": 0,
       "excludedByProfile": "company:BVGroup"
     },
@@ -967,7 +1069,7 @@
       "active": true,
       "discoveredAt": "2026-08-19T02:16:22.747Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:11.402Z",
+      "lastChecked": "2026-09-18T05:29:22.258Z",
       "matchScore": 0,
       "excludedByProfile": "company:BVGroup"
     },
@@ -984,7 +1086,7 @@
       "category": "general",
       "priority": "Low",
       "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:11.779Z",
+      "lastChecked": "2026-09-18T05:29:22.781Z",
       "matchScore": 0
     },
     {
@@ -999,9 +1101,8 @@
       "why": "Excellent match for 10+ years of ASO, app growth, creative testing, localization and portfolio-level strategy.",
       "url": "https://www.linkedin.com/jobs/view/4444002969",
       "active": false,
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.045Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:22.871Z",
       "matchScore": 94
     },
     {
@@ -1016,9 +1117,8 @@
       "why": "Seniority and end-to-end store optimization match well; verify the employer and US work eligibility before investing time.",
       "url": "https://www.linkedin.com/jobs/view/4436487694",
       "active": false,
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.094Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:23.824Z",
       "matchScore": 82
     },
     {
@@ -1034,9 +1134,8 @@
       "url": "https://www.linkedin.com/jobs/view/4454259776",
       "active": false,
       "discoveredAt": "2026-08-20T02:14:54.511Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.489Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:24.103Z",
       "matchScore": 82
     },
     {
@@ -1051,9 +1150,8 @@
       "why": "Owns ASO across Yahoo's app portfolio: keywords, metadata experiments, competitive intelligence and organic growth.",
       "url": "https://www.linkedin.com/jobs/view/4441393833",
       "active": false,
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.682Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:25.263Z",
       "matchScore": 82
     },
     {
@@ -1068,9 +1166,8 @@
       "why": "Focused ASO consulting work covering visibility, rankings, metadata, reviews and conversion.",
       "url": "https://www.linkedin.com/jobs/view/4444556363",
       "active": false,
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:13.718Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:25.253Z",
       "matchScore": 82
     },
     {
@@ -1086,7 +1183,7 @@
       "url": "https://www.linkedin.com/jobs/view/4446954282",
       "active": false,
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.220Z",
+      "lastChecked": "2026-09-18T05:29:26.191Z",
       "checkNote": "inconclusive-429",
       "matchScore": 64
     },
@@ -1103,9 +1200,8 @@
       "url": "https://www.linkedin.com/jobs/view/4464985671",
       "active": false,
       "discoveredAt": "2026-09-10T05:30:03.564Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.321Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:25.801Z",
       "matchScore": 62
     },
     {
@@ -1122,7 +1218,7 @@
       "active": false,
       "discoveredAt": "2026-08-06T04:36:32.425Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:13.043Z",
+      "lastChecked": "2026-09-18T05:29:25.893Z",
       "checkNote": "inconclusive-429",
       "matchScore": 62
     },
@@ -1139,9 +1235,8 @@
       "url": "https://www.linkedin.com/jobs/view/4400382085",
       "active": false,
       "discoveredAt": "2026-08-06T04:36:32.426Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:13.098Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:26.472Z",
       "matchScore": 62
     },
     {
@@ -1157,9 +1252,8 @@
       "url": "https://www.linkedin.com/jobs/view/4400371652",
       "active": false,
       "discoveredAt": "2026-08-07T13:47:15.367Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:13.102Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:27.054Z",
       "matchScore": 62
     },
     {
@@ -1174,9 +1268,8 @@
       "why": "A direct ASO expert opening with strong skill overlap; Singapore location may require relocation and authorization.",
       "url": "https://www.linkedin.com/jobs/view/4400380193",
       "active": false,
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:13.510Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:27.316Z",
       "matchScore": 62
     },
     {
@@ -1192,9 +1285,8 @@
       "url": "https://www.linkedin.com/jobs/view/4400375446",
       "active": false,
       "discoveredAt": "2026-08-06T04:36:32.426Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:13.576Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:27.580Z",
       "matchScore": 62
     },
     {
@@ -1210,9 +1302,8 @@
       "url": "https://www.linkedin.com/jobs/view/4452249070",
       "active": false,
       "discoveredAt": "2026-08-18T02:13:34.590Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:13.694Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:27.812Z",
       "matchScore": 44
     },
     {
@@ -1228,9 +1319,10 @@
       "url": "https://www.linkedin.com/jobs/view/4455597508",
       "active": false,
       "discoveredAt": "2026-08-20T02:14:57.879Z",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:09.301Z",
-      "matchScore": 34
+      "lastStatus": 429,
+      "lastChecked": "2026-09-18T05:29:27.686Z",
+      "matchScore": 34,
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "Bondspe",
@@ -1245,9 +1337,8 @@
       "url": "https://www.linkedin.com/jobs/view/4462262974",
       "active": false,
       "discoveredAt": "2026-09-09T05:39:50.833Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.168Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:29.336Z",
       "matchScore": 34
     },
     {
@@ -1263,9 +1354,8 @@
       "url": "https://www.linkedin.com/jobs/view/4410153031",
       "active": false,
       "discoveredAt": "2026-08-18T02:13:34.590Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.244Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:28.350Z",
       "matchScore": 34
     },
     {
@@ -1281,7 +1371,7 @@
       "url": "https://www.linkedin.com/jobs/view/4427880022",
       "active": false,
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.276Z",
+      "lastChecked": "2026-09-18T05:29:28.441Z",
       "checkNote": "inconclusive-429",
       "matchScore": 34
     },
@@ -1299,7 +1389,7 @@
       "active": false,
       "discoveredAt": "2026-08-12T03:21:21.163Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.351Z",
+      "lastChecked": "2026-09-18T05:29:28.538Z",
       "checkNote": "inconclusive-429",
       "matchScore": 34
     },
@@ -1316,7 +1406,7 @@
       "url": "https://www.linkedin.com/jobs/view/4443518415",
       "active": false,
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.399Z",
+      "lastChecked": "2026-09-18T05:29:29.370Z",
       "checkNote": "inconclusive-429",
       "matchScore": 34
     },
@@ -1334,7 +1424,7 @@
       "active": false,
       "discoveredAt": "2026-08-11T03:01:45.125Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.422Z",
+      "lastChecked": "2026-09-18T05:29:29.429Z",
       "checkNote": "inconclusive-429",
       "matchScore": 34
     },
@@ -1352,7 +1442,7 @@
       "active": false,
       "discoveredAt": "2026-08-27T10:50:59.712Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.459Z",
+      "lastChecked": "2026-09-18T05:29:30.232Z",
       "checkNote": "inconclusive-429",
       "matchScore": 34
     },
@@ -1370,7 +1460,7 @@
       "active": false,
       "discoveredAt": "2026-08-06T04:36:32.940Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.530Z",
+      "lastChecked": "2026-09-18T05:29:29.542Z",
       "checkNote": "inconclusive-429",
       "matchScore": 34
     },
@@ -1387,9 +1477,8 @@
       "url": "https://www.linkedin.com/jobs/view/4449460185",
       "active": false,
       "discoveredAt": "2026-08-11T03:01:45.577Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.546Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:30.035Z",
       "matchScore": 34
     },
     {
@@ -1406,7 +1495,7 @@
       "active": false,
       "discoveredAt": "2026-08-19T02:16:23.167Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.612Z",
+      "lastChecked": "2026-09-18T05:29:30.124Z",
       "checkNote": "inconclusive-429",
       "matchScore": 34
     },
@@ -1424,7 +1513,7 @@
       "active": false,
       "discoveredAt": "2026-08-14T03:22:04.328Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.626Z",
+      "lastChecked": "2026-09-18T05:29:30.228Z",
       "checkNote": "inconclusive-429",
       "matchScore": 34
     },
@@ -1442,7 +1531,7 @@
       "active": false,
       "discoveredAt": "2026-08-14T03:22:01.319Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.877Z",
+      "lastChecked": "2026-09-18T05:29:30.292Z",
       "checkNote": "inconclusive-429",
       "matchScore": 34
     },
@@ -1460,7 +1549,7 @@
       "active": false,
       "discoveredAt": "2026-08-16T02:19:20.909Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-17T10:43:13.636Z",
+      "lastChecked": "2026-09-18T05:29:30.890Z",
       "matchScore": 34
     },
     {
@@ -1477,9 +1566,26 @@
       "active": false,
       "discoveredAt": "2026-09-05T05:12:09.412Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:13.255Z",
+      "lastChecked": "2026-09-18T05:29:30.354Z",
       "checkNote": "inconclusive-429",
       "matchScore": 34
+    },
+    {
+      "company": "Voxa",
+      "title": "Growth Marketing Manager @ Voxa (Romania & Beyond)",
+      "priority": "High",
+      "category": "general",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Bucharest, Romania",
+      "url": "https://www.linkedin.com/jobs/view/4462226068",
+      "active": false,
+      "discoveredAt": "2026-09-17T10:43:07.467Z",
+      "matchScore": 22,
+      "fit": "Stretch",
+      "why": "Profile match: matches growth marketing; matches the target seniority; on-site location needs review.",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:19.204Z"
     },
     {
       "company": "#ARM Worldwide",
@@ -1494,9 +1600,8 @@
       "url": "https://www.linkedin.com/jobs/view/4463243889",
       "active": false,
       "discoveredAt": "2026-09-09T05:39:50.833Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.701Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:31.668Z",
       "matchScore": 16
     },
     {
@@ -1513,7 +1618,7 @@
       "active": false,
       "discoveredAt": "2026-08-18T02:13:34.590Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.734Z",
+      "lastChecked": "2026-09-18T05:29:30.979Z",
       "checkNote": "inconclusive-429",
       "matchScore": 16
     },
@@ -1531,7 +1636,7 @@
       "active": false,
       "discoveredAt": "2026-09-03T05:25:24.142Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.780Z",
+      "lastChecked": "2026-09-18T05:29:31.073Z",
       "checkNote": "inconclusive-429",
       "matchScore": 16
     },
@@ -1548,7 +1653,7 @@
       "url": "https://www.linkedin.com/jobs/view/4443551660",
       "active": false,
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.795Z",
+      "lastChecked": "2026-09-18T05:29:31.173Z",
       "checkNote": "inconclusive-429",
       "matchScore": 16
     },
@@ -1565,9 +1670,8 @@
       "url": "https://www.linkedin.com/jobs/view/4452428790",
       "active": false,
       "discoveredAt": "2026-08-12T03:21:21.163Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.835Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:32.330Z",
       "matchScore": 16
     },
     {
@@ -1584,7 +1688,7 @@
       "active": false,
       "discoveredAt": "2026-08-25T02:15:48.125Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.892Z",
+      "lastChecked": "2026-09-18T05:29:31.724Z",
       "checkNote": "inconclusive-429",
       "matchScore": 16
     },
@@ -1601,9 +1705,8 @@
       "url": "https://www.linkedin.com/jobs/view/4466503281",
       "active": false,
       "discoveredAt": "2026-09-16T05:34:46.623Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.951Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:32.213Z",
       "matchScore": 16
     },
     {
@@ -1619,9 +1722,8 @@
       "url": "https://www.linkedin.com/jobs/view/4463433397",
       "active": false,
       "discoveredAt": "2026-09-11T05:33:21.210Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:12.965Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:32.798Z",
       "matchScore": 16
     },
     {
@@ -1638,7 +1740,7 @@
       "active": false,
       "discoveredAt": "2026-08-07T13:47:15.946Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:13.013Z",
+      "lastChecked": "2026-09-18T05:29:32.384Z",
       "checkNote": "inconclusive-429",
       "matchScore": 16
     },
@@ -1655,9 +1757,8 @@
       "url": "https://www.linkedin.com/jobs/view/4452429736",
       "active": false,
       "discoveredAt": "2026-08-13T03:24:33.228Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:13.173Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:32.949Z",
       "matchScore": 16
     },
     {
@@ -1674,7 +1775,7 @@
       "active": false,
       "discoveredAt": "2026-08-06T04:36:32.426Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:13.322Z",
+      "lastChecked": "2026-09-18T05:29:32.855Z",
       "checkNote": "inconclusive-429",
       "matchScore": 16
     },
@@ -1692,7 +1793,7 @@
       "active": false,
       "discoveredAt": "2026-08-19T02:16:25.418Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:13.386Z",
+      "lastChecked": "2026-09-18T05:29:32.910Z",
       "checkNote": "inconclusive-429",
       "matchScore": 16
     },
@@ -1710,7 +1811,7 @@
       "active": false,
       "discoveredAt": "2026-08-13T03:24:35.894Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:13.446Z",
+      "lastChecked": "2026-09-18T05:29:32.962Z",
       "checkNote": "inconclusive-429",
       "matchScore": 16
     },
@@ -1727,9 +1828,8 @@
       "url": "https://www.linkedin.com/jobs/view/4462258154",
       "active": false,
       "discoveredAt": "2026-09-08T05:32:58.952Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-17T10:43:13.660Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-18T05:29:33.529Z",
       "matchScore": 16
     }
   ]
