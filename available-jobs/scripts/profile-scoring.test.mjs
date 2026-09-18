@@ -40,3 +40,36 @@ test("supports an unrelated profession without hard-coded role mappings", () => 
   assert.equal(result.fit, "Strong");
   assert.equal(matchesTargetRole("Junior Data Analyst", genericProfile), true);
 });
+
+test("does not call an unrelated remote role a good match", () => {
+  const result = scoreJob({ title: "Junior Project Manager", company: "Example", location: "Remote", mode: "remote" }, profile);
+  assert.equal(result.roleMatch, false);
+  assert.equal(result.fit, "Stretch");
+  assert.ok(result.score < 55);
+});
+
+test("does not double-count ASO aliases", () => {
+  const shortTitle = scoreJob({ title: "ASO Manager", company: "Example", location: "Remote", mode: "remote" }, profile);
+  const expandedTitle = scoreJob({ title: "App Store Optimization (ASO) Manager", company: "Example", location: "Remote", mode: "remote" }, profile);
+  assert.equal(expandedTitle.score, shortTitle.score);
+});
+
+test("treats a junior title as a seniority mismatch", () => {
+  const result = scoreJob({ title: "Junior ASO Manager", company: "Example", location: "Remote", mode: "remote" }, profile);
+  assert.equal(result.roleMatch, true);
+  assert.equal(result.seniorityMatch, false);
+  assert.ok(result.score < 55);
+});
+
+test("uses explicit industry metadata when available", () => {
+  const industryProfile = {
+    roles: ["Data Analyst"],
+    industries: ["Healthcare"],
+    seniority: ["Mid-level"],
+    work_modes: ["Remote"],
+    dealbreakers: ""
+  };
+  const result = scoreJob({ title: "Data Analyst", industry: "Healthcare technology", mode: "remote" }, industryProfile);
+  assert.equal(result.industryMatch, true);
+  assert.ok(result.reasons.some(reason => reason.includes("healthcare")));
+});
