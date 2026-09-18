@@ -14,34 +14,33 @@ The backend code is included, but external services must be configured before si
 
 Never expose the service-role key in browser code.
 
-## 2. Stripe
+## 2. Lemon Squeezy
 
-1. Create a recurring product named `Habibi Jobs — Founding plan`.
-2. Create a USD $9 monthly price and copy its `price_...` ID.
-3. Enable the Stripe customer portal.
-4. Add a webhook endpoint:
-   `https://habibiapps.com/api/stripe-webhook`
-5. Subscribe it to:
-   - `checkout.session.completed`
-   - `customer.subscription.created`
-   - `customer.subscription.updated`
-   - `customer.subscription.deleted`
-6. Copy the webhook signing secret.
+1. Create and activate a Lemon Squeezy store for Habibi Jobs.
+2. Create a subscription product named `Habibi Jobs — Founding plan`.
+3. Add a USD $9 monthly variant with a 14-day free trial.
+4. Copy the store ID and variant ID.
+5. Create an API key under Settings → API.
+6. Add a webhook endpoint:
+   `https://mjmwfocpswpvqtmuxiqv.supabase.co/functions/v1/lemon-squeezy-webhook`
+7. Subscribe it to all `subscription_*` events and set a strong signing secret.
 
-Start with Stripe test-mode keys. Switch to live keys only after an end-to-end test.
+Start in Lemon Squeezy test mode. Switch the product and environment setting to live only after an end-to-end test.
 
-## 3. Cloudflare Pages variables
+## 3. Supabase Edge Function secrets
 
-Add these production environment variables to the existing Pages project:
+Add these production secrets to the Supabase project:
 
 - `SUPABASE_URL`
 - `SUPABASE_ANON_KEY`
 - `SUPABASE_SERVICE_ROLE_KEY` — encrypted
-- `STRIPE_SECRET_KEY` — encrypted
-- `STRIPE_PRICE_ID`
-- `STRIPE_WEBHOOK_SECRET` — encrypted
+- `LEMON_SQUEEZY_API_KEY` — encrypted
+- `LEMON_SQUEEZY_STORE_ID`
+- `LEMON_SQUEEZY_VARIANT_ID`
+- `LEMON_SQUEEZY_WEBHOOK_SECRET` — encrypted
+- `LEMON_SQUEEZY_TEST_MODE` — `true` while testing, then `false`
 
-Cloudflare deploys the root `functions/` directory as Pages Functions.
+Deploy `jobs-api` with JWT verification disabled because it performs its own token validation. Deploy `lemon-squeezy-webhook` with JWT verification disabled because it verifies Lemon Squeezy's HMAC signature.
 
 ## 4. GitHub Actions secrets
 
@@ -64,8 +63,8 @@ Verify the sending domain and set `JOBS_EMAIL_FROM`, for example:
 
 - Create a new account and confirm its email.
 - Verify the profile row is created in Supabase.
-- Complete Stripe Checkout in test mode.
-- Verify the webhook changes subscription status to `trialing`.
+- Complete Lemon Squeezy Checkout in test mode.
+- Verify the webhook changes subscription status to `on_trial`.
 - Open the billing portal and cancel the test subscription.
 - Run the GitHub workflow manually and confirm one subscriber email.
 - Request a password reset and set a new password.
