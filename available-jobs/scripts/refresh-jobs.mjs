@@ -248,6 +248,9 @@ const rescored = checked.map(job => {
     ...job,
     matchScore: match.score,
     fit: match.fit,
+    why: match.reasons.length
+      ? `Profile match: ${match.reasons.join("; ")}.`
+      : match.warnings.length ? `Review needed: ${match.warnings.join("; ")}.` : job.why,
     ...(match.excludedKeyword ? { excludedByProfile: match.excludedKeyword } : {})
   };
 });
