@@ -26,7 +26,7 @@ The `available-jobs/` product now includes:
 - Live job-radar demo
 - Draft privacy policy and terms
 
-The production backend uses Cloudflare Pages Functions, Supabase Auth/Postgres,
-Stripe Checkout and Resend. See `BACKEND_SETUP.md` for the required database
+The production backend uses Supabase Auth/Postgres and Edge Functions,
+Lemon Squeezy Checkout, and Resend. See `BACKEND_SETUP.md` for the required database
 migration, environment variables, webhook and deployment setup. The public signup
 fails safely until those services are configured.
