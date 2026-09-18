@@ -8,7 +8,8 @@ if (!SUPABASE_URL || !SUPABASE_SERVICE_ROLE_KEY || !RESEND_API_KEY) {
   process.exit(0);
 }
 
-const headers = { apikey: SUPABASE_SERVICE_ROLE_KEY, authorization: `Bearer ${SUPABASE_SERVICE_ROLE_KEY}`, "content-type": "application/json" };
+const headers = { apikey: SUPABASE_SERVICE_ROLE_KEY, "content-type": "application/json" };
+if (!SUPABASE_SERVICE_ROLE_KEY.startsWith("sb_secret_")) headers.authorization = `Bearer ${SUPABASE_SERVICE_ROLE_KEY}`;
 async function db(path, init = {}) {
   const response = await fetch(`${SUPABASE_URL}/rest/v1/${path}`, { ...init, headers: { ...headers, ...(init.headers || {}) } });
   if (!response.ok) throw new Error(`Supabase ${response.status}: ${await response.text()}`);
@@ -17,9 +18,19 @@ async function db(path, init = {}) {
 const escapeHtml = value => String(value ?? "").replace(/[&<>'"]/g, character => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" })[character]);
 const roleTerms = { ASO: ["aso", "app store optimization"], "Product Marketing": ["product marketing"], Growth: ["growth", "acquisition"], LiveOps: ["liveops", "live ops"], Product: ["product manager", "product owner"] };
 const normalizeMode = value => String(value || "").toLowerCase().replace(/[^a-z]/g, "");
+const seniorityTerms = levels => (levels || []).flatMap(level =>
+  level === "Entry" ? ["junior", "entry", "graduate"] :
+  level === "Mid-level" ? ["mid", "intermediate"] :
+  level === "Senior" ? ["senior", "sr."] :
+  level === "Lead / Manager" ? ["lead", "manager", "head"] :
+  ["director", "vp", "chief", "executive"]
+);
 const toSearchProfile = profile => ({
-  matchKeywords: (profile.roles || []).flatMap(role => roleTerms[role] || [role.toLowerCase()]),
-  seniorityKeywords: ["senior", "manager", "head", "lead", "director", "consultant", "expert"],
+  matchKeywords: [
+    ...(profile.roles || []).flatMap(role => roleTerms[role] || [role.toLowerCase()]),
+    ...(profile.skills || []).map(skill => skill.toLowerCase())
+  ],
+  seniorityKeywords: seniorityTerms(profile.seniority),
   preferredModes: (profile.work_modes || []).map(normalizeMode).map(mode => mode === "onsite" ? "onsite" : mode),
   excludedKeywords: String(profile.dealbreakers || "").split(/[,\n]/).map(value => value.trim()).filter(Boolean),
   excludedCompanies: profile.excluded_companies || []
@@ -27,7 +38,7 @@ const toSearchProfile = profile => ({
 const card = job => `<div style="border:1px solid #dfe6df;border-left:6px solid #dfff48;border-radius:12px;padding:16px;margin:12px 0;background:#fff"><div style="font-size:12px;font-weight:800;color:#657168;text-transform:uppercase">${escapeHtml(job.company)} · ${escapeHtml(job.source || "Direct")} · ${job.matchScore}% match</div><h3 style="margin:7px 0;color:#10271d">${escapeHtml(job.title)}</h3><div style="font-size:13px;color:#526159">${escapeHtml(job.mode)} · ${escapeHtml(job.location)}</div><p style="font-size:14px;line-height:1.5;color:#526159">${escapeHtml(job.why)}</p><a href="${escapeHtml(job.url)}" style="display:inline-block;background:#10271d;color:#fff;text-decoration:none;border-radius:8px;padding:9px 13px;font-weight:800">Open role →</a></div>`;
 
 const catalog = JSON.parse(await readFile(new URL("../data/jobs.json", import.meta.url), "utf8")).jobs || [];
-const subscriptions = await db("subscriptions?status=in.(trialing,active)&select=user_id,status");
+const subscriptions = await db("subscriptions?status=in.(on_trial,active)&select=user_id,status");
 const activeIds = new Set((subscriptions || []).map(item => item.user_id));
 const profiles = await db("profiles?email_frequency=eq.daily&select=*");
 let sent = 0;

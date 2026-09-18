@@ -1,5 +1,6 @@
 document.querySelectorAll("[data-current-year]").forEach(node=>node.textContent=new Date().getFullYear());
 const showError=(node,message)=>{node.textContent=message;node.style.display="block"};
+const splitList=value=>String(value||"").split(/[,\n]/).map(item=>item.trim()).filter(Boolean);
 
 const signupForm=document.querySelector("#signupForm");
 if(signupForm){
@@ -24,7 +25,16 @@ if(signupForm){
     event.preventDefault();
     error.style.display="none";submit.disabled=true;submit.textContent="Creating account…";
     const data=new FormData(signupForm);
-    const profile={name:data.get("name"),roles:data.getAll("roles"),location:data.get("location"),work_modes:data.getAll("workModes"),dealbreakers:data.get("dealbreakers")};
+    const profile={
+      name:data.get("name"),
+      roles:splitList(data.get("targetRoles")),
+      skills:splitList(data.get("skills")),
+      seniority:data.getAll("seniority"),
+      industries:splitList(data.get("industries")),
+      location:data.get("location"),
+      work_modes:data.getAll("workModes"),
+      dealbreakers:data.get("dealbreakers")
+    };
     try{
       const result=await window.HabibiAuth.signUp({email:data.get("email"),password:data.get("password"),profile});
       if(!result.access_token){

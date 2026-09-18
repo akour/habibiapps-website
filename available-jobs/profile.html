@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Search profile — Habibi Jobs</title>
+  <link rel="stylesheet" href="./product.css">
+</head>
+<body class="auth-page">
+  <main class="auth-shell">
+    <div class="auth-top">
+      <a class="brand" href="./dashboard.html">Habibi Jobs<span>Search profile</span></a>
+      <a class="button ghost" href="./dashboard.html">← Back to dashboard</a>
+    </div>
+    <div class="auth-grid">
+      <aside class="auth-copy">
+        <div class="eyebrow">Your search profile</div>
+        <h1>Teach the radar what fits.</h1>
+        <p class="muted">Use real job titles and specific skills. These fields drive daily discovery and ranking.</p>
+        <ul class="checklist">
+          <li>Any profession or industry</li>
+          <li>Multiple target job titles</li>
+          <li>Private resume storage</li>
+        </ul>
+      </aside>
+      <section class="auth-card">
+        <form id="profileForm">
+          <div class="eyebrow">Profile details</div>
+          <h2>What are you looking for?</h2>
+          <div class="field"><label for="profileName">Your name</label><input id="profileName" name="name" autocomplete="name" required></div>
+          <div class="field"><label for="profileRoles">Target job titles</label><textarea id="profileRoles" name="roles" rows="3" required placeholder="Frontend Developer, Data Analyst"></textarea><span class="form-note">Separate titles with commas or new lines.</span></div>
+          <div class="field"><label for="profileSkills">Skills and keywords</label><textarea id="profileSkills" name="skills" rows="3" placeholder="React, SQL, project management"></textarea></div>
+          <div class="field"><label>Seniority</label><div class="choices">
+            <label class="choice"><input type="checkbox" name="seniority" value="Entry"><span>Entry</span></label>
+            <label class="choice"><input type="checkbox" name="seniority" value="Mid-level"><span>Mid-level</span></label>
+            <label class="choice"><input type="checkbox" name="seniority" value="Senior"><span>Senior</span></label>
+            <label class="choice"><input type="checkbox" name="seniority" value="Lead / Manager"><span>Lead / Manager</span></label>
+            <label class="choice"><input type="checkbox" name="seniority" value="Director / Executive"><span>Director / Executive</span></label>
+          </div></div>
+          <div class="field"><label for="profileIndustries">Preferred industries</label><input id="profileIndustries" name="industries" placeholder="Healthcare, fintech, education"></div>
+          <div class="field-row">
+            <div class="field"><label for="profileLocation">Preferred location</label><input id="profileLocation" name="location" required placeholder="Worldwide, Europe, Jordan"></div>
+            <div class="field"><label>Work style</label><div class="choices">
+              <label class="choice"><input type="checkbox" name="workModes" value="Remote"><span>Remote</span></label>
+              <label class="choice"><input type="checkbox" name="workModes" value="Hybrid"><span>Hybrid</span></label>
+              <label class="choice"><input type="checkbox" name="workModes" value="On-site"><span>On-site</span></label>
+            </div></div>
+          </div>
+          <div class="field"><label for="profileDealbreakers">Deal-breakers</label><textarea id="profileDealbreakers" name="dealbreakers" rows="3" placeholder="Relocation required, night shifts, gambling"></textarea></div>
+          <div class="field"><label for="profileExcludedCompanies">Companies to exclude</label><input id="profileExcludedCompanies" name="excludedCompanies" placeholder="Company A, Company B"></div>
+          <div class="field"><label for="profileFrequency">Email frequency</label><select id="profileFrequency" name="emailFrequency"><option value="daily">Daily</option><option value="weekly">Weekly</option><option value="off">Off</option></select></div>
+          <p id="profileStatus" class="form-note" role="status"></p>
+          <div class="form-actions"><a class="button ghost" href="./dashboard.html">Cancel</a><button class="button primary" type="submit">Save search profile</button></div>
+        </form>
+        <hr class="form-divider">
+        <form id="resumeForm">
+          <div class="eyebrow">Optional resume</div>
+          <h2>Keep your resume with your profile</h2>
+          <p class="muted">PDF, DOCX or TXT, up to 5 MB. It is stored privately. Your structured fields above currently control job matching.</p>
+          <div class="field"><label for="resumeFile">Resume file</label><input id="resumeFile" name="resume" type="file" accept=".pdf,.docx,.txt,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain"></div>
+          <p id="resumeCurrent" class="form-note">No resume uploaded.</p>
+          <p id="resumeStatus" class="form-note" role="status"></p>
+          <div class="form-actions"><button class="button ghost" id="deleteResumeButton" type="button" hidden>Remove resume</button><button class="button primary" type="submit">Upload resume</button></div>
+        </form>
+      </section>
+    </div>
+  </main>
+  <script src="./auth-client.js"></script>
+  <script src="./profile.js"></script>
+</body>
+</html>

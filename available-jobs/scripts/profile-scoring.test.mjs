@@ -27,3 +27,16 @@ test("recognizes non-ASO target roles from the profile", () => {
   assert.equal(matchesTargetRole("Mobile Product Marketing Manager", profile), true);
   assert.equal(matchesTargetRole("Backend Engineer", profile), false);
 });
+
+test("supports an unrelated profession without hard-coded role mappings", () => {
+  const genericProfile = {
+    matchKeywords: ["data analyst", "sql"],
+    seniorityKeywords: ["junior", "entry"],
+    preferredModes: ["remote"],
+    excludedKeywords: [],
+    excludedCompanies: []
+  };
+  const result = scoreJob({ title: "Junior Data Analyst — SQL", company: "Example", location: "Remote", mode: "remote" }, genericProfile);
+  assert.equal(result.fit, "Strong");
+  assert.equal(matchesTargetRole("Junior Data Analyst", genericProfile), true);
+});

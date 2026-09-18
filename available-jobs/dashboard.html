@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="A daily-updated radar of mobile-game companies and product marketing, ASO, growth and LiveOps roles.">
+  <meta name="description" content="A personalized career radar that searches for roles across professions and industries every day.">
   <meta name="theme-color" content="#dfff48">
   <meta property="og:title" content="Available Jobs — Habibi Apps">
-  <meta property="og:description" content="A daily-updated radar of mobile-game companies and product marketing, ASO, growth and LiveOps roles.">
+  <meta property="og:description" content="A personalized career radar that searches for roles across professions and industries every day.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://habibiapps.com/available-jobs/">
   <meta property="og:site_name" content="Habibi Apps">
@@ -29,24 +29,24 @@
 </head>
 <body>
   <header class="hero">
-    <div class="shell nav"><a class="brand" href="./">Habibi Jobs<span> by Habibi Apps</span></a><nav class="navlinks"><a href="./#how-it-works">How it works</a><a href="./#pricing">Pricing</a><a id="signInLink" href="./login.html">Sign in</a><button class="account-only" id="billingButton" type="button">Billing</button><button class="account-only" id="signOutButton" type="button">Sign out</button></nav></div>
+    <div class="shell nav"><a class="brand" href="./">Habibi Jobs<span> by Habibi Apps</span></a><nav class="navlinks"><a href="./#how-it-works">How it works</a><a href="./#pricing">Pricing</a><a class="account-only" href="./profile.html">Search profile</a><a id="signInLink" href="./login.html">Sign in</a><button class="account-only" id="billingButton" type="button">Billing</button><button class="account-only" id="signOutButton" type="button">Sign out</button></nav></div>
     <div class="shell hero-grid">
-      <div><div class="eyebrow">Live product demo · updated daily</div><h1>See the radar<br>in action.</h1><p class="lead">This working account searches LinkedIn and company career sites for ASO, app growth, product marketing and LiveOps roles.</p></div>
+      <div><div class="eyebrow">Personal career radar · updated daily</div><h1>See the radar<br>in action.</h1><p class="lead">The public demo is seeded with mobile-marketing roles. Sign in and the radar uses your own profession, skills, seniority and location.</p></div>
       <div class="radar"><div class="ring r1"></div><div class="ring r2"></div><div class="ring r3"></div><small>LIVE SIGNAL</small><strong id="liveCount">—</strong></div>
     </div>
   </header>
 
   <section class="shell stats">
-    <div class="stat"><strong>100</strong><span>chart positions reviewed</span></div>
-    <div class="stat"><strong id="asoCount">—</strong><span>live ASO roles</span></div>
-    <div class="stat"><strong>58</strong><span>publishers identified</span></div>
+    <div class="stat"><strong id="totalCount">—</strong><span>live roles reviewed</span></div>
+    <div class="stat"><strong id="directCount">—</strong><span>direct company roles</span></div>
+    <div class="stat"><strong id="linkedInCount">—</strong><span>LinkedIn roles</span></div>
     <div class="stat"><strong id="remoteCount">—</strong><span>remote-friendly leads</span></div>
   </section>
 
   <main class="shell">
-    <div class="section-head"><div><span class="eyebrow">The working board</span><h2>Fresh leads.<br>Clear filters.</h2></div><p>Choose ASO only, LinkedIn only, remote, hybrid or on-site. The daily checker also searches LinkedIn for newly posted App Store Optimization roles and marks closed pages automatically.</p></div>
+    <div class="section-head"><div><span class="eyebrow">The working board</span><h2>Fresh leads.<br>Clear filters.</h2></div><p>The daily checker searches for subscriber job titles, combines LinkedIn with supported company career sites and marks closed pages automatically.</p></div>
 
-    <section class="profile" aria-label="Current search profile"><div><span class="eyebrow">Current search profile</span><h3 id="profileName">Loading profile…</h3><p id="profileHeadline"></p></div><div class="profile-tags" id="profileTags"></div></section>
+    <section class="profile" aria-label="Current search profile"><div><span class="eyebrow">Current search profile</span><h3 id="profileName">Loading profile…</h3><p id="profileHeadline"></p><p class="account-only"><a href="./profile.html"><strong>Edit job titles, skills or resume →</strong></a></p></div><div class="profile-tags" id="profileTags"></div></section>
     <section class="funnel" aria-label="Job-search funnel"><div class="metric"><strong id="recommendedCount">—</strong><span>recommended</span></div><div class="metric"><strong id="openedCount">0</strong><span>opened</span></div><div class="metric"><strong id="appliedCount">0</strong><span>applied</span></div><div class="metric"><strong id="dismissedCount">0</strong><span>not interested</span></div></section>
 
     <div class="update-box">
@@ -56,14 +56,14 @@
 
     <div class="controls">
       <div class="tabs"><button type="button" class="chip active" data-view="jobs">Available jobs</button><button type="button" class="chip" data-view="companies">Company watchlist</button></div>
-      <label class="search">⌕ <input id="search" type="search" placeholder="Search company, role or game…" aria-label="Search"></label>
+      <label class="search">⌕ <input id="search" type="search" placeholder="Search company, role or location…" aria-label="Search"></label>
     </div>
-    <div id="focusFilters" class="filters"><button type="button" class="chip active" data-focus="all">All roles</button><button type="button" class="chip" data-focus="aso">ASO only</button><button type="button" class="chip" data-focus="direct">Company sources</button><button type="button" class="chip" data-focus="linkedin">LinkedIn only</button></div><div id="jobFilters" class="filters"><button type="button" class="chip active" data-mode="all">All locations</button><button type="button" class="chip" data-mode="remote">Remote</button><button type="button" class="chip" data-mode="hybrid">Hybrid</button><button type="button" class="chip" data-mode="onsite">On-site</button><button type="button" class="chip" data-mode="closed">Recently closed</button><button type="button" class="chip" data-mode="applied">Applied</button></div>
+    <div id="focusFilters" class="filters"><button type="button" class="chip active" data-focus="all">All matches</button><button type="button" class="chip" data-focus="strong">Strong matches</button><button type="button" class="chip" data-focus="direct">Company sources</button><button type="button" class="chip" data-focus="linkedin">LinkedIn only</button></div><div id="jobFilters" class="filters"><button type="button" class="chip active" data-mode="all">All locations</button><button type="button" class="chip" data-mode="remote">Remote</button><button type="button" class="chip" data-mode="hybrid">Hybrid</button><button type="button" class="chip" data-mode="onsite">On-site</button><button type="button" class="chip" data-mode="closed">Recently closed</button><button type="button" class="chip" data-mode="applied">Applied</button></div>
     <div id="cards" class="cards" aria-live="polite"></div>
     <div id="companies" class="table-wrap"><table><thead><tr><th>Company</th><th>Chart games</th><th>Best rank</th><th>Careers</th><th>Current signal</th></tr></thead><tbody id="companyRows"></tbody></table></div>
   </main>
 
-  <section class="note"><div class="shell"><div><span class="eyebrow">How updates work</span><h2>Daily by robot.<br>Anytime by you.</h2></div><div><p><strong>Every day at 08:00 Da Nang time (01:00 UTC)</strong>, GitHub searches LinkedIn for fresh ASO roles, checks every saved listing and publishes the result. “Run full update” opens the same action so the repository owner can run it immediately.</p><p>The refresh button reloads the newest published data without making you reload the whole page.</p></div></div></section>
+  <section class="note"><div class="shell"><div><span class="eyebrow">How updates work</span><h2>Daily by robot.<br>Personalized for you.</h2></div><div><p><strong>Every day</strong>, the service collects subscriber target titles, searches for fresh roles, checks saved listings and prepares personal shortlists.</p><p>The refresh button reloads the newest published data without making you reload the whole page.</p></div></div></section>
   <footer class="footer"><div class="shell"><div><a class="brand" href="./">Habibi Jobs</a><p>Your personal career radar, checked daily.</p></div><a href="./signup.html">Start your free trial →</a></div></footer>
 
   <script src="./auth-client.js"></script>
@@ -85,21 +85,25 @@
       const roleTerms={ASO:["aso","app store optimization"],"Product Marketing":["product marketing"],Growth:["growth","acquisition"],LiveOps:["liveops","live ops"],Product:["product manager","product owner"]};
       const title=String(job.title||"").toLowerCase(),haystack=`${job.company||""} ${job.title||""} ${job.why||""}`.toLowerCase();
       const terms=(accountProfile.roles||[]).flatMap(role=>roleTerms[role]||[role.toLowerCase()]);
+      const skills=(accountProfile.skills||[]).map(value=>value.toLowerCase());
+      const skillMatches=skills.filter(term=>haystack.includes(term)).length;
+      const seniorityTerms=(accountProfile.seniority||[]).flatMap(level=>level==="Entry"?["junior","entry","graduate"]:level==="Mid-level"?["mid","intermediate"]:level==="Senior"?["senior","sr."]:level==="Lead / Manager"?["lead","manager","head"]:["director","vp","chief","executive"]);
       const blocked=String(accountProfile.dealbreakers||"").toLowerCase().split(/[,\n]/).map(value=>value.trim()).filter(Boolean).some(term=>haystack.includes(term));
       const roleMatch=terms.some(term=>title.includes(term)),modeMatch=(accountProfile.work_modes||[]).map(value=>value.toLowerCase().replace("-","")).includes(String(job.mode||"").toLowerCase().replace("-",""));
-      const score=blocked?0:Math.min(100,(roleMatch?62:20)+(modeMatch?25:0)+(/senior|manager|lead|head|director|consultant|expert/i.test(title)?13:0));
+      const seniorityMatch=!seniorityTerms.length||seniorityTerms.some(term=>title.includes(term));
+      const score=blocked?0:Math.min(100,(roleMatch?55:15)+(modeMatch?20:0)+Math.min(skillMatches,3)*5+(seniorityMatch?10:0));
       return {...job,matchScore:score,fit:score>=70?"Strong":score>=42?"Good":"Stretch",excludedByProfile:blocked?"deal-breaker":!roleMatch?"role":!modeMatch?"work-mode":undefined};
     }
     async function loadJobs(){
       freshness.textContent="Checking the published data…";
-      try{const [jobsResponse,profileResponse]=await Promise.all([fetch(`./data/jobs.json?v=${Date.now()}`,{cache:"no-store"}),fetch(`./data/search-profile.json?v=${Date.now()}`,{cache:"no-store"})]);if(!jobsResponse.ok||!profileResponse.ok)throw new Error("Data unavailable");const data=await jobsResponse.json();profile=await profileResponse.json();jobs=(data.jobs||[]).map(personalize);checkedAt=data.checkedAt;const shown=accountProfile?{displayName:accountProfile.name||"you",headline:`${(accountProfile.roles||[]).join(" · ")} · ${accountProfile.location||"Worldwide"}`,desiredRoles:accountProfile.roles||[],excludedKeywords:String(accountProfile.dealbreakers||"").split(",").filter(Boolean)}:profile;document.querySelector("#profileName").textContent=`Built for ${shown.displayName}`;document.querySelector("#profileHeadline").textContent=shown.headline;document.querySelector("#profileTags").innerHTML=[...(shown.desiredRoles||[]).slice(0,4).map(value=>`<span class="profile-tag">${escapeHtml(value)}</span>`),...(shown.excludedKeywords||[]).map(value=>`<span class="profile-tag avoid">No ${escapeHtml(value.trim())}</span>`)].join("");freshness.textContent=`Last full check: ${formatDate(checkedAt)}`;render()}
+      try{const [jobsResponse,profileResponse]=await Promise.all([fetch(`./data/jobs.json?v=${Date.now()}`,{cache:"no-store"}),fetch(`./data/search-profile.json?v=${Date.now()}`,{cache:"no-store"})]);if(!jobsResponse.ok||!profileResponse.ok)throw new Error("Data unavailable");const data=await jobsResponse.json();profile=await profileResponse.json();jobs=(data.jobs||[]).map(personalize);checkedAt=data.checkedAt;const shown=accountProfile?{displayName:accountProfile.name||"you",headline:`${(accountProfile.roles||[]).join(" · ")} · ${accountProfile.location||"Worldwide"}`,desiredRoles:accountProfile.roles||[],skills:accountProfile.skills||[],excludedKeywords:String(accountProfile.dealbreakers||"").split(",").filter(Boolean)}:profile;document.querySelector("#profileName").textContent=`Built for ${shown.displayName}`;document.querySelector("#profileHeadline").textContent=shown.headline;document.querySelector("#profileTags").innerHTML=[...(shown.desiredRoles||[]).slice(0,4).map(value=>`<span class="profile-tag">${escapeHtml(value)}</span>`),...(shown.skills||[]).slice(0,3).map(value=>`<span class="profile-tag">${escapeHtml(value)}</span>`),...(shown.excludedKeywords||[]).map(value=>`<span class="profile-tag avoid">No ${escapeHtml(value.trim())}</span>`)].join("");freshness.textContent=`Last full check: ${formatDate(checkedAt)}`;render()}
       catch(error){freshness.textContent="Could not load job data. Try again shortly.";cards.innerHTML='<div class="empty"><strong>The radar could not load.</strong><p>The company watchlist is still available.</p></div>'}
     }
     function render(){
-      const q=query.toLowerCase();const activeJobs=jobs.filter(j=>j.active!==false&&!j.excludedByProfile);document.querySelector("#liveCount").textContent=activeJobs.length;document.querySelector("#remoteCount").textContent=activeJobs.filter(j=>j.mode==="remote").length;document.querySelector("#asoCount").textContent=activeJobs.filter(j=>j.category==="aso").length;document.querySelector("#recommendedCount").textContent=activeJobs.length;document.querySelector("#openedCount").textContent=Object.values(feedback).filter(item=>item.status==="opened").length;document.querySelector("#appliedCount").textContent=Object.values(feedback).filter(item=>item.status==="applied").length;document.querySelector("#dismissedCount").textContent=Object.values(feedback).filter(item=>item.status==="dismissed").length;
+      const q=query.toLowerCase();const activeJobs=jobs.filter(j=>j.active!==false&&!j.excludedByProfile);document.querySelector("#liveCount").textContent=activeJobs.length;document.querySelector("#totalCount").textContent=activeJobs.length;document.querySelector("#remoteCount").textContent=activeJobs.filter(j=>j.mode==="remote").length;document.querySelector("#directCount").textContent=activeJobs.filter(j=>j.source==="Company careers").length;document.querySelector("#linkedInCount").textContent=activeJobs.filter(j=>j.source==="LinkedIn").length;document.querySelector("#recommendedCount").textContent=activeJobs.length;document.querySelector("#openedCount").textContent=Object.values(feedback).filter(item=>item.status==="opened").length;document.querySelector("#appliedCount").textContent=Object.values(feedback).filter(item=>item.status==="applied").length;document.querySelector("#dismissedCount").textContent=Object.values(feedback).filter(item=>item.status==="dismissed").length;
       if(view==="jobs"){
         document.querySelector("#jobFilters").style.display="flex";document.querySelector("#focusFilters").style.display="flex";cards.style.display="grid";table.style.display="none";
-        const visible=jobs.filter(j=>{if(j.excludedByProfile)return false;const status=statusFor(j);const locationMatch=mode==="all"?j.active!==false:mode==="closed"?j.active===false:mode==="applied"?status==="applied":j.active!==false&&j.mode===mode;const focusMatch=focus==="all"||focus==="aso"&&j.category==="aso"||focus==="direct"&&j.source==="Company careers"||focus==="linkedin"&&j.source==="LinkedIn";return locationMatch&&focusMatch&&`${j.company} ${j.title} ${j.location} ${j.source||""}`.toLowerCase().includes(q)});
+        const visible=jobs.filter(j=>{if(j.excludedByProfile)return false;const status=statusFor(j);const locationMatch=mode==="all"?j.active!==false:mode==="closed"?j.active===false:mode==="applied"?status==="applied":j.active!==false&&j.mode===mode;const focusMatch=focus==="all"||focus==="strong"&&j.matchScore>=70||focus==="direct"&&j.source==="Company careers"||focus==="linkedin"&&j.source==="LinkedIn";return locationMatch&&focusMatch&&`${j.company} ${j.title} ${j.location} ${j.source||""}`.toLowerCase().includes(q)});
         cards.innerHTML=visible.map(j=>{const status=statusFor(j);return `<article class="card ${escapeHtml((j.fit||"Stretch").toLowerCase())} ${j.active===false?"closed":""} ${status}"><div class="card-top"><span class="pill">${j.active===false?"Closed":`${escapeHtml(j.matchScore??"—")}% · ${escapeHtml(j.fit)} fit`}</span><span class="mode ${escapeHtml(j.mode)}">${j.mode==="onsite"?"On-site":escapeHtml(j.mode)}</span></div><div class="source-row"><span class="source ${(j.source||"").toLowerCase()}">${escapeHtml(j.source||"Direct")}</span>${j.priority==="Top choice"?'<span class="source top">★ Top choice</span>':""}</div><div class="company">${escapeHtml(j.company)}</div><h3>${escapeHtml(j.title)}</h3><div class="meta">◎ ${escapeHtml(j.location)}</div><p>${escapeHtml(j.why)}</p><div class="card-bottom"><small>Checked ${escapeHtml(formatDate(j.lastChecked||checkedAt))}</small><a href="${escapeHtml(j.url)}" data-open-job="${escapeHtml(j.url)}" target="_blank" rel="noopener">Open role ↗</a></div><div class="feedback"><button type="button" data-job-url="${escapeHtml(j.url)}" data-feedback="applied" class="${status==="applied"?"active":""}">✓ Applied</button><button type="button" data-job-url="${escapeHtml(j.url)}" data-feedback="dismissed" class="${status==="dismissed"?"active":""}">Not interested</button></div></article>`}).join("")||'<div class="empty"><strong>No matching jobs right now.</strong><p>Try another location filter or check the company watchlist.</p></div>';
       }else{
         document.querySelector("#jobFilters").style.display="none";document.querySelector("#focusFilters").style.display="none";cards.style.display="none";table.style.display="block";
