@@ -51,7 +51,9 @@ Add these repository secrets for personalized daily emails:
 - `RESEND_API_KEY` (already used by the personal digest)
 - `JOBS_EMAIL_FROM`
 
-The daily workflow refreshes the shared mobile-career job catalog, sends the original personal digest, then sends one personalized digest to every active or trialing subscriber.
+The daily workflow builds search queries from active subscriber profiles, refreshes the shared job catalog, sends the original personal digest, then sends one personalized digest to every active or trialing subscriber.
+
+Resume files are stored in the private Supabase Storage bucket named `resumes`. Users can only access objects inside their own user-ID folder, and uploads are limited to PDF, DOCX or TXT files up to 5 MB.
 
 ## 5. Resend
 
