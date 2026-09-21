@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-20T05:39:05.082Z",
+  "checkedAt": "2026-09-21T05:48:55.866Z",
   "profileId": "jordan",
   "sourceMetrics": {
     "companiesScanned": 10,
@@ -87,7 +87,7 @@
       "url": "https://newmoonproduction.teamtailor.com/jobs/8136961-product-owner-expert-product-manager",
       "active": true,
       "discoveredAt": "2026-09-17T10:43:05.606Z",
-      "lastChecked": "2026-09-20T05:38:28.234Z",
+      "lastChecked": "2026-09-21T05:48:24.157Z",
       "matchScore": 75,
       "fit": "Strong",
       "why": "Profile match: matches product manager and product owner; matches the target seniority; remote matches the work preference.",
@@ -107,7 +107,7 @@
       "url": "https://goodgamestudios.teamtailor.com/jobs/8173219-marketing-developer-video-playable-ads",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:28.237Z",
+      "lastChecked": "2026-09-21T05:48:24.149Z",
       "matchScore": 75,
       "fit": "Strong",
       "why": "Profile match: matches acquisition; matches the target seniority; remote matches the work preference.",
@@ -128,7 +128,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches product manager; matches the target seniority.",
       "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:28.138Z"
+      "lastChecked": "2026-09-21T05:48:23.872Z"
     },
     {
       "company": "Amazon Music",
@@ -145,7 +145,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches acquisition; matches the target seniority.",
       "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:28.198Z"
+      "lastChecked": "2026-09-21T05:48:24.206Z"
     },
     {
       "company": "AppNation",
@@ -162,7 +162,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches aso; matches the target seniority.",
       "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:28.375Z"
+      "lastChecked": "2026-09-21T05:48:24.090Z"
     },
     {
       "company": "Appstane Technologies",
@@ -178,7 +178,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.940Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:28.151Z",
+      "lastChecked": "2026-09-21T05:48:24.039Z",
       "matchScore": 45
     },
     {
@@ -195,9 +195,8 @@
       "matchScore": 45,
       "fit": "Stretch",
       "why": "Profile match: matches growth; matches the target seniority.",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:47.460Z",
-      "checkNote": "inconclusive-429"
+      "lastStatus": 200,
+      "lastChecked": "2026-09-21T05:48:24.491Z"
     },
     {
       "company": "Bitrise",
@@ -214,7 +213,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing and growth; matches the target seniority.",
       "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:28.657Z"
+      "lastChecked": "2026-09-21T05:48:24.625Z"
     },
     {
       "company": "FinTop Consulting",
@@ -230,7 +229,7 @@
       "active": true,
       "discoveredAt": "2026-09-08T05:32:58.951Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:28.673Z",
+      "lastChecked": "2026-09-21T05:48:24.534Z",
       "matchScore": 45
     },
     {
@@ -248,7 +247,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority.",
       "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:28.804Z"
+      "lastChecked": "2026-09-21T05:48:24.764Z"
     },
     {
       "company": "Google",
@@ -265,7 +264,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority.",
       "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:28.869Z"
+      "lastChecked": "2026-09-21T05:48:24.796Z"
     },
     {
       "company": "Gram Games",
@@ -281,7 +280,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.940Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:28.861Z",
+      "lastChecked": "2026-09-21T05:48:24.754Z",
       "matchScore": 45
     },
     {
@@ -299,7 +298,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches growth; matches the target seniority.",
       "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:28.954Z"
+      "lastChecked": "2026-09-21T05:48:25.020Z"
     },
     {
       "company": "Hamina Wireless",
@@ -316,7 +315,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches growth and acquisition; matches the target seniority.",
       "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:29.128Z"
+      "lastChecked": "2026-09-21T05:48:25.016Z"
     },
     {
       "company": "Harnham",
@@ -333,7 +332,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority.",
       "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:29.237Z"
+      "lastChecked": "2026-09-21T05:48:25.157Z"
     },
     {
       "company": "HelloFresh",
@@ -350,7 +349,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches growth; matches the target seniority.",
       "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:29.288Z"
+      "lastChecked": "2026-09-21T05:48:25.300Z"
     },
     {
       "company": "Huuuge Games",
@@ -366,7 +365,7 @@
       "active": true,
       "discoveredAt": "2026-08-27T10:50:56.920Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:29.368Z",
+      "lastChecked": "2026-09-21T05:48:25.308Z",
       "matchScore": 45
     },
     {
@@ -383,8 +382,26 @@
       "active": true,
       "discoveredAt": "2026-08-31T06:34:20.029Z",
       "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:29.443Z",
+      "lastChecked": "2026-09-21T05:48:25.360Z",
       "matchScore": 45
+    },
+    {
+      "company": "Italiaonline",
+      "title": "Product Marketing Manager",
+      "priority": "High",
+      "category": "general",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Assago, Lombardy, Italy",
+      "url": "https://www.linkedin.com/jobs/view/4373484329",
+      "active": true,
+      "discoveredAt": "2026-09-21T05:48:20.881Z",
+      "matchScore": 45,
+      "fit": "Stretch",
+      "why": "Profile match: matches product marketing; matches the target seniority.",
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:37.719Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "itsme®",
@@ -400,8 +417,9 @@
       "matchScore": 45,
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority.",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:29.423Z"
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:25.057Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "Joint Hashworks.",
@@ -416,10 +434,9 @@
       "url": "https://www.linkedin.com/jobs/view/4458424540",
       "active": true,
       "discoveredAt": "2026-08-29T07:36:15.040Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:29.190Z",
-      "matchScore": 45,
-      "checkNote": "inconclusive-429"
+      "lastStatus": 200,
+      "lastChecked": "2026-09-21T05:48:25.542Z",
+      "matchScore": 45
     },
     {
       "company": "LABHOUSE",
@@ -435,9 +452,8 @@
       "matchScore": 45,
       "fit": "Stretch",
       "why": "Profile match: matches growth and growth marketing; matches the target seniority.",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:29.269Z",
-      "checkNote": "inconclusive-429"
+      "lastStatus": 200,
+      "lastChecked": "2026-09-21T05:48:25.619Z"
     },
     {
       "company": "LINE MAN Wongnai",
@@ -453,8 +469,9 @@
       "matchScore": 45,
       "fit": "Stretch",
       "why": "Profile match: matches growth and growth marketing; matches the target seniority.",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:29.870Z"
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:25.199Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "Luable - MejorCDT (YC S21)",
@@ -471,7 +488,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches growth and growth marketing; matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:29.334Z",
+      "lastChecked": "2026-09-21T05:48:25.264Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -488,7 +505,7 @@
       "active": true,
       "discoveredAt": "2026-08-25T02:15:45.490Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:29.360Z",
+      "lastChecked": "2026-09-21T05:48:25.753Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -506,7 +523,7 @@
       "active": true,
       "discoveredAt": "2026-09-11T05:33:21.210Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:29.516Z",
+      "lastChecked": "2026-09-21T05:48:25.368Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -524,7 +541,7 @@
       "url": "https://careers.miniclip.com/job-invite/1818/",
       "active": true,
       "discoveredAt": "2026-09-17T10:43:05.606Z",
-      "lastChecked": "2026-09-20T05:38:31.048Z",
+      "lastChecked": "2026-09-21T05:48:26.749Z",
       "matchScore": 45,
       "fit": "Stretch",
       "why": "Profile match: matches monetisation; matches the target seniority.",
@@ -544,7 +561,7 @@
       "url": "https://careers.miniclip.com/job-invite/1660/",
       "active": true,
       "discoveredAt": "2026-09-17T10:43:05.606Z",
-      "lastChecked": "2026-09-20T05:38:30.784Z",
+      "lastChecked": "2026-09-21T05:48:26.436Z",
       "matchScore": 45,
       "fit": "Stretch",
       "why": "Profile match: matches product manager; matches the target seniority.",
@@ -564,7 +581,7 @@
       "url": "https://careers.miniclip.com/job-invite/1850/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:30.643Z",
+      "lastChecked": "2026-09-21T05:48:26.548Z",
       "matchScore": 45,
       "fit": "Stretch",
       "why": "Profile match: matches acquisition; matches the target seniority.",
@@ -585,7 +602,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:29.509Z",
+      "lastChecked": "2026-09-21T05:48:25.612Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -603,7 +620,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:29.577Z",
+      "lastChecked": "2026-09-21T05:48:25.682Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -620,7 +637,7 @@
       "active": true,
       "discoveredAt": "2026-08-07T02:33:33.618Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:29.572Z",
+      "lastChecked": "2026-09-21T05:48:25.664Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -638,9 +655,8 @@
       "matchScore": 45,
       "fit": "Stretch",
       "why": "Profile match: matches growth and growth marketing; matches the target seniority.",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:29.639Z",
-      "checkNote": "inconclusive-429"
+      "lastStatus": 200,
+      "lastChecked": "2026-09-21T05:48:26.146Z"
     },
     {
       "company": "Readioo",
@@ -656,8 +672,9 @@
       "matchScore": 45,
       "fit": "Stretch",
       "why": "Profile match: matches growth; matches the target seniority.",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:30.054Z"
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:25.750Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "RentSpree",
@@ -674,7 +691,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches growth and growth marketing; matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:29.722Z",
+      "lastChecked": "2026-09-21T05:48:25.820Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -689,7 +706,7 @@
       "source": "Company careers",
       "category": "general",
       "priority": "High",
-      "lastChecked": "2026-09-20T05:38:49.722Z",
+      "lastChecked": "2026-09-21T05:48:45.753Z",
       "checkNote": "timeout",
       "matchScore": 45
     },
@@ -705,7 +722,7 @@
       "source": "Company careers",
       "category": "general",
       "priority": "High",
-      "lastChecked": "2026-09-20T05:38:49.871Z",
+      "lastChecked": "2026-09-21T05:48:45.819Z",
       "checkNote": "timeout",
       "matchScore": 45
     },
@@ -723,8 +740,45 @@
       "matchScore": 45,
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority.",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:30.653Z"
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:26.194Z",
+      "checkNote": "inconclusive-429"
+    },
+    {
+      "company": "Samsung Southeast Asia & Oceania",
+      "title": "Product Manager",
+      "priority": "High",
+      "category": "general",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Taguig, National Capital Region, Philippines",
+      "url": "https://www.linkedin.com/jobs/view/4469134615",
+      "active": true,
+      "discoveredAt": "2026-09-21T05:48:20.881Z",
+      "matchScore": 45,
+      "fit": "Stretch",
+      "why": "Profile match: matches product manager; matches the target seniority.",
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:37.687Z",
+      "checkNote": "inconclusive-429"
+    },
+    {
+      "company": "SciPlay",
+      "title": "Monetization Manager",
+      "priority": "High",
+      "category": "general",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "url": "https://www.linkedin.com/jobs/view/4433517827",
+      "active": true,
+      "discoveredAt": "2026-09-21T05:48:22.192Z",
+      "matchScore": 45,
+      "fit": "Stretch",
+      "why": "Profile match: matches monetization; matches the target seniority.",
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:37.768Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "Scopely",
@@ -741,7 +795,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:30.707Z",
+      "lastChecked": "2026-09-21T05:48:26.239Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -759,7 +813,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:30.716Z",
+      "lastChecked": "2026-09-21T05:48:26.284Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -776,7 +830,7 @@
       "active": true,
       "discoveredAt": "2026-09-12T05:19:23.817Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:30.773Z",
+      "lastChecked": "2026-09-21T05:48:26.357Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -795,7 +849,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:30.780Z",
+      "lastChecked": "2026-09-21T05:48:26.424Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -812,7 +866,7 @@
       "url": "https://nanobit.teamtailor.com/jobs/8086617-growth-marketing-specialist-web-to-app-funnels",
       "active": true,
       "discoveredAt": "2026-09-17T10:43:05.606Z",
-      "lastChecked": "2026-09-20T05:38:31.421Z",
+      "lastChecked": "2026-09-21T05:48:27.209Z",
       "matchScore": 45,
       "fit": "Stretch",
       "why": "Profile match: matches growth and growth marketing; matches the target seniority.",
@@ -833,7 +887,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:30.844Z",
+      "lastChecked": "2026-09-21T05:48:26.485Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -851,7 +905,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:47.693Z",
+      "lastChecked": "2026-09-21T05:48:26.549Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -869,7 +923,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches growth; matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:30.852Z",
+      "lastChecked": "2026-09-21T05:48:26.595Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -887,7 +941,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:30.912Z",
+      "lastChecked": "2026-09-21T05:48:26.625Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -905,7 +959,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:30.903Z",
+      "lastChecked": "2026-09-21T05:48:26.639Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -923,7 +977,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:47.602Z",
+      "lastChecked": "2026-09-21T05:48:26.665Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -941,7 +995,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches growth; matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:30.962Z",
+      "lastChecked": "2026-09-21T05:48:26.683Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -959,7 +1013,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:30.966Z",
+      "lastChecked": "2026-09-21T05:48:26.744Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -976,8 +1030,9 @@
       "matchScore": 45,
       "fit": "Stretch",
       "why": "Profile match: matches product marketing; matches the target seniority.",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:31.579Z"
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:26.750Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "WorldFirst",
@@ -994,7 +1049,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches growth; matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:47.909Z",
+      "lastChecked": "2026-09-21T05:48:26.790Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1011,7 +1066,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.426Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:31.034Z",
+      "lastChecked": "2026-09-21T05:48:26.818Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -1029,7 +1084,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.940Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:31.097Z",
+      "lastChecked": "2026-09-21T05:48:26.797Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -1047,7 +1102,7 @@
       "active": true,
       "discoveredAt": "2026-08-12T03:21:21.615Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:31.116Z",
+      "lastChecked": "2026-09-21T05:48:26.835Z",
       "checkNote": "inconclusive-429",
       "matchScore": 45
     },
@@ -1065,7 +1120,7 @@
       "active": true,
       "discoveredAt": "2026-09-09T05:39:50.440Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:31.161Z",
+      "lastChecked": "2026-09-21T05:48:26.867Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -1083,7 +1138,7 @@
       "active": true,
       "discoveredAt": "2026-09-12T05:19:19.850Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:31.170Z",
+      "lastChecked": "2026-09-21T05:48:26.859Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -1101,7 +1156,7 @@
       "active": true,
       "discoveredAt": "2026-09-17T05:40:16.314Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:31.225Z",
+      "lastChecked": "2026-09-21T05:48:26.882Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -1119,7 +1174,7 @@
       "active": true,
       "discoveredAt": "2026-08-29T07:36:13.051Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:31.223Z",
+      "lastChecked": "2026-09-21T05:48:26.936Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -1137,7 +1192,7 @@
       "active": true,
       "discoveredAt": "2026-08-29T07:36:13.052Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:31.323Z",
+      "lastChecked": "2026-09-21T05:48:26.913Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -1155,7 +1210,7 @@
       "active": true,
       "discoveredAt": "2026-08-29T07:36:13.431Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:31.306Z",
+      "lastChecked": "2026-09-21T05:48:26.956Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -1174,7 +1229,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches growth; matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:31.451Z",
+      "lastChecked": "2026-09-21T05:48:27.002Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1191,7 +1246,7 @@
       "active": true,
       "discoveredAt": "2026-08-19T02:16:22.258Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:31.387Z",
+      "lastChecked": "2026-09-21T05:48:26.979Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -1209,7 +1264,7 @@
       "active": true,
       "discoveredAt": "2026-08-07T13:47:15.368Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:31.456Z",
+      "lastChecked": "2026-09-21T05:48:27.024Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -1227,7 +1282,7 @@
       "active": true,
       "discoveredAt": "2026-08-06T04:36:32.426Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:31.513Z",
+      "lastChecked": "2026-09-21T05:48:27.045Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -1243,7 +1298,7 @@
       "source": "Company careers",
       "category": "general",
       "priority": "Medium",
-      "lastChecked": "2026-09-20T05:38:51.451Z",
+      "lastChecked": "2026-09-21T05:48:47.003Z",
       "checkNote": "timeout",
       "matchScore": 45
     },
@@ -1261,7 +1316,7 @@
       "active": true,
       "discoveredAt": "2026-09-05T05:12:09.804Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:31.516Z",
+      "lastChecked": "2026-09-21T05:48:27.064Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -1279,7 +1334,7 @@
       "active": true,
       "discoveredAt": "2026-08-19T02:16:25.418Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:31.580Z",
+      "lastChecked": "2026-09-21T05:48:27.091Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -1297,7 +1352,7 @@
       "url": "https://careers.appagent.com/jobs/8081216-graphic-designer-for-mobile-game-ads-freelance-project-based",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:31.888Z",
+      "lastChecked": "2026-09-21T05:48:27.079Z",
       "matchScore": 30,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority; remote matches the work preference.",
@@ -1318,7 +1373,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority; remote matches the work preference.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:31.668Z",
+      "lastChecked": "2026-09-21T05:48:27.127Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1336,7 +1391,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority; remote matches the work preference.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:31.652Z",
+      "lastChecked": "2026-09-21T05:48:27.133Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1353,7 +1408,7 @@
       "url": "https://goodgamestudios.teamtailor.com/jobs/8070949-engineering-lead-goodgame-empire",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:31.797Z",
+      "lastChecked": "2026-09-21T05:48:27.644Z",
       "matchScore": 30,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority; remote matches the work preference.",
@@ -1373,7 +1428,7 @@
       "url": "https://sandboxinteractive.teamtailor.com/jobs/8368187-freelance-support-agent-chinese-simplified-traditional-m-f-d",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:32.323Z",
+      "lastChecked": "2026-09-21T05:48:27.907Z",
       "matchScore": 30,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority; remote matches the work preference.",
@@ -1393,7 +1448,7 @@
       "url": "https://newmoonproduction.teamtailor.com/jobs/8296321-unity-developer-m-f-d-big-farm-homestead",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:32.055Z",
+      "lastChecked": "2026-09-21T05:48:27.416Z",
       "matchScore": 30,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority; remote matches the work preference.",
@@ -1413,7 +1468,7 @@
       "url": "https://sandboxinteractive.teamtailor.com/jobs/8295327-freelance-support-agent-italian-m-f-d",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:32.503Z",
+      "lastChecked": "2026-09-21T05:48:28.056Z",
       "matchScore": 30,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority; remote matches the work preference.",
@@ -1434,7 +1489,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority; remote matches the work preference.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:32.118Z",
+      "lastChecked": "2026-09-21T05:48:27.708Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1450,7 +1505,7 @@
       "category": "general",
       "priority": "Low",
       "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:32.477Z",
+      "lastChecked": "2026-09-21T05:48:28.002Z",
       "matchScore": 30
     },
     {
@@ -1466,7 +1521,7 @@
       "category": "general",
       "priority": "Low",
       "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:32.583Z",
+      "lastChecked": "2026-09-21T05:48:28.178Z",
       "matchScore": 5
     },
     {
@@ -1484,7 +1539,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:47.369Z",
+      "lastChecked": "2026-09-21T05:48:28.068Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1502,7 +1557,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:32.534Z",
+      "lastChecked": "2026-09-21T05:48:28.119Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1520,7 +1575,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:32.556Z",
+      "lastChecked": "2026-09-21T05:48:28.112Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1538,7 +1593,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:47.549Z",
+      "lastChecked": "2026-09-21T05:48:28.154Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1555,7 +1610,7 @@
       "url": "https://careers.appagent.com/jobs/8231488-recruiter-at-a-mobile-gaming-agency",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:33.613Z",
+      "lastChecked": "2026-09-21T05:48:28.125Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -1575,7 +1630,7 @@
       "url": "https://careers.appagent.com/jobs/8118537-business-development-representative",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:33.734Z",
+      "lastChecked": "2026-09-21T05:48:28.140Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -1595,7 +1650,7 @@
       "url": "https://careers.appagent.com/jobs/3184822-open-application/bd8c7a53-5f12-45ef-9b38-aced933e76c1?utm_campaign=page_136055_cta_24775563&amp;utm_content=https%3A%2F%2Fcareers.appagent.com&amp;utm_medium=cta-block&amp;utm_source=teamtailor-page",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:33.108Z",
+      "lastChecked": "2026-09-21T05:48:29.037Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -1615,7 +1670,7 @@
       "url": "https://careers.appagent.com/jobs/3184822-open-application/bd8c7a53-5f12-45ef-9b38-aced933e76c1",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:34.222Z",
+      "lastChecked": "2026-09-21T05:48:29.044Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -1636,7 +1691,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:33.668Z",
+      "lastChecked": "2026-09-21T05:48:28.230Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1654,7 +1709,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:33.731Z",
+      "lastChecked": "2026-09-21T05:48:28.298Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1672,7 +1727,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:33.836Z",
+      "lastChecked": "2026-09-21T05:48:28.347Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1690,7 +1745,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:47.525Z",
+      "lastChecked": "2026-09-21T05:48:28.468Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1708,7 +1763,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:33.822Z",
+      "lastChecked": "2026-09-21T05:48:28.510Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1726,7 +1781,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:33.901Z",
+      "lastChecked": "2026-09-21T05:48:28.580Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1744,7 +1799,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:33.892Z",
+      "lastChecked": "2026-09-21T05:48:28.648Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1762,7 +1817,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:47.797Z",
+      "lastChecked": "2026-09-21T05:48:28.693Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1780,7 +1835,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:33.994Z",
+      "lastChecked": "2026-09-21T05:48:28.760Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1798,7 +1853,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:33.965Z",
+      "lastChecked": "2026-09-21T05:48:28.811Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1816,7 +1871,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:34.027Z",
+      "lastChecked": "2026-09-21T05:48:28.878Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1834,7 +1889,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:34.055Z",
+      "lastChecked": "2026-09-21T05:48:28.925Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1852,7 +1907,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:34.095Z",
+      "lastChecked": "2026-09-21T05:48:28.967Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1870,7 +1925,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:34.130Z",
+      "lastChecked": "2026-09-21T05:48:29.011Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1888,7 +1943,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:34.192Z",
+      "lastChecked": "2026-09-21T05:48:29.053Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1906,7 +1961,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:34.191Z",
+      "lastChecked": "2026-09-21T05:48:29.084Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1924,7 +1979,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:34.249Z",
+      "lastChecked": "2026-09-21T05:48:29.085Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1942,7 +1997,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:34.302Z",
+      "lastChecked": "2026-09-21T05:48:29.122Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1960,7 +2015,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:34.313Z",
+      "lastChecked": "2026-09-21T05:48:29.130Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1978,7 +2033,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:34.317Z",
+      "lastChecked": "2026-09-21T05:48:29.133Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -1996,7 +2051,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:34.375Z",
+      "lastChecked": "2026-09-21T05:48:29.168Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -2014,7 +2069,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:34.377Z",
+      "lastChecked": "2026-09-21T05:48:29.173Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -2032,7 +2087,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:34.375Z",
+      "lastChecked": "2026-09-21T05:48:29.200Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -2050,7 +2105,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:47.706Z",
+      "lastChecked": "2026-09-21T05:48:29.214Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -2068,7 +2123,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:34.439Z",
+      "lastChecked": "2026-09-21T05:48:29.219Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -2086,7 +2141,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:47.799Z",
+      "lastChecked": "2026-09-21T05:48:29.266Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -2104,7 +2159,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:34.437Z",
+      "lastChecked": "2026-09-21T05:48:29.281Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -2122,7 +2177,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:34.447Z",
+      "lastChecked": "2026-09-21T05:48:29.264Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -2140,7 +2195,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:34.493Z",
+      "lastChecked": "2026-09-21T05:48:29.304Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -2157,7 +2212,7 @@
       "url": "https://careers.miniclip.com/job-invite/1848/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:34.912Z",
+      "lastChecked": "2026-09-21T05:48:29.658Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2177,7 +2232,7 @@
       "url": "https://careers.miniclip.com/job-invite/1845/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:35.398Z",
+      "lastChecked": "2026-09-21T05:48:29.659Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2197,7 +2252,7 @@
       "url": "https://careers.miniclip.com/job-invite/1207/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:34.969Z",
+      "lastChecked": "2026-09-21T05:48:29.689Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2217,7 +2272,7 @@
       "url": "https://careers.miniclip.com/job-invite/1524/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:35.408Z",
+      "lastChecked": "2026-09-21T05:48:30.044Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2237,7 +2292,7 @@
       "url": "https://careers.miniclip.com/job-invite/1523/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:35.727Z",
+      "lastChecked": "2026-09-21T05:48:30.043Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2257,7 +2312,7 @@
       "url": "https://careers.miniclip.com/job-invite/1831/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:35.889Z",
+      "lastChecked": "2026-09-21T05:48:30.075Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2277,27 +2332,7 @@
       "url": "https://careers.miniclip.com/job-invite/1669/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:35.887Z",
-      "matchScore": 0,
-      "fit": "Stretch",
-      "why": "Profile match: matches the target seniority.",
-      "lastStatus": 200
-    },
-    {
-      "company": "Miniclip",
-      "title": "Senior Game Designer",
-      "priority": "High",
-      "category": "general",
-      "source": "Company careers",
-      "sourceType": "custom",
-      "sourceUrl": "https://www.miniclip.com/careers/vacancies",
-      "discoverySource": "company-scanner",
-      "mode": "onsite",
-      "location": "Location not stated",
-      "url": "https://careers.miniclip.com/job-invite/1799/",
-      "active": true,
-      "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:36.220Z",
+      "lastChecked": "2026-09-21T05:48:30.425Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2317,7 +2352,7 @@
       "url": "https://careers.miniclip.com/job-invite/1819/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:36.366Z",
+      "lastChecked": "2026-09-21T05:48:30.471Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2337,7 +2372,7 @@
       "url": "https://careers.miniclip.com/job-invite/1683/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:36.232Z",
+      "lastChecked": "2026-09-21T05:48:30.614Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2357,7 +2392,7 @@
       "url": "https://careers.miniclip.com/job-invite/1732/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:36.710Z",
+      "lastChecked": "2026-09-21T05:48:30.800Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2377,7 +2412,7 @@
       "url": "https://careers.miniclip.com/job-invite/1574/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:36.730Z",
+      "lastChecked": "2026-09-21T05:48:30.736Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2397,7 +2432,7 @@
       "url": "https://careers.miniclip.com/job-invite/1836/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:36.836Z",
+      "lastChecked": "2026-09-21T05:48:30.988Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2417,7 +2452,7 @@
       "url": "https://careers.miniclip.com/job-invite/1791/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:37.190Z",
+      "lastChecked": "2026-09-21T05:48:31.130Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2437,7 +2472,7 @@
       "url": "https://careers.miniclip.com/job-invite/1840/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:37.217Z",
+      "lastChecked": "2026-09-21T05:48:31.186Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2457,7 +2492,7 @@
       "url": "https://careers.miniclip.com/job-invite/1575/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:37.322Z",
+      "lastChecked": "2026-09-21T05:48:31.373Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2477,7 +2512,7 @@
       "url": "https://careers.miniclip.com/job-invite/1803/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:37.659Z",
+      "lastChecked": "2026-09-21T05:48:31.497Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2497,7 +2532,7 @@
       "url": "https://careers.miniclip.com/job-invite/1370/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:37.730Z",
+      "lastChecked": "2026-09-21T05:48:31.572Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2517,7 +2552,7 @@
       "url": "https://careers.miniclip.com/job-invite/1798/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:37.813Z",
+      "lastChecked": "2026-09-21T05:48:31.750Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2537,7 +2572,7 @@
       "url": "https://careers.miniclip.com/job-invite/1833/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:38.138Z",
+      "lastChecked": "2026-09-21T05:48:31.865Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2557,7 +2592,7 @@
       "url": "https://careers.miniclip.com/job-invite/1821/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:38.218Z",
+      "lastChecked": "2026-09-21T05:48:31.965Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2577,7 +2612,7 @@
       "url": "https://careers.miniclip.com/job-invite/1838/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:38.301Z",
+      "lastChecked": "2026-09-21T05:48:32.135Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2597,7 +2632,7 @@
       "url": "https://careers.miniclip.com/job-invite/1744/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:38.606Z",
+      "lastChecked": "2026-09-21T05:48:32.243Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2617,7 +2652,7 @@
       "url": "https://careers.miniclip.com/job-invite/1786/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:38.733Z",
+      "lastChecked": "2026-09-21T05:48:32.332Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2637,7 +2672,7 @@
       "url": "https://careers.miniclip.com/job-invite/1826/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:38.636Z",
+      "lastChecked": "2026-09-21T05:48:32.408Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2657,7 +2692,7 @@
       "url": "https://careers.miniclip.com/job-invite/1846/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:38.943Z",
+      "lastChecked": "2026-09-21T05:48:32.517Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2677,7 +2712,7 @@
       "url": "https://careers.miniclip.com/job-invite/1851/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:39.116Z",
+      "lastChecked": "2026-09-21T05:48:32.727Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2697,7 +2732,7 @@
       "url": "https://careers.miniclip.com/job-invite/1800/",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:39.223Z",
+      "lastChecked": "2026-09-21T05:48:32.691Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2717,7 +2752,7 @@
       "url": "https://careers.miniclip.com/job-invite/1852/",
       "active": true,
       "discoveredAt": "2026-09-18T15:08:57.007Z",
-      "lastChecked": "2026-09-20T05:38:39.415Z",
+      "lastChecked": "2026-09-21T05:48:32.895Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -2737,11 +2772,29 @@
       "url": "https://careers.miniclip.com/job-invite/1820/",
       "active": true,
       "discoveredAt": "2026-09-18T15:08:57.007Z",
-      "lastChecked": "2026-09-20T05:38:39.610Z",
+      "lastChecked": "2026-09-21T05:48:33.066Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 200
+    },
+    {
+      "company": "NVIDIA",
+      "title": "GeForce Marketing Manager - Esports and Competitive Gaming",
+      "priority": "High",
+      "category": "general",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Santa Clara, CA",
+      "url": "https://www.linkedin.com/jobs/view/4448591641",
+      "active": true,
+      "discoveredAt": "2026-09-21T05:48:22.192Z",
+      "matchScore": 0,
+      "fit": "Stretch",
+      "why": "Profile match: matches the target seniority.",
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:37.777Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "NVIDIA AI",
@@ -2758,7 +2811,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:39.337Z",
+      "lastChecked": "2026-09-21T05:48:32.799Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -2775,8 +2828,9 @@
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:39.966Z"
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:32.852Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "Parexel",
@@ -2793,7 +2847,25 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:39.472Z",
+      "lastChecked": "2026-09-21T05:48:32.906Z",
+      "checkNote": "inconclusive-429"
+    },
+    {
+      "company": "Parexel",
+      "title": "Senior Regulatory Affairs Consultant - Labelling Strategy (home or office based)",
+      "priority": "High",
+      "category": "general",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Uxbridge, England, United Kingdom",
+      "url": "https://www.linkedin.com/jobs/view/4386171821",
+      "active": true,
+      "discoveredAt": "2026-09-21T05:48:20.411Z",
+      "matchScore": 0,
+      "fit": "Stretch",
+      "why": "Profile match: matches the target seniority.",
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:37.619Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -2811,7 +2883,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:39.542Z",
+      "lastChecked": "2026-09-21T05:48:32.955Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -2828,8 +2900,9 @@
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:40.103Z"
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:32.952Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "Pixel Toys",
@@ -2845,8 +2918,9 @@
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:40.175Z"
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:33.000Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "PT BACKODESOFT INOVASI INDONESIA",
@@ -2863,7 +2937,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:47.861Z",
+      "lastChecked": "2026-09-21T05:48:33.024Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -2881,7 +2955,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:40.026Z",
+      "lastChecked": "2026-09-21T05:48:33.062Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -2898,8 +2972,9 @@
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:40.601Z"
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:33.067Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "Red Bull",
@@ -2916,7 +2991,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:40.168Z",
+      "lastChecked": "2026-09-21T05:48:33.103Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -2933,8 +3008,9 @@
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:40.739Z"
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:33.143Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "Savior Artigos Texteis Lda",
@@ -2951,7 +3027,25 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:40.243Z",
+      "lastChecked": "2026-09-21T05:48:33.111Z",
+      "checkNote": "inconclusive-429"
+    },
+    {
+      "company": "Savior Artigos Texteis Lda",
+      "title": "Multilingual Roles in Bulgaria (Up to €2,200/mo + €1.5k Bonus + Relocation)",
+      "priority": "High",
+      "category": "general",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Sofia, Sofia City, Bulgaria",
+      "url": "https://www.linkedin.com/jobs/view/4468466180",
+      "active": true,
+      "discoveredAt": "2026-09-21T05:48:22.590Z",
+      "matchScore": 0,
+      "fit": "Stretch",
+      "why": "Profile match: matches the target seniority.",
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:37.839Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -2968,8 +3062,9 @@
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:40.883Z"
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:33.169Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "Scopely",
@@ -2986,7 +3081,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:40.678Z",
+      "lastChecked": "2026-09-21T05:48:33.155Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3003,8 +3098,9 @@
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:41.363Z"
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:33.188Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "ServiceTrade",
@@ -3021,7 +3117,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:40.813Z",
+      "lastChecked": "2026-09-21T05:48:33.223Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3039,7 +3135,25 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:40.885Z",
+      "lastChecked": "2026-09-21T05:48:33.244Z",
+      "checkNote": "inconclusive-429"
+    },
+    {
+      "company": "Shaadi.com",
+      "title": "Software Engineer II (iOS)",
+      "priority": "High",
+      "category": "general",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Mumbai, Maharashtra, India",
+      "url": "https://www.linkedin.com/jobs/view/4467348909",
+      "active": true,
+      "discoveredAt": "2026-09-21T05:48:19.555Z",
+      "matchScore": 0,
+      "fit": "Stretch",
+      "why": "Profile match: matches the target seniority.",
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:37.484Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3057,7 +3171,25 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:40.942Z",
+      "lastChecked": "2026-09-21T05:48:33.267Z",
+      "checkNote": "inconclusive-429"
+    },
+    {
+      "company": "Singtel",
+      "title": "Marketing Performance & Operations Manager",
+      "priority": "High",
+      "category": "general",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Singapore, Singapore",
+      "url": "https://www.linkedin.com/jobs/view/4469544603",
+      "active": true,
+      "discoveredAt": "2026-09-21T05:48:21.694Z",
+      "matchScore": 0,
+      "fit": "Stretch",
+      "why": "Profile match: matches the target seniority.",
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:37.731Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3075,7 +3207,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:40.945Z",
+      "lastChecked": "2026-09-21T05:48:33.288Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3093,7 +3225,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:41.006Z",
+      "lastChecked": "2026-09-21T05:48:33.287Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3110,8 +3242,9 @@
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:41.561Z"
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:33.312Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "Stillfront",
@@ -3127,7 +3260,7 @@
       "url": "https://sandboxinteractive.teamtailor.com/jobs/8381298-senior-server-developer-m-f-d",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:41.772Z",
+      "lastChecked": "2026-09-21T05:48:34.022Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -3147,7 +3280,7 @@
       "url": "https://playagames.teamtailor.com/jobs/8381236-senior-performance-marketing-manager-m-w-d",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:42.205Z",
+      "lastChecked": "2026-09-21T05:48:34.119Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -3167,7 +3300,7 @@
       "url": "https://twinharbour.teamtailor.com/jobs/8252801-head-of-quality-assurance-qa",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:42.431Z",
+      "lastChecked": "2026-09-21T05:48:34.170Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -3187,7 +3320,7 @@
       "url": "https://sandboxinteractive.teamtailor.com/jobs/8094866-lead-3d-environment-artist-m-f-d",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:42.572Z",
+      "lastChecked": "2026-09-21T05:48:34.696Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -3207,7 +3340,7 @@
       "url": "https://twinharbour.teamtailor.com/jobs/8029781-senior-node-js-developer",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:43.077Z",
+      "lastChecked": "2026-09-21T05:48:34.794Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -3227,7 +3360,7 @@
       "url": "https://careers.babilgames.com/jobs/8196474-lead-ai",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:42.971Z",
+      "lastChecked": "2026-09-21T05:48:34.319Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -3247,7 +3380,7 @@
       "url": "https://moonfroglabsbystillfront.teamtailor.com/jobs/8154834-lead-data-analyst",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:43.263Z",
+      "lastChecked": "2026-09-21T05:48:35.106Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -3267,7 +3400,7 @@
       "url": "https://twinharbour.teamtailor.com/jobs/8385834-customer-support-agent",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:43.361Z",
+      "lastChecked": "2026-09-21T05:48:35.129Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -3287,7 +3420,7 @@
       "url": "https://sandboxinteractive.teamtailor.com/jobs/8316016-data-engineer-m-f-d",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:43.332Z",
+      "lastChecked": "2026-09-21T05:48:35.002Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -3307,7 +3440,7 @@
       "url": "https://careers.babilgames.com/jobs/8280708-multimedia-designer",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:44.314Z",
+      "lastChecked": "2026-09-21T05:48:35.009Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -3327,7 +3460,7 @@
       "url": "https://twinharbour.teamtailor.com/jobs/8234660-ui-ux-artist",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:43.590Z",
+      "lastChecked": "2026-09-21T05:48:35.299Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -3347,7 +3480,7 @@
       "url": "https://sandboxinteractive.teamtailor.com/jobs/8222924-vfx-artist-m-f-d",
       "active": true,
       "discoveredAt": "2026-09-18T08:10:53.628Z",
-      "lastChecked": "2026-09-20T05:38:43.709Z",
+      "lastChecked": "2026-09-21T05:48:35.220Z",
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
@@ -3367,8 +3500,9 @@
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:44.159Z"
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:35.195Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "Tesco Mobile",
@@ -3385,7 +3519,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:43.773Z",
+      "lastChecked": "2026-09-21T05:48:35.241Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3402,8 +3536,9 @@
       "matchScore": 0,
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
-      "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:44.353Z"
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:35.262Z",
+      "checkNote": "inconclusive-429"
     },
     {
       "company": "ThoughtStorm",
@@ -3420,7 +3555,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.229Z",
+      "lastChecked": "2026-09-21T05:48:35.284Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3438,7 +3573,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.339Z",
+      "lastChecked": "2026-09-21T05:48:35.316Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3456,7 +3591,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.407Z",
+      "lastChecked": "2026-09-21T05:48:35.350Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3474,7 +3609,25 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:47.649Z",
+      "lastChecked": "2026-09-21T05:48:35.363Z",
+      "checkNote": "inconclusive-429"
+    },
+    {
+      "company": "VB Spine",
+      "title": "Sr. Regulatory Affairs Specialist",
+      "priority": "High",
+      "category": "general",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Allendale, NJ",
+      "url": "https://www.linkedin.com/jobs/view/4442187609",
+      "active": true,
+      "discoveredAt": "2026-09-21T05:48:20.411Z",
+      "matchScore": 0,
+      "fit": "Stretch",
+      "why": "Profile match: matches the target seniority.",
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:37.674Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3492,7 +3645,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.562Z",
+      "lastChecked": "2026-09-21T05:48:35.364Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3510,7 +3663,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.456Z",
+      "lastChecked": "2026-09-21T05:48:35.422Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3528,7 +3681,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.493Z",
+      "lastChecked": "2026-09-21T05:48:35.407Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3546,7 +3699,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:47.424Z",
+      "lastChecked": "2026-09-21T05:48:35.410Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3564,7 +3717,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.522Z",
+      "lastChecked": "2026-09-21T05:48:35.474Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3582,7 +3735,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.554Z",
+      "lastChecked": "2026-09-21T05:48:35.461Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3600,7 +3753,25 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.605Z",
+      "lastChecked": "2026-09-21T05:48:35.461Z",
+      "checkNote": "inconclusive-429"
+    },
+    {
+      "company": "Zenopsys",
+      "title": "Senior Regulatory Affairs Specialist",
+      "priority": "High",
+      "category": "general",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Hyderabad, Telangana, India",
+      "url": "https://www.linkedin.com/jobs/view/4468710279",
+      "active": true,
+      "discoveredAt": "2026-09-21T05:48:20.411Z",
+      "matchScore": 0,
+      "fit": "Stretch",
+      "why": "Profile match: matches the target seniority.",
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:37.609Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3618,7 +3789,43 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.612Z",
+      "lastChecked": "2026-09-21T05:48:35.504Z",
+      "checkNote": "inconclusive-429"
+    },
+    {
+      "company": "北京掌上先机网络科技有限公司",
+      "title": "移动端leader (J12837)",
+      "priority": "High",
+      "category": "general",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Beijing, Beijing, China",
+      "url": "https://www.linkedin.com/jobs/view/4467335970",
+      "active": true,
+      "discoveredAt": "2026-09-21T05:48:19.984Z",
+      "matchScore": 0,
+      "fit": "Stretch",
+      "why": "Profile match: matches the target seniority.",
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:37.528Z",
+      "checkNote": "inconclusive-429"
+    },
+    {
+      "company": "北京掌上先机网络科技有限公司",
+      "title": "移动端-leader(J12837)",
+      "priority": "High",
+      "category": "general",
+      "source": "LinkedIn",
+      "mode": "onsite",
+      "location": "Beijing, Beijing, China",
+      "url": "https://www.linkedin.com/jobs/view/4467355514",
+      "active": true,
+      "discoveredAt": "2026-09-21T05:48:19.984Z",
+      "matchScore": 0,
+      "fit": "Stretch",
+      "why": "Profile match: matches the target seniority.",
+      "lastStatus": 429,
+      "lastChecked": "2026-09-21T05:48:37.572Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3636,7 +3843,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.616Z",
+      "lastChecked": "2026-09-21T05:48:35.507Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3654,7 +3861,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.667Z",
+      "lastChecked": "2026-09-21T05:48:35.540Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3672,7 +3879,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.674Z",
+      "lastChecked": "2026-09-21T05:48:35.552Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3689,7 +3896,7 @@
       "active": true,
       "discoveredAt": "2026-08-19T02:16:22.258Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.680Z",
+      "lastChecked": "2026-09-21T05:48:35.551Z",
       "matchScore": 0,
       "excludedByProfile": "company:BVGroup",
       "checkNote": "inconclusive-429"
@@ -3708,7 +3915,7 @@
       "active": true,
       "discoveredAt": "2026-08-19T02:16:22.747Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.771Z",
+      "lastChecked": "2026-09-21T05:48:35.585Z",
       "matchScore": 0,
       "excludedByProfile": "company:BVGroup",
       "checkNote": "inconclusive-429"
@@ -3728,7 +3935,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.776Z",
+      "lastChecked": "2026-09-21T05:48:35.641Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3746,7 +3953,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.734Z",
+      "lastChecked": "2026-09-21T05:48:35.597Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3764,7 +3971,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.801Z",
+      "lastChecked": "2026-09-21T05:48:35.655Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3782,7 +3989,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.833Z",
+      "lastChecked": "2026-09-21T05:48:35.641Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3800,7 +4007,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.878Z",
+      "lastChecked": "2026-09-21T05:48:35.709Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3818,7 +4025,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.863Z",
+      "lastChecked": "2026-09-21T05:48:35.690Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3836,7 +4043,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.902Z",
+      "lastChecked": "2026-09-21T05:48:35.715Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3854,7 +4061,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.922Z",
+      "lastChecked": "2026-09-21T05:48:35.730Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3872,7 +4079,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.931Z",
+      "lastChecked": "2026-09-21T05:48:35.751Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3890,7 +4097,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.994Z",
+      "lastChecked": "2026-09-21T05:48:35.758Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3908,7 +4115,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:44.990Z",
+      "lastChecked": "2026-09-21T05:48:35.793Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3926,7 +4133,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:45.017Z",
+      "lastChecked": "2026-09-21T05:48:35.813Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3944,7 +4151,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:45.053Z",
+      "lastChecked": "2026-09-21T05:48:35.828Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3962,7 +4169,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:45.101Z",
+      "lastChecked": "2026-09-21T05:48:35.844Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3980,7 +4187,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:45.087Z",
+      "lastChecked": "2026-09-21T05:48:35.855Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -3995,7 +4202,7 @@
       "source": "Company careers",
       "category": "general",
       "priority": "Medium",
-      "lastChecked": "2026-09-20T05:39:05.054Z",
+      "lastChecked": "2026-09-21T05:48:55.828Z",
       "checkNote": "timeout",
       "matchScore": 0
     },
@@ -4014,7 +4221,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:45.178Z",
+      "lastChecked": "2026-09-21T05:48:35.889Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -4032,7 +4239,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:45.164Z",
+      "lastChecked": "2026-09-21T05:48:35.902Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -4050,7 +4257,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:45.222Z",
+      "lastChecked": "2026-09-21T05:48:35.928Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -4068,7 +4275,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:45.283Z",
+      "lastChecked": "2026-09-21T05:48:35.945Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -4086,7 +4293,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:45.282Z",
+      "lastChecked": "2026-09-21T05:48:35.978Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -4102,7 +4309,7 @@
       "category": "general",
       "priority": "Low",
       "lastStatus": 200,
-      "lastChecked": "2026-09-20T05:38:45.760Z",
+      "lastChecked": "2026-09-21T05:48:36.145Z",
       "matchScore": 0
     },
     {
@@ -4118,7 +4325,7 @@
       "url": "https://www.linkedin.com/jobs/view/4444002969",
       "active": false,
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:45.346Z",
+      "lastChecked": "2026-09-21T05:48:36.020Z",
       "matchScore": 75,
       "checkNote": "inconclusive-429"
     },
@@ -4135,7 +4342,7 @@
       "url": "https://www.linkedin.com/jobs/view/4436487694",
       "active": false,
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:45.428Z",
+      "lastChecked": "2026-09-21T05:48:36.065Z",
       "matchScore": 75,
       "checkNote": "inconclusive-429"
     },
@@ -4152,7 +4359,7 @@
       "url": "https://www.linkedin.com/jobs/view/4446954282",
       "active": false,
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:45.497Z",
+      "lastChecked": "2026-09-21T05:48:36.147Z",
       "checkNote": "inconclusive-429",
       "matchScore": 75
     },
@@ -4170,7 +4377,7 @@
       "active": false,
       "discoveredAt": "2026-08-20T02:14:54.511Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:45.558Z",
+      "lastChecked": "2026-09-21T05:48:36.214Z",
       "matchScore": 75,
       "checkNote": "inconclusive-429"
     },
@@ -4187,7 +4394,7 @@
       "url": "https://www.linkedin.com/jobs/view/4441393833",
       "active": false,
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:45.655Z",
+      "lastChecked": "2026-09-21T05:48:36.192Z",
       "matchScore": 75,
       "checkNote": "inconclusive-429"
     },
@@ -4204,7 +4411,7 @@
       "url": "https://www.linkedin.com/jobs/view/4444556363",
       "active": false,
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:45.724Z",
+      "lastChecked": "2026-09-21T05:48:36.237Z",
       "matchScore": 75,
       "checkNote": "inconclusive-429"
     },
@@ -4223,7 +4430,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches acquisition; matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:45.792Z",
+      "lastChecked": "2026-09-21T05:48:36.294Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -4240,7 +4447,7 @@
       "active": false,
       "discoveredAt": "2026-08-20T02:14:57.879Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:45.873Z",
+      "lastChecked": "2026-09-21T05:48:36.285Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -4258,7 +4465,7 @@
       "active": false,
       "discoveredAt": "2026-09-09T05:39:50.833Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:45.873Z",
+      "lastChecked": "2026-09-21T05:48:36.326Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -4276,7 +4483,7 @@
       "active": false,
       "discoveredAt": "2026-08-18T02:13:34.590Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:45.948Z",
+      "lastChecked": "2026-09-21T05:48:36.361Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -4293,7 +4500,7 @@
       "url": "https://www.linkedin.com/jobs/view/4427880022",
       "active": false,
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:45.949Z",
+      "lastChecked": "2026-09-21T05:48:36.387Z",
       "checkNote": "inconclusive-429",
       "matchScore": 45
     },
@@ -4311,7 +4518,7 @@
       "active": false,
       "discoveredAt": "2026-09-10T05:30:03.564Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:45.998Z",
+      "lastChecked": "2026-09-21T05:48:36.406Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -4329,7 +4536,7 @@
       "active": false,
       "discoveredAt": "2026-08-12T03:21:21.163Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.013Z",
+      "lastChecked": "2026-09-21T05:48:36.455Z",
       "checkNote": "inconclusive-429",
       "matchScore": 45
     },
@@ -4346,7 +4553,7 @@
       "url": "https://www.linkedin.com/jobs/view/4443518415",
       "active": false,
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.072Z",
+      "lastChecked": "2026-09-21T05:48:36.467Z",
       "checkNote": "inconclusive-429",
       "matchScore": 45
     },
@@ -4364,7 +4571,7 @@
       "active": false,
       "discoveredAt": "2026-08-11T03:01:45.125Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.077Z",
+      "lastChecked": "2026-09-21T05:48:36.532Z",
       "checkNote": "inconclusive-429",
       "matchScore": 45
     },
@@ -4382,7 +4589,7 @@
       "active": false,
       "discoveredAt": "2026-08-27T10:50:59.712Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.161Z",
+      "lastChecked": "2026-09-21T05:48:36.512Z",
       "checkNote": "inconclusive-429",
       "matchScore": 45
     },
@@ -4400,7 +4607,7 @@
       "active": false,
       "discoveredAt": "2026-08-06T04:36:32.940Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.147Z",
+      "lastChecked": "2026-09-21T05:48:36.555Z",
       "checkNote": "inconclusive-429",
       "matchScore": 45
     },
@@ -4418,7 +4625,7 @@
       "active": false,
       "discoveredAt": "2026-08-11T03:01:45.577Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.203Z",
+      "lastChecked": "2026-09-21T05:48:36.579Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -4436,7 +4643,7 @@
       "active": false,
       "discoveredAt": "2026-08-19T02:16:23.167Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.240Z",
+      "lastChecked": "2026-09-21T05:48:36.601Z",
       "checkNote": "inconclusive-429",
       "matchScore": 45
     },
@@ -4454,7 +4661,7 @@
       "active": false,
       "discoveredAt": "2026-08-14T03:22:04.328Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.267Z",
+      "lastChecked": "2026-09-21T05:48:36.628Z",
       "checkNote": "inconclusive-429",
       "matchScore": 45
     },
@@ -4473,7 +4680,7 @@
       "fit": "Stretch",
       "why": "Profile match: matches growth and growth marketing; matches the target seniority.",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.346Z",
+      "lastChecked": "2026-09-21T05:48:36.666Z",
       "checkNote": "inconclusive-429"
     },
     {
@@ -4490,7 +4697,7 @@
       "active": false,
       "discoveredAt": "2026-09-09T05:39:50.833Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.415Z",
+      "lastChecked": "2026-09-21T05:48:36.692Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -4508,7 +4715,7 @@
       "active": false,
       "discoveredAt": "2026-08-18T02:13:34.590Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.453Z",
+      "lastChecked": "2026-09-21T05:48:36.732Z",
       "checkNote": "inconclusive-429",
       "matchScore": 45
     },
@@ -4526,7 +4733,7 @@
       "active": false,
       "discoveredAt": "2026-09-03T05:25:24.142Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.509Z",
+      "lastChecked": "2026-09-21T05:48:36.760Z",
       "checkNote": "inconclusive-429",
       "matchScore": 45
     },
@@ -4543,7 +4750,7 @@
       "url": "https://www.linkedin.com/jobs/view/4443551660",
       "active": false,
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.529Z",
+      "lastChecked": "2026-09-21T05:48:36.799Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -4561,7 +4768,7 @@
       "active": false,
       "discoveredAt": "2026-08-12T03:21:21.163Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.567Z",
+      "lastChecked": "2026-09-21T05:48:36.803Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -4579,7 +4786,7 @@
       "active": false,
       "discoveredAt": "2026-08-14T03:22:01.319Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.585Z",
+      "lastChecked": "2026-09-21T05:48:36.859Z",
       "checkNote": "inconclusive-429",
       "matchScore": 45
     },
@@ -4597,7 +4804,7 @@
       "active": false,
       "discoveredAt": "2026-08-25T02:15:48.125Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.693Z",
+      "lastChecked": "2026-09-21T05:48:36.869Z",
       "checkNote": "inconclusive-429",
       "matchScore": 45
     },
@@ -4615,7 +4822,7 @@
       "active": false,
       "discoveredAt": "2026-09-16T05:34:46.623Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.651Z",
+      "lastChecked": "2026-09-21T05:48:36.902Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -4633,7 +4840,7 @@
       "active": false,
       "discoveredAt": "2026-09-11T05:33:21.210Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.755Z",
+      "lastChecked": "2026-09-21T05:48:36.912Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -4651,7 +4858,7 @@
       "active": false,
       "discoveredAt": "2026-08-06T04:36:32.425Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.757Z",
+      "lastChecked": "2026-09-21T05:48:36.967Z",
       "checkNote": "inconclusive-429",
       "matchScore": 45
     },
@@ -4669,7 +4876,7 @@
       "active": false,
       "discoveredAt": "2026-08-06T04:36:32.426Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.832Z",
+      "lastChecked": "2026-09-21T05:48:36.954Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -4687,7 +4894,7 @@
       "active": false,
       "discoveredAt": "2026-08-07T13:47:15.367Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.867Z",
+      "lastChecked": "2026-09-21T05:48:37.026Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -4705,7 +4912,7 @@
       "active": false,
       "discoveredAt": "2026-08-07T13:47:15.946Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.922Z",
+      "lastChecked": "2026-09-21T05:48:37.025Z",
       "checkNote": "inconclusive-429",
       "matchScore": 45
     },
@@ -4723,7 +4930,7 @@
       "active": false,
       "discoveredAt": "2026-08-13T03:24:33.228Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.944Z",
+      "lastChecked": "2026-09-21T05:48:37.068Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -4741,7 +4948,7 @@
       "active": false,
       "discoveredAt": "2026-08-16T02:19:20.909Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:46.984Z",
+      "lastChecked": "2026-09-21T05:48:37.096Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -4758,9 +4965,8 @@
       "url": "https://www.linkedin.com/jobs/view/4461629097",
       "active": false,
       "discoveredAt": "2026-09-05T05:12:09.412Z",
-      "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:47.057Z",
-      "checkNote": "inconclusive-429",
+      "lastStatus": 200,
+      "lastChecked": "2026-09-21T05:48:37.542Z",
       "matchScore": 45
     },
     {
@@ -4777,7 +4983,7 @@
       "active": false,
       "discoveredAt": "2026-08-06T04:36:32.426Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:47.075Z",
+      "lastChecked": "2026-09-21T05:48:37.139Z",
       "checkNote": "inconclusive-429",
       "matchScore": 45
     },
@@ -4795,7 +5001,7 @@
       "active": false,
       "discoveredAt": "2026-08-19T02:16:25.418Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:47.113Z",
+      "lastChecked": "2026-09-21T05:48:37.204Z",
       "checkNote": "inconclusive-429",
       "matchScore": 45
     },
@@ -4813,7 +5019,7 @@
       "active": false,
       "discoveredAt": "2026-08-13T03:24:35.894Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:47.159Z",
+      "lastChecked": "2026-09-21T05:48:37.246Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -4830,7 +5036,7 @@
       "url": "https://www.linkedin.com/jobs/view/4400380193",
       "active": false,
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:47.223Z",
+      "lastChecked": "2026-09-21T05:48:37.287Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -4848,7 +5054,7 @@
       "active": false,
       "discoveredAt": "2026-08-06T04:36:32.426Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:47.252Z",
+      "lastChecked": "2026-09-21T05:48:37.328Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -4866,7 +5072,7 @@
       "active": false,
       "discoveredAt": "2026-09-08T05:32:58.952Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:47.307Z",
+      "lastChecked": "2026-09-21T05:48:37.401Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
     },
@@ -4884,9 +5090,29 @@
       "active": false,
       "discoveredAt": "2026-08-18T02:13:34.590Z",
       "lastStatus": 429,
-      "lastChecked": "2026-09-20T05:38:47.369Z",
+      "lastChecked": "2026-09-21T05:48:37.443Z",
       "matchScore": 45,
       "checkNote": "inconclusive-429"
+    },
+    {
+      "company": "Miniclip",
+      "title": "Senior Game Designer",
+      "priority": "High",
+      "category": "general",
+      "source": "Company careers",
+      "sourceType": "custom",
+      "sourceUrl": "https://www.miniclip.com/careers/vacancies",
+      "discoverySource": "company-scanner",
+      "mode": "onsite",
+      "location": "Location not stated",
+      "url": "https://careers.miniclip.com/job-invite/1799/",
+      "active": false,
+      "discoveredAt": "2026-09-18T08:10:53.628Z",
+      "lastChecked": "2026-09-21T05:48:30.329Z",
+      "matchScore": 0,
+      "fit": "Stretch",
+      "why": "Profile match: matches the target seniority.",
+      "lastStatus": 200
     }
   ]
 }
