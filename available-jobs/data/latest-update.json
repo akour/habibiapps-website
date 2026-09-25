@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-09-25T10:05:51.582Z",
+  "checkedAt": "2026-09-25T10:08:13.048Z",
   "newJobs": [],
   "closedJobs": [],
   "totals": {
-    "active": 326,
-    "aso": 27,
+    "active": 325,
+    "aso": 26,
     "remote": 14,
-    "linkedIn": 261,
+    "linkedIn": 260,
     "companySources": 65
   }
 }
