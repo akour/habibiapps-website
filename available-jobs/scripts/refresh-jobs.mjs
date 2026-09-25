@@ -277,7 +277,7 @@ const isQualityMatch = job =>
   job.locationMatch &&
   job.matchScore >= 55;
 const newJobs = rescored.filter(job => !previousJobs.has(jobKey(job)) && job.active !== false && isQualityMatch(job));
-const closedJobs = rescored.filter(job => previousJobs.get(jobKey(job))?.active !== false && job.active === false && isQualityMatch(job));
+const closedJobs = rescored.filter(job => previousJobs.get(jobKey(job))?.active === true && job.active === false && isQualityMatch(job));
 const digest = {
   checkedAt: output.checkedAt,
   newJobs,
