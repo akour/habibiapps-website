@@ -270,14 +270,14 @@ const output = {
 };
 
 const active = rescored.filter(job => job.active && !job.excludedByProfile).length;
-const isQualityMatch = job => job.active !== false &&
+const isQualityMatch = job =>
   !job.excludedByProfile &&
   job.roleMatch &&
   job.modeMatch &&
   job.locationMatch &&
   job.matchScore >= 55;
-const newJobs = rescored.filter(job => !previousJobs.has(jobKey(job)) && isQualityMatch(job));
-const closedJobs = rescored.filter(job => previousJobs.get(jobKey(job))?.active !== false && job.active === false && isQualityMatch(job));
+const newJobs = rescored.filter(job => !previousJobs.has(jobKey(job)) && job.active !== false && isQualityMatch(job));
+const closedJobs = rescored.filter(job => previousJobs.get(jobKey(job))?.active === true && job.active === false && isQualityMatch(job));
 const digest = {
   checkedAt: output.checkedAt,
   newJobs,
