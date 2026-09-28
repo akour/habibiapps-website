@@ -17,6 +17,17 @@ test("blocks excluded industries", () => {
   assert.equal(result.excludedKeyword, "casino");
 });
 
+test("blocks UA-only and agency-style roles from Jordan's digest", () => {
+  const result = scoreJob({
+    title: "User Acquisition Manager",
+    company: "Example Agency",
+    location: "Worldwide",
+    mode: "remote"
+  }, profile);
+  assert.equal(result.score, 0);
+  assert.equal(result.excludedKeyword, "user acquisition");
+});
+
 test("blocks known excluded companies when the role title is neutral", () => {
   const result = scoreJob({ title: "Senior Product Manager", company: "Product Madness", location: "Remote", mode: "remote" }, profile);
   assert.equal(result.score, 0);

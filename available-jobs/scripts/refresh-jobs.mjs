@@ -19,9 +19,18 @@ const closedSignals = [
 ];
 
 const normalizeQuery = value => String(value || "").replace(/\s+/g, " ").trim();
+const normalizeMode = value => normalizeQuery(value).toLowerCase().replace(/[^a-z]/g, "");
+const isRemoteOnly = modes => {
+  const normalized = (Array.isArray(modes) ? modes : []).map(normalizeMode).filter(Boolean);
+  return normalized.length === 1 && normalized[0] === "remote";
+};
 
 async function loadLinkedInQueries() {
-  const fallback = (profile.searchQueries || []).map(keywords => ({ keywords, location: "Worldwide" }));
+  const fallback = (profile.searchQueries || []).map(keywords => ({
+    keywords,
+    location: "Worldwide",
+    remoteOnly: isRemoteOnly(profile.preferredModes)
+  }));
   const { SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY } = process.env;
   if (!SUPABASE_URL || !SUPABASE_SERVICE_ROLE_KEY) return fallback;
   try {
@@ -33,7 +42,7 @@ async function loadLinkedInQueries() {
     const userIds = subscriptions.map(item => item.user_id).filter(Boolean);
     if (!userIds.length) return fallback;
     const ids = userIds.join(",");
-    const profilesResponse = await fetch(`${SUPABASE_URL}/rest/v1/profiles?user_id=in.(${ids})&select=roles,location`, { headers });
+    const profilesResponse = await fetch(`${SUPABASE_URL}/rest/v1/profiles?user_id=in.(${ids})&select=roles,location,work_modes`, { headers });
     if (!profilesResponse.ok) throw new Error(`profiles HTTP ${profilesResponse.status}`);
     const profiles = await profilesResponse.json();
     const unique = new Map();
@@ -42,7 +51,8 @@ async function loadLinkedInQueries() {
       for (const role of (subscriber.roles || []).slice(0, 6)) {
         const keywords = normalizeQuery(role);
         if (keywords.length < 2) continue;
-        unique.set(`${keywords.toLowerCase()}|${location.toLowerCase()}`, { keywords, location });
+        const remoteOnly = isRemoteOnly(subscriber.work_modes);
+        unique.set(`${keywords.toLowerCase()}|${location.toLowerCase()}|${remoteOnly}`, { keywords, location, remoteOnly });
       }
     }
     return unique.size ? [...unique.values()].slice(0, 50) : fallback;
@@ -135,18 +145,22 @@ async function discoverDirectCompanyJobs() {
   return { ...discovery.metrics, relevantJobs: relevant.length, added, refreshed };
 }
 async function discoverLinkedInJobs() {
-  const known = new Set(data.jobs.map(job => jobId(job.url)).filter(Boolean));
+  const known = new Map(data.jobs
+    .map(job => [jobId(job.url), job])
+    .filter(([id]) => Boolean(id)));
   const discovered = [];
 
   for (const search of linkedInQueries) {
     if (discovered.length >= 120) break;
-    const { keywords, location } = search;
+    const { keywords, location, remoteOnly } = search;
     let foundForQuery = 0;
     try {
       const url = new URL("https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search");
       url.searchParams.set("keywords", keywords);
       url.searchParams.set("location", location || "Worldwide");
       url.searchParams.set("f_TPR", "r604800");
+      url.searchParams.set("sortBy", "DD");
+      if (remoteOnly) url.searchParams.set("f_WT", "2");
       url.searchParams.set("start", "0");
       const response = await fetch(url, {
         signal: AbortSignal.timeout(20000),
@@ -159,11 +173,15 @@ async function discoverLinkedInJobs() {
       for (const block of blocks) {
         const rawUrl = decode(block.match(/href="([^"]*linkedin\.com\/jobs\/view\/[^"]+)"/)?.[1] || "");
         const id = jobId(rawUrl);
-        if (!id || known.has(id)) continue;
+        if (!id) continue;
+        if (known.has(id)) {
+          if (remoteOnly) known.get(id).mode = "remote";
+          continue;
+        }
         const title = field(block, "base-search-card__title");
         const company = field(block, "base-search-card__subtitle") || "LinkedIn listing";
         const location = field(block, "job-search-card__location") || "Location not stated";
-        const remote = /remote|worldwide|anywhere/i.test(`${title} ${location}`);
+        const remote = remoteOnly || /remote|worldwide|anywhere/i.test(`${title} ${location}`);
         const candidate = {
           company,
           title,
@@ -184,7 +202,7 @@ async function discoverLinkedInJobs() {
           ? `Profile match: ${match.reasons.join("; ")}.`
           : "Potential mobile-growth role. Review the full requirements before applying.";
         discovered.push(candidate);
-        known.add(id);
+        known.set(id, candidate);
         foundForQuery += 1;
         if (foundForQuery >= 12 || discovered.length >= 120) break;
       }
@@ -276,7 +294,19 @@ const isQualityMatch = job => job.active !== false &&
   job.modeMatch &&
   job.locationMatch &&
   job.matchScore >= 55;
-const newJobs = rescored.filter(job => !previousJobs.has(jobKey(job)) && isQualityMatch(job));
+const wasQualityMatch = job => {
+  const previous = previousJobs.get(jobKey(job));
+  return previous?.active !== false &&
+    !previous?.excludedByProfile &&
+    previous?.roleMatch &&
+    previous?.modeMatch &&
+    previous?.locationMatch &&
+    previous?.matchScore >= 55;
+};
+const newJobs = rescored.filter(job =>
+  (!previousJobs.has(jobKey(job)) || !wasQualityMatch(job)) &&
+  isQualityMatch(job)
+);
 const closedJobs = rescored.filter(job => previousJobs.get(jobKey(job))?.active !== false && job.active === false && isQualityMatch(job));
 const digest = {
   checkedAt: output.checkedAt,
