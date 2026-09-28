@@ -34,6 +34,17 @@ test("blocks known excluded companies when the role title is neutral", () => {
   assert.equal(result.excludedKeyword, "company:Product Madness");
 });
 
+test("does not treat product marketing as product management", () => {
+  const result = scoreJob({
+    title: "Product Owner (Expert Product Manager) Game Operation",
+    company: "Example",
+    location: "Remote",
+    mode: "remote"
+  }, profile);
+  assert.equal(result.roleMatch, false);
+  assert.ok(result.score < 55);
+});
+
 test("recognizes non-ASO target roles from the profile", () => {
   assert.equal(matchesTargetRole("Mobile Product Marketing Manager", profile), true);
   assert.equal(matchesTargetRole("Backend Engineer", profile), false);
