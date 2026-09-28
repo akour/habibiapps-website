@@ -145,7 +145,9 @@ async function discoverDirectCompanyJobs() {
   return { ...discovery.metrics, relevantJobs: relevant.length, added, refreshed };
 }
 async function discoverLinkedInJobs() {
-  const known = new Set(data.jobs.map(job => jobId(job.url)).filter(Boolean));
+  const known = new Map(data.jobs
+    .map(job => [jobId(job.url), job])
+    .filter(([id]) => Boolean(id)));
   const discovered = [];
 
   for (const search of linkedInQueries) {
@@ -171,7 +173,11 @@ async function discoverLinkedInJobs() {
       for (const block of blocks) {
         const rawUrl = decode(block.match(/href="([^"]*linkedin\.com\/jobs\/view\/[^"]+)"/)?.[1] || "");
         const id = jobId(rawUrl);
-        if (!id || known.has(id)) continue;
+        if (!id) continue;
+        if (known.has(id)) {
+          if (remoteOnly) known.get(id).mode = "remote";
+          continue;
+        }
         const title = field(block, "base-search-card__title");
         const company = field(block, "base-search-card__subtitle") || "LinkedIn listing";
         const location = field(block, "job-search-card__location") || "Location not stated";
@@ -196,7 +202,7 @@ async function discoverLinkedInJobs() {
           ? `Profile match: ${match.reasons.join("; ")}.`
           : "Potential mobile-growth role. Review the full requirements before applying.";
         discovered.push(candidate);
-        known.add(id);
+        known.set(id, candidate);
         foundForQuery += 1;
         if (foundForQuery >= 12 || discovered.length >= 120) break;
       }
@@ -288,7 +294,19 @@ const isQualityMatch = job => job.active !== false &&
   job.modeMatch &&
   job.locationMatch &&
   job.matchScore >= 55;
-const newJobs = rescored.filter(job => !previousJobs.has(jobKey(job)) && isQualityMatch(job));
+const wasQualityMatch = job => {
+  const previous = previousJobs.get(jobKey(job));
+  return previous?.active !== false &&
+    !previous?.excludedByProfile &&
+    previous?.roleMatch &&
+    previous?.modeMatch &&
+    previous?.locationMatch &&
+    previous?.matchScore >= 55;
+};
+const newJobs = rescored.filter(job =>
+  (!previousJobs.has(jobKey(job)) || !wasQualityMatch(job)) &&
+  isQualityMatch(job)
+);
 const closedJobs = rescored.filter(job => previousJobs.get(jobKey(job))?.active !== false && job.active === false && isQualityMatch(job));
 const digest = {
   checkedAt: output.checkedAt,
