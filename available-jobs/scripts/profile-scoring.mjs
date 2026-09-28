@@ -36,7 +36,10 @@ function aliasesForRole(role) {
   const value = normalize(role);
   const aliases = new Set([value]);
   for (const [key, terms] of roleAliases) {
-    if (value === key || value.includes(key)) terms.forEach(term => aliases.add(normalize(term)));
+    const matches = key === "product"
+      ? value === "product" || /\\bproduct (?:manager|owner|management)\\b/.test(value)
+      : value === key || value.includes(key);
+    if (matches) terms.forEach(term => aliases.add(normalize(term)));
   }
   return [...aliases];
 }
