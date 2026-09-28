@@ -52,7 +52,7 @@ async function loadLinkedInQueries() {
         const keywords = normalizeQuery(role);
         if (keywords.length < 2) continue;
         const remoteOnly = isRemoteOnly(subscriber.work_modes);
-      unique.set(`${keywords.toLowerCase()}|${location.toLowerCase()}|${remoteOnly}`, { keywords, location, remoteOnly });
+        unique.set(`${keywords.toLowerCase()}|${location.toLowerCase()}|${remoteOnly}`, { keywords, location, remoteOnly });
       }
     }
     return unique.size ? [...unique.values()].slice(0, 50) : fallback;
