@@ -68,5 +68,411 @@
     "careersUrl": "https://www.homagames.com/careers",
     "sourceType": "workable",
     "sourceUrl": "https://apply.workable.com/homa-games"
+  },
+  {
+    "name": "Dream Games",
+    "website": "https://www.dreamgames.com",
+    "careersUrl": "https://www.dreamgames.com/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.dreamgames.com/careers"
+  },
+  {
+    "name": "Moon Active",
+    "website": "https://www.moonactive.com",
+    "careersUrl": "https://www.moonactive.com/careers/",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.moonactive.com/careers/"
+  },
+  {
+    "name": "Rovio",
+    "website": "https://www.rovio.com",
+    "careersUrl": "https://www.rovio.com/careers/",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.rovio.com/careers/"
+  },
+  {
+    "name": "Supercell",
+    "website": "https://supercell.com",
+    "careersUrl": "https://supercell.com/en/careers/",
+    "sourceType": "custom",
+    "sourceUrl": "https://supercell.com/en/careers/"
+  },
+  {
+    "name": "Kwalee",
+    "website": "https://www.kwalee.com",
+    "careersUrl": "https://www.kwalee.com/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.kwalee.com/careers"
+  },
+  {
+    "name": "Riot Games",
+    "website": "https://www.riotgames.com",
+    "careersUrl": "https://www.riotgames.com/en/work-with-us/jobs",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.riotgames.com/en/work-with-us/jobs"
+  },
+  {
+    "name": "FunPlus",
+    "website": "https://funplus.com",
+    "careersUrl": "https://funplus.com/careers/",
+    "sourceType": "custom",
+    "sourceUrl": "https://funplus.com/careers/"
+  },
+  {
+    "name": "King",
+    "website": "https://www.king.com",
+    "careersUrl": "https://careers.king.com/us/en/home",
+    "sourceType": "custom",
+    "sourceUrl": "https://careers.king.com/us/en/home"
+  },
+  {
+    "name": "Gameloft",
+    "website": "https://www.gameloft.com",
+    "careersUrl": "https://www.gameloft.com/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.gameloft.com/careers"
+  },
+  {
+    "name": "Voodoo",
+    "website": "https://voodoo.io",
+    "careersUrl": "https://voodoo.io/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://voodoo.io/careers"
+  },
+  {
+    "name": "Huuuge Games",
+    "website": "https://huuugegames.com",
+    "careersUrl": "https://huuugegames.com/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://huuugegames.com/careers"
+  },
+  {
+    "name": "NetEase Games",
+    "website": "https://www.neteasegames.com",
+    "careersUrl": "https://www.neteasegames.com/careers/en/index_8.html",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.neteasegames.com/careers/en/index_8.html"
+  },
+  {
+    "name": "Socialpoint",
+    "website": "https://www.socialpoint.es",
+    "careersUrl": "https://www.socialpoint.es/jobs/",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.socialpoint.es/jobs/"
+  },
+  {
+    "name": "Wildlife Studios",
+    "website": "https://wildlifestudios.com",
+    "careersUrl": "https://wildlifestudios.com/careers/",
+    "sourceType": "custom",
+    "sourceUrl": "https://wildlifestudios.com/careers/"
+  },
+  {
+    "name": "Tactile Games",
+    "website": "https://www.tactilegames.com",
+    "careersUrl": "https://www.tactilegames.com/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.tactilegames.com/careers"
+  },
+  {
+    "name": "Goodgame Studios",
+    "website": "https://www.goodgamestudios.com",
+    "careersUrl": "https://www.goodgamestudios.com/career/",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.goodgamestudios.com/career/"
+  },
+  {
+    "name": "Unity",
+    "website": "https://unity.com",
+    "careersUrl": "https://careers.unity.com/",
+    "sourceType": "custom",
+    "sourceUrl": "https://careers.unity.com/"
+  },
+  {
+    "name": "Epic Games",
+    "website": "https://www.epicgames.com",
+    "careersUrl": "https://www.epicgames.com/site/en-US/careers/jobs",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.epicgames.com/site/en-US/careers/jobs"
+  },
+  {
+    "name": "Niantic",
+    "website": "https://nianticlabs.com",
+    "careersUrl": "https://nianticlabs.com/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://nianticlabs.com/careers"
+  },
+  {
+    "name": "Take-Two Interactive",
+    "website": "https://www.take2games.com",
+    "careersUrl": "https://careers.take2games.com/",
+    "sourceType": "custom",
+    "sourceUrl": "https://careers.take2games.com/"
+  },
+  {
+    "name": "2K",
+    "website": "https://2k.com",
+    "careersUrl": "https://2k.com/en-US/careers/",
+    "sourceType": "custom",
+    "sourceUrl": "https://2k.com/en-US/careers/"
+  },
+  {
+    "name": "Nexon",
+    "website": "https://www.nexon.com",
+    "careersUrl": "https://www.nexon.com/careers/",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.nexon.com/careers/"
+  },
+  {
+    "name": "Kabam",
+    "website": "https://www.kabam.com",
+    "careersUrl": "https://www.kabam.com/careers/",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.kabam.com/careers/"
+  },
+  {
+    "name": "Tripledot Studios",
+    "website": "https://www.tripledotstudios.com",
+    "careersUrl": "https://job-boards.greenhouse.io/tripledotstudios",
+    "sourceType": "greenhouse",
+    "sourceUrl": "https://job-boards.greenhouse.io/tripledotstudios"
+  },
+  {
+    "name": "Zynga",
+    "website": "https://www.zynga.com",
+    "careersUrl": "https://www.zynga.com/jobs/careers/",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.zynga.com/jobs/careers/"
+  },
+  {
+    "name": "Figma",
+    "website": "https://www.figma.com",
+    "careersUrl": "https://www.figma.com/careers/",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.figma.com/careers/"
+  },
+  {
+    "name": "Canva",
+    "website": "https://www.canva.com",
+    "careersUrl": "https://www.lifeatcanva.com/en/",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.lifeatcanva.com/en/"
+  },
+  {
+    "name": "Notion",
+    "website": "https://www.notion.com",
+    "careersUrl": "https://www.notion.com/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.notion.com/careers"
+  },
+  {
+    "name": "Linear",
+    "website": "https://linear.app",
+    "careersUrl": "https://linear.app/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://linear.app/careers"
+  },
+  {
+    "name": "Webflow",
+    "website": "https://webflow.com",
+    "careersUrl": "https://webflow.com/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://webflow.com/careers"
+  },
+  {
+    "name": "Zapier",
+    "website": "https://zapier.com",
+    "careersUrl": "https://zapier.com/jobs",
+    "sourceType": "custom",
+    "sourceUrl": "https://zapier.com/jobs"
+  },
+  {
+    "name": "GitLab",
+    "website": "https://about.gitlab.com",
+    "careersUrl": "https://about.gitlab.com/jobs/",
+    "sourceType": "custom",
+    "sourceUrl": "https://about.gitlab.com/jobs/"
+  },
+  {
+    "name": "Shopify",
+    "website": "https://www.shopify.com",
+    "careersUrl": "https://www.shopify.com/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.shopify.com/careers"
+  },
+  {
+    "name": "Vercel",
+    "website": "https://vercel.com",
+    "careersUrl": "https://vercel.com/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://vercel.com/careers"
+  },
+  {
+    "name": "Automattic",
+    "website": "https://automattic.com",
+    "careersUrl": "https://automattic.com/work-with-us/",
+    "sourceType": "custom",
+    "sourceUrl": "https://automattic.com/work-with-us/"
+  },
+  {
+    "name": "Doist",
+    "website": "https://doist.com",
+    "careersUrl": "https://doist.com/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://doist.com/careers"
+  },
+  {
+    "name": "Buffer",
+    "website": "https://buffer.com",
+    "careersUrl": "https://buffer.com/journey",
+    "sourceType": "custom",
+    "sourceUrl": "https://buffer.com/journey"
+  },
+  {
+    "name": "SafetyWing",
+    "website": "https://safetywing.com",
+    "careersUrl": "https://safetywing.com/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://safetywing.com/careers"
+  },
+  {
+    "name": "RevenueCat",
+    "website": "https://www.revenuecat.com",
+    "careersUrl": "https://www.revenuecat.com/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.revenuecat.com/careers"
+  },
+  {
+    "name": "AppsFlyer",
+    "website": "https://www.appsflyer.com",
+    "careersUrl": "https://www.appsflyer.com/about/careers/",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.appsflyer.com/about/careers/"
+  },
+  {
+    "name": "Adjust",
+    "website": "https://www.adjust.com",
+    "careersUrl": "https://www.adjust.com/company/careers/",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.adjust.com/company/careers/"
+  },
+  {
+    "name": "Sensor Tower",
+    "website": "https://sensortower.com",
+    "careersUrl": "https://sensortower.com/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://sensortower.com/careers"
+  },
+  {
+    "name": "Branch",
+    "website": "https://branch.io",
+    "careersUrl": "https://branch.io/careers/",
+    "sourceType": "custom",
+    "sourceUrl": "https://branch.io/careers/"
+  },
+  {
+    "name": "Amplitude",
+    "website": "https://amplitude.com",
+    "careersUrl": "https://amplitude.com/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://amplitude.com/careers"
+  },
+  {
+    "name": "Braze",
+    "website": "https://www.braze.com",
+    "careersUrl": "https://www.braze.com/company/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.braze.com/company/careers"
+  },
+  {
+    "name": "OneSignal",
+    "website": "https://onesignal.com",
+    "careersUrl": "https://onesignal.com/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://onesignal.com/careers"
+  },
+  {
+    "name": "Airship",
+    "website": "https://www.airship.com",
+    "careersUrl": "https://www.airship.com/company/careers/",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.airship.com/company/careers/"
+  },
+  {
+    "name": "Supabase",
+    "website": "https://supabase.com",
+    "careersUrl": "https://jobs.ashbyhq.com/supabase",
+    "sourceType": "ashby",
+    "sourceUrl": "https://jobs.ashbyhq.com/supabase"
+  },
+  {
+    "name": "Anthropic",
+    "website": "https://www.anthropic.com",
+    "careersUrl": "https://www.anthropic.com/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://www.anthropic.com/careers"
+  },
+  {
+    "name": "Replit",
+    "website": "https://replit.com",
+    "careersUrl": "https://replit.com/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://replit.com/careers"
+  },
+  {
+    "name": "Render",
+    "website": "https://render.com",
+    "careersUrl": "https://render.com/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://render.com/careers"
+  },
+  {
+    "name": "Sentry",
+    "website": "https://sentry.io",
+    "careersUrl": "https://sentry.io/careers/",
+    "sourceType": "custom",
+    "sourceUrl": "https://sentry.io/careers/"
+  },
+  {
+    "name": "PostHog",
+    "website": "https://posthog.com",
+    "careersUrl": "https://posthog.com/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://posthog.com/careers"
+  },
+  {
+    "name": "Studio",
+    "website": "https://studio.com",
+    "careersUrl": "https://studio.com/careers",
+    "sourceType": "custom",
+    "sourceUrl": "https://studio.com/careers"
+  },
+  {
+    "name": "Hugging Face",
+    "website": "https://huggingface.co",
+    "careersUrl": "https://huggingface.co/jobs",
+    "sourceType": "custom",
+    "sourceUrl": "https://huggingface.co/jobs"
+  },
+  {
+    "name": "Step",
+    "website": "https://step.com",
+    "careersUrl": "https://job-boards.greenhouse.io/step",
+    "sourceType": "greenhouse",
+    "sourceUrl": "https://job-boards.greenhouse.io/step"
+  },
+  {
+    "name": "Fivetran",
+    "website": "https://www.fivetran.com",
+    "careersUrl": "https://job-boards.greenhouse.io/fivetran",
+    "sourceType": "greenhouse",
+    "sourceUrl": "https://job-boards.greenhouse.io/fivetran"
+  },
+  {
+    "name": "Voxel51",
+    "website": "https://voxel51.com",
+    "careersUrl": "https://job-boards.greenhouse.io/voxel51",
+    "sourceType": "greenhouse",
+    "sourceUrl": "https://job-boards.greenhouse.io/voxel51"
   }
 ]
