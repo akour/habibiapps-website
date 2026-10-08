@@ -12,18 +12,20 @@ Sitemap: https://habibiapps.com/sitemap.xml
 - [About Habibi Apps](https://habibiapps.com/about/): Company information, founder Ahmed Akour, and the public identity links used by Habibi Apps.
 - [LinkedIn](https://www.linkedin.com/in/akour/): Professional profile.
 - [GitHub](https://github.com/akour): Projects and code.
-- [Google Play publisher](https://play.google.com/store/apps/developer?id=HabibiApps): Habibi Apps apps and games.
+- [Google Play publisher](https://play.google.com/store/apps/developer?id=Habibi+%40pps): Habibi Apps apps and games.
 
 ## Primary pages
 
 - [Home](https://habibiapps.com/): Habibi Apps mobile products, games, publishing, growth work, and contact section.
 - [Services](https://habibiapps.com/services/): Habibi Apps' core commercial expertise: ASO and store conversion; app and game launch strategy; LiveOps and promotional content; and mobile growth experiments.
-- [Proof & Case Studies](https://habibiapps.com/case-studies/): Public proof points covering Habibi Apps' owned products, selected professional experience, client feedback, and experimentation method, with missing outcome data clearly marked.
+- [Selected work](https://habibiapps.com/case-studies/): Product analytics planning for Learning Roots, mobile feasibility and growth strategy for MindTests.io, and selected professional experience.
 - [Available Jobs](https://habibiapps.com/available-jobs/): A daily-updated radar of mobile-game companies and product marketing, ASO, growth, and LiveOps roles.
 - [Testimonials](https://habibiapps.com/testimonials/): Client testimonials for Ahmed Akour's app store optimization and mobile growth work.
 - [Contact](https://habibiapps.com/#contact): Business contact section for Habibi Apps.
 
 ## Products
+
+Void Stack and Habibi, Run! are published on Google Play. The four games with local product pages below are in development; no release dates are announced.
 
 - [Balance Blast](https://habibiapps.com/balanceblast/): Physics-driven block puzzle from Habibi Apps focused on clearing lines, managing weight and torque, and keeping the scale balanced.
 - [3 Match Latte](https://habibiapps.com/lattematch/): Cosy coffee-shop match-3 puzzle with three orders per shift, no timers, no lives, and offline play.
