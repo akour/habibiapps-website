@@ -96,7 +96,7 @@
     if (destination.hostname === "play.google.com" && destination.pathname === "/store/apps/details") {
       const appId = destination.searchParams.get("id");
       const appName = Object.hasOwn(appNames, appId) ? appNames[appId] : null;
-      if (appName) window.gtag("event", "google_play_click", { app_name: appName });
+      if (appName) window.gtag("event", "play_store_click", { app_name: appName });
       return;
     }
 
