@@ -1,0 +1,6 @@
+.git/
+.wrangler/
+.github/
+.dev.vars*
+wrangler.jsonc
+.assetsignore
