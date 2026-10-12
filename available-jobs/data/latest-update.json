@@ -1,22 +1,22 @@
 {
-  "checkedAt": "2026-10-11T06:46:35.503Z",
+  "checkedAt": "2026-10-12T06:54:04.926Z",
   "newJobs": [
     {
-      "company": "onXmaps, Inc.",
-      "title": "Senior App Store Optimization (ASO) Manager",
+      "company": "Tasty Dose",
+      "title": "Growth Marketing Manager",
       "priority": "High",
-      "category": "aso",
+      "category": "general",
       "source": "LinkedIn",
       "mode": "remote",
-      "location": "United States",
-      "url": "https://www.linkedin.com/jobs/view/4476860057",
+      "location": "Ljubljana, Slovenia",
+      "url": "https://www.linkedin.com/jobs/view/4456182145",
       "active": true,
-      "discoveredAt": "2026-10-11T06:45:31.120Z",
+      "discoveredAt": "2026-10-12T06:52:52.271Z",
       "matchScore": 75,
       "fit": "Strong",
-      "why": "Profile match: matches app store optimization and aso manager; matches the target seniority; remote matches the work preference.",
+      "why": "Profile match: matches growth and growth marketing; matches the target seniority; remote matches the work preference.",
       "lastStatus": 429,
-      "lastChecked": "2026-10-11T06:46:17.775Z",
+      "lastChecked": "2026-10-12T06:53:48.100Z",
       "checkNote": "inconclusive-429",
       "roleMatch": true,
       "modeMatch": true,
@@ -25,10 +25,10 @@
   ],
   "closedJobs": [],
   "totals": {
-    "active": 926,
+    "active": 930,
     "aso": 21,
-    "remote": 309,
-    "linkedIn": 362,
-    "companySources": 564
+    "remote": 314,
+    "linkedIn": 364,
+    "companySources": 566
   }
 }
