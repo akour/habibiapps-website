@@ -3,6 +3,7 @@
   "name": "habibiapps",
   "compatibility_date": "2026-10-08",
   "assets": {
-    "directory": "."
+    "directory": ".",
+    "not_found_handling": "404-page"
   }
 }
