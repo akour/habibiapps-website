@@ -17,7 +17,7 @@ Sitemap: https://habibiapps.com/sitemap.xml
 ## Primary pages
 
 - [Home](https://habibiapps.com/): Habibi Apps mobile products, games, publishing, growth work, and contact section.
-- [Services](https://habibiapps.com/services/): Habibi Apps' core commercial expertise: ASO and store conversion; app and game launch strategy; LiveOps and promotional content; and mobile growth experiments.
+- [Services](https://habibiapps.com/services/): Habibi Apps provides App Store Optimization (ASO), Answer Engine Optimization (AEO) for website visibility in search and AI answers, launch strategy, LiveOps, and mobile growth experiments. AEO work covers crawl access, clear company and product facts, answer-ready content, structured data, sitemap signals, and available visibility measurement; rankings and citations are not guaranteed.
 - [Selected work](https://habibiapps.com/case-studies/): Product analytics planning for Learning Roots, mobile feasibility and growth strategy for MindTests.io, and selected professional experience.
 - [Available Jobs](https://habibiapps.com/available-jobs/): A daily-updated radar of mobile-game companies and product marketing, ASO, growth, and LiveOps roles.
 - [Testimonials](https://habibiapps.com/testimonials/): Client testimonials for Ahmed Akour's app store optimization and mobile growth work.
