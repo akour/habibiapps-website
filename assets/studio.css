@@ -6,15 +6,3 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 .space-tile .tile-caption{inset:0 0 auto;padding:17px 22px 45px;align-items:start;background:linear-gradient(#101b28bd,transparent)}
 @media(max-width:560px){.site-header nav a{min-height:36px;display:inline-flex;align-items:center}.space-tile .tile-caption{padding:13px 15px 35px}.space-tile .tile-caption strong{font-size:19px}.footer-bottom>div a{padding-block:8px}}
-
-.experience-featured{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
-.experience-game{min-height:170px;border:1px solid var(--line);padding:26px 30px;display:flex;align-items:center;justify-content:space-between;gap:24px;transition:background .2s,border-color .2s,color .2s}
-.experience-game>div{min-width:0}
-.experience-game:hover,.experience-game:focus-visible{border-color:var(--coral);color:var(--coral);background:#ece9df}
-.experience-game h3{font-size:clamp(27px,3vw,39px);margin:7px 0 10px;overflow-wrap:anywhere}
-.experience-game p{color:var(--muted)}
-.experience-game span:not(.experience-game-arrow){font-size:13px;color:var(--muted);letter-spacing:0}
-.experience-game-arrow{font-size:24px;transition:transform .2s}
-.experience-game:hover .experience-game-arrow{transform:translate(3px,-3px)}
-.experience-other-label{margin:34px 0 13px;color:var(--muted)}
-@media(max-width:560px){.experience-featured{grid-template-columns:1fr;gap:12px}.experience-game{min-height:130px;padding:21px 22px}.experience-game h3{font-size:31px}.experience-other-label{margin-top:28px}}
