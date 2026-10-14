@@ -37,7 +37,7 @@ function aliasesForRole(role) {
   const aliases = new Set([value]);
   for (const [key, terms] of roleAliases) {
     const matches = key === "product"
-      ? value === "product" || /\\bproduct (?:manager|owner|management)\\b/.test(value)
+      ? value === "product" || /\bproduct (?:manager|owner|management)\b/.test(value)
       : value === key || value.includes(key);
     if (matches) terms.forEach(term => aliases.add(normalize(term)));
   }
@@ -81,6 +81,7 @@ function seniorityMatch(title, profile) {
   const targetEntry = profile.seniorityKeywords.some(term => juniorMarkers.includes(term));
   const targetSenior = profile.seniorityKeywords.some(term => seniorMarkers.includes(term));
   if (hasJuniorMarker && targetSenior && !targetEntry) return false;
+  if (hasSeniorMarker && targetEntry && !targetSenior) return false;
   if (!profile.seniorityKeywords.length) return true;
   if (targetSenior && hasSeniorMarker && !hasJuniorMarker) return true;
   return profile.seniorityKeywords.some(term => containsTerm(normalizedTitle, term)) || (!hasJuniorMarker && !hasSeniorMarker);
@@ -92,9 +93,10 @@ function roleMatches(title, profile) {
 
 function jobLocationMatch(job, profile, remote) {
   if (!profile.location || profile.location === "worldwide" || profile.location === "anywhere") return true;
-  if (remote) return true;
   const jobLocation = normalize(job.location);
-  return jobLocation.includes(profile.location) || profile.location.includes(jobLocation);
+  if (remote && /\b(worldwide|anywhere|global)\b/.test(jobLocation)) return true;
+  if (!jobLocation || jobLocation === "location not stated") return false;
+  return containsTerm(jobLocation, profile.location) || containsTerm(profile.location, jobLocation);
 }
 
 export function scoreJob(job, rawProfile) {
@@ -164,4 +166,10 @@ export function matchesTargetRole(title, searchProfile) {
 export function matchesSeniority(title, searchProfile) {
   const profile = searchProfile?.roleKeywords ? searchProfile : toSearchProfile(searchProfile);
   return seniorityMatch(title, profile);
+}
+
+/** One eligibility rule for both dashboard and email. */
+export function isRecommended(match) {
+  return match.roleMatch && match.modeMatch && match.locationMatch &&
+    match.seniorityMatch && !match.excludedKeyword;
 }

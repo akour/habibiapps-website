@@ -6,7 +6,7 @@ function cors(origin: string | null) {
   return {
     "access-control-allow-origin": allowed,
     "access-control-allow-headers": "authorization, content-type, apikey, x-client-info",
-    "access-control-allow-methods": "GET, PUT, POST, OPTIONS",
+    "access-control-allow-methods": "GET, PUT, POST, DELETE, OPTIONS",
     vary: "Origin",
   };
 }

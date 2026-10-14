@@ -1,5 +1,6 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { matchesSeniority, scoreJob } from "./profile-scoring.mjs";
+import { loadProfiles, buildSearchQueries } from "./subscriber-profiles.mjs";
 import { discoverCompanyJobs } from "./company-sources.mjs";
 
 const dataUrl = new URL("../data/jobs.json", import.meta.url);
@@ -25,44 +26,8 @@ const isRemoteOnly = modes => {
   return normalized.length === 1 && normalized[0] === "remote";
 };
 
-async function loadLinkedInQueries() {
-  const fallback = (profile.searchQueries || []).map(keywords => ({
-    keywords,
-    location: "Worldwide",
-    remoteOnly: isRemoteOnly(profile.preferredModes)
-  }));
-  const { SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY } = process.env;
-  if (!SUPABASE_URL || !SUPABASE_SERVICE_ROLE_KEY) return fallback;
-  try {
-    const headers = { apikey: SUPABASE_SERVICE_ROLE_KEY };
-    if (!SUPABASE_SERVICE_ROLE_KEY.startsWith("sb_secret_")) headers.authorization = `Bearer ${SUPABASE_SERVICE_ROLE_KEY}`;
-    const subscriptionsResponse = await fetch(`${SUPABASE_URL}/rest/v1/subscriptions?status=in.(on_trial,active)&select=user_id`, { headers });
-    if (!subscriptionsResponse.ok) throw new Error(`subscriptions HTTP ${subscriptionsResponse.status}`);
-    const subscriptions = await subscriptionsResponse.json();
-    const userIds = subscriptions.map(item => item.user_id).filter(Boolean);
-    if (!userIds.length) return fallback;
-    const ids = userIds.join(",");
-    const profilesResponse = await fetch(`${SUPABASE_URL}/rest/v1/profiles?user_id=in.(${ids})&select=roles,location,work_modes`, { headers });
-    if (!profilesResponse.ok) throw new Error(`profiles HTTP ${profilesResponse.status}`);
-    const profiles = await profilesResponse.json();
-    const unique = new Map();
-    for (const subscriber of profiles) {
-      const location = normalizeQuery(subscriber.location) || "Worldwide";
-      for (const role of (subscriber.roles || []).slice(0, 6)) {
-        const keywords = normalizeQuery(role);
-        if (keywords.length < 2) continue;
-        const remoteOnly = isRemoteOnly(subscriber.work_modes);
-        unique.set(`${keywords.toLowerCase()}|${location.toLowerCase()}|${remoteOnly}`, { keywords, location, remoteOnly });
-      }
-    }
-    return unique.size ? [...unique.values()].slice(0, 50) : fallback;
-  } catch (error) {
-    console.warn(`Subscriber search profiles unavailable: ${error.message}`);
-    return fallback;
-  }
-}
-
-const linkedInQueries = await loadLinkedInQueries();
+const subscriberProfiles = await loadProfiles();
+const linkedInQueries = buildSearchQueries(subscriberProfiles, profile);
 
 const decode = value => value
   .replace(/&amp;/g, "&")
@@ -108,6 +73,7 @@ async function discoverDirectCompanyJobs() {
     const candidate = {
       company: raw.company,
       title: raw.title,
+      description: raw.content,
       priority: matchesSeniority(raw.title, profile) ? "High" : "Medium",
       category: /\bASO\b|app store optimi/i.test(raw.title) ? "aso" : "general",
       source: "Company careers",
@@ -122,7 +88,7 @@ async function discoverDirectCompanyJobs() {
       lastChecked: scannedAt
     };
     const match = scoreJob(candidate, profile);
-    if (match.excludedKeyword) continue;
+
     candidate.matchScore = match.score;
     candidate.fit = match.fit;
     candidate.why = match.reasons.length
@@ -151,7 +117,7 @@ async function discoverLinkedInJobs() {
   const discovered = [];
 
   for (const search of linkedInQueries) {
-    if (discovered.length >= 120) break;
+
     const { keywords, location, remoteOnly } = search;
     let foundForQuery = 0;
     try {
@@ -195,16 +161,16 @@ async function discoverLinkedInJobs() {
           discoveredAt: new Date().toISOString()
         };
         const match = scoreJob(candidate, profile);
-        if (match.excludedKeyword) continue;
+
         candidate.matchScore = match.score;
         candidate.fit = match.fit;
         candidate.why = match.reasons.length
           ? `Profile match: ${match.reasons.join("; ")}.`
-          : "Potential mobile-growth role. Review the full requirements before applying.";
+          : "Found for a subscriber search. Review the full requirements before applying.";
         discovered.push(candidate);
         known.set(id, candidate);
         foundForQuery += 1;
-        if (foundForQuery >= 12 || discovered.length >= 120) break;
+        if (foundForQuery >= 12) break;
       }
     } catch (error) {
       console.warn(`LinkedIn discovery failed for ${keywords}: ${error.message}`);
@@ -257,7 +223,7 @@ async function mapWithConcurrency(items, limit, mapper) {
 const companySourceMetrics = await discoverDirectCompanyJobs();
 await discoverLinkedInJobs();
 
-const checked = await mapWithConcurrency(data.jobs, 6, inspect);
+const checked = await mapWithConcurrency(data.jobs, 6, job => job.checkNote === "missing-from-company-source" ? job : inspect(job));
 
 const priorityRank = { "Top choice": 0, High: 1, Medium: 2, Low: 3 };
 const rescored = checked.map(job => {

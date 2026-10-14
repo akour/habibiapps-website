@@ -15,12 +15,12 @@ permissions:
 
 concurrency:
   group: update-available-jobs
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 60
     env:
       RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
       JOBS_EMAIL_TO: ${{ secrets.JOBS_EMAIL_TO }}
@@ -40,9 +40,11 @@ jobs:
         run: node available-jobs/scripts/refresh-jobs.mjs
 
       - name: Send daily email digest
+        if: github.event_name != 'push'
         run: node available-jobs/scripts/send-email-digest.mjs
 
       - name: Send subscriber digests
+        if: github.event_name != 'push'
         run: node available-jobs/scripts/send-subscriber-digests.mjs
 
       - name: Commit updated availability
