@@ -1,5 +1,6 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { matchesSeniority, scoreJob } from "./profile-scoring.mjs";
+import { mergeSearchQueries } from "./search-queries.mjs";
 import { discoverCompanyJobs } from "./company-sources.mjs";
 
 const dataUrl = new URL("../data/jobs.json", import.meta.url);
@@ -55,7 +56,7 @@ async function loadLinkedInQueries() {
         unique.set(`${keywords.toLowerCase()}|${location.toLowerCase()}|${remoteOnly}`, { keywords, location, remoteOnly });
       }
     }
-    return unique.size ? [...unique.values()].slice(0, 50) : fallback;
+    return mergeSearchQueries(fallback, [...unique.values()]);
   } catch (error) {
     console.warn(`Subscriber search profiles unavailable: ${error.message}`);
     return fallback;
